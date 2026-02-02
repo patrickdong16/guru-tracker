@@ -1,0 +1,76 @@
+{
+  "guru_id": "pabrai",
+  "cik": "0001549575",
+  "period_ending": "2025-06-30",
+  "filing_date": "2025-08-13",
+  "accession_number": "0001549575-25-000006",
+  "total_value": 271601546,
+  "holdings_count": 5,
+  "holdings": [
+    {
+      "issuer": "WARRIOR MET COAL INC",
+      "title": "COM",
+      "cusip": "93627C101",
+      "value": 82482313,
+      "shares": 1799745,
+      "share_type": "SH",
+      "discretion": "SOLE",
+      "sole_voting": 1799745,
+      "shared_voting": 0,
+      "no_voting": 0,
+      "weight": 30.37
+    },
+    {
+      "issuer": "VALARIS LTD",
+      "title": "CL A",
+      "cusip": "G9460G101",
+      "value": 79325849,
+      "shares": 1883777,
+      "share_type": "SH",
+      "discretion": "SOLE",
+      "sole_voting": 1883777,
+      "shared_voting": 0,
+      "no_voting": 0,
+      "weight": 29.21
+    },
+    {
+      "issuer": "ALPHA METALLURGICAL RESOUR I",
+      "title": "COM",
+      "cusip": "020764106",
+      "value": 51777581,
+      "shares": 460327,
+      "share_type": "SH",
+      "discretion": "SOLE",
+      "sole_voting": 460327,
+      "shared_voting": 0,
+      "no_voting": 0,
+      "weight": 19.06
+    },
+    {
+      "issuer": "NOBLE CORP PLC",
+      "title": "ORD SHS A",
+      "cusip": "G65431127",
+      "value": 45898153,
+      "shares": 1728744,
+      "share_type": "SH",
+      "discretion": "SOLE",
+      "sole_voting": 1728744,
+      "shared_voting": 0,
+      "no_voting": 0,
+      "weight": 16.9
+    },
+    {
+      "issuer": "AUTONATION INC",
+      "title": "COM",
+      "cusip": "05329W102",
+      "value": 12117650,
+      "shares": 61000,
+      "share_type": "SH",
+      "discretion": "SOLE",
+      "sole_voting": 61000,
+      "shared_voting": 0,
+      "no_voting": 0,
+      "weight": 4.46
+    }
+  ]
+}

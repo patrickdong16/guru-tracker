@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-02T07:01:17Z",
+  "generated_at": "2026-02-02T08:06:28Z",
   "guru_count": 29,
-  "gurus_with_data": 24,
+  "gurus_with_data": 28,
   "gurus": [
     {
       "id": "daily_journal",
@@ -294,6 +294,35 @@
       }
     },
     {
+      "id": "icahn",
+      "display_name": "Carl Icahn / Icahn Enterprises",
+      "name": "ICAHN CARL C",
+      "style": "activist",
+      "style_label": "激进主义",
+      "aum": "$15B",
+      "representative": "Carl Icahn",
+      "bio": "企业掠夺者鼻祖，1985年强行收购TWA航空成名。大量买入后逼董事会做出变革。",
+      "famous_trade": "1985年收购TWA航空。",
+      "cik": "0000921669",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2025-09-30",
+      "latest_filing_date": "2025-11-14",
+      "total_value": 9141599232,
+      "holdings_count": 13,
+      "summary": {
+        "total_new": 2,
+        "total_increased": 4,
+        "total_decreased": 1,
+        "total_unchanged": 6,
+        "total_sold": 1,
+        "total_value_current": 9141599232,
+        "total_value_previous": 7886564146,
+        "total_value_change_pct": 15.9
+      }
+    },
+    {
       "id": "third_point",
       "display_name": "Dan Loeb / Third Point",
       "name": "Third Point",
@@ -349,6 +378,64 @@
         "total_value_current": 7020738956,
         "total_value_previous": 7966042757,
         "total_value_change_pct": -11.9
+      }
+    },
+    {
+      "id": "sequoia_fund",
+      "display_name": "Sequoia Fund",
+      "name": "Ruane, Cunniff & Goldfarb L.P.",
+      "style": "value",
+      "style_label": "价值投资",
+      "aum": "$5B",
+      "representative": "Bill Ruane (创始人)",
+      "bio": "巴菲特早年推荐的基金经理Bill Ruane于1970年创立。美国历史最悠久的价值基金之一。",
+      "famous_trade": "长期集中持股风格，曾重仓Valeant。",
+      "cik": "0001720792",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2025-09-30",
+      "latest_filing_date": "2025-11-14",
+      "total_value": 6035626513,
+      "holdings_count": 47,
+      "summary": {
+        "total_new": 7,
+        "total_increased": 8,
+        "total_decreased": 22,
+        "total_unchanged": 10,
+        "total_sold": 3,
+        "total_value_current": 6035626513,
+        "total_value_previous": 5832869392,
+        "total_value_change_pct": 3.5
+      }
+    },
+    {
+      "id": "dragoneer",
+      "display_name": "Marc Stad / Dragoneer",
+      "name": "Dragoneer Investment Group",
+      "style": "growth",
+      "style_label": "科技成长",
+      "aum": "$12B",
+      "representative": "Marc Stad",
+      "bio": "专注成长期科技公司投资。同时活跃在私募市场(Uber、Slack等早期投资者)。",
+      "famous_trade": "Uber、Slack的早期投资者。",
+      "cik": "0001602189",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2025-09-30",
+      "latest_filing_date": "2025-11-14",
+      "total_value": 4528974897,
+      "holdings_count": 26,
+      "summary": {
+        "total_new": 9,
+        "total_increased": 2,
+        "total_decreased": 7,
+        "total_unchanged": 8,
+        "total_sold": 3,
+        "total_value_current": 4528974897,
+        "total_value_previous": 4899068860,
+        "total_value_change_pct": -7.6
       }
     },
     {
@@ -526,6 +613,35 @@
       }
     },
     {
+      "id": "pabrai",
+      "display_name": "Mohnish Pabrai / Pabrai Funds",
+      "name": "Dalal Street, LLC",
+      "style": "value",
+      "style_label": "价值投资",
+      "aum": "$5-10B",
+      "representative": "Mohnish Pabrai",
+      "bio": "巴菲特忠实追随者，曾花65万美元与巴菲特共进午餐。极度集中投资，组合不超过10只股票。",
+      "famous_trade": "集中持仓策略，曾重仓Fiat Chrysler获利丰厚。",
+      "cik": "0001549575",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2025-09-30",
+      "latest_filing_date": "2025-11-13",
+      "total_value": 336857377,
+      "holdings_count": 5,
+      "summary": {
+        "total_new": 1,
+        "total_increased": 2,
+        "total_decreased": 2,
+        "total_unchanged": 0,
+        "total_sold": 1,
+        "total_value_current": 336857377,
+        "total_value_previous": 271601546,
+        "total_value_change_pct": 24.0
+      }
+    },
+    {
       "id": "baupost",
       "display_name": "Seth Klarman / Baupost",
       "name": "Baupost Group",
@@ -700,66 +816,6 @@
       }
     },
     {
-      "id": "pabrai",
-      "display_name": "Mohnish Pabrai / Pabrai Funds",
-      "name": "Pabrai Investment Funds",
-      "style": "value",
-      "style_label": "价值投资",
-      "aum": "$5-10B",
-      "representative": "Mohnish Pabrai",
-      "bio": "巴菲特忠实追随者，曾花65万美元与巴菲特共进午餐。极度集中投资，组合不超过10只股票。",
-      "famous_trade": "集中持仓策略，曾重仓Fiat Chrysler获利丰厚。",
-      "cik": "0001173334",
-      "filing_type": "13F-HR",
-      "active": true,
-      "has_data": false
-    },
-    {
-      "id": "dragoneer",
-      "display_name": "Marc Stad / Dragoneer",
-      "name": "Dragoneer Investment Group",
-      "style": "growth",
-      "style_label": "科技成长",
-      "aum": "$12B",
-      "representative": "Marc Stad",
-      "bio": "专注成长期科技公司投资。同时活跃在私募市场(Uber、Slack等早期投资者)。",
-      "famous_trade": "Uber、Slack的早期投资者。",
-      "cik": "0001684577",
-      "filing_type": "13F-HR",
-      "active": true,
-      "has_data": false
-    },
-    {
-      "id": "sequoia_fund",
-      "display_name": "Sequoia Fund",
-      "name": "Sequoia Fund",
-      "style": "value",
-      "style_label": "价值投资",
-      "aum": "$5B",
-      "representative": "Bill Ruane (创始人)",
-      "bio": "巴菲特早年推荐的基金经理Bill Ruane于1970年创立。美国历史最悠久的价值基金之一。",
-      "famous_trade": "长期集中持股风格，曾重仓Valeant。",
-      "cik": "0000090168",
-      "filing_type": "13F-HR",
-      "active": true,
-      "has_data": false
-    },
-    {
-      "id": "icahn",
-      "display_name": "Carl Icahn / Icahn Enterprises",
-      "name": "Icahn Enterprises",
-      "style": "activist",
-      "style_label": "激进主义",
-      "aum": "$15B",
-      "representative": "Carl Icahn",
-      "bio": "企业掠夺者鼻祖，1985年强行收购TWA航空成名。大量买入后逼董事会做出变革。",
-      "famous_trade": "1985年收购TWA航空。",
-      "cik": "0000049588",
-      "filing_type": "13F-HR",
-      "active": true,
-      "has_data": false
-    },
-    {
       "id": "duan_yongping",
       "display_name": "段永平",
       "name": "DUAN YONG PING",
@@ -767,11 +823,11 @@
       "style_label": "价值投资",
       "aum": "未公开",
       "representative": "段永平",
-      "bio": "步步高/OPPO/vivo创始人，2001年以62万美元抄底网易股票赚上亿。巴菲特午餐第一位中国竞拍者。",
+      "bio": "步步高/OPPO/vivo创始人，2001年以62万美元抄底网易股票赚上亿。巴菲特午餐第一位中国竞拍者。个人投资者，不提交 13F，持仓信息来自 SC 13D/G 披露。",
       "famous_trade": "2001年以约0.8美元/股抄底网易，最终涨到70美元+。",
       "cik": "0001265354",
       "filing_type": "SC13G",
-      "active": true,
+      "active": false,
       "has_data": false
     }
   ]

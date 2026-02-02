@@ -84,6 +84,16 @@
                     </div>
                 </div>
 
+                <!-- Portfolio Value Change -->
+                {% if guru.summary and guru.summary.total_value_change_pct is not none %}
+                <div class="mt-2 flex items-center gap-1">
+                    <span class="text-xs text-zinc-500">环比变动</span>
+                    <span class="text-sm font-semibold tabular-nums {{ 'text-emerald-400' if guru.summary.total_value_change_pct > 0 else 'text-red-400' if guru.summary.total_value_change_pct < 0 else 'text-zinc-400' }}">
+                        {{ '+' if guru.summary.total_value_change_pct > 0 else '' }}{{ guru.summary.total_value_change_pct }}%
+                    </span>
+                </div>
+                {% endif %}
+
                 <!-- Changes Summary -->
                 {% if guru.summary %}
                 <div class="flex gap-2 text-[10px] mb-3">
