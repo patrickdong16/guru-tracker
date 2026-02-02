@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-02-02T08:26:48Z",
+  "generated_at": "2026-02-02T08:27:26Z",
   "total_stocks": 7355,
   "stocks": [
     {
       "cusip": "67066G104",
       "issuer": "NVIDIA CORPORATION",
       "title": "COM",
-      "guru_count": 15,
+      "guru_count": 17,
       "gurus": [
         {
           "id": "citadel",
@@ -86,6 +86,20 @@
           "weight": 1.29
         },
         {
+          "id": "duan_yongping",
+          "display_name": "段永平 / H&H International",
+          "value": 111537524,
+          "shares": 597800,
+          "weight": 0.76
+        },
+        {
+          "id": "duan_yongping",
+          "display_name": "段永平 / H&H International",
+          "value": 111537524,
+          "shares": 597800,
+          "weight": 0.76
+        },
+        {
           "id": "soros",
           "display_name": "索罗斯 / Soros Fund",
           "value": 102190426,
@@ -114,8 +128,123 @@
           "weight": 0.25
         }
       ],
-      "total_value": 46050691706,
-      "avg_weight": 4.3
+      "total_value": 46273766754,
+      "avg_weight": 3.89
+    },
+    {
+      "cusip": "594918104",
+      "issuer": "MICROSOFT CORP",
+      "title": "COM",
+      "guru_count": 15,
+      "gurus": [
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 12930552345,
+          "shares": 24964866,
+          "weight": 1.97
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 6453375235,
+          "shares": 12459456,
+          "weight": 2.75
+        },
+        {
+          "id": "tiger_global",
+          "display_name": "Chase Coleman / Tiger Global",
+          "value": 3393281056,
+          "shares": 6551368,
+          "weight": 10.49
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 1515083887,
+          "shares": 2925154,
+          "weight": 2.54
+        },
+        {
+          "id": "third_point",
+          "display_name": "Dan Loeb / Third Point",
+          "value": 569745000,
+          "shares": 1100000,
+          "weight": 6.34
+        },
+        {
+          "id": "bridgewater",
+          "display_name": "达利欧 / Bridgewater",
+          "value": 568278684,
+          "shares": 1097169,
+          "weight": 2.23
+        },
+        {
+          "id": "appaloosa",
+          "display_name": "David Tepper / Appaloosa",
+          "value": 239551875,
+          "shares": 462500,
+          "weight": 3.24
+        },
+        {
+          "id": "duan_yongping",
+          "display_name": "段永平 / H&H International",
+          "value": 144611640,
+          "shares": 279200,
+          "weight": 0.99
+        },
+        {
+          "id": "duan_yongping",
+          "display_name": "段永平 / H&H International",
+          "value": 144611640,
+          "shares": 279200,
+          "weight": 0.99
+        },
+        {
+          "id": "oriental_harbor",
+          "display_name": "但斌 / 东方港湾",
+          "value": 93593527,
+          "shares": 193527,
+          "weight": 7.11
+        },
+        {
+          "id": "soros",
+          "display_name": "索罗斯 / Soros Fund",
+          "value": 52697787,
+          "shares": 101743,
+          "weight": 0.75
+        },
+        {
+          "id": "altimeter",
+          "display_name": "Brad Gerstner / Altimeter",
+          "value": 12051206,
+          "shares": 23267,
+          "weight": 2.53
+        },
+        {
+          "id": "d1_capital",
+          "display_name": "Dan Sundheim / D1 Capital",
+          "value": 11896207,
+          "shares": 25154,
+          "weight": 5.29
+        },
+        {
+          "id": "ark_invest",
+          "display_name": "Cathie Wood / ARK Invest",
+          "value": 3171926,
+          "shares": 6124,
+          "weight": 0.02
+        },
+        {
+          "id": "sequoia_fund",
+          "display_name": "Sequoia Fund",
+          "value": 356868,
+          "shares": 689,
+          "weight": 0.01
+        }
+      ],
+      "total_value": 26132858883,
+      "avg_weight": 3.15
     },
     {
       "cusip": "023135106",
@@ -226,105 +355,213 @@
       "avg_weight": 3.78
     },
     {
-      "cusip": "594918104",
-      "issuer": "MICROSOFT CORP",
-      "title": "COM",
-      "guru_count": 13,
+      "cusip": "02079K107",
+      "issuer": "ALPHABET INC",
+      "title": "CAP STK CL C",
+      "guru_count": 14,
       "gurus": [
         {
           "id": "citadel",
           "display_name": "Ken Griffin / Citadel",
-          "value": 12930552345,
-          "shares": 24964866,
-          "weight": 1.97
+          "value": 5339542464,
+          "shares": 21923804,
+          "weight": 0.81
         },
         {
           "id": "millennium",
           "display_name": "Israel Englander / Millennium",
-          "value": 6453375235,
-          "shares": 12459456,
-          "weight": 2.75
+          "value": 1634092393,
+          "shares": 6709474,
+          "weight": 0.7
         },
         {
-          "id": "tiger_global",
-          "display_name": "Chase Coleman / Tiger Global",
-          "value": 3393281056,
-          "shares": 6551368,
-          "weight": 10.49
+          "id": "pershing_square",
+          "display_name": "Bill Ackman / Pershing Square",
+          "value": 1540217750,
+          "shares": 6324031,
+          "weight": 10.52
         },
         {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 1515083887,
-          "shares": 2925154,
-          "weight": 2.54
+          "id": "himalaya_capital",
+          "display_name": "李录 / Himalaya Capital",
+          "value": 597014115,
+          "shares": 2451300,
+          "weight": 18.48
         },
         {
-          "id": "third_point",
-          "display_name": "Dan Loeb / Third Point",
-          "value": 569745000,
-          "shares": 1100000,
-          "weight": 6.34
+          "id": "baupost",
+          "display_name": "Seth Klarman / Baupost",
+          "value": 452550000,
+          "shares": 1858138,
+          "weight": 9.45
         },
         {
-          "id": "bridgewater",
-          "display_name": "达利欧 / Bridgewater",
-          "value": 568278684,
-          "shares": 1097169,
-          "weight": 2.23
+          "id": "duan_yongping",
+          "display_name": "段永平 / H&H International",
+          "value": 440947275,
+          "shares": 1810500,
+          "weight": 3.0
         },
         {
-          "id": "appaloosa",
-          "display_name": "David Tepper / Appaloosa",
-          "value": 239551875,
-          "shares": 462500,
-          "weight": 3.24
+          "id": "duan_yongping",
+          "display_name": "段永平 / H&H International",
+          "value": 440947275,
+          "shares": 1810500,
+          "weight": 3.0
         },
         {
           "id": "oriental_harbor",
           "display_name": "但斌 / 东方港湾",
-          "value": 93593527,
-          "shares": 193527,
-          "weight": 7.11
+          "value": 405891513,
+          "shares": 1293472,
+          "weight": 30.85
         },
         {
-          "id": "soros",
-          "display_name": "索罗斯 / Soros Fund",
-          "value": 52697787,
-          "shares": 101743,
-          "weight": 0.75
-        },
-        {
-          "id": "altimeter",
-          "display_name": "Brad Gerstner / Altimeter",
-          "value": 12051206,
-          "shares": 23267,
-          "weight": 2.53
-        },
-        {
-          "id": "d1_capital",
-          "display_name": "Dan Sundheim / D1 Capital",
-          "value": 11896207,
-          "shares": 25154,
-          "weight": 5.29
-        },
-        {
-          "id": "ark_invest",
-          "display_name": "Cathie Wood / ARK Invest",
-          "value": 3171926,
-          "shares": 6124,
-          "weight": 0.02
+          "id": "appaloosa",
+          "display_name": "David Tepper / Appaloosa",
+          "value": 337925625,
+          "shares": 1387500,
+          "weight": 4.58
         },
         {
           "id": "sequoia_fund",
           "display_name": "Sequoia Fund",
-          "value": 356868,
-          "shares": 689,
-          "weight": 0.01
+          "value": 305550765,
+          "shares": 1254571,
+          "weight": 5.06
+        },
+        {
+          "id": "ark_invest",
+          "display_name": "Cathie Wood / ARK Invest",
+          "value": 82552734,
+          "shares": 338956,
+          "weight": 0.49
+        },
+        {
+          "id": "d1_capital",
+          "display_name": "Dan Sundheim / D1 Capital",
+          "value": 16417388,
+          "shares": 52066,
+          "weight": 7.29
+        },
+        {
+          "id": "altimeter",
+          "display_name": "Brad Gerstner / Altimeter",
+          "value": 15757500,
+          "shares": 64699,
+          "weight": 3.31
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 11588596,
+          "shares": 47582,
+          "weight": 0.02
         }
       ],
-      "total_value": 25843635603,
-      "avg_weight": 3.48
+      "total_value": 11620995393,
+      "avg_weight": 6.97
+    },
+    {
+      "cusip": "037833100",
+      "issuer": "APPLE INC",
+      "title": "COM",
+      "guru_count": 13,
+      "gurus": [
+        {
+          "id": "berkshire_hathaway",
+          "display_name": "巴菲特 / Berkshire Hathaway",
+          "value": 60656116097,
+          "shares": 238212764,
+          "weight": 22.69
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 15855831234,
+          "shares": 62270083,
+          "weight": 2.41
+        },
+        {
+          "id": "duan_yongping",
+          "display_name": "段永平 / H&H International",
+          "value": 8868535515,
+          "shares": 34829107,
+          "weight": 60.42
+        },
+        {
+          "id": "duan_yongping",
+          "display_name": "段永平 / H&H International",
+          "value": 8868535515,
+          "shares": 34829107,
+          "weight": 60.42
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 5407636384,
+          "shares": 21237232,
+          "weight": 2.31
+        },
+        {
+          "id": "oriental_harbor",
+          "display_name": "但斌 / 东方港湾",
+          "value": 92853239,
+          "shares": 341548,
+          "weight": 7.06
+        },
+        {
+          "id": "soros",
+          "display_name": "索罗斯 / Soros Fund",
+          "value": 89053278,
+          "shares": 349736,
+          "weight": 1.27
+        },
+        {
+          "id": "bridgewater",
+          "display_name": "达利欧 / Bridgewater",
+          "value": 87785220,
+          "shares": 344756,
+          "weight": 0.34
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 45196825,
+          "shares": 177500,
+          "weight": 0.08
+        },
+        {
+          "id": "himalaya_capital",
+          "display_name": "李录 / Himalaya Capital",
+          "value": 28162078,
+          "shares": 110600,
+          "weight": 0.87
+        },
+        {
+          "id": "altimeter",
+          "display_name": "Brad Gerstner / Altimeter",
+          "value": 11722887,
+          "shares": 46039,
+          "weight": 2.46
+        },
+        {
+          "id": "fairholme",
+          "display_name": "Bruce Berkowitz / Fairholme",
+          "value": 611112,
+          "shares": 2400,
+          "weight": 0.05
+        },
+        {
+          "id": "sequoia_fund",
+          "display_name": "Sequoia Fund",
+          "value": 226875,
+          "shares": 891,
+          "weight": 0.0
+        }
+      ],
+      "total_value": 100012266259,
+      "avg_weight": 12.34
     },
     {
       "cusip": "30303M102",
@@ -529,191 +766,10 @@
       "avg_weight": 4.21
     },
     {
-      "cusip": "02079K107",
-      "issuer": "ALPHABET INC",
-      "title": "CAP STK CL C",
-      "guru_count": 12,
-      "gurus": [
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 5339542464,
-          "shares": 21923804,
-          "weight": 0.81
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 1634092393,
-          "shares": 6709474,
-          "weight": 0.7
-        },
-        {
-          "id": "pershing_square",
-          "display_name": "Bill Ackman / Pershing Square",
-          "value": 1540217750,
-          "shares": 6324031,
-          "weight": 10.52
-        },
-        {
-          "id": "himalaya_capital",
-          "display_name": "李录 / Himalaya Capital",
-          "value": 597014115,
-          "shares": 2451300,
-          "weight": 18.48
-        },
-        {
-          "id": "baupost",
-          "display_name": "Seth Klarman / Baupost",
-          "value": 452550000,
-          "shares": 1858138,
-          "weight": 9.45
-        },
-        {
-          "id": "oriental_harbor",
-          "display_name": "但斌 / 东方港湾",
-          "value": 405891513,
-          "shares": 1293472,
-          "weight": 30.85
-        },
-        {
-          "id": "appaloosa",
-          "display_name": "David Tepper / Appaloosa",
-          "value": 337925625,
-          "shares": 1387500,
-          "weight": 4.58
-        },
-        {
-          "id": "sequoia_fund",
-          "display_name": "Sequoia Fund",
-          "value": 305550765,
-          "shares": 1254571,
-          "weight": 5.06
-        },
-        {
-          "id": "ark_invest",
-          "display_name": "Cathie Wood / ARK Invest",
-          "value": 82552734,
-          "shares": 338956,
-          "weight": 0.49
-        },
-        {
-          "id": "d1_capital",
-          "display_name": "Dan Sundheim / D1 Capital",
-          "value": 16417388,
-          "shares": 52066,
-          "weight": 7.29
-        },
-        {
-          "id": "altimeter",
-          "display_name": "Brad Gerstner / Altimeter",
-          "value": 15757500,
-          "shares": 64699,
-          "weight": 3.31
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 11588596,
-          "shares": 47582,
-          "weight": 0.02
-        }
-      ],
-      "total_value": 10739100843,
-      "avg_weight": 7.63
-    },
-    {
-      "cusip": "037833100",
-      "issuer": "APPLE INC",
-      "title": "COM",
-      "guru_count": 11,
-      "gurus": [
-        {
-          "id": "berkshire_hathaway",
-          "display_name": "巴菲特 / Berkshire Hathaway",
-          "value": 60656116097,
-          "shares": 238212764,
-          "weight": 22.69
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 15855831234,
-          "shares": 62270083,
-          "weight": 2.41
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 5407636384,
-          "shares": 21237232,
-          "weight": 2.31
-        },
-        {
-          "id": "oriental_harbor",
-          "display_name": "但斌 / 东方港湾",
-          "value": 92853239,
-          "shares": 341548,
-          "weight": 7.06
-        },
-        {
-          "id": "soros",
-          "display_name": "索罗斯 / Soros Fund",
-          "value": 89053278,
-          "shares": 349736,
-          "weight": 1.27
-        },
-        {
-          "id": "bridgewater",
-          "display_name": "达利欧 / Bridgewater",
-          "value": 87785220,
-          "shares": 344756,
-          "weight": 0.34
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 45196825,
-          "shares": 177500,
-          "weight": 0.08
-        },
-        {
-          "id": "himalaya_capital",
-          "display_name": "李录 / Himalaya Capital",
-          "value": 28162078,
-          "shares": 110600,
-          "weight": 0.87
-        },
-        {
-          "id": "altimeter",
-          "display_name": "Brad Gerstner / Altimeter",
-          "value": 11722887,
-          "shares": 46039,
-          "weight": 2.46
-        },
-        {
-          "id": "fairholme",
-          "display_name": "Bruce Berkowitz / Fairholme",
-          "value": 611112,
-          "shares": 2400,
-          "weight": 0.05
-        },
-        {
-          "id": "sequoia_fund",
-          "display_name": "Sequoia Fund",
-          "value": 226875,
-          "shares": 891,
-          "weight": 0.0
-        }
-      ],
-      "total_value": 82275195229,
-      "avg_weight": 3.59
-    },
-    {
       "cusip": "874039100",
       "issuer": "TAIWAN SEMICONDUCTOR MFG LTD",
       "title": "SPONSORED ADS",
-      "guru_count": 11,
+      "guru_count": 13,
       "gurus": [
         {
           "id": "citadel",
@@ -779,6 +835,20 @@
           "weight": 1.23
         },
         {
+          "id": "duan_yongping",
+          "display_name": "段永平 / H&H International",
+          "value": 72610931,
+          "shares": 259984,
+          "weight": 0.49
+        },
+        {
+          "id": "duan_yongping",
+          "display_name": "段永平 / H&H International",
+          "value": 72610931,
+          "shares": 259984,
+          "weight": 0.49
+        },
+        {
           "id": "soros",
           "display_name": "索罗斯 / Soros Fund",
           "value": 38009135,
@@ -793,8 +863,175 @@
           "weight": 0.0
         }
       ],
-      "total_value": 6978727572,
-      "avg_weight": 2.6
+      "total_value": 7123949434,
+      "avg_weight": 2.28
+    },
+    {
+      "cusip": "01609W102",
+      "issuer": "Alibaba Group Holding Ltd",
+      "title": "Sponsored ADS",
+      "guru_count": 11,
+      "gurus": [
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 4180467533,
+          "shares": 23389848,
+          "weight": 0.64
+        },
+        {
+          "id": "appaloosa",
+          "display_name": "David Tepper / Appaloosa",
+          "value": 1152808500,
+          "shares": 6450000,
+          "weight": 15.61
+        },
+        {
+          "id": "hillhouse",
+          "display_name": "张磊 / 高瓴 HHLR",
+          "value": 587962004,
+          "shares": 3289666,
+          "weight": 14.37
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 511596573,
+          "shares": 2862399,
+          "weight": 0.22
+        },
+        {
+          "id": "duan_yongping",
+          "display_name": "段永平 / H&H International",
+          "value": 496392191,
+          "shares": 2777330,
+          "weight": 3.38
+        },
+        {
+          "id": "duan_yongping",
+          "display_name": "段永平 / H&H International",
+          "value": 496392191,
+          "shares": 2777330,
+          "weight": 3.38
+        },
+        {
+          "id": "ark_invest",
+          "display_name": "Cathie Wood / ARK Invest",
+          "value": 37565103,
+          "shares": 210178,
+          "weight": 0.22
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 36693269,
+          "shares": 205300,
+          "weight": 0.06
+        },
+        {
+          "id": "daily_journal",
+          "display_name": "芒格 / Daily Journal",
+          "value": 28583100,
+          "shares": 195000,
+          "weight": 10.33
+        },
+        {
+          "id": "altimeter",
+          "display_name": "Brad Gerstner / Altimeter",
+          "value": 6610865,
+          "shares": 36988,
+          "weight": 1.39
+        },
+        {
+          "id": "d1_capital",
+          "display_name": "Dan Sundheim / D1 Capital",
+          "value": 11992,
+          "shares": 77,
+          "weight": 0.01
+        }
+      ],
+      "total_value": 7535083321,
+      "avg_weight": 4.51
+    },
+    {
+      "cusip": "674599105",
+      "issuer": "OCCIDENTAL PETE CORP",
+      "title": "COM",
+      "guru_count": 10,
+      "gurus": [
+        {
+          "id": "berkshire_hathaway",
+          "display_name": "巴菲特 / Berkshire Hathaway",
+          "value": 12518482615,
+          "shares": 264941431,
+          "weight": 4.68
+        },
+        {
+          "id": "duan_yongping",
+          "display_name": "段永平 / H&H International",
+          "value": 640525725,
+          "shares": 13556100,
+          "weight": 4.36
+        },
+        {
+          "id": "duan_yongping",
+          "display_name": "段永平 / H&H International",
+          "value": 640525725,
+          "shares": 13556100,
+          "weight": 4.36
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 420434658,
+          "shares": 8898088,
+          "weight": 0.06
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 97664634,
+          "shares": 2066976,
+          "weight": 0.16
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 87206585,
+          "shares": 1845642,
+          "weight": 0.04
+        },
+        {
+          "id": "himalaya_capital",
+          "display_name": "李录 / Himalaya Capital",
+          "value": 69292125,
+          "shares": 1466500,
+          "weight": 2.15
+        },
+        {
+          "id": "altimeter",
+          "display_name": "Brad Gerstner / Altimeter",
+          "value": 5219519,
+          "shares": 110466,
+          "weight": 1.1
+        },
+        {
+          "id": "fairholme",
+          "display_name": "Bruce Berkowitz / Fairholme",
+          "value": 3264975,
+          "shares": 69100,
+          "weight": 0.26
+        },
+        {
+          "id": "d1_capital",
+          "display_name": "Dan Sundheim / D1 Capital",
+          "value": 745718,
+          "shares": 17596,
+          "weight": 0.33
+        }
+      ],
+      "total_value": 14483362279,
+      "avg_weight": 1.75
     },
     {
       "cusip": "78462F103",
@@ -1016,77 +1253,150 @@
       "avg_weight": 0.96
     },
     {
-      "cusip": "01609W102",
-      "issuer": "Alibaba Group Holding Ltd",
-      "title": "Sponsored ADS",
+      "cusip": "084670702",
+      "issuer": "BERKSHIRE HATHAWAY INC DEL",
+      "title": "CL B NEW",
+      "guru_count": 9,
+      "gurus": [
+        {
+          "id": "duan_yongping",
+          "display_name": "段永平 / H&H International",
+          "value": 2609874162,
+          "shares": 5191300,
+          "weight": 17.78
+        },
+        {
+          "id": "duan_yongping",
+          "display_name": "段永平 / H&H International",
+          "value": 2609874162,
+          "shares": 5191300,
+          "weight": 17.78
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 2459326658,
+          "shares": 4891846,
+          "weight": 0.37
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 960399807,
+          "shares": 1910331,
+          "weight": 0.41
+        },
+        {
+          "id": "himalaya_capital",
+          "display_name": "李录 / Himalaya Capital",
+          "value": 451334332,
+          "shares": 897749,
+          "weight": 13.97
+        },
+        {
+          "id": "sequoia_fund",
+          "display_name": "Sequoia Fund",
+          "value": 162159792,
+          "shares": 322552,
+          "weight": 2.69
+        },
+        {
+          "id": "altimeter",
+          "display_name": "Brad Gerstner / Altimeter",
+          "value": 29577702,
+          "shares": 58833,
+          "weight": 6.22
+        },
+        {
+          "id": "fairholme",
+          "display_name": "Bruce Berkowitz / Fairholme",
+          "value": 24351217,
+          "shares": 48437,
+          "weight": 1.97
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 8164137,
+          "shares": 16240,
+          "weight": 0.01
+        }
+      ],
+      "total_value": 9315061969,
+      "avg_weight": 6.8
+    },
+    {
+      "cusip": "722304102",
+      "issuer": "PDD HOLDINGS INC",
+      "title": "SPONSORED ADS",
       "guru_count": 9,
       "gurus": [
         {
           "id": "citadel",
           "display_name": "Ken Griffin / Citadel",
-          "value": 4180467533,
-          "shares": 23389848,
-          "weight": 0.64
-        },
-        {
-          "id": "appaloosa",
-          "display_name": "David Tepper / Appaloosa",
-          "value": 1152808500,
-          "shares": 6450000,
-          "weight": 15.61
+          "value": 1487382760,
+          "shares": 11253558,
+          "weight": 0.23
         },
         {
           "id": "hillhouse",
           "display_name": "张磊 / 高瓴 HHLR",
-          "value": 587962004,
-          "shares": 3289666,
-          "weight": 14.37
+          "value": 1135683942,
+          "shares": 8592600,
+          "weight": 27.76
+        },
+        {
+          "id": "duan_yongping",
+          "display_name": "段永平 / H&H International",
+          "value": 1133251221,
+          "shares": 8574194,
+          "weight": 7.72
+        },
+        {
+          "id": "duan_yongping",
+          "display_name": "段永平 / H&H International",
+          "value": 1133251221,
+          "shares": 8574194,
+          "weight": 7.72
+        },
+        {
+          "id": "himalaya_capital",
+          "display_name": "李录 / Himalaya Capital",
+          "value": 609039360,
+          "shares": 4608000,
+          "weight": 18.85
+        },
+        {
+          "id": "dragoneer",
+          "display_name": "Marc Stad / Dragoneer",
+          "value": 242588519,
+          "shares": 1835428,
+          "weight": 5.36
+        },
+        {
+          "id": "appaloosa",
+          "display_name": "David Tepper / Appaloosa",
+          "value": 237906000,
+          "shares": 1800000,
+          "weight": 3.22
         },
         {
           "id": "millennium",
           "display_name": "Israel Englander / Millennium",
-          "value": 511596573,
-          "shares": 2862399,
-          "weight": 0.22
-        },
-        {
-          "id": "ark_invest",
-          "display_name": "Cathie Wood / ARK Invest",
-          "value": 37565103,
-          "shares": 210178,
-          "weight": 0.22
+          "value": 194627462,
+          "shares": 1472554,
+          "weight": 0.08
         },
         {
           "id": "point72",
           "display_name": "Steve Cohen / Point72",
-          "value": 36693269,
-          "shares": 205300,
-          "weight": 0.06
-        },
-        {
-          "id": "daily_journal",
-          "display_name": "芒格 / Daily Journal",
-          "value": 28583100,
-          "shares": 195000,
-          "weight": 10.33
-        },
-        {
-          "id": "altimeter",
-          "display_name": "Brad Gerstner / Altimeter",
-          "value": 6610865,
-          "shares": 36988,
-          "weight": 1.39
-        },
-        {
-          "id": "d1_capital",
-          "display_name": "Dan Sundheim / D1 Capital",
-          "value": 11992,
-          "shares": 77,
-          "weight": 0.01
+          "value": 86822613,
+          "shares": 656901,
+          "weight": 0.15
         }
       ],
-      "total_value": 6542298939,
-      "avg_weight": 4.76
+      "total_value": 6260553098,
+      "avg_weight": 7.9
     },
     {
       "cusip": "90353T100",
@@ -1160,72 +1470,6 @@
       ],
       "total_value": 5377013821,
       "avg_weight": 2.86
-    },
-    {
-      "cusip": "674599105",
-      "issuer": "OCCIDENTAL PETE CORP",
-      "title": "COM",
-      "guru_count": 8,
-      "gurus": [
-        {
-          "id": "berkshire_hathaway",
-          "display_name": "巴菲特 / Berkshire Hathaway",
-          "value": 12518482615,
-          "shares": 264941431,
-          "weight": 4.68
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 420434658,
-          "shares": 8898088,
-          "weight": 0.06
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 97664634,
-          "shares": 2066976,
-          "weight": 0.16
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 87206585,
-          "shares": 1845642,
-          "weight": 0.04
-        },
-        {
-          "id": "himalaya_capital",
-          "display_name": "李录 / Himalaya Capital",
-          "value": 69292125,
-          "shares": 1466500,
-          "weight": 2.15
-        },
-        {
-          "id": "altimeter",
-          "display_name": "Brad Gerstner / Altimeter",
-          "value": 5219519,
-          "shares": 110466,
-          "weight": 1.1
-        },
-        {
-          "id": "fairholme",
-          "display_name": "Bruce Berkowitz / Fairholme",
-          "value": 3264975,
-          "shares": 69100,
-          "weight": 0.26
-        },
-        {
-          "id": "d1_capital",
-          "display_name": "Dan Sundheim / D1 Capital",
-          "value": 745718,
-          "shares": 17596,
-          "weight": 0.33
-        }
-      ],
-      "total_value": 13202310829,
-      "avg_weight": 1.1
     },
     {
       "cusip": "69608A108",
@@ -1492,6 +1736,72 @@
       "avg_weight": 1.54
     },
     {
+      "cusip": "N07059210",
+      "issuer": "ASML HOLDING N V",
+      "title": "N Y REGISTRY SHS",
+      "guru_count": 8,
+      "gurus": [
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 2268706330,
+          "shares": 2343487,
+          "weight": 0.35
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 527283772,
+          "shares": 544664,
+          "weight": 0.88
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 415391930,
+          "shares": 429084,
+          "weight": 0.18
+        },
+        {
+          "id": "bridgewater",
+          "display_name": "达利欧 / Bridgewater",
+          "value": 87321718,
+          "shares": 90200,
+          "weight": 0.34
+        },
+        {
+          "id": "duan_yongping",
+          "display_name": "段永平 / H&H International",
+          "value": 77447200,
+          "shares": 80000,
+          "weight": 0.53
+        },
+        {
+          "id": "duan_yongping",
+          "display_name": "段永平 / H&H International",
+          "value": 77447200,
+          "shares": 80000,
+          "weight": 0.53
+        },
+        {
+          "id": "appaloosa",
+          "display_name": "David Tepper / Appaloosa",
+          "value": 61957760,
+          "shares": 64000,
+          "weight": 0.84
+        },
+        {
+          "id": "d1_capital",
+          "display_name": "Dan Sundheim / D1 Capital",
+          "value": 159438,
+          "shares": 137,
+          "weight": 0.07
+        }
+      ],
+      "total_value": 3515715348,
+      "avg_weight": 0.46
+    },
+    {
       "cusip": "79466L302",
       "issuer": "SALESFORCE INC",
       "title": "COM",
@@ -1754,6 +2064,72 @@
       ],
       "total_value": 1908481891,
       "avg_weight": 6.58
+    },
+    {
+      "cusip": "254687106",
+      "issuer": "DISNEY WALT CO",
+      "title": "COM",
+      "guru_count": 8,
+      "gurus": [
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 1009780538,
+          "shares": 8819044,
+          "weight": 0.15
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 227754354,
+          "shares": 1989121,
+          "weight": 0.1
+        },
+        {
+          "id": "duan_yongping",
+          "display_name": "段永平 / H&H International",
+          "value": 82783500,
+          "shares": 723000,
+          "weight": 0.56
+        },
+        {
+          "id": "duan_yongping",
+          "display_name": "段永平 / H&H International",
+          "value": 82783500,
+          "shares": 723000,
+          "weight": 0.56
+        },
+        {
+          "id": "soros",
+          "display_name": "索罗斯 / Soros Fund",
+          "value": 75078223,
+          "shares": 655705,
+          "weight": 1.07
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 41826850,
+          "shares": 365300,
+          "weight": 0.07
+        },
+        {
+          "id": "altimeter",
+          "display_name": "Brad Gerstner / Altimeter",
+          "value": 5927207,
+          "shares": 51766,
+          "weight": 1.25
+        },
+        {
+          "id": "d1_capital",
+          "display_name": "Dan Sundheim / D1 Capital",
+          "value": 15100,
+          "shares": 135,
+          "weight": 0.01
+        }
+      ],
+      "total_value": 1525949272,
+      "avg_weight": 0.47
     },
     {
       "cusip": "G25508105",
@@ -2176,65 +2552,6 @@
       "avg_weight": 0.27
     },
     {
-      "cusip": "084670702",
-      "issuer": "BERKSHIRE HATHAWAY INC DEL",
-      "title": "CL B NEW",
-      "guru_count": 7,
-      "gurus": [
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 2459326658,
-          "shares": 4891846,
-          "weight": 0.37
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 960399807,
-          "shares": 1910331,
-          "weight": 0.41
-        },
-        {
-          "id": "himalaya_capital",
-          "display_name": "李录 / Himalaya Capital",
-          "value": 451334332,
-          "shares": 897749,
-          "weight": 13.97
-        },
-        {
-          "id": "sequoia_fund",
-          "display_name": "Sequoia Fund",
-          "value": 162159792,
-          "shares": 322552,
-          "weight": 2.69
-        },
-        {
-          "id": "altimeter",
-          "display_name": "Brad Gerstner / Altimeter",
-          "value": 29577702,
-          "shares": 58833,
-          "weight": 6.22
-        },
-        {
-          "id": "fairholme",
-          "display_name": "Bruce Berkowitz / Fairholme",
-          "value": 24351217,
-          "shares": 48437,
-          "weight": 1.97
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 8164137,
-          "shares": 16240,
-          "weight": 0.01
-        }
-      ],
-      "total_value": 4095313645,
-      "avg_weight": 3.66
-    },
-    {
       "cusip": "57636Q104",
       "issuer": "MASTERCARD INC",
       "title": "CL A",
@@ -2351,65 +2668,6 @@
       ],
       "total_value": 4018417808,
       "avg_weight": 0.28
-    },
-    {
-      "cusip": "722304102",
-      "issuer": "PDD HOLDINGS INC",
-      "title": "SPONSORED ADS",
-      "guru_count": 7,
-      "gurus": [
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 1487382760,
-          "shares": 11253558,
-          "weight": 0.23
-        },
-        {
-          "id": "hillhouse",
-          "display_name": "张磊 / 高瓴 HHLR",
-          "value": 1135683942,
-          "shares": 8592600,
-          "weight": 27.76
-        },
-        {
-          "id": "himalaya_capital",
-          "display_name": "李录 / Himalaya Capital",
-          "value": 609039360,
-          "shares": 4608000,
-          "weight": 18.85
-        },
-        {
-          "id": "dragoneer",
-          "display_name": "Marc Stad / Dragoneer",
-          "value": 242588519,
-          "shares": 1835428,
-          "weight": 5.36
-        },
-        {
-          "id": "appaloosa",
-          "display_name": "David Tepper / Appaloosa",
-          "value": 237906000,
-          "shares": 1800000,
-          "weight": 3.22
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 194627462,
-          "shares": 1472554,
-          "weight": 0.08
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 86822613,
-          "shares": 656901,
-          "weight": 0.15
-        }
-      ],
-      "total_value": 3994050656,
-      "avg_weight": 7.95
     },
     {
       "cusip": "172967424",
@@ -4879,58 +5137,6 @@
       "avg_weight": 0.26
     },
     {
-      "cusip": "N07059210",
-      "issuer": "ASML HOLDING N V",
-      "title": "N Y REGISTRY SHS",
-      "guru_count": 6,
-      "gurus": [
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 2268706330,
-          "shares": 2343487,
-          "weight": 0.35
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 527283772,
-          "shares": 544664,
-          "weight": 0.88
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 415391930,
-          "shares": 429084,
-          "weight": 0.18
-        },
-        {
-          "id": "bridgewater",
-          "display_name": "达利欧 / Bridgewater",
-          "value": 87321718,
-          "shares": 90200,
-          "weight": 0.34
-        },
-        {
-          "id": "appaloosa",
-          "display_name": "David Tepper / Appaloosa",
-          "value": 61957760,
-          "shares": 64000,
-          "weight": 0.84
-        },
-        {
-          "id": "d1_capital",
-          "display_name": "Dan Sundheim / D1 Capital",
-          "value": 159438,
-          "shares": 137,
-          "weight": 0.07
-        }
-      ],
-      "total_value": 3360820948,
-      "avg_weight": 0.44
-    },
-    {
       "cusip": "11271J107",
       "issuer": "BROOKFIELD CORP",
       "title": "CL A LTD VT SH",
@@ -5917,58 +6123,6 @@
       ],
       "total_value": 1399735391,
       "avg_weight": 1.29
-    },
-    {
-      "cusip": "254687106",
-      "issuer": "DISNEY WALT CO",
-      "title": "COM",
-      "guru_count": 6,
-      "gurus": [
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 1009780538,
-          "shares": 8819044,
-          "weight": 0.15
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 227754354,
-          "shares": 1989121,
-          "weight": 0.1
-        },
-        {
-          "id": "soros",
-          "display_name": "索罗斯 / Soros Fund",
-          "value": 75078223,
-          "shares": 655705,
-          "weight": 1.07
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 41826850,
-          "shares": 365300,
-          "weight": 0.07
-        },
-        {
-          "id": "altimeter",
-          "display_name": "Brad Gerstner / Altimeter",
-          "value": 5927207,
-          "shares": 51766,
-          "weight": 1.25
-        },
-        {
-          "id": "d1_capital",
-          "display_name": "Dan Sundheim / D1 Capital",
-          "value": 15100,
-          "shares": 135,
-          "weight": 0.01
-        }
-      ],
-      "total_value": 1360382272,
-      "avg_weight": 0.44
     },
     {
       "cusip": "72352L106",

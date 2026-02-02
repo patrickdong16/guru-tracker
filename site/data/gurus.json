@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-02T08:26:47Z",
-  "guru_count": 26,
-  "gurus_with_data": 26,
+  "generated_at": "2026-02-02T08:27:25Z",
+  "guru_count": 28,
+  "gurus_with_data": 28,
   "gurus": [
     {
       "id": "oriental_harbor",
@@ -262,6 +262,64 @@
         "total_value_current": 22721159137,
         "total_value_previous": 17593419802,
         "total_value_change_pct": 29.1
+      }
+    },
+    {
+      "id": "duan_yongping",
+      "display_name": "段永平 / H&H International",
+      "name": "H&H International Investment, LLC",
+      "style": "value",
+      "style_label": "价值投资",
+      "aum": "未公开",
+      "representative": "段永平 (Duan Yongping)",
+      "bio": "步步高/OPPO/vivo创始人，雪球网名'大道无形我有型'。2006年以62万美元竞拍巴菲特午餐，中国价值投资标杆人物。通过H&H International管理美股投资。",
+      "famous_trade": "2001年以约$0.8/股抄底网易，最终涨超$70；长期重仓苹果、茅台。",
+      "cik": "0001759760",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2025-09-30",
+      "latest_filing_date": "2025-11-14",
+      "total_value": 14678516884,
+      "holdings_count": 11,
+      "summary": {
+        "total_new": 1,
+        "total_increased": 1,
+        "total_decreased": 5,
+        "total_unchanged": 4,
+        "total_sold": 0,
+        "total_value_current": 14678516884,
+        "total_value_previous": 11533751094,
+        "total_value_change_pct": 27.3
+      }
+    },
+    {
+      "id": "duan_yongping",
+      "display_name": "段永平 / H&H International",
+      "name": "H&H International Investment, LLC",
+      "style": "value",
+      "style_label": "价值投资",
+      "aum": "未公开",
+      "representative": "段永平 (Duan Yongping)",
+      "bio": "步步高/OPPO/vivo创始人，雪球网名'大道无形我有型'。2006年以62万美元竞拍巴菲特午餐，中国价值投资标杆人物。通过H&H International管理美股投资。",
+      "famous_trade": "2001年以约$0.8/股抄底网易，最终涨超$70；长期重仓苹果、茅台。",
+      "cik": "0001759760",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2025-09-30",
+      "latest_filing_date": "2025-11-14",
+      "total_value": 14678516884,
+      "holdings_count": 11,
+      "summary": {
+        "total_new": 1,
+        "total_increased": 1,
+        "total_decreased": 5,
+        "total_unchanged": 4,
+        "total_sold": 0,
+        "total_value_current": 14678516884,
+        "total_value_previous": 11533751094,
+        "total_value_change_pct": 27.3
       }
     },
     {
