@@ -59,8 +59,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 6.48,
-      "ticker_raw": "SPY",
-      "ticker": "SPY"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "MICROSOFT CORP",
@@ -74,8 +74,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 6.34,
-      "ticker_raw": "MSFT",
-      "ticker": "MSFT"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "NVIDIA CORPORATION",
@@ -89,8 +89,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 5.92,
-      "ticker_raw": "NVDA",
-      "ticker": "NVDA"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "NORFOLK SOUTHN CORP",
@@ -134,8 +134,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 3.42,
-      "ticker_raw": "TSM",
-      "ticker": "TSM"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CAPITAL ONE FINL CORP",
@@ -164,8 +164,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 3.16,
-      "ticker_raw": "FLUT",
-      "ticker": "FLUT"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CASEYS GEN STORES INC",
@@ -209,8 +209,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 2.89,
-      "ticker_raw": "CRH",
-      "ticker": "CRH"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "COSTAR GROUP INC",
@@ -224,8 +224,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 2.83,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "CSGP",
+      "ticker": "CSGP"
     },
     {
       "issuer": "SOMNIGROUP INTERNATIONAL INC",
@@ -344,8 +344,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 2.04,
-      "ticker_raw": "VST",
-      "ticker": "VST"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "KENVUE INC",
@@ -374,8 +374,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.84,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FIX",
+      "ticker": "FIX"
     },
     {
       "issuer": "META PLATFORMS INC",
@@ -389,8 +389,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.8,
-      "ticker_raw": "META",
-      "ticker": "META"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "MASTEC INC",
@@ -524,8 +524,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.6,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "CORZ",
+      "ticker": "CORZ"
     },
     {
       "issuer": "STRATA CRITICAL MEDICAL INC",
@@ -584,8 +584,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.11,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DHR",
+      "ticker": "DHR"
     },
     {
       "issuer": "PG&E CORP",
@@ -674,8 +674,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "CYH",
+      "ticker": "CYH"
     },
     {
       "issuer": "FLYEXCLUSIVE INC",

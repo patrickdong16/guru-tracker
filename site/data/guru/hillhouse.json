@@ -29,8 +29,8 @@
       "shared_voting": 8592600,
       "no_voting": 0,
       "weight": 27.76,
-      "ticker_raw": "PDD",
-      "ticker": "PDD"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ALIBABA GROUP HLDG LTD",
@@ -59,8 +59,8 @@
       "shared_voting": 3238179,
       "no_voting": 0,
       "weight": 13.77,
-      "ticker_raw": "FUTU",
-      "ticker": "FUTU"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "WEBULL CORP",
@@ -74,8 +74,8 @@
       "shared_voting": 33080846,
       "no_voting": 0,
       "weight": 11.96,
-      "ticker_raw": "BULL",
-      "ticker": "BULL"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "BEONE MEDICINES LTD",
@@ -209,8 +209,8 @@
       "shared_voting": 180050,
       "no_voting": 0,
       "weight": 0.79,
-      "ticker_raw": "SE",
-      "ticker": "SE"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CLEARWATER ANALYTICS HLDGS I",
@@ -224,8 +224,8 @@
       "shared_voting": 1365971,
       "no_voting": 0,
       "weight": 0.6,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "CWAN",
+      "ticker": "CWAN"
     },
     {
       "issuer": "CYTEK BIOSCIENCES INC",
@@ -239,8 +239,8 @@
       "shared_voting": 6657030,
       "no_voting": 0,
       "weight": 0.56,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "CTKB",
+      "ticker": "CTKB"
     },
     {
       "issuer": "I MAB",
@@ -314,8 +314,8 @@
       "shared_voting": 669337,
       "no_voting": 0,
       "weight": 0.19,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "CTNM",
+      "ticker": "CTNM"
     },
     {
       "issuer": "SMART SH GLOBAL LTD",
@@ -374,8 +374,8 @@
       "shared_voting": 10043,
       "no_voting": 0,
       "weight": 0.07,
-      "ticker_raw": "GE",
-      "ticker": "GE"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "MOGU INC",

@@ -314,8 +314,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 2.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "CGON",
+      "ticker": "CGON"
     },
     {
       "issuer": "TURNING PT BRANDS INC",
@@ -344,8 +344,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.8,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "CODI",
+      "ticker": "CODI"
     },
     {
       "issuer": "ISHARES BITCOIN TRUST ETF",
@@ -404,8 +404,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.72,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "CIG",
+      "ticker": "CIG"
     },
     {
       "issuer": "AXIOM INTELLIGENCE AC CORP 1",
@@ -1004,8 +1004,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.19,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "CPBI",
+      "ticker": "CPBI"
     },
     {
       "issuer": "STARRY SEA ACQUISITION CORP",
@@ -1199,8 +1199,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.13,
-      "ticker_raw": "LLY",
-      "ticker": "LLY"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "BLUE FOUNDRY BANCORP",
@@ -1559,8 +1559,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.07,
-      "ticker_raw": "ORCL",
-      "ticker": "ORCL"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SONOS INC",
@@ -1604,8 +1604,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.07,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EXE",
+      "ticker": "EXE"
     },
     {
       "issuer": "BRIGHTSTAR LOTTERY PLC",
@@ -1694,8 +1694,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.07,
-      "ticker_raw": "WFC",
-      "ticker": "WFC"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "GENERAL DYNAMICS CORP",
@@ -1754,8 +1754,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.07,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "COLM",
+      "ticker": "COLM"
     },
     {
       "issuer": "CENCORA INC",
@@ -1814,8 +1814,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.06,
-      "ticker_raw": "JNJ",
-      "ticker": "JNJ"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ROCKET COS INC",
@@ -1844,8 +1844,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.06,
-      "ticker_raw": "NVDA",
-      "ticker": "NVDA"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "GAP INC",
@@ -1889,8 +1889,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.06,
-      "ticker_raw": "PLTR",
-      "ticker": "PLTR"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "BLACKROCK INC",
@@ -1979,8 +1979,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.06,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "CCB",
+      "ticker": "CCB"
     },
     {
       "issuer": "AMERICAN ELEC PWR CO INC",
@@ -2084,8 +2084,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.06,
-      "ticker_raw": "SCHW",
-      "ticker": "SCHW"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CELANESE CORP DEL",
@@ -2114,8 +2114,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.06,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "CVX",
+      "ticker": "CVX"
     },
     {
       "issuer": "CBRE GROUP INC",
@@ -2324,8 +2324,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.04,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "COO",
+      "ticker": "COO"
     },
     {
       "issuer": "TAVIA ACQUISITION CORP",
@@ -2414,8 +2414,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.03,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "PLAY",
+      "ticker": "PLAY"
     },
     {
       "issuer": "DRUGS MADE IN AMER ACQUTN CO",

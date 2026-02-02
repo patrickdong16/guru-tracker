@@ -33,7 +33,7 @@ logger = logging.getLogger("resolve-tickers")
 
 OPENFIGI_URL = "https://api.openfigi.com/v3/mapping"
 BATCH_SIZE = 10  # max per request (unauthenticated)
-REQUEST_DELAY = 0.2  # seconds between requests; backs off on 429
+REQUEST_DELAY = 4.0  # seconds between requests; backs off on 429
 MAPPING_PATH = os.path.join(PROJECT_ROOT, "config", "cusip_tickers.json")
 TIMEOUT = 15
 
