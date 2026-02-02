@@ -102502,6 +102502,13 @@
       ]
     }
   },
+  "value_change": {
+    "prev_period": "2025-06-30",
+    "current_period": "2025-09-30",
+    "prev_total_value": 141059276007,
+    "current_total_value": 177162166815,
+    "change_pct": 25.6
+  },
   "periods": [
     "2025-06-30",
     "2025-09-30"

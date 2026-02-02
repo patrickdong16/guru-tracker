@@ -70,6 +70,7 @@
       "sold": []
     }
   },
+  "value_change": null,
   "periods": [
     "2020-06-30",
     "2020-09-30"

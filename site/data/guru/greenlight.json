@@ -1307,6 +1307,13 @@
       ]
     }
   },
+  "value_change": {
+    "prev_period": "2023-09-30",
+    "current_period": "2023-12-31",
+    "prev_total_value": 1760664667,
+    "current_total_value": 2047998727,
+    "change_pct": 16.3
+  },
   "periods": [
     "2023-09-30",
     "2023-12-31"

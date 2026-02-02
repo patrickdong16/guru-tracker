@@ -148,6 +148,37 @@ def generate_gurus_json(config: dict) -> dict:
     }
 
 
+def compute_portfolio_value_change(guru_id: str) -> Optional[dict]:
+    """Compute portfolio total value change between the two most recent periods.
+
+    Returns dict with prev_total_value, current_total_value, change_pct, prev_period, current_period
+    or None if fewer than 2 periods exist.
+    """
+    parsed_dir = project_path("data", "parsed", guru_id)
+    if not os.path.isdir(parsed_dir):
+        return None
+    period_files = sorted(glob.glob(os.path.join(parsed_dir, "*.json")))
+    if len(period_files) < 2:
+        return None
+
+    prev_data = load_json(period_files[-2])
+    curr_data = load_json(period_files[-1])
+    prev_val = prev_data.get("total_value", 0)
+    curr_val = curr_data.get("total_value", 0)
+
+    if prev_val <= 0:
+        return None
+
+    change_pct = round((curr_val - prev_val) / prev_val * 100, 1)
+    return {
+        "prev_period": os.path.basename(period_files[-2]).replace(".json", ""),
+        "current_period": os.path.basename(period_files[-1]).replace(".json", ""),
+        "prev_total_value": prev_val,
+        "current_total_value": curr_val,
+        "change_pct": change_pct,
+    }
+
+
 def generate_guru_detail_json(guru_config: dict) -> Optional[dict]:
     """Generate detailed JSON for a single guru page."""
     guru_id = guru_config["id"]
@@ -162,6 +193,7 @@ def generate_guru_detail_json(guru_config: dict) -> Optional[dict]:
 
     latest_parsed = load_json(period_files[-1])
     comparison = get_latest_comparison(guru_id)
+    value_change = compute_portfolio_value_change(guru_id)
 
     return {
         "info": {
@@ -183,6 +215,7 @@ def generate_guru_detail_json(guru_config: dict) -> Optional[dict]:
         "holdings_count": latest_parsed.get("holdings_count", 0),
         "holdings": latest_parsed.get("holdings", []),
         "comparison": comparison,
+        "value_change": value_change,
         "periods": [os.path.basename(f).replace(".json", "") for f in period_files],
     }
 
@@ -411,6 +444,7 @@ def render_html(gurus_data: dict, consensus_data: dict):
             truncated=len(all_holdings) > MAX_HOLDINGS_IN_HTML,
             comparison=comparison,
             changes=html_changes,
+            value_change=detail.get("value_change"),
             generated_at=now,
             # Top 10 for chart
             top10=all_holdings[:10],
