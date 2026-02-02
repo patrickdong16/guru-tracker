@@ -130,8 +130,14 @@ def generate_gurus_json(config: dict) -> dict:
 
         gurus.append(guru_data)
 
-    # Sort: gurus with data first, then by total value desc
-    gurus.sort(key=lambda g: (not g["has_data"], -(g.get("total_value", 0))))
+    # Sort: gurus with data first, then by filing date desc (most recently updated first),
+    # then by total value desc as tiebreaker
+    gurus.sort(key=lambda g: (
+        not g["has_data"],
+        -(datetime.strptime(g["latest_filing_date"], "%Y-%m-%d").timestamp()
+          if g.get("latest_filing_date") else 0),
+        -(g.get("total_value", 0)),
+    ))
 
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     return {
@@ -288,6 +294,30 @@ def setup_jinja_env() -> Environment:
     env.filters["format_pct"] = format_change_pct
     env.filters["to_json"] = lambda v: json.dumps(v, ensure_ascii=False)
     env.filters["style_badge"] = lambda style: STYLE_COLORS.get(style, ("zinc", "bg-zinc-500/20 text-zinc-400 border-zinc-500/30"))[1]
+
+    def period_to_quarter(period_str: str) -> str:
+        """Convert '2025-09-30' to 'Q3 2025'."""
+        if not period_str:
+            return ""
+        try:
+            dt = datetime.strptime(period_str, "%Y-%m-%d")
+            q = (dt.month - 1) // 3 + 1
+            return f"Q{q} {dt.year}"
+        except ValueError:
+            return period_str
+
+    def is_recent_filing(filing_date: str, days: int = 30) -> bool:
+        """Check if filing was within the last N days."""
+        if not filing_date:
+            return False
+        try:
+            dt = datetime.strptime(filing_date, "%Y-%m-%d")
+            return (datetime.now() - dt).days <= days
+        except ValueError:
+            return False
+
+    env.filters["to_quarter"] = period_to_quarter
+    env.globals["is_recent_filing"] = is_recent_filing
 
     return env
 
