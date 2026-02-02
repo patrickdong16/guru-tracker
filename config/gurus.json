@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-07-20",
+  "last_updated": "2025-07-25",
   "gurus": [
     {
       "id": "berkshire_hathaway",
@@ -74,21 +74,6 @@
       "aum": "$25B",
       "bio": "《安全边际》作者，管理约250亿美元，以极端耐心和高现金比例著称。",
       "famous_trade": "经常持有30-50%现金等待机会，危机时大举买入。",
-      "filing_type": "13F-HR",
-      "active": true
-    },
-    {
-      "id": "greenlight",
-      "name": "Greenlight Capital",
-      "display_name": "David Einhorn / Greenlight",
-      "cik": "0001079114",
-      "style": "value",
-      "style_label": "价值投资",
-      "category": "value",
-      "representative": "David Einhorn",
-      "aum": "$3B",
-      "bio": "著名做空大师，2008年金融危机前做空雷曼兄弟成名。同时也是优秀的多头价值投资者。",
-      "famous_trade": "2008年做空雷曼兄弟。",
       "filing_type": "13F-HR",
       "active": true
     },
@@ -382,7 +367,7 @@
       "id": "elliott",
       "name": "Elliott Investment Management",
       "display_name": "Paul Singer / Elliott",
-      "cik": "0001048445",
+      "cik": "0001791786",
       "style": "activist",
       "style_label": "激进主义",
       "category": "activist",
@@ -424,20 +409,19 @@
       "active": true
     },
     {
-      "id": "duan_yongping",
-      "name": "DUAN YONG PING",
-      "display_name": "段永平",
-      "cik": "0001265354",
-      "style": "value",
-      "style_label": "价值投资",
-      "category": "chinese",
-      "representative": "段永平",
-      "aum": "未公开",
-      "bio": "步步高/OPPO/vivo创始人，2001年以62万美元抄底网易股票赚上亿。巴菲特午餐第一位中国竞拍者。个人投资者，不提交 13F，持仓信息来自 SC 13D/G 披露。",
-      "famous_trade": "2001年以约0.8美元/股抄底网易，最终涨到70美元+。",
-      "filing_type": "SC13G",
-      "active": false,
-      "note": "个人投资者，不提交13F，通过SC 13G/13D追踪。最后一次SEC申报是2010年。"
+      "id": "hillhouse",
+      "name": "HHLR Advisors, Ltd.",
+      "display_name": "张磊 / 高瓴 HHLR",
+      "cik": "0001762304",
+      "style": "growth",
+      "style_label": "科技成长",
+      "category": "growth",
+      "representative": "张磊 (Zhang Lei)",
+      "aum": "$20B+",
+      "bio": "高瓴资本创始人，亚洲最大投资机构之一。2005年创立，以长期价值投资著称，横跨一二级市场。2020年改组为HHLR Advisors。",
+      "famous_trade": "2010年投资腾讯，2012年投资京东，均获数十倍回报。美股重仓百济神州、拼多多等中概股。",
+      "filing_type": "13F-HR",
+      "active": true
     }
   ]
 }

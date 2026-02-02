@@ -51,32 +51,25 @@ def _detect_value_multiplier(xml_path: str) -> int:
     X0202 (2023+): value in dollars (multiplier = 1)
     X0201 (pre-2023): value in thousands (multiplier = 1000)
 
-    Strategy: check meta.json for schema_version, or check filing date.
+    Strategy: always use content-based heuristic. Date-based shortcuts are
+    unreliable because many filers still use the old X0201 schema (values in
+    thousands) even after the X0202 transition date (2023-10). The content
+    heuristic checks the actual magnitude of reported values to determine the
+    correct multiplier.
     """
-    meta_path = os.path.join(os.path.dirname(xml_path), "meta.json")
-    if os.path.exists(meta_path):
-        try:
-            meta = load_json(meta_path)
-            filing_date = meta.get("filing_date", "")
-            # Filings from 2023-10 onwards typically use X0202 (value in dollars)
-            if filing_date >= "2023-10":
-                return 1
-            elif filing_date >= "2023-01":
-                # Transitional period — check XML content for hints
-                return _detect_from_xml_content(xml_path)
-            else:
-                return 1000
-        except Exception:
-            pass
-
     return _detect_from_xml_content(xml_path)
 
 
 def _detect_from_xml_content(xml_path: str) -> int:
     """
-    Heuristic: if any single holding has value > 10,000,000,000 (10B),
-    it's likely already in dollars. If max value < 1,000,000, it's likely
-    in thousands.
+    Content-based heuristic to detect value units.
+
+    Logic:
+    - total > 1B: already in dollars (multiplier = 1)
+    - total < 10M: in thousands (multiplier = 1000)
+    - 10M–1B (ambiguous): check average value per holding.
+      If avg < 50K, likely thousands (a $50K position is tiny even for small funds).
+      Otherwise default to dollars.
     """
     try:
         tree = ET.parse(xml_path)
@@ -98,15 +91,27 @@ def _detect_from_xml_content(xml_path: str) -> int:
 
         max_val = max(values)
         total = sum(values)
+        avg_val = total / len(values)
 
-        # If total > 1 billion, likely already in dollars
+        # If total > 1 billion, clearly already in dollars
         if total > 1_000_000_000:
+            logger.debug("Value heuristic: total %s > 1B → multiplier=1 for %s", f"{total:,}", xml_path)
             return 1
-        # If total < 10 million, likely in thousands
+        # If total < 10 million, clearly in thousands
         if total < 10_000_000:
+            logger.debug("Value heuristic: total %s < 10M → multiplier=1000 for %s", f"{total:,}", xml_path)
             return 1000
 
-        return 1  # Default to dollars for recent filings
+        # Ambiguous range (10M–1B): use average per holding as tiebreaker
+        # If avg per holding < 50K, it's likely in thousands (would mean $50K avg position)
+        if avg_val < 50_000:
+            logger.info("Value heuristic: ambiguous total %s, avg %s < 50K → multiplier=1000 for %s",
+                        f"{total:,}", f"{avg_val:,.0f}", xml_path)
+            return 1000
+
+        logger.debug("Value heuristic: total %s, avg %s → multiplier=1 for %s",
+                     f"{total:,}", f"{avg_val:,.0f}", xml_path)
+        return 1  # Default to dollars
     except Exception:
         return 1
 

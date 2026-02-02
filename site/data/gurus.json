@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-02-02T08:08:07Z",
-  "guru_count": 29,
+  "generated_at": "2026-02-02T08:25:05Z",
+  "guru_count": 28,
   "gurus_with_data": 28,
   "gurus": [
     {
@@ -265,6 +265,35 @@
       }
     },
     {
+      "id": "elliott",
+      "display_name": "Paul Singer / Elliott",
+      "name": "Elliott Investment Management",
+      "style": "activist",
+      "style_label": "激进主义",
+      "aum": "$65B+",
+      "representative": "Paul Singer",
+      "bio": "全球最知名的激进投资机构，风格极为强硬，曾与阿根廷政府打15年官司。",
+      "famous_trade": "与阿根廷政府的主权债务诉讼。",
+      "cik": "0001791786",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2025-09-30",
+      "latest_filing_date": "2025-11-14",
+      "total_value": 22721159137,
+      "holdings_count": 33,
+      "summary": {
+        "total_new": 11,
+        "total_increased": 5,
+        "total_decreased": 2,
+        "total_unchanged": 15,
+        "total_sold": 8,
+        "total_value_current": 22721159137,
+        "total_value_previous": 17593419802,
+        "total_value_change_pct": 29.1
+      }
+    },
+    {
       "id": "pershing_square",
       "display_name": "Bill Ackman / Pershing Square",
       "name": "Pershing Square Capital",
@@ -439,6 +468,64 @@
       }
     },
     {
+      "id": "hillhouse",
+      "display_name": "张磊 / 高瓴 HHLR",
+      "name": "HHLR Advisors, Ltd.",
+      "style": "growth",
+      "style_label": "科技成长",
+      "aum": "$20B+",
+      "representative": "张磊 (Zhang Lei)",
+      "bio": "高瓴资本创始人，亚洲最大投资机构之一。2005年创立，以长期价值投资著称，横跨一二级市场。2020年改组为HHLR Advisors。",
+      "famous_trade": "2010年投资腾讯，2012年投资京东，均获数十倍回报。美股重仓百济神州、拼多多等中概股。",
+      "cik": "0001762304",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2025-09-30",
+      "latest_filing_date": "2025-11-14",
+      "total_value": 4090754764,
+      "holdings_count": 33,
+      "summary": {
+        "total_new": 5,
+        "total_increased": 4,
+        "total_decreased": 4,
+        "total_unchanged": 20,
+        "total_sold": 8,
+        "total_value_current": 4090754764,
+        "total_value_previous": 3104509729,
+        "total_value_change_pct": 31.8
+      }
+    },
+    {
+      "id": "duquesne",
+      "display_name": "Druckenmiller / Duquesne",
+      "name": "Duquesne Family Office",
+      "style": "macro",
+      "style_label": "全球宏观",
+      "aum": "$30B+ (Family Office)",
+      "representative": "Stanley Druckenmiller",
+      "bio": "曾为索罗斯管理量子基金，亲手执行1992年做空英镑交易。当代最佳宏观投资者。",
+      "famous_trade": "Duquesne Capital年化30%，零亏损年。",
+      "cik": "0001536411",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2025-09-30",
+      "latest_filing_date": "2025-11-14",
+      "total_value": 4062003000,
+      "holdings_count": 64,
+      "summary": {
+        "total_new": 29,
+        "total_increased": 17,
+        "total_decreased": 14,
+        "total_unchanged": 4,
+        "total_sold": 32,
+        "total_value_current": 4062003,
+        "total_value_previous": 4071255,
+        "total_value_change_pct": -0.2
+      }
+    },
+    {
       "id": "coatue",
       "display_name": "Philippe Laffont / Coatue",
       "name": "Coatue Management",
@@ -494,35 +581,6 @@
         "total_value_current": 1238938255,
         "total_value_previous": 1226998597,
         "total_value_change_pct": 1.0
-      }
-    },
-    {
-      "id": "duquesne",
-      "display_name": "Druckenmiller / Duquesne",
-      "name": "Duquesne Family Office",
-      "style": "macro",
-      "style_label": "全球宏观",
-      "aum": "$30B+ (Family Office)",
-      "representative": "Stanley Druckenmiller",
-      "bio": "曾为索罗斯管理量子基金，亲手执行1992年做空英镑交易。当代最佳宏观投资者。",
-      "famous_trade": "Duquesne Capital年化30%，零亏损年。",
-      "cik": "0001536411",
-      "filing_type": "13F-HR",
-      "active": true,
-      "has_data": true,
-      "latest_period": "2025-09-30",
-      "latest_filing_date": "2025-11-14",
-      "total_value": 4062003,
-      "holdings_count": 64,
-      "summary": {
-        "total_new": 29,
-        "total_increased": 17,
-        "total_decreased": 14,
-        "total_unchanged": 4,
-        "total_sold": 32,
-        "total_value_current": 4062003,
-        "total_value_previous": 4071255,
-        "total_value_change_pct": -0.2
       }
     },
     {
@@ -613,6 +671,35 @@
       }
     },
     {
+      "id": "baupost",
+      "display_name": "Seth Klarman / Baupost",
+      "name": "Baupost Group",
+      "style": "value",
+      "style_label": "价值投资",
+      "aum": "$25B",
+      "representative": "Seth Klarman",
+      "bio": "《安全边际》作者，管理约250亿美元，以极端耐心和高现金比例著称。",
+      "famous_trade": "经常持有30-50%现金等待机会，危机时大举买入。",
+      "cik": "0001061768",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2025-09-30",
+      "latest_filing_date": "2025-11-13",
+      "total_value": 4790804000,
+      "holdings_count": 22,
+      "summary": {
+        "total_new": 4,
+        "total_increased": 4,
+        "total_decreased": 5,
+        "total_unchanged": 9,
+        "total_sold": 5,
+        "total_value_current": 4790804,
+        "total_value_previous": 4130042,
+        "total_value_change_pct": 16.0
+      }
+    },
+    {
       "id": "pabrai",
       "display_name": "Mohnish Pabrai / Pabrai Funds",
       "name": "Dalal Street, LLC",
@@ -639,35 +726,6 @@
         "total_value_current": 336857377,
         "total_value_previous": 271601546,
         "total_value_change_pct": 24.0
-      }
-    },
-    {
-      "id": "baupost",
-      "display_name": "Seth Klarman / Baupost",
-      "name": "Baupost Group",
-      "style": "value",
-      "style_label": "价值投资",
-      "aum": "$25B",
-      "representative": "Seth Klarman",
-      "bio": "《安全边际》作者，管理约250亿美元，以极端耐心和高现金比例著称。",
-      "famous_trade": "经常持有30-50%现金等待机会，危机时大举买入。",
-      "cik": "0001061768",
-      "filing_type": "13F-HR",
-      "active": true,
-      "has_data": true,
-      "latest_period": "2025-09-30",
-      "latest_filing_date": "2025-11-13",
-      "total_value": 4790804,
-      "holdings_count": 22,
-      "summary": {
-        "total_new": 4,
-        "total_increased": 4,
-        "total_decreased": 5,
-        "total_unchanged": 9,
-        "total_sold": 5,
-        "total_value_current": 4790804,
-        "total_value_previous": 4130042,
-        "total_value_change_pct": 16.0
       }
     },
     {
@@ -756,79 +814,6 @@
         "total_value_previous": 428134785,
         "total_value_change_pct": 11.1
       }
-    },
-    {
-      "id": "greenlight",
-      "display_name": "David Einhorn / Greenlight",
-      "name": "Greenlight Capital",
-      "style": "value",
-      "style_label": "价值投资",
-      "aum": "$3B",
-      "representative": "David Einhorn",
-      "bio": "著名做空大师，2008年金融危机前做空雷曼兄弟成名。同时也是优秀的多头价值投资者。",
-      "famous_trade": "2008年做空雷曼兄弟。",
-      "cik": "0001079114",
-      "filing_type": "13F-HR",
-      "active": true,
-      "has_data": true,
-      "latest_period": "2023-12-31",
-      "latest_filing_date": "2024-02-14",
-      "total_value": 2047998727,
-      "holdings_count": 40,
-      "summary": {
-        "total_new": 7,
-        "total_increased": 20,
-        "total_decreased": 4,
-        "total_unchanged": 9,
-        "total_sold": 6,
-        "total_value_current": 2047998727,
-        "total_value_previous": 1760664667,
-        "total_value_change_pct": 16.3
-      }
-    },
-    {
-      "id": "elliott",
-      "display_name": "Paul Singer / Elliott",
-      "name": "Elliott Investment Management",
-      "style": "activist",
-      "style_label": "激进主义",
-      "aum": "$65B+",
-      "representative": "Paul Singer",
-      "bio": "全球最知名的激进投资机构，风格极为强硬，曾与阿根廷政府打15年官司。",
-      "famous_trade": "与阿根廷政府的主权债务诉讼。",
-      "cik": "0001048445",
-      "filing_type": "13F-HR",
-      "active": true,
-      "has_data": true,
-      "latest_period": "2020-09-30",
-      "latest_filing_date": "2020-11-16",
-      "total_value": 0,
-      "holdings_count": 1,
-      "summary": {
-        "total_new": 0,
-        "total_increased": 0,
-        "total_decreased": 0,
-        "total_unchanged": 1,
-        "total_sold": 0,
-        "total_value_current": 0,
-        "total_value_previous": 0,
-        "total_value_change_pct": 0
-      }
-    },
-    {
-      "id": "duan_yongping",
-      "display_name": "段永平",
-      "name": "DUAN YONG PING",
-      "style": "value",
-      "style_label": "价值投资",
-      "aum": "未公开",
-      "representative": "段永平",
-      "bio": "步步高/OPPO/vivo创始人，2001年以62万美元抄底网易股票赚上亿。巴菲特午餐第一位中国竞拍者。个人投资者，不提交 13F，持仓信息来自 SC 13D/G 披露。",
-      "famous_trade": "2001年以约0.8美元/股抄底网易，最终涨到70美元+。",
-      "cik": "0001265354",
-      "filing_type": "SC13G",
-      "active": false,
-      "has_data": false
     }
   ]
 }
