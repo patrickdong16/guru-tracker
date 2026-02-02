@@ -74,15 +74,15 @@
             </div>
             <div>
                 <p class="text-[10px] text-zinc-500 uppercase tracking-wider">CIK</p>
-                <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001048445&type=13F&dateb=&owner=include&count=10" target="_blank" class="text-sm text-blue-400 hover:text-blue-300 transition">0001048445</a>
+                <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001791786&type=13F&dateb=&owner=include&count=10" target="_blank" class="text-sm text-blue-400 hover:text-blue-300 transition">0001791786</a>
             </div>
             <div>
                 <p class="text-[10px] text-zinc-500 uppercase tracking-wider">报告期</p>
-                <p class="text-sm font-semibold text-zinc-50">2020-09-30</p>
+                <p class="text-sm font-semibold text-zinc-50">2025-09-30</p>
             </div>
             <div>
                 <p class="text-[10px] text-zinc-500 uppercase tracking-wider">提交日期</p>
-                <p class="text-sm font-semibold text-zinc-50">2020-11-16</p>
+                <p class="text-sm font-semibold text-zinc-50">2025-11-14</p>
             </div>
         </div>
     </div>
@@ -92,24 +92,29 @@
 <div class="grid grid-cols-2 sm:grid-cols-5 gap-3 mb-6">
     <div class="bg-zinc-800 border border-zinc-700/50 rounded-lg p-4 text-center">
         <p class="text-xs text-zinc-500 mb-1">总持仓</p>
-        <p class="text-lg font-bold text-zinc-50 tabular-nums">$0</p>
+        <p class="text-lg font-bold text-zinc-50 tabular-nums">$22.7B</p>
+        
+        <p class="text-xs mt-1 tabular-nums text-emerald-400">
+            +29.1% 环比
+        </p>
+        
     </div>
     <div class="bg-zinc-800 border border-zinc-700/50 rounded-lg p-4 text-center">
         <p class="text-xs text-zinc-500 mb-1">持仓数</p>
-        <p class="text-lg font-bold text-zinc-50 tabular-nums">1</p>
+        <p class="text-lg font-bold text-zinc-50 tabular-nums">33</p>
     </div>
     
     <div class="bg-zinc-800 border border-zinc-700/50 rounded-lg p-4 text-center">
         <p class="text-xs text-zinc-500 mb-1">🆕 新建仓</p>
-        <p class="text-lg font-bold text-emerald-400 tabular-nums">0</p>
+        <p class="text-lg font-bold text-emerald-400 tabular-nums">11</p>
     </div>
     <div class="bg-zinc-800 border border-zinc-700/50 rounded-lg p-4 text-center">
         <p class="text-xs text-zinc-500 mb-1">⬆⬇ 调仓</p>
-        <p class="text-lg font-bold text-amber-400 tabular-nums">0</p>
+        <p class="text-lg font-bold text-amber-400 tabular-nums">7</p>
     </div>
     <div class="bg-zinc-800 border border-zinc-700/50 rounded-lg p-4 text-center">
         <p class="text-xs text-zinc-500 mb-1">❌ 清仓</p>
-        <p class="text-lg font-bold text-red-400 tabular-nums">0</p>
+        <p class="text-lg font-bold text-red-400 tabular-nums">8</p>
     </div>
     
 </div>
@@ -130,24 +135,261 @@
         <div class="flex items-center justify-between mb-4">
             <h2 class="text-sm font-semibold text-zinc-50">季度变化</h2>
             
-            <span class="text-xs text-zinc-500">2020-06-30 → 2020-09-30</span>
+            <span class="text-xs text-zinc-500">2025-06-30 → 2025-09-30</span>
             
         </div>
         <!-- Change type tabs -->
         <div class="flex gap-2 mb-4 flex-wrap" id="change-tabs">
             
+            <button class="change-tab active px-3 py-1 text-xs rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 transition" data-tab="new">🆕 新建仓 (11)</button>
             
             
+            <button class="change-tab px-3 py-1 text-xs rounded-full bg-zinc-700/50 text-zinc-400 border border-zinc-600/30 hover:border-zinc-500 transition" data-tab="increased">⬆ 加仓 (5)</button>
+            
+            
+            <button class="change-tab px-3 py-1 text-xs rounded-full bg-zinc-700/50 text-zinc-400 border border-zinc-600/30 hover:border-zinc-500 transition" data-tab="decreased">⬇ 减仓 (2)</button>
+            
+            
+            <button class="change-tab px-3 py-1 text-xs rounded-full bg-zinc-700/50 text-zinc-400 border border-zinc-600/30 hover:border-zinc-500 transition" data-tab="sold">❌ 清仓 (8)</button>
             
         </div>
         <!-- Tab content -->
         <div class="overflow-x-auto max-h-64 overflow-y-auto custom-scrollbar">
             
-
+            <table class="change-panel w-full text-xs" data-panel="new">
+                <thead class="sticky top-0 bg-zinc-800">
+                    <tr class="text-zinc-500 text-left">
+                        <th class="pb-2 pr-4 font-medium">股票</th>
+                        <th class="pb-2 pr-4 font-medium text-right">市值</th>
+                        <th class="pb-2 pr-4 font-medium text-right">数量</th>
+                        <th class="pb-2 font-medium text-right">占比</th>
+                    </tr>
+                </thead>
+                <tbody>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-emerald-400 font-medium">SELECT SECTOR SPDR TR</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$1.2B</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">15,000,000</td>
+                        <td class="py-1.5 text-right tabular-nums">5.17%</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-emerald-400 font-medium">SELECT SECTOR SPDR TR</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$714.7M</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">8,000,000</td>
+                        <td class="py-1.5 text-right tabular-nums">3.15%</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-emerald-400 font-medium">UNITI GROUP LLC</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$361.2M</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">59,012,219</td>
+                        <td class="py-1.5 text-right tabular-nums">1.59%</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-emerald-400 font-medium">ISHARES TR</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$345.0M</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">3,000,000</td>
+                        <td class="py-1.5 text-right tabular-nums">1.52%</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-emerald-400 font-medium">SPDR SERIES TRUST</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$317.3M</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">2,400,000</td>
+                        <td class="py-1.5 text-right tabular-nums">1.4%</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-emerald-400 font-medium">SELECT SECTOR SPDR TR</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$278.3M</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">2,000,000</td>
+                        <td class="py-1.5 text-right tabular-nums">1.23%</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-emerald-400 font-medium">PEPSICO INC</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$179.1M</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">1,275,000</td>
+                        <td class="py-1.5 text-right tabular-nums">0.79%</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-emerald-400 font-medium">BILL HOLDINGS INC</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$158.9M</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">3,000,000</td>
+                        <td class="py-1.5 text-right tabular-nums">0.7%</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-emerald-400 font-medium">WHEATON PRECIOUS METALS CORP</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$72.7M</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">650,000</td>
+                        <td class="py-1.5 text-right tabular-nums">0.32%</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-emerald-400 font-medium">GCI LIBERTY INC</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$17.8M</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">476,895</td>
+                        <td class="py-1.5 text-right tabular-nums">0.08%</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-emerald-400 font-medium">OXFORD LANE CAP CORP</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$17.3M</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">1,019,239</td>
+                        <td class="py-1.5 text-right tabular-nums">0.08%</td>
+                    </tr>
+                
+                </tbody>
+            </table>
             
 
             
+            <table class="change-panel w-full text-xs hidden" data-panel="increased">
+                <thead class="sticky top-0 bg-zinc-800">
+                    <tr class="text-zinc-500 text-left">
+                        <th class="pb-2 pr-4 font-medium">股票</th>
+                        <th class="pb-2 pr-4 font-medium text-right">市值</th>
+                        <th class="pb-2 pr-4 font-medium text-right">变化</th>
+                        <th class="pb-2 font-medium text-right">变化%</th>
+                    </tr>
+                </thead>
+                <tbody>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-zinc-200">INVESCO QQQ TR</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$2.0B</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums text-emerald-400">+1,250,000</td>
+                        <td class="py-1.5 text-right tabular-nums text-emerald-400">+62.5%</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-zinc-200">SELECT SECTOR SPDR TR</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$1.2B</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums text-emerald-400">+4,000,000</td>
+                        <td class="py-1.5 text-right tabular-nums text-emerald-400">+114.3%</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-zinc-200">VANECK ETF TRUST</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$878.6M</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums text-emerald-400">+7,500,000</td>
+                        <td class="py-1.5 text-right tabular-nums text-emerald-400">+187.5%</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-zinc-200">NVIDIA CORPORATION</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$807.9M</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums text-emerald-400">+1,750,000</td>
+                        <td class="py-1.5 text-right tabular-nums text-emerald-400">+67.8%</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-zinc-200">DIGITAL RLTY TR INC</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$172.9M</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums text-emerald-400">+250,000</td>
+                        <td class="py-1.5 text-right tabular-nums text-emerald-400">+33.3%</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+            
 
+            
+            <table class="change-panel w-full text-xs hidden" data-panel="decreased">
+                <thead class="sticky top-0 bg-zinc-800">
+                    <tr class="text-zinc-500 text-left">
+                        <th class="pb-2 pr-4 font-medium">股票</th>
+                        <th class="pb-2 pr-4 font-medium text-right">市值</th>
+                        <th class="pb-2 pr-4 font-medium text-right">变化</th>
+                        <th class="pb-2 font-medium text-right">变化%</th>
+                    </tr>
+                </thead>
+                <tbody>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-zinc-200">SOUTHWEST AIRLS CO</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$1.6B</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums text-red-400">-2,850,000</td>
+                        <td class="py-1.5 text-right tabular-nums text-red-400">-5.3%</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-zinc-200">SPDR SERIES TRUST</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$130.5M</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums text-red-400">-1,450,000</td>
+                        <td class="py-1.5 text-right tabular-nums text-red-400">-50.9%</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+            
+
+            
+            <table class="change-panel w-full text-xs hidden" data-panel="sold">
+                <thead class="sticky top-0 bg-zinc-800">
+                    <tr class="text-zinc-500 text-left">
+                        <th class="pb-2 pr-4 font-medium">股票</th>
+                        <th class="pb-2 pr-4 font-medium text-right">上期市值</th>
+                        <th class="pb-2 font-medium text-right">上期数量</th>
+                    </tr>
+                </thead>
+                <tbody>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-red-400 font-medium">SPDR S&P 500 ETF TR</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$1.3B</td>
+                        <td class="py-1.5 text-right tabular-nums">2,160,000</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-red-400 font-medium">VANECK ETF TRUST</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$278.9M</td>
+                        <td class="py-1.5 text-right tabular-nums">1,000,000</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-red-400 font-medium">LIBERTY BROADBAND CORP</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$234.6M</td>
+                        <td class="py-1.5 text-right tabular-nums">2,384,481</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-red-400 font-medium">ISHARES TR</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$215.8M</td>
+                        <td class="py-1.5 text-right tabular-nums">1,000,000</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-red-400 font-medium">WESTERN DIGITAL CORP</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$144.0M</td>
+                        <td class="py-1.5 text-right tabular-nums">2,250,000</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-red-400 font-medium">HILTON WORLDWIDE HLDGS INC</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$85.2M</td>
+                        <td class="py-1.5 text-right tabular-nums">320,000</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-red-400 font-medium">UNITI GROUP INC</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$43.7M</td>
+                        <td class="py-1.5 text-right tabular-nums">10,120,963</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-red-400 font-medium">SANDISK CORP</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$34.0M</td>
+                        <td class="py-1.5 text-right tabular-nums">749,997</td>
+                    </tr>
+                
+                </tbody>
+            </table>
             
         </div>
     </div>
@@ -180,14 +422,334 @@
             </thead>
             <tbody>
             
-                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="0 000000000">
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="TRIPLE FLAG PRECIOUS METAL 89679M104">
                     <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">1</td>
-                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="0">0</td>
-                    <td class="py-1.5 pr-4 text-zinc-500">0</td>
-                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">000000000</td>
-                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="0">$0</td>
-                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="0">0</td>
-                    <td class="py-1.5 text-right tabular-nums" data-value="0">0%</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="TRIPLE FLAG PRECIOUS METAL">TRIPLE FLAG PRECIOUS METAL</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">89679M104</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="3915448172">$3.9B</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="133815727">133,815,727</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="17.23">17.23%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="PHILLIPS 66 718546104">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">2</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="PHILLIPS 66">PHILLIPS 66</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">718546104</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="2618521020">$2.6B</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="19251000">19,251,000</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="11.52">11.52%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="SUNCOR ENERGY INC NEW 867224107">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">3</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="SUNCOR ENERGY INC NEW">SUNCOR ENERGY INC NEW</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">867224107</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="2202166148">$2.2B</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="52670800">52,670,800</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="9.69">9.69%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="INVESCO QQQ TR 46090E103">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">4</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="INVESCO QQQ TR">INVESCO QQQ TR</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">UNIT SER 1</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">46090E103</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="1951202500">$2.0B</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="3250000">3,250,000</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="8.59">8.59%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="SOUTHWEST AIRLS CO 844741108">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">5</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="SOUTHWEST AIRLS CO">SOUTHWEST AIRLS CO</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">844741108</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="1631510435">$1.6B</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="51128500">51,128,500</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="7.18">7.18%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="SELECT SECTOR SPDR TR 81369Y308">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">6</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="SELECT SECTOR SPDR TR">SELECT SECTOR SPDR TR</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">SBI CONS STPLS</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">81369Y308</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="1175550000">$1.2B</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="15000000">15,000,000</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="5.17">5.17%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="SELECT SECTOR SPDR TR 81369Y704">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">7</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="SELECT SECTOR SPDR TR">SELECT SECTOR SPDR TR</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">INDL</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">81369Y704</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="1156725000">$1.2B</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="7500000">7,500,000</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="5.09">5.09%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="ISHARES TR 464287598">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">8</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="ISHARES TR">ISHARES TR</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">RUS 1000 VAL ETF</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">464287598</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="1017950000">$1.0B</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="5000000">5,000,000</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="4.48">4.48%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="PINTEREST INC 72352L106">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">9</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="PINTEREST INC">PINTEREST INC</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">CL A</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">72352L106</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="900760000">$900.8M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="28000000">28,000,000</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="3.96">3.96%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="VANECK ETF TRUST 92189F106">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">10</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="VANECK ETF TRUST">VANECK ETF TRUST</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">GOLD MINERS ETF</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">92189F106</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="878600000">$878.6M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="11500000">11,500,000</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="3.87">3.87%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="NVIDIA CORPORATION 67066G104">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">11</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="NVIDIA CORPORATION">NVIDIA CORPORATION</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">67066G104</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="807891400">$807.9M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="4330000">4,330,000</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="3.56">3.56%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="SELECT SECTOR SPDR TR 81369Y506">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">12</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="SELECT SECTOR SPDR TR">SELECT SECTOR SPDR TR</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">ENERGY</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">81369Y506</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="714720000">$714.7M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="8000000">8,000,000</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="3.15">3.15%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="HEWLETT PACKARD ENTERPRISE C 42824C109">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">13</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="HEWLETT PACKARD ENTERPRISE C">HEWLETT PACKARD ENTERPRISE C</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">42824C109</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="457576820">$457.6M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="18630978">18,630,978</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="2.01">2.01%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="UNITI GROUP LLC 912932100">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">14</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="UNITI GROUP LLC">UNITI GROUP LLC</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM SHS</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">912932100</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="361154780">$361.2M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="59012219">59,012,219</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="1.59">1.59%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="ISHARES TR 464287515">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">15</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="ISHARES TR">ISHARES TR</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">EXPANDED TECH</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">464287515</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="345030000">$345.0M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="3000000">3,000,000</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="1.52">1.52%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="ETSY INC 29786A106">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">16</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="ETSY INC">ETSY INC</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">29786A106</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="331950000">$331.9M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="5000000">5,000,000</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="1.46">1.46%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="SPDR SERIES TRUST 78468R556">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">17</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="SPDR SERIES TRUST">SPDR SERIES TRUST</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">S&P OILGAS EXP</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">78468R556</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="317280000">$317.3M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="2400000">2,400,000</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="1.4">1.4%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="ISHARES TR 464288513">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">18</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="ISHARES TR">ISHARES TR</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">IBOXX HI YD ETF</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">464288513</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="308522000">$308.5M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="3800000">3,800,000</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="1.36">1.36%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="SELECT SECTOR SPDR TR 81369Y209">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">19</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="SELECT SECTOR SPDR TR">SELECT SECTOR SPDR TR</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">SBI HEALTHCARE</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">81369Y209</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="278340000">$278.3M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="2000000">2,000,000</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="1.23">1.23%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="PEPSICO INC 713448108">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">20</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="PEPSICO INC">PEPSICO INC</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">713448108</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="179061000">$179.1M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="1275000">1,275,000</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="0.79">0.79%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="DIGITAL RLTY TR INC 253868103">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">21</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="DIGITAL RLTY TR INC">DIGITAL RLTY TR INC</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">253868103</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="172880000">$172.9M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="1000000">1,000,000</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="0.76">0.76%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="BILL HOLDINGS INC 090043100">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">22</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="BILL HOLDINGS INC">BILL HOLDINGS INC</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">090043100</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="158910000">$158.9M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="3000000">3,000,000</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="0.7">0.7%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="SPDR SERIES TRUST 78464A755">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">23</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="SPDR SERIES TRUST">SPDR SERIES TRUST</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">S&P METALS MNG</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">78464A755</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="130466000">$130.5M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="1400000">1,400,000</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="0.57">0.57%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="CROWN CASTLE INC 22822V101">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">24</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="CROWN CASTLE INC">CROWN CASTLE INC</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">22822V101</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="118200250">$118.2M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="1225000">1,225,000</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="0.52">0.52%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="EQUINIX INC 29444U700">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">25</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="EQUINIX INC">EQUINIX INC</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">29444U700</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="117486000">$117.5M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="150000">150,000</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="0.52">0.52%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="SEADRILL LTD G7997W102">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">26</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="SEADRILL LTD">SEADRILL LTD</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">G7997W102</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="111890167">$111.9M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="3703746">3,703,746</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="0.49">0.49%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="SENSATA TECHNOLOGIES HLDG PL G8060N102">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">27</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="SENSATA TECHNOLOGIES HLDG PL">SENSATA TECHNOLOGIES HLDG PL</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">SHS</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">G8060N102</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="99287500">$99.3M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="3250000">3,250,000</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="0.44">0.44%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="OR ROYALTIES INC. 68390D106">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">28</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="OR ROYALTIES INC.">OR ROYALTIES INC.</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM SHS</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">68390D106</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="87380452">$87.4M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="2180151">2,180,151</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="0.38">0.38%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="WHEATON PRECIOUS METALS CORP 962879102">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">29</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="WHEATON PRECIOUS METALS CORP">WHEATON PRECIOUS METALS CORP</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">962879102</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="72696000">$72.7M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="650000">650,000</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="0.32">0.32%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="STRATEGY INC 594972AJ0">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">30</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="STRATEGY INC">STRATEGY INC</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">NOTE 0.625% 3/1</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">594972AJ0</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="35884000">$35.9M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="16000000">16,000,000</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="0.16">0.16%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="WAYFAIR INC 94419LAR2">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">31</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="WAYFAIR INC">WAYFAIR INC</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">NOTE 3.500%11/1</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">94419LAR2</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="31089900">$31.1M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="15000000">15,000,000</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="0.14">0.14%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="GCI LIBERTY INC 36164V800">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">32</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="GCI LIBERTY INC">GCI LIBERTY INC</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM SER C</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">36164V800</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="17773877">$17.8M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="476895">476,895</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="0.08">0.08%</td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="OXFORD LANE CAP CORP 691543847">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">33</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="OXFORD LANE CAP CORP">OXFORD LANE CAP CORP</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">691543847</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="17255716">$17.3M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="1019239">1,019,239</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="0.08">0.08%</td>
                 </tr>
             
             </tbody>
@@ -292,7 +854,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Doughnut chart — Top 10 Holdings
     const chartCanvas = document.getElementById('holdingsChart');
     if (chartCanvas) {
-        const top10 = [{"issuer": "0", "title": "0", "cusip": "000000000", "value": 0, "shares": 0, "share_type": "SH", "discretion": "OTR", "sole_voting": 0, "shared_voting": 0, "no_voting": 0, "weight": 0}];
+        const top10 = [{"issuer": "TRIPLE FLAG PRECIOUS METAL", "title": "COM", "cusip": "89679M104", "value": 3915448172, "shares": 133815727, "share_type": "SH", "discretion": "DFND", "sole_voting": 0, "shared_voting": 133815727, "no_voting": 0, "weight": 17.23}, {"issuer": "PHILLIPS 66", "title": "COM", "cusip": "718546104", "value": 2618521020, "shares": 19251000, "share_type": "SH", "discretion": "DFND", "sole_voting": 0, "shared_voting": 19251000, "no_voting": 0, "weight": 11.52}, {"issuer": "SUNCOR ENERGY INC NEW", "title": "COM", "cusip": "867224107", "value": 2202166148, "shares": 52670800, "share_type": "SH", "discretion": "DFND", "sole_voting": 0, "shared_voting": 52670800, "no_voting": 0, "weight": 9.69}, {"issuer": "INVESCO QQQ TR", "title": "UNIT SER 1", "cusip": "46090E103", "value": 1951202500, "shares": 3250000, "share_type": "SH", "discretion": "DFND", "sole_voting": 0, "shared_voting": 3250000, "no_voting": 0, "weight": 8.59}, {"issuer": "SOUTHWEST AIRLS CO", "title": "COM", "cusip": "844741108", "value": 1631510435, "shares": 51128500, "share_type": "SH", "discretion": "DFND", "sole_voting": 0, "shared_voting": 51128500, "no_voting": 0, "weight": 7.18}, {"issuer": "SELECT SECTOR SPDR TR", "title": "SBI CONS STPLS", "cusip": "81369Y308", "value": 1175550000, "shares": 15000000, "share_type": "SH", "discretion": "DFND", "sole_voting": 0, "shared_voting": 15000000, "no_voting": 0, "weight": 5.17}, {"issuer": "SELECT SECTOR SPDR TR", "title": "INDL", "cusip": "81369Y704", "value": 1156725000, "shares": 7500000, "share_type": "SH", "discretion": "DFND", "sole_voting": 0, "shared_voting": 7500000, "no_voting": 0, "weight": 5.09}, {"issuer": "ISHARES TR", "title": "RUS 1000 VAL ETF", "cusip": "464287598", "value": 1017950000, "shares": 5000000, "share_type": "SH", "discretion": "DFND", "sole_voting": 0, "shared_voting": 5000000, "no_voting": 0, "weight": 4.48}, {"issuer": "PINTEREST INC", "title": "CL A", "cusip": "72352L106", "value": 900760000, "shares": 28000000, "share_type": "SH", "discretion": "DFND", "sole_voting": 0, "shared_voting": 28000000, "no_voting": 0, "weight": 3.96}, {"issuer": "VANECK ETF TRUST", "title": "GOLD MINERS ETF", "cusip": "92189F106", "value": 878600000, "shares": 11500000, "share_type": "SH", "discretion": "DFND", "sole_voting": 0, "shared_voting": 11500000, "no_voting": 0, "weight": 3.87}];
         const labels = top10.map(h => h.issuer.length > 18 ? h.issuer.substring(0, 16) + '…' : h.issuer);
         const values = top10.map(h => h.value);
         const colors = [

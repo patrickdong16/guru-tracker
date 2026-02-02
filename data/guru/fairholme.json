@@ -380,6 +380,13 @@
       "sold": []
     }
   },
+  "value_change": {
+    "prev_period": "2025-06-30",
+    "current_period": "2025-09-30",
+    "prev_total_value": 1226998597,
+    "current_total_value": 1238938255,
+    "change_pct": 1.0
+  },
   "periods": [
     "2025-06-30",
     "2025-09-30"

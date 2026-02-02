@@ -1,0 +1,225 @@
+{
+  "info": {
+    "id": "pabrai",
+    "display_name": "Mohnish Pabrai / Pabrai Funds",
+    "name": "Dalal Street, LLC",
+    "style": "value",
+    "style_label": "价值投资",
+    "aum": "$5-10B",
+    "representative": "Mohnish Pabrai",
+    "bio": "巴菲特忠实追随者，曾花65万美元与巴菲特共进午餐。极度集中投资，组合不超过10只股票。",
+    "famous_trade": "集中持仓策略，曾重仓Fiat Chrysler获利丰厚。",
+    "cik": "0001549575",
+    "filing_type": "13F-HR"
+  },
+  "latest_period": "2025-09-30",
+  "filing_date": "2025-11-13",
+  "total_value": 336857377,
+  "holdings_count": 5,
+  "holdings": [
+    {
+      "issuer": "WARRIOR MET COAL INC",
+      "title": "COM",
+      "cusip": "93627C101",
+      "value": 114541245,
+      "shares": 1799831,
+      "share_type": "SH",
+      "discretion": "SOLE",
+      "sole_voting": 1799831,
+      "shared_voting": 0,
+      "no_voting": 0,
+      "weight": 34.0
+    },
+    {
+      "issuer": "ALPHA METALLURGICAL RESOUR I",
+      "title": "COM",
+      "cusip": "020764106",
+      "value": 87295880,
+      "shares": 532000,
+      "share_type": "SH",
+      "discretion": "SOLE",
+      "sole_voting": 532000,
+      "shared_voting": 0,
+      "no_voting": 0,
+      "weight": 25.91
+    },
+    {
+      "issuer": "TRANSOCEAN LTD",
+      "title": "REGISTERED SHS",
+      "cusip": "H8817H100",
+      "value": 76260076,
+      "shares": 24442332,
+      "share_type": "SH",
+      "discretion": "SOLE",
+      "sole_voting": 24442332,
+      "shared_voting": 0,
+      "no_voting": 0,
+      "weight": 22.64
+    },
+    {
+      "issuer": "VALARIS LTD",
+      "title": "CL A",
+      "cusip": "G9460G101",
+      "value": 52001256,
+      "shares": 1066255,
+      "share_type": "SH",
+      "discretion": "SOLE",
+      "sole_voting": 1066255,
+      "shared_voting": 0,
+      "no_voting": 0,
+      "weight": 15.44
+    },
+    {
+      "issuer": "NOBLE CORP PLC",
+      "title": "ORD SHS A",
+      "cusip": "G65431127",
+      "value": 6758920,
+      "shares": 239000,
+      "share_type": "SH",
+      "discretion": "SOLE",
+      "sole_voting": 239000,
+      "shared_voting": 0,
+      "no_voting": 0,
+      "weight": 2.01
+    }
+  ],
+  "comparison": {
+    "guru_id": "pabrai",
+    "current_period": "2025-09-30",
+    "previous_period": "2025-06-30",
+    "current_filing_date": "2025-11-13",
+    "previous_filing_date": "2025-08-13",
+    "summary": {
+      "total_new": 1,
+      "total_increased": 2,
+      "total_decreased": 2,
+      "total_unchanged": 0,
+      "total_sold": 1,
+      "total_value_current": 336857377,
+      "total_value_previous": 271601546,
+      "total_value_change_pct": 24.0
+    },
+    "changes": {
+      "new": [
+        {
+          "issuer": "TRANSOCEAN LTD",
+          "title": "REGISTERED SHS",
+          "cusip": "H8817H100",
+          "value": 76260076,
+          "shares": 24442332,
+          "share_type": "SH",
+          "discretion": "SOLE",
+          "sole_voting": 24442332,
+          "shared_voting": 0,
+          "no_voting": 0,
+          "weight": 22.64,
+          "change_type": "NEW"
+        }
+      ],
+      "increased": [
+        {
+          "issuer": "WARRIOR MET COAL INC",
+          "title": "COM",
+          "cusip": "93627C101",
+          "value": 114541245,
+          "shares": 1799831,
+          "share_type": "SH",
+          "discretion": "SOLE",
+          "sole_voting": 1799831,
+          "shared_voting": 0,
+          "no_voting": 0,
+          "weight": 34.0,
+          "change_type": "INCREASED",
+          "prev_shares": 1799745,
+          "prev_value": 82482313,
+          "share_change": 86,
+          "share_change_pct": 0.0
+        },
+        {
+          "issuer": "ALPHA METALLURGICAL RESOUR I",
+          "title": "COM",
+          "cusip": "020764106",
+          "value": 87295880,
+          "shares": 532000,
+          "share_type": "SH",
+          "discretion": "SOLE",
+          "sole_voting": 532000,
+          "shared_voting": 0,
+          "no_voting": 0,
+          "weight": 25.91,
+          "change_type": "INCREASED",
+          "prev_shares": 460327,
+          "prev_value": 51777581,
+          "share_change": 71673,
+          "share_change_pct": 15.6
+        }
+      ],
+      "decreased": [
+        {
+          "issuer": "VALARIS LTD",
+          "title": "CL A",
+          "cusip": "G9460G101",
+          "value": 52001256,
+          "shares": 1066255,
+          "share_type": "SH",
+          "discretion": "SOLE",
+          "sole_voting": 1066255,
+          "shared_voting": 0,
+          "no_voting": 0,
+          "weight": 15.44,
+          "change_type": "DECREASED",
+          "prev_shares": 1883777,
+          "prev_value": 79325849,
+          "share_change": -817522,
+          "share_change_pct": -43.4
+        },
+        {
+          "issuer": "NOBLE CORP PLC",
+          "title": "ORD SHS A",
+          "cusip": "G65431127",
+          "value": 6758920,
+          "shares": 239000,
+          "share_type": "SH",
+          "discretion": "SOLE",
+          "sole_voting": 239000,
+          "shared_voting": 0,
+          "no_voting": 0,
+          "weight": 2.01,
+          "change_type": "DECREASED",
+          "prev_shares": 1728744,
+          "prev_value": 45898153,
+          "share_change": -1489744,
+          "share_change_pct": -86.2
+        }
+      ],
+      "unchanged": [],
+      "sold": [
+        {
+          "issuer": "AUTONATION INC",
+          "title": "COM",
+          "cusip": "05329W102",
+          "value": 12117650,
+          "shares": 61000,
+          "share_type": "SH",
+          "discretion": "SOLE",
+          "sole_voting": 61000,
+          "shared_voting": 0,
+          "no_voting": 0,
+          "weight": 4.46,
+          "change_type": "SOLD"
+        }
+      ]
+    }
+  },
+  "value_change": {
+    "prev_period": "2025-06-30",
+    "current_period": "2025-09-30",
+    "prev_total_value": 271601546,
+    "current_total_value": 336857377,
+    "change_pct": 24.0
+  },
+  "periods": [
+    "2025-06-30",
+    "2025-09-30"
+  ]
+}
