@@ -1,0 +1,25 @@
+{
+  "sec_api": {
+    "base_url": "https://data.sec.gov",
+    "archives_url": "https://www.sec.gov/Archives/edgar/data",
+    "rate_limit_delay": 0.12,
+    "request_timeout": 10,
+    "max_retries": 3,
+    "retry_delay": 2
+  },
+  "ark": {
+    "trade_csv_url": "https://ark-funds.com/wp-content/uploads/funds-etf-csv/ARK_TRADE.csv",
+    "large_trade_threshold": 5000000
+  },
+  "telegram": {
+    "max_new_positions_shown": 5,
+    "max_sold_positions_shown": 5
+  },
+  "site": {
+    "title": "Guru Tracker",
+    "subtitle": "投资大师持仓追踪",
+    "base_url": "https://patrickdong16.github.io/guru-tracker",
+    "top_holdings_count": 20,
+    "consensus_top_count": 100
+  }
+}

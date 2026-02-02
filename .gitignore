@@ -1,0 +1,42 @@
+# Environment
+.env
+*.env.local
+
+# Secrets
+*-keys.json
+*-credentials.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test / Coverage
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+
+# Data (keep structure, ignore large raw files)
+# data/raw/ is tracked for reproducibility
