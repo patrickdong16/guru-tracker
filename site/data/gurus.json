@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-02T08:25:05Z",
-  "guru_count": 28,
-  "gurus_with_data": 28,
+  "generated_at": "2026-02-02T08:26:05Z",
+  "guru_count": 25,
+  "gurus_with_data": 25,
   "gurus": [
     {
       "id": "daily_journal",
@@ -146,64 +146,6 @@
         "total_value_current": 234292490467,
         "total_value_previous": 207076085220,
         "total_value_change_pct": 13.1
-      }
-    },
-    {
-      "id": "de_shaw",
-      "display_name": "David Shaw / D.E. Shaw",
-      "name": "D.E. Shaw & Co.",
-      "style": "quant",
-      "style_label": "量化投资",
-      "aum": "$60B",
-      "representative": "David Shaw",
-      "bio": "计算机科学家出身的量化投资先驱，Jeff Bezos的前老板。融合量化和基本面分析。",
-      "famous_trade": "量化+基本面混合策略，极为低调神秘。",
-      "cik": "0001009207",
-      "filing_type": "13F-HR",
-      "active": true,
-      "has_data": true,
-      "latest_period": "2025-09-30",
-      "latest_filing_date": "2025-11-14",
-      "total_value": 177162166815,
-      "holdings_count": 3233,
-      "summary": {
-        "total_new": 421,
-        "total_increased": 1350,
-        "total_decreased": 1132,
-        "total_unchanged": 330,
-        "total_sold": 374,
-        "total_value_current": 177162166815,
-        "total_value_previous": 141059276007,
-        "total_value_change_pct": 25.6
-      }
-    },
-    {
-      "id": "two_sigma",
-      "display_name": "Two Sigma",
-      "name": "Two Sigma Investments",
-      "style": "quant",
-      "style_label": "量化投资",
-      "aum": "$60B",
-      "representative": "David Siegel & John Overdeck",
-      "bio": "纯量化巨头，利用机器学习、分布式计算处理海量数据找alpha。",
-      "famous_trade": "纯数据驱动，机器学习量化策略。",
-      "cik": "0001179392",
-      "filing_type": "13F-HR",
-      "active": true,
-      "has_data": true,
-      "latest_period": "2025-09-30",
-      "latest_filing_date": "2025-11-14",
-      "total_value": 67173960693,
-      "holdings_count": 3385,
-      "summary": {
-        "total_new": 693,
-        "total_increased": 1479,
-        "total_decreased": 1091,
-        "total_unchanged": 122,
-        "total_sold": 420,
-        "total_value_current": 67173960693,
-        "total_value_previous": 56473570273,
-        "total_value_change_pct": 18.9
       }
     },
     {
@@ -581,35 +523,6 @@
         "total_value_current": 1238938255,
         "total_value_previous": 1226998597,
         "total_value_change_pct": 1.0
-      }
-    },
-    {
-      "id": "renaissance",
-      "display_name": "Jim Simons / RenTech",
-      "name": "Renaissance Technologies",
-      "style": "quant",
-      "style_label": "量化投资",
-      "aum": "$60B+",
-      "representative": "Jim Simons (已故)",
-      "bio": "数学家创建的史上最赚钱量化基金，Medallion Fund年化66%。13F反映外部基金持仓。",
-      "famous_trade": "Medallion Fund 1988-2018 年化66%（费前），扣费后39%。",
-      "cik": "0001037389",
-      "filing_type": "13F-HR",
-      "active": true,
-      "has_data": true,
-      "latest_period": "2025-09-30",
-      "latest_filing_date": "2025-11-13",
-      "total_value": 75753182516,
-      "holdings_count": 3457,
-      "summary": {
-        "total_new": 536,
-        "total_increased": 1445,
-        "total_decreased": 1449,
-        "total_unchanged": 27,
-        "total_sold": 601,
-        "total_value_current": 75753182516,
-        "total_value_previous": 75171481593,
-        "total_value_change_pct": 0.8
       }
     },
     {
