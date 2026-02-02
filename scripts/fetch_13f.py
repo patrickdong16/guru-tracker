@@ -64,23 +64,27 @@ def get_latest_13f_filings(cik: str, count: int = 2) -> List[Dict]:
     recent = data.get("filings", {}).get("recent", {})
     forms = recent.get("form", [])
 
-    filings: List[Dict] = []
+    # Collect all 13F filings, preferring originals over amendments
+    period_map: Dict[str, Dict] = {}  # period_ending -> best filing
     for i, form in enumerate(forms):
         if form in ("13F-HR", "13F-HR/A"):
+            period = recent.get("reportDate", [None] * (i + 1))[i]
+            if not period:
+                continue
             filing = {
                 "accession_number": recent["accessionNumber"][i],
                 "filing_date": recent["filingDate"][i],
-                "period_ending": recent.get("reportDate", [None] * (i + 1))[i],
+                "period_ending": period,
                 "primary_doc": recent["primaryDocument"][i],
                 "form": form,
             }
-            # Deduplicate by period_ending — keep the latest filing per period
-            if not any(f["period_ending"] == filing["period_ending"] for f in filings):
-                filings.append(filing)
-            if len(filings) >= count:
-                break
+            # Prefer original 13F-HR over amendment 13F-HR/A for same period
+            if period not in period_map or (period_map[period]["form"] == "13F-HR/A" and form == "13F-HR"):
+                period_map[period] = filing
 
-    return filings
+    # Sort by period descending, take latest *count*
+    filings = sorted(period_map.values(), key=lambda f: f["period_ending"], reverse=True)
+    return filings[:count]
 
 
 def find_infotable_url(cik: str, accession: str) -> Optional[str]:
