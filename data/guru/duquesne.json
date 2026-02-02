@@ -29,8 +29,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 13.13,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "NTRA",
+      "ticker": "NTRA"
     },
     {
       "issuer": "Insmed Inc",
@@ -59,8 +59,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 8.25,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "TEVA",
+      "ticker": "TEVA"
     },
     {
       "issuer": "Taiwan Semiconductor Mfg Ltd",
@@ -74,8 +74,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 5.26,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "TSM",
+      "ticker": "TSM"
     },
     {
       "issuer": "Woodward Inc",
@@ -119,8 +119,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 3.36,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "MELI",
+      "ticker": "MELI"
     },
     {
       "issuer": "Docusign Inc",
@@ -194,8 +194,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 2.03,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ROKU",
+      "ticker": "ROKU"
     },
     {
       "issuer": "Figure Technology Solutio",
@@ -224,8 +224,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.79,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "QSR",
+      "ticker": "QSR"
     },
     {
       "issuer": "Stubhub Hldgs Inc",
@@ -239,8 +239,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.77,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "STUB",
+      "ticker": "STUB"
     },
     {
       "issuer": "Wabtec",
@@ -254,8 +254,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.49,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "WAB",
+      "ticker": "WAB"
     },
     {
       "issuer": "Spdr S&P 500 Etf Tr",
@@ -269,8 +269,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.48,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SPY",
+      "ticker": "SPY"
     },
     {
       "issuer": "Meta Platforms Inc",
@@ -389,8 +389,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.21,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SE",
+      "ticker": "SE"
     },
     {
       "issuer": "Eqt Corp",
@@ -434,8 +434,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.16,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "CRH",
+      "ticker": "CRH"
     },
     {
       "issuer": "Vistra Corp",
@@ -449,8 +449,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.13,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "VST",
+      "ticker": "VST"
     },
     {
       "issuer": "Unity Software Inc",
@@ -464,8 +464,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.87,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "U",
+      "ticker": "U"
     },
     {
       "issuer": "Lennar Corp",
@@ -479,8 +479,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.87,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "LEN",
+      "ticker": "LEN"
     },
     {
       "issuer": "D R Horton Inc",
@@ -539,8 +539,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.75,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "PCT",
+      "ticker": "PCT"
     },
     {
       "issuer": "Liberty Media Corp Del",
@@ -554,8 +554,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.74,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FWONK",
+      "ticker": "FWONK"
     },
     {
       "issuer": "Daktronics Inc",
@@ -599,8 +599,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.72,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FLUT",
+      "ticker": "FLUT"
     },
     {
       "issuer": "Spdr Series Trust",
@@ -614,8 +614,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.71,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "KBE",
+      "ticker": "KBE"
     },
     {
       "issuer": "Option Care Health Inc",
@@ -629,8 +629,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.67,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "OPCH",
+      "ticker": "OPCH"
     },
     {
       "issuer": "Aeva Technologies Inc",
@@ -659,8 +659,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.61,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "PCG",
+      "ticker": "PCG"
     },
     {
       "issuer": "Alphabet Inc",
@@ -704,8 +704,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.57,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "NU",
+      "ticker": "NU"
     },
     {
       "issuer": "Semtech Corp",
@@ -719,8 +719,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.53,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SMTC",
+      "ticker": "SMTC"
     },
     {
       "issuer": "Seagate Technology Hldngs Pl",
@@ -734,8 +734,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.5,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "STX",
+      "ticker": "STX"
     },
     {
       "issuer": "Genuine Parts Co",
@@ -779,8 +779,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.47,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "POST",
+      "ticker": "POST"
     },
     {
       "issuer": "Sandisk Corp",
@@ -794,8 +794,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.46,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SNDK",
+      "ticker": "SNDK"
     },
     {
       "issuer": "Synchrony Financial",
@@ -854,8 +854,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.26,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "PTGX",
+      "ticker": "PTGX"
     },
     {
       "issuer": "Capital One Finl Corp",
@@ -899,8 +899,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.14,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SEI",
+      "ticker": "SEI"
     },
     {
       "issuer": "Mongodb Inc",
@@ -914,8 +914,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.14,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "MDB",
+      "ticker": "MDB"
     },
     {
       "issuer": "Texas Roadhouse Inc",

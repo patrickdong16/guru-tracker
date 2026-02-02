@@ -44,8 +44,8 @@
       "shared_voting": 19251000,
       "no_voting": 0,
       "weight": 11.52,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "PSX",
+      "ticker": "PSX"
     },
     {
       "issuer": "SUNCOR ENERGY INC NEW",
@@ -89,8 +89,8 @@
       "shared_voting": 51128500,
       "no_voting": 0,
       "weight": 7.18,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "LUV",
+      "ticker": "LUV"
     },
     {
       "issuer": "SELECT SECTOR SPDR TR",
@@ -104,8 +104,8 @@
       "shared_voting": 15000000,
       "no_voting": 0,
       "weight": 5.17,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "XLP",
+      "ticker": "XLP"
     },
     {
       "issuer": "SELECT SECTOR SPDR TR",
@@ -119,8 +119,8 @@
       "shared_voting": 7500000,
       "no_voting": 0,
       "weight": 5.09,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "XLI",
+      "ticker": "XLI"
     },
     {
       "issuer": "ISHARES TR",
@@ -149,8 +149,8 @@
       "shared_voting": 28000000,
       "no_voting": 0,
       "weight": 3.96,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "PINS",
+      "ticker": "PINS"
     },
     {
       "issuer": "VANECK ETF TRUST",
@@ -179,8 +179,8 @@
       "shared_voting": 4330000,
       "no_voting": 0,
       "weight": 3.56,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "NVDA",
+      "ticker": "NVDA"
     },
     {
       "issuer": "SELECT SECTOR SPDR TR",
@@ -194,8 +194,8 @@
       "shared_voting": 8000000,
       "no_voting": 0,
       "weight": 3.15,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "XLE",
+      "ticker": "XLE"
     },
     {
       "issuer": "HEWLETT PACKARD ENTERPRISE C",
@@ -269,8 +269,8 @@
       "shared_voting": 2400000,
       "no_voting": 0,
       "weight": 1.4,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "XOP",
+      "ticker": "XOP"
     },
     {
       "issuer": "ISHARES TR",
@@ -299,8 +299,8 @@
       "shared_voting": 2000000,
       "no_voting": 0,
       "weight": 1.23,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "XLV",
+      "ticker": "XLV"
     },
     {
       "issuer": "PEPSICO INC",
@@ -314,8 +314,8 @@
       "shared_voting": 1275000,
       "no_voting": 0,
       "weight": 0.79,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "PEP",
+      "ticker": "PEP"
     },
     {
       "issuer": "DIGITAL RLTY TR INC",
@@ -359,8 +359,8 @@
       "shared_voting": 1400000,
       "no_voting": 0,
       "weight": 0.57,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "XME",
+      "ticker": "XME"
     },
     {
       "issuer": "CROWN CASTLE INC",
@@ -434,8 +434,8 @@
       "shared_voting": 2180151,
       "no_voting": 0,
       "weight": 0.38,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "OR",
+      "ticker": "OR"
     },
     {
       "issuer": "WHEATON PRECIOUS METALS CORP",
@@ -464,8 +464,8 @@
       "shared_voting": 16000000,
       "no_voting": 0,
       "weight": 0.16,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "MSTR 0.625 03/15/30",
+      "ticker": "MSTR"
     },
     {
       "issuer": "WAYFAIR INC",
@@ -509,8 +509,8 @@
       "shared_voting": 1019239,
       "no_voting": 0,
       "weight": 0.08,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "OXLC",
+      "ticker": "OXLC"
     }
   ],
   "comparison": {

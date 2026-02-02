@@ -104,8 +104,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 4.68,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "OXY",
+      "ticker": "OXY"
     },
     {
       "issuer": "MOODYS CORP",
@@ -119,8 +119,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 4.4,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "MCO",
+      "ticker": "MCO"
     },
     {
       "issuer": "CHUBB LIMITED",
@@ -134,8 +134,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 3.31,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "CB",
+      "ticker": "CB"
     },
     {
       "issuer": "KRAFT HEINZ CO",
@@ -149,8 +149,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 3.17,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "KHC",
+      "ticker": "KHC"
     },
     {
       "issuer": "ALPHABET INC",
@@ -194,8 +194,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.26,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "KR",
+      "ticker": "KR"
     },
     {
       "issuer": "SIRIUS XM HOLDINGS INC",
@@ -209,8 +209,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.09,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SIRI",
+      "ticker": "SIRI"
     },
     {
       "issuer": "VISA INC",
@@ -224,8 +224,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.06,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "V",
+      "ticker": "V"
     },
     {
       "issuer": "VERISIGN INC",
@@ -239,8 +239,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.94,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "VRT",
+      "ticker": "VRT"
     },
     {
       "issuer": "MASTERCARD INC",
@@ -254,8 +254,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.85,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "MA",
+      "ticker": "MA"
     },
     {
       "issuer": "AMAZON COM INC",
@@ -299,8 +299,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.65,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "UNH",
+      "ticker": "UNH"
     },
     {
       "issuer": "CAPITAL ONE FINL CORP",
@@ -374,8 +374,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.4,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "POOL",
+      "ticker": "POOL"
     },
     {
       "issuer": "LIBERTY MEDIA CORP DEL",
@@ -389,8 +389,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.4,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "LLYVK*",
+      "ticker": "LLYVK"
     },
     {
       "issuer": "LENNAR CORP",
@@ -404,8 +404,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.33,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "LEN",
+      "ticker": "LEN"
     },
     {
       "issuer": "NUCOR CORP",
@@ -419,8 +419,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.32,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "NUE",
+      "ticker": "NUE"
     },
     {
       "issuer": "LOUISIANA PAC CORP",
@@ -434,8 +434,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.19,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "LPX",
+      "ticker": "LPX"
     },
     {
       "issuer": "LIBERTY MEDIA CORP DEL",
@@ -449,8 +449,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.18,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "LLYVA*",
+      "ticker": "LLYVA"
     },
     {
       "issuer": "HEICO CORP NEW",
@@ -479,8 +479,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.12,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FWONKUSD",
+      "ticker": "FWONK"
     },
     {
       "issuer": "CHARTER COMMUNICATIONS INC N",
@@ -509,8 +509,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.06,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "LAMR",
+      "ticker": "LAMR"
     },
     {
       "issuer": "ALLEGION PLC",
@@ -539,8 +539,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.03,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "NVR",
+      "ticker": "NVR"
     },
     {
       "issuer": "JEFFERIES FINL GROUP INC",
@@ -554,8 +554,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "JEF",
+      "ticker": "JEF"
     },
     {
       "issuer": "LIBERTY LATIN AMERICA LTD",
@@ -599,8 +599,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "LEN/B",
+      "ticker": "LEN"
     },
     {
       "issuer": "LIBERTY LATIN AMERICA LTD",

@@ -59,8 +59,8 @@
       "shared_voting": 6032604,
       "no_voting": 0,
       "weight": 5.17,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SWX",
+      "ticker": "SWX"
     },
     {
       "issuer": "CVR Partners, LP",
@@ -134,8 +134,8 @@
       "shared_voting": 33621735,
       "no_voting": 0,
       "weight": 1.81,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "JBLU",
+      "ticker": "JBLU"
     },
     {
       "issuer": "American Electric Power Company",
@@ -179,8 +179,8 @@
       "shared_voting": 4870233,
       "no_voting": 0,
       "weight": 0.6,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SD",
+      "ticker": "SD"
     },
     {
       "issuer": "Bausch Plus Lomb Corp.",
@@ -209,8 +209,8 @@
       "shared_voting": 1465000,
       "no_voting": 0,
       "weight": 0.29,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "MNRO",
+      "ticker": "MNRO"
     }
   ],
   "comparison": {
