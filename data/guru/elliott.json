@@ -1,0 +1,77 @@
+{
+  "info": {
+    "id": "elliott",
+    "display_name": "Paul Singer / Elliott",
+    "name": "Elliott Investment Management",
+    "style": "activist",
+    "style_label": "激进主义",
+    "aum": "$65B+",
+    "representative": "Paul Singer",
+    "bio": "全球最知名的激进投资机构，风格极为强硬，曾与阿根廷政府打15年官司。",
+    "famous_trade": "与阿根廷政府的主权债务诉讼。",
+    "cik": "0001048445",
+    "filing_type": "13F-HR"
+  },
+  "latest_period": "2020-09-30",
+  "filing_date": "2020-11-16",
+  "total_value": 0,
+  "holdings_count": 1,
+  "holdings": [
+    {
+      "issuer": "0",
+      "title": "0",
+      "cusip": "000000000",
+      "value": 0,
+      "shares": 0,
+      "share_type": "SH",
+      "discretion": "OTR",
+      "sole_voting": 0,
+      "shared_voting": 0,
+      "no_voting": 0,
+      "weight": 0
+    }
+  ],
+  "comparison": {
+    "guru_id": "elliott",
+    "current_period": "2020-09-30",
+    "previous_period": "2020-06-30",
+    "current_filing_date": "2020-11-16",
+    "previous_filing_date": "2020-08-14",
+    "summary": {
+      "total_new": 0,
+      "total_increased": 0,
+      "total_decreased": 0,
+      "total_unchanged": 1,
+      "total_sold": 0,
+      "total_value_current": 0,
+      "total_value_previous": 0,
+      "total_value_change_pct": 0
+    },
+    "changes": {
+      "new": [],
+      "increased": [],
+      "decreased": [],
+      "unchanged": [
+        {
+          "issuer": "0",
+          "title": "0",
+          "cusip": "000000000",
+          "value": 0,
+          "shares": 0,
+          "share_type": "SH",
+          "discretion": "OTR",
+          "sole_voting": 0,
+          "shared_voting": 0,
+          "no_voting": 0,
+          "weight": 0,
+          "change_type": "UNCHANGED"
+        }
+      ],
+      "sold": []
+    }
+  },
+  "periods": [
+    "2020-06-30",
+    "2020-09-30"
+  ]
+}

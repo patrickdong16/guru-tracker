@@ -1,0 +1,1683 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard — 投资大师持仓追踪</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body class="bg-zinc-900 text-zinc-50 font-sans min-h-screen flex flex-col">
+    <!-- Navigation -->
+    <nav class="border-b border-zinc-800 bg-zinc-900/80 backdrop-blur-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-14">
+                <a href="./index.html" class="flex items-center gap-2 hover:opacity-80 transition">
+                    <span class="text-xl">🧠</span>
+                    <span class="text-lg font-semibold text-zinc-50">Guru Tracker</span>
+                </a>
+                <div class="flex items-center gap-6 text-sm">
+                    <a href="./index.html" class="text-zinc-400 hover:text-zinc-50 transition">首页</a>
+                    <a href="./consensus.html" class="text-zinc-400 hover:text-zinc-50 transition">大师共识</a>
+                    <a href="https://github.com/patrickdong16/guru-tracker" target="_blank" class="text-zinc-500 hover:text-zinc-300 transition">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-1 w-full">
+        
+<!-- Header -->
+<div class="mb-8">
+    <h1 class="text-2xl font-bold text-zinc-50 mb-1">投资大师持仓追踪</h1>
+    <p class="text-zinc-400 text-sm">追踪全球顶级投资人的季度 13F 持仓变化 · 24 位大师数据已就绪</p>
+</div>
+
+<!-- Search + Filters -->
+<div class="flex flex-col sm:flex-row gap-3 mb-6">
+    <div class="relative flex-1">
+        <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+        </svg>
+        <input type="text" id="guru-search" placeholder="搜索大师名称、股票..." class="w-full bg-zinc-800 border border-zinc-700 rounded-lg pl-10 pr-4 py-2 text-sm text-zinc-50 placeholder-zinc-500 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition">
+    </div>
+    <div class="flex gap-2 flex-wrap" id="style-filters">
+        <button class="filter-btn active px-3 py-1.5 text-xs font-medium rounded-full border transition" data-style="all">全部</button>
+        
+        <button class="filter-btn px-3 py-1.5 text-xs font-medium rounded-full border transition bg-blue-500/20 text-blue-400 border-blue-500/30" data-style="value">价值投资</button>
+        
+        <button class="filter-btn px-3 py-1.5 text-xs font-medium rounded-full border transition bg-purple-500/20 text-purple-400 border-purple-500/30" data-style="macro">全球宏观</button>
+        
+        <button class="filter-btn px-3 py-1.5 text-xs font-medium rounded-full border transition bg-amber-500/20 text-amber-400 border-amber-500/30" data-style="quant">量化投资</button>
+        
+        <button class="filter-btn px-3 py-1.5 text-xs font-medium rounded-full border transition bg-rose-500/20 text-rose-400 border-rose-500/30" data-style="activist">激进主义</button>
+        
+        <button class="filter-btn px-3 py-1.5 text-xs font-medium rounded-full border transition bg-emerald-500/20 text-emerald-400 border-emerald-500/30" data-style="growth">科技成长</button>
+        
+    </div>
+</div>
+
+<!-- Layout: Guru Cards + Consensus Sidebar -->
+<div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+    <!-- Guru Cards (3/4 width on desktop) -->
+    <div class="lg:col-span-3">
+        <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4" id="guru-grid">
+            
+            <a href="./guru/citadel.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group"
+               data-style="macro"
+               data-name="Ken Griffin / Citadel Citadel Advisors Ken Griffin">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">Ken Griffin / Citadel</h3>
+                        <p class="text-xs text-zinc-500 truncate">Ken Griffin</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-purple-500/20 text-purple-400 border-purple-500/30">全球宏观</span>
+                </div>
+
+                
+                <!-- Stats -->
+                <div class="grid grid-cols-2 gap-3 mb-3">
+                    <div>
+                        <p class="text-xs text-zinc-500">总持仓</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">$657.1B</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-zinc-500">持仓数</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">6523</p>
+                    </div>
+                </div>
+
+                <!-- Changes Summary -->
+                
+                <div class="flex gap-2 text-[10px] mb-3">
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400">🆕 1171</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400">⬆ 2750</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/10 text-red-400">⬇ 2594</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/20 text-red-400">❌ 1074</span>
+                    
+                </div>
+                
+
+                <!-- Footer -->
+                <div class="flex items-center justify-between text-[10px] text-zinc-500">
+                    <span>AUM: $65B</span>
+                    <span>2025-09-30</span>
+                </div>
+
+                
+            </a>
+            
+            <a href="./guru/berkshire_hathaway.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group"
+               data-style="value"
+               data-name="巴菲特 / Berkshire Hathaway Berkshire Hathaway Inc 沃伦·巴菲特 (Warren Buffett)">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">巴菲特 / Berkshire Hathaway</h3>
+                        <p class="text-xs text-zinc-500 truncate">沃伦·巴菲特 (Warren Buffett)</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-blue-500/20 text-blue-400 border-blue-500/30">价值投资</span>
+                </div>
+
+                
+                <!-- Stats -->
+                <div class="grid grid-cols-2 gap-3 mb-3">
+                    <div>
+                        <p class="text-xs text-zinc-500">总持仓</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">$267.3B</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-zinc-500">持仓数</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">41</p>
+                    </div>
+                </div>
+
+                <!-- Changes Summary -->
+                
+                <div class="flex gap-2 text-[10px] mb-3">
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400">🆕 1</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400">⬆ 6</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/10 text-red-400">⬇ 5</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/20 text-red-400">❌ 1</span>
+                    
+                </div>
+                
+
+                <!-- Footer -->
+                <div class="flex items-center justify-between text-[10px] text-zinc-500">
+                    <span>AUM: $1T+</span>
+                    <span>2025-09-30</span>
+                </div>
+
+                
+            </a>
+            
+            <a href="./guru/millennium.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group"
+               data-style="macro"
+               data-name="Israel Englander / Millennium Millennium Management Israel Englander">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">Israel Englander / Millennium</h3>
+                        <p class="text-xs text-zinc-500 truncate">Israel Englander</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-purple-500/20 text-purple-400 border-purple-500/30">全球宏观</span>
+                </div>
+
+                
+                <!-- Stats -->
+                <div class="grid grid-cols-2 gap-3 mb-3">
+                    <div>
+                        <p class="text-xs text-zinc-500">总持仓</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">$234.3B</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-zinc-500">持仓数</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">4244</p>
+                    </div>
+                </div>
+
+                <!-- Changes Summary -->
+                
+                <div class="flex gap-2 text-[10px] mb-3">
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400">🆕 511</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400">⬆ 1712</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/10 text-red-400">⬇ 1796</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/20 text-red-400">❌ 454</span>
+                    
+                </div>
+                
+
+                <!-- Footer -->
+                <div class="flex items-center justify-between text-[10px] text-zinc-500">
+                    <span>AUM: $60B+</span>
+                    <span>2025-09-30</span>
+                </div>
+
+                
+            </a>
+            
+            <a href="./guru/de_shaw.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group"
+               data-style="quant"
+               data-name="David Shaw / D.E. Shaw D.E. Shaw & Co. David Shaw">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">David Shaw / D.E. Shaw</h3>
+                        <p class="text-xs text-zinc-500 truncate">David Shaw</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-amber-500/20 text-amber-400 border-amber-500/30">量化投资</span>
+                </div>
+
+                
+                <!-- Stats -->
+                <div class="grid grid-cols-2 gap-3 mb-3">
+                    <div>
+                        <p class="text-xs text-zinc-500">总持仓</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">$177.2B</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-zinc-500">持仓数</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">3233</p>
+                    </div>
+                </div>
+
+                <!-- Changes Summary -->
+                
+                <div class="flex gap-2 text-[10px] mb-3">
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400">🆕 421</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400">⬆ 1350</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/10 text-red-400">⬇ 1132</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/20 text-red-400">❌ 374</span>
+                    
+                </div>
+                
+
+                <!-- Footer -->
+                <div class="flex items-center justify-between text-[10px] text-zinc-500">
+                    <span>AUM: $60B</span>
+                    <span>2025-09-30</span>
+                </div>
+
+                
+            </a>
+            
+            <a href="./guru/renaissance.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group"
+               data-style="quant"
+               data-name="Jim Simons / RenTech Renaissance Technologies Jim Simons (已故)">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">Jim Simons / RenTech</h3>
+                        <p class="text-xs text-zinc-500 truncate">Jim Simons (已故)</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-amber-500/20 text-amber-400 border-amber-500/30">量化投资</span>
+                </div>
+
+                
+                <!-- Stats -->
+                <div class="grid grid-cols-2 gap-3 mb-3">
+                    <div>
+                        <p class="text-xs text-zinc-500">总持仓</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">$75.8B</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-zinc-500">持仓数</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">3457</p>
+                    </div>
+                </div>
+
+                <!-- Changes Summary -->
+                
+                <div class="flex gap-2 text-[10px] mb-3">
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400">🆕 536</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400">⬆ 1445</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/10 text-red-400">⬇ 1449</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/20 text-red-400">❌ 601</span>
+                    
+                </div>
+                
+
+                <!-- Footer -->
+                <div class="flex items-center justify-between text-[10px] text-zinc-500">
+                    <span>AUM: $60B+</span>
+                    <span>2025-09-30</span>
+                </div>
+
+                
+            </a>
+            
+            <a href="./guru/two_sigma.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group"
+               data-style="quant"
+               data-name="Two Sigma Two Sigma Investments David Siegel & John Overdeck">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">Two Sigma</h3>
+                        <p class="text-xs text-zinc-500 truncate">David Siegel & John Overdeck</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-amber-500/20 text-amber-400 border-amber-500/30">量化投资</span>
+                </div>
+
+                
+                <!-- Stats -->
+                <div class="grid grid-cols-2 gap-3 mb-3">
+                    <div>
+                        <p class="text-xs text-zinc-500">总持仓</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">$67.2B</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-zinc-500">持仓数</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">3385</p>
+                    </div>
+                </div>
+
+                <!-- Changes Summary -->
+                
+                <div class="flex gap-2 text-[10px] mb-3">
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400">🆕 693</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400">⬆ 1479</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/10 text-red-400">⬇ 1091</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/20 text-red-400">❌ 420</span>
+                    
+                </div>
+                
+
+                <!-- Footer -->
+                <div class="flex items-center justify-between text-[10px] text-zinc-500">
+                    <span>AUM: $60B</span>
+                    <span>2025-09-30</span>
+                </div>
+
+                
+            </a>
+            
+            <a href="./guru/point72.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group"
+               data-style="macro"
+               data-name="Steve Cohen / Point72 Point72 Asset Management Steve Cohen">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">Steve Cohen / Point72</h3>
+                        <p class="text-xs text-zinc-500 truncate">Steve Cohen</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-purple-500/20 text-purple-400 border-purple-500/30">全球宏观</span>
+                </div>
+
+                
+                <!-- Stats -->
+                <div class="grid grid-cols-2 gap-3 mb-3">
+                    <div>
+                        <p class="text-xs text-zinc-500">总持仓</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">$59.8B</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-zinc-500">持仓数</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">1669</p>
+                    </div>
+                </div>
+
+                <!-- Changes Summary -->
+                
+                <div class="flex gap-2 text-[10px] mb-3">
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400">🆕 489</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400">⬆ 571</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/10 text-red-400">⬇ 543</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/20 text-red-400">❌ 371</span>
+                    
+                </div>
+                
+
+                <!-- Footer -->
+                <div class="flex items-center justify-between text-[10px] text-zinc-500">
+                    <span>AUM: $35B</span>
+                    <span>2025-09-30</span>
+                </div>
+
+                
+            </a>
+            
+            <a href="./guru/tiger_global.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group"
+               data-style="growth"
+               data-name="Chase Coleman / Tiger Global Tiger Global Management Chase Coleman">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">Chase Coleman / Tiger Global</h3>
+                        <p class="text-xs text-zinc-500 truncate">Chase Coleman</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-emerald-500/20 text-emerald-400 border-emerald-500/30">科技成长</span>
+                </div>
+
+                
+                <!-- Stats -->
+                <div class="grid grid-cols-2 gap-3 mb-3">
+                    <div>
+                        <p class="text-xs text-zinc-500">总持仓</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">$32.4B</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-zinc-500">持仓数</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">56</p>
+                    </div>
+                </div>
+
+                <!-- Changes Summary -->
+                
+                <div class="flex gap-2 text-[10px] mb-3">
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400">🆕 10</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400">⬆ 7</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/10 text-red-400">⬇ 5</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/20 text-red-400">❌ 4</span>
+                    
+                </div>
+                
+
+                <!-- Footer -->
+                <div class="flex items-center justify-between text-[10px] text-zinc-500">
+                    <span>AUM: $30B</span>
+                    <span>2025-09-30</span>
+                </div>
+
+                
+            </a>
+            
+            <a href="./guru/bridgewater.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group"
+               data-style="macro"
+               data-name="达利欧 / Bridgewater Bridgewater Associates 瑞·达利欧 (Ray Dalio)">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">达利欧 / Bridgewater</h3>
+                        <p class="text-xs text-zinc-500 truncate">瑞·达利欧 (Ray Dalio)</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-purple-500/20 text-purple-400 border-purple-500/30">全球宏观</span>
+                </div>
+
+                
+                <!-- Stats -->
+                <div class="grid grid-cols-2 gap-3 mb-3">
+                    <div>
+                        <p class="text-xs text-zinc-500">总持仓</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">$25.5B</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-zinc-500">持仓数</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">1014</p>
+                    </div>
+                </div>
+
+                <!-- Changes Summary -->
+                
+                <div class="flex gap-2 text-[10px] mb-3">
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400">🆕 493</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400">⬆ 325</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/10 text-red-400">⬇ 194</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/20 text-red-400">❌ 64</span>
+                    
+                </div>
+                
+
+                <!-- Footer -->
+                <div class="flex items-center justify-between text-[10px] text-zinc-500">
+                    <span>AUM: $125B</span>
+                    <span>2025-09-30</span>
+                </div>
+
+                
+            </a>
+            
+            <a href="./guru/ark_invest.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group"
+               data-style="growth"
+               data-name="Cathie Wood / ARK Invest ARK Investment Management LLC Cathie Wood">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">Cathie Wood / ARK Invest</h3>
+                        <p class="text-xs text-zinc-500 truncate">Cathie Wood</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-emerald-500/20 text-emerald-400 border-emerald-500/30">科技成长</span>
+                </div>
+
+                
+                <!-- Stats -->
+                <div class="grid grid-cols-2 gap-3 mb-3">
+                    <div>
+                        <p class="text-xs text-zinc-500">总持仓</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">$16.8B</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-zinc-500">持仓数</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">196</p>
+                    </div>
+                </div>
+
+                <!-- Changes Summary -->
+                
+                <div class="flex gap-2 text-[10px] mb-3">
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400">🆕 14</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400">⬆ 108</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/10 text-red-400">⬇ 74</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/20 text-red-400">❌ 9</span>
+                    
+                </div>
+                
+
+                <!-- Footer -->
+                <div class="flex items-center justify-between text-[10px] text-zinc-500">
+                    <span>AUM: $15B</span>
+                    <span>2025-09-30</span>
+                </div>
+
+                
+            </a>
+            
+            <a href="./guru/pershing_square.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group"
+               data-style="macro"
+               data-name="Bill Ackman / Pershing Square Pershing Square Capital Bill Ackman">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">Bill Ackman / Pershing Square</h3>
+                        <p class="text-xs text-zinc-500 truncate">Bill Ackman</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-purple-500/20 text-purple-400 border-purple-500/30">全球宏观</span>
+                </div>
+
+                
+                <!-- Stats -->
+                <div class="grid grid-cols-2 gap-3 mb-3">
+                    <div>
+                        <p class="text-xs text-zinc-500">总持仓</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">$14.6B</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-zinc-500">持仓数</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">11</p>
+                    </div>
+                </div>
+
+                <!-- Changes Summary -->
+                
+                <div class="flex gap-2 text-[10px] mb-3">
+                    
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/10 text-red-400">⬇ 4</span>
+                    
+                    
+                </div>
+                
+
+                <!-- Footer -->
+                <div class="flex items-center justify-between text-[10px] text-zinc-500">
+                    <span>AUM: $18B</span>
+                    <span>2025-09-30</span>
+                </div>
+
+                
+            </a>
+            
+            <a href="./guru/third_point.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group"
+               data-style="activist"
+               data-name="Dan Loeb / Third Point Third Point Dan Loeb">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">Dan Loeb / Third Point</h3>
+                        <p class="text-xs text-zinc-500 truncate">Dan Loeb</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-rose-500/20 text-rose-400 border-rose-500/30">激进主义</span>
+                </div>
+
+                
+                <!-- Stats -->
+                <div class="grid grid-cols-2 gap-3 mb-3">
+                    <div>
+                        <p class="text-xs text-zinc-500">总持仓</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">$9.0B</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-zinc-500">持仓数</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">45</p>
+                    </div>
+                </div>
+
+                <!-- Changes Summary -->
+                
+                <div class="flex gap-2 text-[10px] mb-3">
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400">🆕 10</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400">⬆ 10</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/10 text-red-400">⬇ 14</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/20 text-red-400">❌ 16</span>
+                    
+                </div>
+                
+
+                <!-- Footer -->
+                <div class="flex items-center justify-between text-[10px] text-zinc-500">
+                    <span>AUM: $15B</span>
+                    <span>2025-09-30</span>
+                </div>
+
+                
+            </a>
+            
+            <a href="./guru/appaloosa.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group"
+               data-style="macro"
+               data-name="David Tepper / Appaloosa Appaloosa Management David Tepper">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">David Tepper / Appaloosa</h3>
+                        <p class="text-xs text-zinc-500 truncate">David Tepper</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-purple-500/20 text-purple-400 border-purple-500/30">全球宏观</span>
+                </div>
+
+                
+                <!-- Stats -->
+                <div class="grid grid-cols-2 gap-3 mb-3">
+                    <div>
+                        <p class="text-xs text-zinc-500">总持仓</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">$7.4B</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-zinc-500">持仓数</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">45</p>
+                    </div>
+                </div>
+
+                <!-- Changes Summary -->
+                
+                <div class="flex gap-2 text-[10px] mb-3">
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400">🆕 10</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400">⬆ 9</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/10 text-red-400">⬇ 24</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/20 text-red-400">❌ 3</span>
+                    
+                </div>
+                
+
+                <!-- Footer -->
+                <div class="flex items-center justify-between text-[10px] text-zinc-500">
+                    <span>AUM: $13B</span>
+                    <span>2025-09-30</span>
+                </div>
+
+                
+            </a>
+            
+            <a href="./guru/soros.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group"
+               data-style="macro"
+               data-name="索罗斯 / Soros Fund Soros Fund Management 乔治·索罗斯 (George Soros)">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">索罗斯 / Soros Fund</h3>
+                        <p class="text-xs text-zinc-500 truncate">乔治·索罗斯 (George Soros)</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-purple-500/20 text-purple-400 border-purple-500/30">全球宏观</span>
+                </div>
+
+                
+                <!-- Stats -->
+                <div class="grid grid-cols-2 gap-3 mb-3">
+                    <div>
+                        <p class="text-xs text-zinc-500">总持仓</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">$7.0B</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-zinc-500">持仓数</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">178</p>
+                    </div>
+                </div>
+
+                <!-- Changes Summary -->
+                
+                <div class="flex gap-2 text-[10px] mb-3">
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400">🆕 73</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400">⬆ 39</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/10 text-red-400">⬇ 48</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/20 text-red-400">❌ 80</span>
+                    
+                </div>
+                
+
+                <!-- Footer -->
+                <div class="flex items-center justify-between text-[10px] text-zinc-500">
+                    <span>AUM: $25B (Family Office)</span>
+                    <span>2025-09-30</span>
+                </div>
+
+                
+            </a>
+            
+            <a href="./guru/himalaya_capital.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group"
+               data-style="value"
+               data-name="李录 / Himalaya Capital Himalaya Capital Management LLC 李录 (Li Lu)">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">李录 / Himalaya Capital</h3>
+                        <p class="text-xs text-zinc-500 truncate">李录 (Li Lu)</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-blue-500/20 text-blue-400 border-blue-500/30">价值投资</span>
+                </div>
+
+                
+                <!-- Stats -->
+                <div class="grid grid-cols-2 gap-3 mb-3">
+                    <div>
+                        <p class="text-xs text-zinc-500">总持仓</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">$3.2B</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-zinc-500">持仓数</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">9</p>
+                    </div>
+                </div>
+
+                <!-- Changes Summary -->
+                
+                <div class="flex gap-2 text-[10px] mb-3">
+                    
+                    
+                    
+                    
+                </div>
+                
+
+                <!-- Footer -->
+                <div class="flex items-center justify-between text-[10px] text-zinc-500">
+                    <span>AUM: $20B</span>
+                    <span>2025-09-30</span>
+                </div>
+
+                
+            </a>
+            
+            <a href="./guru/greenlight.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group"
+               data-style="value"
+               data-name="David Einhorn / Greenlight Greenlight Capital David Einhorn">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">David Einhorn / Greenlight</h3>
+                        <p class="text-xs text-zinc-500 truncate">David Einhorn</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-blue-500/20 text-blue-400 border-blue-500/30">价值投资</span>
+                </div>
+
+                
+                <!-- Stats -->
+                <div class="grid grid-cols-2 gap-3 mb-3">
+                    <div>
+                        <p class="text-xs text-zinc-500">总持仓</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">$2.0B</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-zinc-500">持仓数</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">40</p>
+                    </div>
+                </div>
+
+                <!-- Changes Summary -->
+                
+                <div class="flex gap-2 text-[10px] mb-3">
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400">🆕 7</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400">⬆ 20</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/10 text-red-400">⬇ 4</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/20 text-red-400">❌ 6</span>
+                    
+                </div>
+                
+
+                <!-- Footer -->
+                <div class="flex items-center justify-between text-[10px] text-zinc-500">
+                    <span>AUM: $3B</span>
+                    <span>2023-12-31</span>
+                </div>
+
+                
+            </a>
+            
+            <a href="./guru/coatue.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group"
+               data-style="growth"
+               data-name="Philippe Laffont / Coatue Coatue Management Philippe Laffont">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">Philippe Laffont / Coatue</h3>
+                        <p class="text-xs text-zinc-500 truncate">Philippe Laffont</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-emerald-500/20 text-emerald-400 border-emerald-500/30">科技成长</span>
+                </div>
+
+                
+                <!-- Stats -->
+                <div class="grid grid-cols-2 gap-3 mb-3">
+                    <div>
+                        <p class="text-xs text-zinc-500">总持仓</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">$1.4B</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-zinc-500">持仓数</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">178</p>
+                    </div>
+                </div>
+
+                <!-- Changes Summary -->
+                
+                <div class="flex gap-2 text-[10px] mb-3">
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400">🆕 111</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400">⬆ 36</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/10 text-red-400">⬇ 9</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/20 text-red-400">❌ 87</span>
+                    
+                </div>
+                
+
+                <!-- Footer -->
+                <div class="flex items-center justify-between text-[10px] text-zinc-500">
+                    <span>AUM: $20B</span>
+                    <span>2025-09-30</span>
+                </div>
+
+                
+            </a>
+            
+            <a href="./guru/fairholme.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group"
+               data-style="value"
+               data-name="Bruce Berkowitz / Fairholme Fairholme Capital Management Bruce Berkowitz">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">Bruce Berkowitz / Fairholme</h3>
+                        <p class="text-xs text-zinc-500 truncate">Bruce Berkowitz</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-blue-500/20 text-blue-400 border-blue-500/30">价值投资</span>
+                </div>
+
+                
+                <!-- Stats -->
+                <div class="grid grid-cols-2 gap-3 mb-3">
+                    <div>
+                        <p class="text-xs text-zinc-500">总持仓</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">$1.2B</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-zinc-500">持仓数</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">12</p>
+                    </div>
+                </div>
+
+                <!-- Changes Summary -->
+                
+                <div class="flex gap-2 text-[10px] mb-3">
+                    
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/10 text-red-400">⬇ 3</span>
+                    
+                    
+                </div>
+                
+
+                <!-- Footer -->
+                <div class="flex items-center justify-between text-[10px] text-zinc-500">
+                    <span>AUM: $1B</span>
+                    <span>2025-09-30</span>
+                </div>
+
+                
+            </a>
+            
+            <a href="./guru/altimeter.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group"
+               data-style="growth"
+               data-name="Brad Gerstner / Altimeter Altimeter Capital Management Brad Gerstner">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">Brad Gerstner / Altimeter</h3>
+                        <p class="text-xs text-zinc-500 truncate">Brad Gerstner</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-emerald-500/20 text-emerald-400 border-emerald-500/30">科技成长</span>
+                </div>
+
+                
+                <!-- Stats -->
+                <div class="grid grid-cols-2 gap-3 mb-3">
+                    <div>
+                        <p class="text-xs text-zinc-500">总持仓</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">$475.8M</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-zinc-500">持仓数</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">136</p>
+                    </div>
+                </div>
+
+                <!-- Changes Summary -->
+                
+                <div class="flex gap-2 text-[10px] mb-3">
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400">🆕 6</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400">⬆ 28</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/10 text-red-400">⬇ 74</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/20 text-red-400">❌ 5</span>
+                    
+                </div>
+                
+
+                <!-- Footer -->
+                <div class="flex items-center justify-between text-[10px] text-zinc-500">
+                    <span>AUM: $10B</span>
+                    <span>2025-09-30</span>
+                </div>
+
+                
+            </a>
+            
+            <a href="./guru/daily_journal.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group"
+               data-style="value"
+               data-name="芒格 / Daily Journal Daily Journal Corp 查理·芒格 (Charlie Munger, 遗产持仓)">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">芒格 / Daily Journal</h3>
+                        <p class="text-xs text-zinc-500 truncate">查理·芒格 (Charlie Munger, 遗产持仓)</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-blue-500/20 text-blue-400 border-blue-500/30">价值投资</span>
+                </div>
+
+                
+                <!-- Stats -->
+                <div class="grid grid-cols-2 gap-3 mb-3">
+                    <div>
+                        <p class="text-xs text-zinc-500">总持仓</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">$276.7M</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-zinc-500">持仓数</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">4</p>
+                    </div>
+                </div>
+
+                <!-- Changes Summary -->
+                
+                <div class="flex gap-2 text-[10px] mb-3">
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400">⬆ 1</span>
+                    
+                    
+                    
+                </div>
+                
+
+                <!-- Footer -->
+                <div class="flex items-center justify-between text-[10px] text-zinc-500">
+                    <span>AUM: $5B</span>
+                    <span>2025-12-31</span>
+                </div>
+
+                
+            </a>
+            
+            <a href="./guru/d1_capital.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group"
+               data-style="growth"
+               data-name="Dan Sundheim / D1 Capital D1 Capital Partners Dan Sundheim">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">Dan Sundheim / D1 Capital</h3>
+                        <p class="text-xs text-zinc-500 truncate">Dan Sundheim</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-emerald-500/20 text-emerald-400 border-emerald-500/30">科技成长</span>
+                </div>
+
+                
+                <!-- Stats -->
+                <div class="grid grid-cols-2 gap-3 mb-3">
+                    <div>
+                        <p class="text-xs text-zinc-500">总持仓</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">$225.1M</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-zinc-500">持仓数</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">435</p>
+                    </div>
+                </div>
+
+                <!-- Changes Summary -->
+                
+                <div class="flex gap-2 text-[10px] mb-3">
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400">🆕 22</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400">⬆ 105</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/10 text-red-400">⬇ 86</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/20 text-red-400">❌ 83</span>
+                    
+                </div>
+                
+
+                <!-- Footer -->
+                <div class="flex items-center justify-between text-[10px] text-zinc-500">
+                    <span>AUM: $20B</span>
+                    <span>2025-12-31</span>
+                </div>
+
+                
+            </a>
+            
+            <a href="./guru/baupost.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group"
+               data-style="value"
+               data-name="Seth Klarman / Baupost Baupost Group Seth Klarman">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">Seth Klarman / Baupost</h3>
+                        <p class="text-xs text-zinc-500 truncate">Seth Klarman</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-blue-500/20 text-blue-400 border-blue-500/30">价值投资</span>
+                </div>
+
+                
+                <!-- Stats -->
+                <div class="grid grid-cols-2 gap-3 mb-3">
+                    <div>
+                        <p class="text-xs text-zinc-500">总持仓</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">$4.8M</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-zinc-500">持仓数</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">22</p>
+                    </div>
+                </div>
+
+                <!-- Changes Summary -->
+                
+                <div class="flex gap-2 text-[10px] mb-3">
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400">🆕 4</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400">⬆ 4</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/10 text-red-400">⬇ 5</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/20 text-red-400">❌ 5</span>
+                    
+                </div>
+                
+
+                <!-- Footer -->
+                <div class="flex items-center justify-between text-[10px] text-zinc-500">
+                    <span>AUM: $25B</span>
+                    <span>2025-09-30</span>
+                </div>
+
+                
+            </a>
+            
+            <a href="./guru/duquesne.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group"
+               data-style="macro"
+               data-name="Druckenmiller / Duquesne Duquesne Family Office Stanley Druckenmiller">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">Druckenmiller / Duquesne</h3>
+                        <p class="text-xs text-zinc-500 truncate">Stanley Druckenmiller</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-purple-500/20 text-purple-400 border-purple-500/30">全球宏观</span>
+                </div>
+
+                
+                <!-- Stats -->
+                <div class="grid grid-cols-2 gap-3 mb-3">
+                    <div>
+                        <p class="text-xs text-zinc-500">总持仓</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">$4.1M</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-zinc-500">持仓数</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">64</p>
+                    </div>
+                </div>
+
+                <!-- Changes Summary -->
+                
+                <div class="flex gap-2 text-[10px] mb-3">
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400">🆕 29</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400">⬆ 17</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/10 text-red-400">⬇ 14</span>
+                    
+                    
+                    <span class="px-1.5 py-0.5 rounded bg-red-500/20 text-red-400">❌ 32</span>
+                    
+                </div>
+                
+
+                <!-- Footer -->
+                <div class="flex items-center justify-between text-[10px] text-zinc-500">
+                    <span>AUM: $30B+ (Family Office)</span>
+                    <span>2025-09-30</span>
+                </div>
+
+                
+            </a>
+            
+            <a href="./guru/elliott.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group"
+               data-style="activist"
+               data-name="Paul Singer / Elliott Elliott Investment Management Paul Singer">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">Paul Singer / Elliott</h3>
+                        <p class="text-xs text-zinc-500 truncate">Paul Singer</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-rose-500/20 text-rose-400 border-rose-500/30">激进主义</span>
+                </div>
+
+                
+                <!-- Stats -->
+                <div class="grid grid-cols-2 gap-3 mb-3">
+                    <div>
+                        <p class="text-xs text-zinc-500">总持仓</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">$0</p>
+                    </div>
+                    <div>
+                        <p class="text-xs text-zinc-500">持仓数</p>
+                        <p class="text-sm font-semibold text-zinc-50 tabular-nums">1</p>
+                    </div>
+                </div>
+
+                <!-- Changes Summary -->
+                
+                <div class="flex gap-2 text-[10px] mb-3">
+                    
+                    
+                    
+                    
+                </div>
+                
+
+                <!-- Footer -->
+                <div class="flex items-center justify-between text-[10px] text-zinc-500">
+                    <span>AUM: $65B+</span>
+                    <span>2020-09-30</span>
+                </div>
+
+                
+            </a>
+            
+            <a href="./guru/pabrai.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group opacity-50"
+               data-style="value"
+               data-name="Mohnish Pabrai / Pabrai Funds Pabrai Investment Funds Mohnish Pabrai">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">Mohnish Pabrai / Pabrai Funds</h3>
+                        <p class="text-xs text-zinc-500 truncate">Mohnish Pabrai</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-blue-500/20 text-blue-400 border-blue-500/30">价值投资</span>
+                </div>
+
+                
+                <div class="py-4 text-center">
+                    <p class="text-xs text-zinc-500">暂无数据</p>
+                    <p class="text-[10px] text-zinc-600 mt-1">AUM: $5-10B</p>
+                </div>
+                
+            </a>
+            
+            <a href="./guru/dragoneer.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group opacity-50"
+               data-style="growth"
+               data-name="Marc Stad / Dragoneer Dragoneer Investment Group Marc Stad">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">Marc Stad / Dragoneer</h3>
+                        <p class="text-xs text-zinc-500 truncate">Marc Stad</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-emerald-500/20 text-emerald-400 border-emerald-500/30">科技成长</span>
+                </div>
+
+                
+                <div class="py-4 text-center">
+                    <p class="text-xs text-zinc-500">暂无数据</p>
+                    <p class="text-[10px] text-zinc-600 mt-1">AUM: $12B</p>
+                </div>
+                
+            </a>
+            
+            <a href="./guru/sequoia_fund.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group opacity-50"
+               data-style="value"
+               data-name="Sequoia Fund Sequoia Fund Bill Ruane (创始人)">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">Sequoia Fund</h3>
+                        <p class="text-xs text-zinc-500 truncate">Bill Ruane (创始人)</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-blue-500/20 text-blue-400 border-blue-500/30">价值投资</span>
+                </div>
+
+                
+                <div class="py-4 text-center">
+                    <p class="text-xs text-zinc-500">暂无数据</p>
+                    <p class="text-[10px] text-zinc-600 mt-1">AUM: $5B</p>
+                </div>
+                
+            </a>
+            
+            <a href="./guru/icahn.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group opacity-50"
+               data-style="activist"
+               data-name="Carl Icahn / Icahn Enterprises Icahn Enterprises Carl Icahn">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">Carl Icahn / Icahn Enterprises</h3>
+                        <p class="text-xs text-zinc-500 truncate">Carl Icahn</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-rose-500/20 text-rose-400 border-rose-500/30">激进主义</span>
+                </div>
+
+                
+                <div class="py-4 text-center">
+                    <p class="text-xs text-zinc-500">暂无数据</p>
+                    <p class="text-[10px] text-zinc-600 mt-1">AUM: $15B</p>
+                </div>
+                
+            </a>
+            
+            <a href="./guru/duan_yongping.html"
+               class="guru-card block bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 hover:border-zinc-600 hover:bg-zinc-800/80 transition-all group opacity-50"
+               data-style="value"
+               data-name="段永平 DUAN YONG PING 段永平">
+
+                <!-- Header -->
+                <div class="flex items-start justify-between mb-3">
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-sm font-semibold text-zinc-50 truncate group-hover:text-blue-400 transition">段永平</h3>
+                        <p class="text-xs text-zinc-500 truncate">段永平</p>
+                    </div>
+                    <span class="ml-2 flex-shrink-0 px-2 py-0.5 text-[10px] font-medium rounded-full border bg-blue-500/20 text-blue-400 border-blue-500/30">价值投资</span>
+                </div>
+
+                
+                <div class="py-4 text-center">
+                    <p class="text-xs text-zinc-500">暂无数据</p>
+                    <p class="text-[10px] text-zinc-600 mt-1">AUM: 未公开</p>
+                </div>
+                
+            </a>
+            
+        </div>
+    </div>
+
+    <!-- Consensus Sidebar (1/4 width on desktop) -->
+    <div class="lg:col-span-1">
+        <div class="bg-zinc-800 border border-zinc-700/50 rounded-xl p-5 sticky top-20">
+            <div class="flex items-center justify-between mb-4">
+                <h2 class="text-sm font-semibold text-zinc-50">🔥 大师共识 Top 15</h2>
+                <a href="./consensus.html" class="text-xs text-blue-400 hover:text-blue-300 transition">查看全部 →</a>
+            </div>
+            <div class="space-y-2.5">
+                
+                <div class="flex items-center justify-between py-1.5 ">
+                    <div class="min-w-0 flex-1">
+                        <p class="text-xs font-medium text-zinc-200 truncate">NVIDIA CORPORATION</p>
+                        <p class="text-[10px] text-zinc-500">67066G104</p>
+                    </div>
+                    <div class="ml-3 text-right flex-shrink-0">
+                        <p class="text-xs font-semibold text-blue-400 tabular-nums">15 位大师</p>
+                        <p class="text-[10px] text-zinc-500 tabular-nums">$52.4B</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center justify-between py-1.5 border-t border-zinc-700/50">
+                    <div class="min-w-0 flex-1">
+                        <p class="text-xs font-medium text-zinc-200 truncate">AMAZON COM INC</p>
+                        <p class="text-[10px] text-zinc-500">023135106</p>
+                    </div>
+                    <div class="ml-3 text-right flex-shrink-0">
+                        <p class="text-xs font-semibold text-blue-400 tabular-nums">15 位大师</p>
+                        <p class="text-[10px] text-zinc-500 tabular-nums">$24.6B</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center justify-between py-1.5 border-t border-zinc-700/50">
+                    <div class="min-w-0 flex-1">
+                        <p class="text-xs font-medium text-zinc-200 truncate">ALPHABET INC</p>
+                        <p class="text-[10px] text-zinc-500">02079K305</p>
+                    </div>
+                    <div class="ml-3 text-right flex-shrink-0">
+                        <p class="text-xs font-semibold text-blue-400 tabular-nums">15 位大师</p>
+                        <p class="text-[10px] text-zinc-500 tabular-nums">$22.0B</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center justify-between py-1.5 border-t border-zinc-700/50">
+                    <div class="min-w-0 flex-1">
+                        <p class="text-xs font-medium text-zinc-200 truncate">MICROSOFT CORP</p>
+                        <p class="text-[10px] text-zinc-500">594918104</p>
+                    </div>
+                    <div class="ml-3 text-right flex-shrink-0">
+                        <p class="text-xs font-semibold text-blue-400 tabular-nums">14 位大师</p>
+                        <p class="text-[10px] text-zinc-500 tabular-nums">$31.0B</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center justify-between py-1.5 border-t border-zinc-700/50">
+                    <div class="min-w-0 flex-1">
+                        <p class="text-xs font-medium text-zinc-200 truncate">META PLATFORMS INC</p>
+                        <p class="text-[10px] text-zinc-500">30303M102</p>
+                    </div>
+                    <div class="ml-3 text-right flex-shrink-0">
+                        <p class="text-xs font-semibold text-blue-400 tabular-nums">14 位大师</p>
+                        <p class="text-[10px] text-zinc-500 tabular-nums">$26.2B</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center justify-between py-1.5 border-t border-zinc-700/50">
+                    <div class="min-w-0 flex-1">
+                        <p class="text-xs font-medium text-zinc-200 truncate">TAIWAN SEMICONDUCTOR MFG LTD</p>
+                        <p class="text-[10px] text-zinc-500">874039100</p>
+                    </div>
+                    <div class="ml-3 text-right flex-shrink-0">
+                        <p class="text-xs font-semibold text-blue-400 tabular-nums">13 位大师</p>
+                        <p class="text-[10px] text-zinc-500 tabular-nums">$7.5B</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center justify-between py-1.5 border-t border-zinc-700/50">
+                    <div class="min-w-0 flex-1">
+                        <p class="text-xs font-medium text-zinc-200 truncate">APPLE INC</p>
+                        <p class="text-[10px] text-zinc-500">037833100</p>
+                    </div>
+                    <div class="ml-3 text-right flex-shrink-0">
+                        <p class="text-xs font-semibold text-blue-400 tabular-nums">12 位大师</p>
+                        <p class="text-[10px] text-zinc-500 tabular-nums">$84.4B</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center justify-between py-1.5 border-t border-zinc-700/50">
+                    <div class="min-w-0 flex-1">
+                        <p class="text-xs font-medium text-zinc-200 truncate">BANK AMER CORP</p>
+                        <p class="text-[10px] text-zinc-500">060505104</p>
+                    </div>
+                    <div class="ml-3 text-right flex-shrink-0">
+                        <p class="text-xs font-semibold text-blue-400 tabular-nums">12 位大师</p>
+                        <p class="text-[10px] text-zinc-500 tabular-nums">$33.6B</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center justify-between py-1.5 border-t border-zinc-700/50">
+                    <div class="min-w-0 flex-1">
+                        <p class="text-xs font-medium text-zinc-200 truncate">ALPHABET INC</p>
+                        <p class="text-[10px] text-zinc-500">02079K107</p>
+                    </div>
+                    <div class="ml-3 text-right flex-shrink-0">
+                        <p class="text-xs font-semibold text-blue-400 tabular-nums">12 位大师</p>
+                        <p class="text-[10px] text-zinc-500 tabular-nums">$10.6B</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center justify-between py-1.5 border-t border-zinc-700/50">
+                    <div class="min-w-0 flex-1">
+                        <p class="text-xs font-medium text-zinc-200 truncate">UBER TECHNOLOGIES INC</p>
+                        <p class="text-[10px] text-zinc-500">90353T100</p>
+                    </div>
+                    <div class="ml-3 text-right flex-shrink-0">
+                        <p class="text-xs font-semibold text-blue-400 tabular-nums">12 位大师</p>
+                        <p class="text-[10px] text-zinc-500 tabular-nums">$5.8B</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center justify-between py-1.5 border-t border-zinc-700/50">
+                    <div class="min-w-0 flex-1">
+                        <p class="text-xs font-medium text-zinc-200 truncate">SPDR S&P 500 ETF TR</p>
+                        <p class="text-[10px] text-zinc-500">78462F103</p>
+                    </div>
+                    <div class="ml-3 text-right flex-shrink-0">
+                        <p class="text-xs font-semibold text-blue-400 tabular-nums">11 位大师</p>
+                        <p class="text-[10px] text-zinc-500 tabular-nums">$59.3B</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center justify-between py-1.5 border-t border-zinc-700/50">
+                    <div class="min-w-0 flex-1">
+                        <p class="text-xs font-medium text-zinc-200 truncate">PALANTIR TECHNOLOGIES INC</p>
+                        <p class="text-[10px] text-zinc-500">69608A108</p>
+                    </div>
+                    <div class="ml-3 text-right flex-shrink-0">
+                        <p class="text-xs font-semibold text-blue-400 tabular-nums">11 位大师</p>
+                        <p class="text-[10px] text-zinc-500 tabular-nums">$13.6B</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center justify-between py-1.5 border-t border-zinc-700/50">
+                    <div class="min-w-0 flex-1">
+                        <p class="text-xs font-medium text-zinc-200 truncate">OCCIDENTAL PETE CORP</p>
+                        <p class="text-[10px] text-zinc-500">674599105</p>
+                    </div>
+                    <div class="ml-3 text-right flex-shrink-0">
+                        <p class="text-xs font-semibold text-blue-400 tabular-nums">11 位大师</p>
+                        <p class="text-[10px] text-zinc-500 tabular-nums">$13.5B</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center justify-between py-1.5 border-t border-zinc-700/50">
+                    <div class="min-w-0 flex-1">
+                        <p class="text-xs font-medium text-zinc-200 truncate">UNITEDHEALTH GROUP INC</p>
+                        <p class="text-[10px] text-zinc-500">91324P102</p>
+                    </div>
+                    <div class="ml-3 text-right flex-shrink-0">
+                        <p class="text-xs font-semibold text-blue-400 tabular-nums">11 位大师</p>
+                        <p class="text-[10px] text-zinc-500 tabular-nums">$11.0B</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center justify-between py-1.5 border-t border-zinc-700/50">
+                    <div class="min-w-0 flex-1">
+                        <p class="text-xs font-medium text-zinc-200 truncate">SALESFORCE INC</p>
+                        <p class="text-[10px] text-zinc-500">79466L302</p>
+                    </div>
+                    <div class="ml-3 text-right flex-shrink-0">
+                        <p class="text-xs font-semibold text-blue-400 tabular-nums">11 位大师</p>
+                        <p class="text-[10px] text-zinc-500 tabular-nums">$4.2B</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-zinc-800 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-zinc-500 text-xs">
+            <p>数据来源：<a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=13F" class="text-blue-400 hover:text-blue-300" target="_blank" rel="noopener">SEC EDGAR</a>。仅供研究参考，不构成投资建议。</p>
+            <p class="mt-1">Last updated: 2026-02-02</p>
+        </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
+    
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Style filter buttons
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const cards = document.querySelectorAll('.guru-card');
+    const searchInput = document.getElementById('guru-search');
+
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            filterBtns.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            filterCards();
+        });
+    });
+
+    if (searchInput) {
+        searchInput.addEventListener('input', filterCards);
+    }
+
+    function filterCards() {
+        const activeStyle = document.querySelector('.filter-btn.active')?.dataset.style || 'all';
+        const query = (searchInput?.value || '').toLowerCase().trim();
+
+        cards.forEach(card => {
+            const matchStyle = activeStyle === 'all' || card.dataset.style === activeStyle;
+            const matchSearch = !query || card.dataset.name.toLowerCase().includes(query);
+            card.style.display = (matchStyle && matchSearch) ? '' : 'none';
+        });
+    }
+});
+</script>
+
+</body>
+</html>
