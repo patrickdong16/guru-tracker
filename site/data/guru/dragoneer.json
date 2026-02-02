@@ -44,8 +44,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 10.45,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "XYZ",
+      "ticker": "XYZ"
     },
     {
       "issuer": "COUPANG INC",
@@ -89,8 +89,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 8.56,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "NVDA",
+      "ticker": "NVDA"
     },
     {
       "issuer": "DAYFORCE INC",
@@ -119,8 +119,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 6.7,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "KLAR",
+      "ticker": "KLAR"
     },
     {
       "issuer": "CARVANA CO",
@@ -149,8 +149,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 5.36,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "PDD",
+      "ticker": "PDD"
     },
     {
       "issuer": "MERCADOLIBRE INC",
@@ -164,8 +164,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 5.33,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "MELI",
+      "ticker": "MELI"
     },
     {
       "issuer": "SAILPOINT INC",
@@ -179,8 +179,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 3.9,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SAIL",
+      "ticker": "SAIL"
     },
     {
       "issuer": "CHIME FINL INC",
@@ -209,8 +209,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 2.23,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "TTAN",
+      "ticker": "TTAN"
     },
     {
       "issuer": "CCC INTELLIGENT SOLUTIONS HL",
@@ -239,8 +239,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.75,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "NU",
+      "ticker": "NU"
     },
     {
       "issuer": "FLUENCE ENERGY INC",
@@ -314,8 +314,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.56,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "OSCR",
+      "ticker": "OSCR"
     },
     {
       "issuer": "FIGMA INC",
@@ -344,8 +344,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.3,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ROOT",
+      "ticker": "ROOT"
     },
     {
       "issuer": "ZOOMINFO TECHNOLOGIES INC",
@@ -374,8 +374,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.16,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "STUB",
+      "ticker": "STUB"
     },
     {
       "issuer": "PATTERN GROUP INC",
@@ -389,8 +389,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.15,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "PTRN",
+      "ticker": "PTRN"
     },
     {
       "issuer": "ACCELERANT HOLDINGS",

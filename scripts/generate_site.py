@@ -490,8 +490,8 @@ def render_html(gurus_data: dict, consensus_data: dict):
             continue
 
         detail = load_json(detail_path)
-        # Limit holdings for HTML embed
-        all_holdings = detail.get("holdings", [])
+        # Limit holdings for HTML embed + enrich with tickers
+        all_holdings = enrich_holdings_list(detail.get("holdings", []))
 
         # Enrich holdings with share change % from comparison data
         comparison = detail.get("comparison")

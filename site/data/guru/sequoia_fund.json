@@ -29,8 +29,8 @@
       "shared_voting": 0,
       "no_voting": 17142,
       "weight": 9.99,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SCHW",
+      "ticker": "SCHW"
     },
     {
       "issuer": "LIBERTY MEDIA CORP DEL",
@@ -44,8 +44,8 @@
       "shared_voting": 0,
       "no_voting": 13382,
       "weight": 9.64,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FWONK",
+      "ticker": "FWONK"
     },
     {
       "issuer": "ALPHABET INC",
@@ -74,8 +74,8 @@
       "shared_voting": 0,
       "no_voting": 5033,
       "weight": 8.71,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "TSM",
+      "ticker": "TSM"
     },
     {
       "issuer": "ELEVANCE HEALTH INC FORMERLY",
@@ -164,8 +164,8 @@
       "shared_voting": 0,
       "no_voting": 4585,
       "weight": 4.86,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "MSA",
+      "ticker": "MSA"
     },
     {
       "issuer": "CREDIT ACCEP CORP MICH",
@@ -194,8 +194,8 @@
       "shared_voting": 0,
       "no_voting": 2000,
       "weight": 4.34,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "UNH",
+      "ticker": "UNH"
     },
     {
       "issuer": "META PLATFORMS INC",
@@ -239,8 +239,8 @@
       "shared_voting": 0,
       "no_voting": 4657,
       "weight": 1.97,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "LBRDK",
+      "ticker": "LBRDK"
     },
     {
       "issuer": "CHARTER COMMUNICATIONS INC N",
@@ -299,8 +299,8 @@
       "shared_voting": 0,
       "no_voting": 1738,
       "weight": 1.17,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FWONA",
+      "ticker": "FWONA"
     },
     {
       "issuer": "AMENTUM HOLDINGS INC",
@@ -329,8 +329,8 @@
       "shared_voting": 0,
       "no_voting": 1293,
       "weight": 0.7,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "LBRDA",
+      "ticker": "LBRDA"
     },
     {
       "issuer": "GCI LIBERTY INC",
@@ -359,8 +359,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.2,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SAP",
+      "ticker": "SAP"
     },
     {
       "issuer": "GCI LIBERTY INC",
@@ -449,8 +449,8 @@
       "shared_voting": 0,
       "no_voting": 80,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "LAD",
+      "ticker": "LAD"
     },
     {
       "issuer": "NETFLIX INC",
@@ -464,8 +464,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "NFLX",
+      "ticker": "NFLX"
     },
     {
       "issuer": "VANGUARD STAR FDS",
@@ -494,8 +494,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "MU",
+      "ticker": "MU"
     },
     {
       "issuer": "MICROSOFT CORP",
@@ -509,8 +509,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "MSFT",
+      "ticker": "MSFT"
     },
     {
       "issuer": "AMERICAN EXPRESS CO",
@@ -554,8 +554,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "KSPI",
+      "ticker": "KSPI"
     },
     {
       "issuer": "SINCLAIR INC",
@@ -569,8 +569,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SBGI",
+      "ticker": "SBGI"
     },
     {
       "issuer": "S&P GLOBAL INC",
@@ -584,8 +584,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SPGI",
+      "ticker": "SPGI"
     },
     {
       "issuer": "STELLANTIS N.V",
@@ -689,8 +689,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SDHC",
+      "ticker": "SDHC"
     },
     {
       "issuer": "CARMAX INC",
@@ -719,8 +719,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "RMNI",
+      "ticker": "RMNI"
     }
   ],
   "comparison": {

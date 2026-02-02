@@ -29,8 +29,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 47.6,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "WFC",
+      "ticker": "WFC"
     },
     {
       "issuer": "Bank of America Corp",
@@ -74,8 +74,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 2.3,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "USB",
+      "ticker": "USB"
     }
   ],
   "comparison": {

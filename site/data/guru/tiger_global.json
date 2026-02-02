@@ -29,8 +29,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 10.49,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "MSFT",
+      "ticker": "MSFT"
     },
     {
       "issuer": "SEA LTD",
@@ -44,8 +44,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 8.86,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SE",
+      "ticker": "SE"
     },
     {
       "issuer": "ALPHABET INC",
@@ -89,8 +89,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 6.75,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "NVDA",
+      "ticker": "NVDA"
     },
     {
       "issuer": "META PLATFORMS INC",
@@ -149,8 +149,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 3.95,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "TSM",
+      "ticker": "TSM"
     },
     {
       "issuer": "REDDIT INC",
@@ -164,8 +164,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 3.32,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "RDDT",
+      "ticker": "RDDT"
     },
     {
       "issuer": "BROADCOM INC",
@@ -194,8 +194,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 2.87,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FLUT",
+      "ticker": "FLUT"
     },
     {
       "issuer": "SPOTIFY TECHNOLOGY S A",
@@ -209,8 +209,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 2.72,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SPOT",
+      "ticker": "SPOT"
     },
     {
       "issuer": "APOLLO GLOBAL MGMT INC",
@@ -269,8 +269,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 2.18,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "LRCX",
+      "ticker": "LRCX"
     },
     {
       "issuer": "GRAB HOLDINGS LIMITED",
@@ -359,8 +359,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.99,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "XYZ",
+      "ticker": "XYZ"
     },
     {
       "issuer": "LIBERTY MEDIA CORP DEL",
@@ -374,8 +374,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.87,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FWONK",
+      "ticker": "FWONK"
     },
     {
       "issuer": "SERVICENOW INC",
@@ -389,8 +389,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.85,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "NOW",
+      "ticker": "NOW"
     },
     {
       "issuer": "COSTAR GROUP INC",
@@ -434,8 +434,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.75,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "NFLX",
+      "ticker": "NFLX"
     },
     {
       "issuer": "WORKDAY INC",
@@ -449,8 +449,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.74,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "WDAY",
+      "ticker": "WDAY"
     },
     {
       "issuer": "APPLIED MATLS INC",
@@ -479,8 +479,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.55,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "NU",
+      "ticker": "NU"
     },
     {
       "issuer": "WEBULL CORP",
@@ -509,8 +509,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.53,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "PCOR",
+      "ticker": "PCOR"
     },
     {
       "issuer": "UNITEDHEALTH GROUP INC",
@@ -524,8 +524,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.47,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "UNH",
+      "ticker": "UNH"
     },
     {
       "issuer": "ELASTIC N V",
@@ -554,8 +554,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.35,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SHW",
+      "ticker": "SHW"
     },
     {
       "issuer": "MONGODB INC",
@@ -569,8 +569,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.33,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "MDB",
+      "ticker": "MDB"
     },
     {
       "issuer": "ZILLOW GROUP INC",
@@ -644,8 +644,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.05,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "UBER",
+      "ticker": "UBER"
     },
     {
       "issuer": "JD.COM INC",
@@ -659,8 +659,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.04,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "JD",
+      "ticker": "JD"
     },
     {
       "issuer": "NETSKOPE INC",
@@ -674,8 +674,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.04,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "NTSK",
+      "ticker": "NTSK"
     },
     {
       "issuer": "PONY AI INC",
@@ -689,8 +689,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.03,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "PONY",
+      "ticker": "PONY"
     },
     {
       "issuer": "FIGURE TECHNOLOGY SOLUTIO",
@@ -734,8 +734,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "KLAR",
+      "ticker": "KLAR"
     },
     {
       "issuer": "BULLISH",
@@ -854,8 +854,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "MNTN",
+      "ticker": "MNTN"
     }
   ],
   "comparison": {
