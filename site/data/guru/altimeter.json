@@ -389,8 +389,8 @@
       "shared_voting": 0,
       "no_voting": 51766,
       "weight": 1.25,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DIS",
+      "ticker": "DIS"
     },
     {
       "issuer": "INVESCO LTD            F",

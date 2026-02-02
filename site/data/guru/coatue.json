@@ -29,8 +29,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 11.14,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ECDAW",
+      "ticker": "ECDAW"
     },
     {
       "issuer": "INDIVIOR PLC",
@@ -134,8 +134,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 3.54,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ECVT",
+      "ticker": "ECVT"
     },
     {
       "issuer": "TEVA PHARMACEUTICAL INDS LTD",
@@ -1874,8 +1874,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.06,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EQT",
+      "ticker": "EQT"
     },
     {
       "issuer": "PALANTIR TECHNOLOGIES INC",

@@ -569,8 +569,8 @@
       "shared_voting": 55725,
       "no_voting": 134060,
       "weight": 0.77,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DKNG",
+      "ticker": "DKNG"
     },
     {
       "issuer": "AeroVironment Inc",
@@ -809,8 +809,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.34,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DASH",
+      "ticker": "DASH"
     },
     {
       "issuer": "Spotify Technology SA",
@@ -2819,8 +2819,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DD",
+      "ticker": "DD"
     },
     {
       "issuer": "Hexcel Corp",
@@ -2894,8 +2894,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "KODK",
+      "ticker": "KODK"
     },
     {
       "issuer": "ATI Inc",
@@ -2954,8 +2954,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EMN",
+      "ticker": "EMN"
     }
   ],
   "comparison": {

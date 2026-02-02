@@ -29,8 +29,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 11.23,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DUOL",
+      "ticker": "DUOL"
     },
     {
       "issuer": "BLOCK INC",

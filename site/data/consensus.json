@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-02T12:39:48Z",
+  "generated_at": "2026-02-02T12:40:37Z",
   "total_stocks": 7355,
   "stocks": [
     {
@@ -3945,7 +3945,7 @@
     {
       "cusip": "254687106",
       "issuer": "DISNEY WALT CO",
-      "ticker": null,
+      "ticker": "DIS",
       "title": "COM",
       "guru_count": 7,
       "gurus": [
@@ -4485,7 +4485,7 @@
     {
       "cusip": "25809K105",
       "issuer": "DOORDASH INC",
-      "ticker": null,
+      "ticker": "DASH",
       "title": "CL A",
       "guru_count": 7,
       "gurus": [
@@ -5205,7 +5205,7 @@
     {
       "cusip": "26614N102",
       "issuer": "DUPONT DE NEMOURS INC",
-      "ticker": null,
+      "ticker": "DD",
       "title": "COM",
       "guru_count": 7,
       "gurus": [
@@ -8685,7 +8685,7 @@
     {
       "cusip": "26884L109",
       "issuer": "EQT CORP",
-      "ticker": null,
+      "ticker": "EQT",
       "title": "COM",
       "guru_count": 6,
       "gurus": [
@@ -8791,7 +8791,7 @@
     {
       "cusip": "256677105",
       "issuer": "DOLLAR GEN CORP NEW",
-      "ticker": null,
+      "ticker": "DG",
       "title": "COM",
       "guru_count": 6,
       "gurus": [
@@ -9321,7 +9321,7 @@
     {
       "cusip": "26875P101",
       "issuer": "EOG RES INC",
-      "ticker": null,
+      "ticker": "EOG",
       "title": "COM",
       "guru_count": 6,
       "gurus": [
@@ -12101,7 +12101,7 @@
     {
       "cusip": "26603R106",
       "issuer": "DUOLINGO INC",
-      "ticker": null,
+      "ticker": "DUOL",
       "title": "CL A COM",
       "guru_count": 5,
       "gurus": [
@@ -12975,7 +12975,7 @@
     {
       "cusip": "278768106",
       "issuer": "ECHOSTAR CORP",
-      "ticker": null,
+      "ticker": "SATS",
       "title": "CL A",
       "guru_count": 5,
       "gurus": [
@@ -14309,7 +14309,7 @@
     {
       "cusip": "26142V105",
       "issuer": "DRAFTKINGS INC NEW",
-      "ticker": null,
+      "ticker": "DKNG",
       "title": "COM CL A",
       "guru_count": 5,
       "gurus": [
@@ -15321,7 +15321,7 @@
     {
       "cusip": "256163106",
       "issuer": "DOCUSIGN INC",
-      "ticker": null,
+      "ticker": "DOCU",
       "title": "COM",
       "guru_count": 5,
       "gurus": [
@@ -16701,7 +16701,7 @@
     {
       "cusip": "26441C204",
       "issuer": "DUKE ENERGY CORP NEW",
-      "ticker": null,
+      "ticker": "DUK",
       "title": "COM NEW",
       "guru_count": 5,
       "gurus": [
@@ -18219,7 +18219,7 @@
     {
       "cusip": "278865100",
       "issuer": "ECOLAB INC",
-      "ticker": null,
+      "ticker": "ECL",
       "title": "COM",
       "guru_count": 5,
       "gurus": [
@@ -24338,7 +24338,7 @@
     {
       "cusip": "278642103",
       "issuer": "EBAY INC.",
-      "ticker": null,
+      "ticker": "EBAY",
       "title": "COM",
       "guru_count": 4,
       "gurus": [
@@ -24494,7 +24494,7 @@
     {
       "cusip": "28176E108",
       "issuer": "EDWARDS LIFESCIENCES CORP",
-      "ticker": null,
+      "ticker": "EW",
       "title": "COM",
       "guru_count": 4,
       "gurus": [
@@ -25820,7 +25820,7 @@
     {
       "cusip": "268150109",
       "issuer": "DYNATRACE INC",
-      "ticker": null,
+      "ticker": "DT",
       "title": "COM NEW",
       "guru_count": 4,
       "gurus": [
@@ -25976,7 +25976,7 @@
     {
       "cusip": "267475101",
       "issuer": "DYCOM INDS INC",
-      "ticker": null,
+      "ticker": "DY",
       "title": "COM",
       "guru_count": 4,
       "gurus": [
@@ -26249,7 +26249,7 @@
     {
       "cusip": "256746108",
       "issuer": "DOLLAR TREE INC",
-      "ticker": null,
+      "ticker": "DLTR",
       "title": "COM",
       "guru_count": 4,
       "gurus": [
@@ -28160,7 +28160,7 @@
     {
       "cusip": "260557103",
       "issuer": "DOW INC",
-      "ticker": null,
+      "ticker": "DOW",
       "title": "COM",
       "guru_count": 4,
       "gurus": [
@@ -28979,7 +28979,7 @@
     {
       "cusip": "26969P108",
       "issuer": "EAGLE MATLS INC",
-      "ticker": null,
+      "ticker": "EXP",
       "title": "COM",
       "guru_count": 4,
       "gurus": [
@@ -30539,7 +30539,7 @@
     {
       "cusip": "26622P107",
       "issuer": "DOXIMITY INC",
-      "ticker": null,
+      "ticker": "DOCS",
       "title": "CL A",
       "guru_count": 4,
       "gurus": [
@@ -32099,7 +32099,7 @@
     {
       "cusip": "260003108",
       "issuer": "DOVER CORP",
-      "ticker": null,
+      "ticker": "DOV",
       "title": "COM",
       "guru_count": 4,
       "gurus": [
@@ -33893,7 +33893,7 @@
     {
       "cusip": "25746U109",
       "issuer": "DOMINION ENERGY INC",
-      "ticker": null,
+      "ticker": "D",
       "title": "COM",
       "guru_count": 4,
       "gurus": [
@@ -35882,7 +35882,7 @@
     {
       "cusip": "277432100",
       "issuer": "EASTMAN CHEM CO",
-      "ticker": null,
+      "ticker": "EMN",
       "title": "COM",
       "guru_count": 4,
       "gurus": [
@@ -40523,7 +40523,7 @@
     {
       "cusip": "27627N105",
       "issuer": "EASTERN BANKSHARES INC",
-      "ticker": null,
+      "ticker": "EBC",
       "title": "COM",
       "guru_count": 4,
       "gurus": [
@@ -44111,7 +44111,7 @@
     {
       "cusip": "277461406",
       "issuer": "EASTMAN KODAK CO",
-      "ticker": null,
+      "ticker": "KODK",
       "title": "COM NEW",
       "guru_count": 4,
       "gurus": [
@@ -44604,7 +44604,7 @@
     {
       "cusip": "25754A201",
       "issuer": "DOMINOS PIZZA INC",
-      "ticker": null,
+      "ticker": "DPZ",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -46204,7 +46204,7 @@
     {
       "cusip": "27579R104",
       "issuer": "EAST WEST BANCORP INC",
-      "ticker": null,
+      "ticker": "EWBC",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -46684,7 +46684,7 @@
     {
       "cusip": "26856L103",
       "issuer": "E L F BEAUTY INC",
-      "ticker": null,
+      "ticker": "ELF",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -47676,7 +47676,7 @@
     {
       "cusip": "26740W109",
       "issuer": "D-WAVE QUANTUM INC",
-      "ticker": null,
+      "ticker": "QBTS",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -49660,7 +49660,7 @@
     {
       "cusip": "27877D112",
       "issuer": "ECD AUTOMOTIVE DESIGN INC",
-      "ticker": null,
+      "ticker": "ECDAW",
       "title": "*W EXP 12/12/202",
       "guru_count": 3,
       "gurus": [
@@ -51452,7 +51452,7 @@
     {
       "cusip": "26210C104",
       "issuer": "DROPBOX INC",
-      "ticker": null,
+      "ticker": "DBX",
       "title": "CL A",
       "guru_count": 3,
       "gurus": [
@@ -51612,7 +51612,7 @@
     {
       "cusip": "281020107",
       "issuer": "EDISON INTL",
-      "ticker": null,
+      "ticker": "EIX",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -56412,7 +56412,7 @@
     {
       "cusip": "26818M108",
       "issuer": "DYNE THERAPEUTICS INC",
-      "ticker": null,
+      "ticker": "DYN",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -57820,7 +57820,7 @@
     {
       "cusip": "268158201",
       "issuer": "DYNAVAX TECHNOLOGIES CORP",
-      "ticker": null,
+      "ticker": "DVAX",
       "title": "COM NEW",
       "guru_count": 3,
       "gurus": [
@@ -57852,7 +57852,7 @@
     {
       "cusip": "257651109",
       "issuer": "DONALDSON INC",
-      "ticker": null,
+      "ticker": "DCI",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -58172,7 +58172,7 @@
     {
       "cusip": "27923Q109",
       "issuer": "ECOVYST INC",
-      "ticker": null,
+      "ticker": "ECVT",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -62780,7 +62780,7 @@
     {
       "cusip": "26817Q886",
       "issuer": "DYNEX CAP INC",
-      "ticker": null,
+      "ticker": "DX",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -64316,7 +64316,7 @@
     {
       "cusip": "25960P109",
       "issuer": "DOUGLAS EMMETT INC",
-      "ticker": null,
+      "ticker": "DEI",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -65340,7 +65340,7 @@
     {
       "cusip": "25862V105",
       "issuer": "DOUBLEVERIFY HLDGS INC",
-      "ticker": null,
+      "ticker": "DV",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -67228,7 +67228,7 @@
     {
       "cusip": "258278100",
       "issuer": "DORMAN PRODS INC",
-      "ticker": null,
+      "ticker": "DORM",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -67836,7 +67836,7 @@
     {
       "cusip": "25659T107",
       "issuer": "DOLBY LABORATORIES INC",
-      "ticker": null,
+      "ticker": "DLB",
       "title": "COM CL A",
       "guru_count": 3,
       "gurus": [
@@ -69564,7 +69564,7 @@
     {
       "cusip": "28035Q102",
       "issuer": "EDGEWELL PERS CARE CO",
-      "ticker": null,
+      "ticker": "EPC",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -71100,7 +71100,7 @@
     {
       "cusip": "282559103",
       "issuer": "89BIO INC",
-      "ticker": null,
+      "ticker": "ETNBGBP",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -72284,7 +72284,7 @@
     {
       "cusip": "26152H301",
       "issuer": "DRDGOLD LIMITED",
-      "ticker": null,
+      "ticker": "DRD",
       "title": "SPON ADR REPSTG",
       "guru_count": 3,
       "gurus": [
@@ -78076,7 +78076,7 @@
     {
       "cusip": "27616P301",
       "issuer": "EASTERLY GOVT PPTYS INC",
-      "ticker": null,
+      "ticker": "DEA",
       "title": "COM SHS",
       "guru_count": 3,
       "gurus": [
@@ -79580,7 +79580,7 @@
     {
       "cusip": "264147109",
       "issuer": "DUCOMMUN INC DEL",
-      "ticker": null,
+      "ticker": "DCO",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -81244,7 +81244,7 @@
     {
       "cusip": "25960R105",
       "issuer": "DOUGLAS DYNAMICS INC",
-      "ticker": null,
+      "ticker": "PLOW",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -81628,7 +81628,7 @@
     {
       "cusip": "25985W204",
       "issuer": "DOUYU INTL HLDGS LTD",
-      "ticker": null,
+      "ticker": "DOYU",
       "title": "SPONSORED ADS",
       "guru_count": 3,
       "gurus": [
@@ -82256,7 +82256,7 @@
     {
       "cusip": "26701L100",
       "issuer": "DUTCH BROS INC",
-      "ticker": null,
+      "ticker": "BROS",
       "title": "CL A",
       "guru_count": 2,
       "gurus": [
@@ -83481,7 +83481,7 @@
     {
       "cusip": "26210CAC8",
       "issuer": "DROPBOX INC",
-      "ticker": null,
+      "ticker": "DBX",
       "title": "NOTE 3/0",
       "guru_count": 2,
       "gurus": [
@@ -85031,7 +85031,7 @@
     {
       "cusip": "26922A842",
       "issuer": "ETF SER SOLUTIONS",
-      "ticker": null,
+      "ticker": "JETS",
       "title": "US GLB JETS",
       "guru_count": 2,
       "gurus": [
@@ -85956,7 +85956,7 @@
     {
       "cusip": "26884U109",
       "issuer": "EPR PPTYS",
-      "ticker": null,
+      "ticker": "EPR",
       "title": "COM SH BEN INT",
       "guru_count": 2,
       "gurus": [
@@ -86306,7 +86306,7 @@
     {
       "cusip": "26142RAB0",
       "issuer": "DRAFTKINGS INC NEW",
-      "ticker": null,
+      "ticker": "DKNG",
       "title": "NOTE         3/1",
       "guru_count": 2,
       "gurus": [
@@ -86606,7 +86606,7 @@
     {
       "cusip": "25461A841",
       "issuer": "DIREXION SHS ETF TR",
-      "ticker": null,
+      "ticker": "GGLL",
       "title": "DAILY GOOGL 2X S",
       "guru_count": 2,
       "gurus": [
@@ -92631,7 +92631,7 @@
     {
       "cusip": "257554105",
       "issuer": "DOMO INC",
-      "ticker": null,
+      "ticker": "DOMO",
       "title": "COM CL B",
       "guru_count": 2,
       "gurus": [
@@ -92831,7 +92831,7 @@
     {
       "cusip": "26923N249",
       "issuer": "ETF OPPORTUNITIES TRUST",
-      "ticker": null,
+      "ticker": "SSK",
       "title": "REX-OSPREY SOL",
       "guru_count": 2,
       "gurus": [
@@ -93731,7 +93731,7 @@
     {
       "cusip": "268158AE2",
       "issuer": "DYNAVAX TECHNOLOGIES CORP",
-      "ticker": null,
+      "ticker": "DVAX",
       "title": "DEBT",
       "guru_count": 2,
       "gurus": [
@@ -94656,7 +94656,7 @@
     {
       "cusip": "268948106",
       "issuer": "EAGLE BANCORP INC MD",
-      "ticker": null,
+      "ticker": "EGBN",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -94931,7 +94931,7 @@
     {
       "cusip": "26210V102",
       "issuer": "DRIVEN BRANDS HLDGS INC",
-      "ticker": null,
+      "ticker": "DRVN",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -95456,7 +95456,7 @@
     {
       "cusip": "28036F105",
       "issuer": "EDGEWISE THERAPEUTICS INC",
-      "ticker": null,
+      "ticker": "EWTX",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -98181,7 +98181,7 @@
     {
       "cusip": "256135203",
       "issuer": "DR REDDYS LABS LTD",
-      "ticker": null,
+      "ticker": "RDY",
       "title": "ADR",
       "guru_count": 2,
       "gurus": [
@@ -98606,7 +98606,7 @@
     {
       "cusip": "26874R108",
       "issuer": "ENI S P A",
-      "ticker": null,
+      "ticker": "E",
       "title": "SPONSORED ADR",
       "guru_count": 2,
       "gurus": [
@@ -100856,7 +100856,7 @@
     {
       "cusip": "279158109",
       "issuer": "ECOPETROL S A",
-      "ticker": null,
+      "ticker": "EC",
       "title": "SPONSORED ADS",
       "guru_count": 2,
       "gurus": [
@@ -102906,7 +102906,7 @@
     {
       "cusip": "26154D100",
       "issuer": "DREAM FINDERS HOMES INC",
-      "ticker": null,
+      "ticker": "DFH",
       "title": "COM CL A",
       "guru_count": 2,
       "gurus": [
@@ -105481,7 +105481,7 @@
     {
       "cusip": "25609L105",
       "issuer": "DOCEBO INC",
-      "ticker": null,
+      "ticker": "DCBO",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -109581,7 +109581,7 @@
     {
       "cusip": "28106W103",
       "issuer": "EDITAS MEDICINE INC",
-      "ticker": null,
+      "ticker": "EDIT",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -111631,7 +111631,7 @@
     {
       "cusip": "25787G100",
       "issuer": "DONNELLEY FINL SOLUTIONS INC",
-      "ticker": null,
+      "ticker": "DFIN",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -111981,7 +111981,7 @@
     {
       "cusip": "256086109",
       "issuer": "DOCGO INC",
-      "ticker": null,
+      "ticker": "DCGO",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -114231,7 +114231,7 @@
     {
       "cusip": "25862B109",
       "issuer": "DOUBLEDOWN INTERACTIVE CO LT",
-      "ticker": null,
+      "ticker": "DDI",
       "title": "ADS",
       "guru_count": 2,
       "gurus": [
@@ -114306,7 +114306,7 @@
     {
       "cusip": "26873J107",
       "issuer": "EMX RTY CORP",
-      "ticker": null,
+      "ticker": "EMX",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -115081,7 +115081,7 @@
     {
       "cusip": "256827783",
       "issuer": "DOLLY VARDEN SILVER CORP",
-      "ticker": null,
+      "ticker": "DVS",
       "title": "COM NO PAR",
       "guru_count": 2,
       "gurus": [
@@ -115681,7 +115681,7 @@
     {
       "cusip": "25525P107",
       "issuer": "DIVERSIFIED HEALTHCARE TR",
-      "ticker": null,
+      "ticker": "DHC",
       "title": "COM SH BEN INT",
       "guru_count": 2,
       "gurus": [
@@ -116706,7 +116706,7 @@
     {
       "cusip": "26951R104",
       "issuer": "EAGLE FINL SVCS INC",
-      "ticker": null,
+      "ticker": "EFSI",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -121006,7 +121006,7 @@
     {
       "cusip": "28225C806",
       "issuer": "EGAIN CORP",
-      "ticker": null,
+      "ticker": "EGAN",
       "title": "COM NEW",
       "guru_count": 2,
       "gurus": [
@@ -121331,7 +121331,7 @@
     {
       "cusip": "276317104",
       "issuer": "EASTERN CO",
-      "ticker": null,
+      "ticker": "EML",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -123231,7 +123231,7 @@
     {
       "cusip": "26205E107",
       "issuer": "DRILLING TOOLS INTL CORP",
-      "ticker": null,
+      "ticker": "DTI",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -124308,7 +124308,7 @@
     {
       "cusip": "278768AB2",
       "issuer": "ECHOSTAR     CORP",
-      "ticker": null,
+      "ticker": "SATS",
       "title": "NOTE        3.875%11/3",
       "guru_count": 1,
       "gurus": [
@@ -124380,7 +124380,7 @@
     {
       "cusip": "26441CBY0",
       "issuer": "DUKE ENERGY CORP NEW",
-      "ticker": null,
+      "ticker": "DUK",
       "title": "NOTE  4.125% 4/1",
       "guru_count": 1,
       "gurus": [
@@ -124434,7 +124434,7 @@
     {
       "cusip": "26210CAD6",
       "issuer": "DROPBOX INC",
-      "ticker": null,
+      "ticker": "DBX",
       "title": "NOTE 3/0",
       "guru_count": 1,
       "gurus": [
@@ -124524,7 +124524,7 @@
     {
       "cusip": "26922B519",
       "issuer": "ETF SER SOLUTIONS",
-      "ticker": null,
+      "ticker": "TBFG",
       "title": "THE BRINSMERE FU",
       "guru_count": 1,
       "gurus": [
@@ -124866,7 +124866,7 @@
     {
       "cusip": "26923N389",
       "issuer": "ETF OPPORTUNITIES TRUST",
-      "ticker": null,
+      "ticker": "ROBN",
       "title": "T REX 2X LONG HO",
       "guru_count": 1,
       "gurus": [
@@ -125226,7 +125226,7 @@
     {
       "cusip": "25490K596",
       "issuer": "DBX ETF TR",
-      "ticker": null,
+      "ticker": "NAIL",
       "title": "DALY HOM B&S BUL",
       "guru_count": 1,
       "gurus": [
@@ -125280,7 +125280,7 @@
     {
       "cusip": "25461A833",
       "issuer": "DIREXION SHS ETF TR",
-      "ticker": null,
+      "ticker": "NVDU",
       "title": "DAILY NVDA 2X SH",
       "guru_count": 1,
       "gurus": [
@@ -125316,7 +125316,7 @@
     {
       "cusip": "277276101",
       "issuer": "EASTGROUP     PPTYS     INC",
-      "ticker": null,
+      "ticker": "EGP",
       "title": "COM",
       "guru_count": 1,
       "gurus": [
@@ -125748,7 +125748,7 @@
     {
       "cusip": "26853E102",
       "issuer": "EHANG HLDGS LTD",
-      "ticker": null,
+      "ticker": "EH",
       "title": "ADS",
       "guru_count": 1,
       "gurus": [
@@ -125910,7 +125910,7 @@
     {
       "cusip": "26923N819",
       "issuer": "ETF OPPORTUNITIES TRUST",
-      "ticker": null,
+      "ticker": "NVDX",
       "title": "T REX 2X LONG",
       "guru_count": 1,
       "gurus": [
@@ -126324,7 +126324,7 @@
     {
       "cusip": "25461A858",
       "issuer": "DIREXION SHS ETF TR",
-      "ticker": null,
+      "ticker": "AMZU",
       "title": "DIREXION 2X SHAR",
       "guru_count": 1,
       "gurus": [
@@ -127620,7 +127620,7 @@
     {
       "cusip": "25461A460",
       "issuer": "DIREXION SHS ETF TR",
-      "ticker": null,
+      "ticker": "YANG",
       "title": "DAILY FTSE CHINA",
       "guru_count": 1,
       "gurus": [
@@ -127926,7 +127926,7 @@
     {
       "cusip": "25461A478",
       "issuer": "DIREXION SHS ETF TR",
-      "ticker": null,
+      "ticker": "DUST",
       "title": "DAILY GOLD MINER",
       "guru_count": 1,
       "gurus": [
@@ -128322,7 +128322,7 @@
     {
       "cusip": "26923N835",
       "issuer": "ETF OPPORTUNITIES TRUST",
-      "ticker": null,
+      "ticker": "TSLT",
       "title": "T REX 2X LONG",
       "guru_count": 1,
       "gurus": [
@@ -128556,7 +128556,7 @@
     {
       "cusip": "25461A866",
       "issuer": "DIREXION SHS ETF TR",
-      "ticker": null,
+      "ticker": "MSFU",
       "title": "DAILY MSFT 2X SH",
       "guru_count": 1,
       "gurus": [
@@ -128664,7 +128664,7 @@
     {
       "cusip": "25461A874",
       "issuer": "DIREXION SHS ETF TR",
-      "ticker": null,
+      "ticker": "AAPU",
       "title": "DLY AAPL BULL 2X",
       "guru_count": 1,
       "gurus": [
@@ -128736,7 +128736,7 @@
     {
       "cusip": "26922A420",
       "issuer": "ETF SER SOLUTIONS",
-      "ticker": null,
+      "ticker": "QTUM",
       "title": "DEFIANCE QUANTUM",
       "guru_count": 1,
       "gurus": [
@@ -130572,7 +130572,7 @@
     {
       "cusip": "26740W117",
       "issuer": "D-WAVE   QUANTUM       INC",
-      "ticker": null,
+      "ticker": "QBTS",
       "title": "*W     EXP     08/05/202",
       "guru_count": 1,
       "gurus": [
@@ -131166,7 +131166,7 @@
     {
       "cusip": "25490K281",
       "issuer": "DIREXION SHS ETF TR",
-      "ticker": null,
+      "ticker": "EDC",
       "title": "DLY EMG MK BL 3X",
       "guru_count": 1,
       "gurus": [
@@ -131598,7 +131598,7 @@
     {
       "cusip": "25461A809",
       "issuer": "DIREXION SHS ETF TR",
-      "ticker": null,
+      "ticker": "METU",
       "title": "DAILY META BULL",
       "guru_count": 1,
       "gurus": [
@@ -132876,7 +132876,7 @@
     {
       "cusip": "25490K331",
       "issuer": "DIREXION SHS ETF TR",
-      "ticker": null,
+      "ticker": "INDL",
       "title": "DAILY MSCI INDIA",
       "guru_count": 1,
       "gurus": [
@@ -133092,7 +133092,7 @@
     {
       "cusip": "25490K869",
       "issuer": "DIREXION SHS ETF TR",
-      "ticker": null,
+      "ticker": "CHAU",
       "title": "CSI 300 BULL2X",
       "guru_count": 1,
       "gurus": [
@@ -133794,7 +133794,7 @@
     {
       "cusip": "25461A494",
       "issuer": "DIREXION SHS ETF TR",
-      "ticker": null,
+      "ticker": "TECS",
       "title": "DAILY TECHNOLOGY",
       "guru_count": 1,
       "gurus": [
@@ -134352,7 +134352,7 @@
     {
       "cusip": "25461A569",
       "issuer": "DIREXION SHS ETF TR",
-      "ticker": null,
+      "ticker": "AVL",
       "title": "DAILY AVGO BULL",
       "guru_count": 1,
       "gurus": [
@@ -134874,7 +134874,7 @@
     {
       "cusip": "26922A453",
       "issuer": "ETF SER SOLUTIONS",
-      "ticker": null,
+      "ticker": "OPER",
       "title": "CLEARSHS ULTRA",
       "guru_count": 1,
       "gurus": [
@@ -135666,7 +135666,7 @@
     {
       "cusip": "25461A304",
       "issuer": "DIREXION SHS ETF TR",
-      "ticker": null,
+      "ticker": "AAPD",
       "title": "DLY AAPL BEAR 1X",
       "guru_count": 1,
       "gurus": [
@@ -136116,7 +136116,7 @@
     {
       "cusip": "26923N413",
       "issuer": "ETF OPPORTUNITIES TRUST",
-      "ticker": null,
+      "ticker": "MSTZ",
       "title": "T REX 2X INVERSE",
       "guru_count": 1,
       "gurus": [
@@ -136818,7 +136818,7 @@
     {
       "cusip": "26923N447",
       "issuer": "ETF OPPORTUNITIES TRUST",
-      "ticker": null,
+      "ticker": "NFLU",
       "title": "T REX 2X LNG NFL",
       "guru_count": 1,
       "gurus": [
@@ -137214,7 +137214,7 @@
     {
       "cusip": "257701201",
       "issuer": "DONEGAL    GROUP  INC",
-      "ticker": null,
+      "ticker": "DGICA",
       "title": "CL   A",
       "guru_count": 1,
       "gurus": [
@@ -137322,7 +137322,7 @@
     {
       "cusip": "26923N231",
       "issuer": "ETF OPPORTUNITIES TRUST",
-      "ticker": null,
+      "ticker": "XRPR",
       "title": "REX OSPREY XRP",
       "guru_count": 1,
       "gurus": [
@@ -137826,7 +137826,7 @@
     {
       "cusip": "25820R105",
       "issuer": "DORCHESTER MINERALS LP",
-      "ticker": null,
+      "ticker": "DMLP",
       "title": "COM UNIT",
       "guru_count": 1,
       "gurus": [
@@ -138906,7 +138906,7 @@
     {
       "cusip": "26142Q304",
       "issuer": "DRAGANFLY INC.",
-      "ticker": null,
+      "ticker": "DPRO",
       "title": "COM",
       "guru_count": 1,
       "gurus": [
@@ -139968,7 +139968,7 @@
     {
       "cusip": "25461A387",
       "issuer": "DIREXION SHS ETF TR",
-      "ticker": null,
+      "ticker": "KORU",
       "title": "DAILY MSCI SOUTH",
       "guru_count": 1,
       "gurus": [
@@ -140580,7 +140580,7 @@
     {
       "cusip": "25461H861",
       "issuer": "DIREXION SHS ETF TR",
-      "ticker": null,
+      "ticker": "EDZ",
       "title": "DAILY MSCI EMER",
       "guru_count": 1,
       "gurus": [
@@ -142902,7 +142902,7 @@
     {
       "cusip": "25461H853",
       "issuer": "DIREXION SHS ETF TR",
-      "ticker": null,
+      "ticker": "LABD",
       "title": "DAILY S&P BIOTEC",
       "guru_count": 1,
       "gurus": [
@@ -143478,7 +143478,7 @@
     {
       "cusip": "25461A445",
       "issuer": "DIREXION SHS ETF TR",
-      "ticker": null,
+      "ticker": "PLTU",
       "title": "DAILY PLTR BULL",
       "guru_count": 1,
       "gurus": [
@@ -143694,7 +143694,7 @@
     {
       "cusip": "26922A289",
       "issuer": "ETF SER SOLUTIONS",
-      "ticker": null,
+      "ticker": "SIXG",
       "title": "DEFIANCE CONNECT",
       "guru_count": 1,
       "gurus": [
@@ -144216,7 +144216,7 @@
     {
       "cusip": "26923N595",
       "issuer": "ETF OPPORTUNITIES TRUST",
-      "ticker": null,
+      "ticker": "GOOX",
       "title": "T REX 2X LNG ALP",
       "guru_count": 1,
       "gurus": [
@@ -145674,7 +145674,7 @@
     {
       "cusip": "26923G822",
       "issuer": "ETFIS SER TR I",
-      "ticker": null,
+      "ticker": "PFFA",
       "title": "VIRTUS INFRCAP",
       "guru_count": 1,
       "gurus": [
@@ -145728,7 +145728,7 @@
     {
       "cusip": "26923G707",
       "issuer": "ETFIS SER TR I",
-      "ticker": null,
+      "ticker": "NFLT",
       "title": "VIRTUS NEWFLEET",
       "guru_count": 1,
       "gurus": [
@@ -147060,7 +147060,7 @@
     {
       "cusip": "26923N744",
       "issuer": "ETF OPPORTUNITIES TRUST",
-      "ticker": null,
+      "ticker": "FEPI",
       "title": "REX FANG & INNOV",
       "guru_count": 1,
       "gurus": [
@@ -147186,7 +147186,7 @@
     {
       "cusip": "26923Q721",
       "issuer": "ETF OPPORTUNITIES TRUST",
-      "ticker": null,
+      "ticker": "GMEU",
       "title": "T REX 2X LONG GM",
       "guru_count": 1,
       "gurus": [
@@ -147276,7 +147276,7 @@
     {
       "cusip": "26923G202",
       "issuer": "ETFIS SER TR I",
-      "ticker": null,
+      "ticker": "BBP",
       "title": "VIRTUS LIFESC BT",
       "guru_count": 1,
       "gurus": [
@@ -148572,7 +148572,7 @@
     {
       "cusip": "26922A719",
       "issuer": "ETF SER SOLUTIONS",
-      "ticker": null,
+      "ticker": "GOAU",
       "title": "US GBL GLD PRE",
       "guru_count": 1,
       "gurus": [
@@ -148860,7 +148860,7 @@
     {
       "cusip": "26922A230",
       "issuer": "ETF SER SOLUTIONS",
-      "ticker": null,
+      "ticker": "HOMZ",
       "title": "HOYA CAP HOUSI",
       "guru_count": 1,
       "gurus": [
@@ -150156,7 +150156,7 @@
     {
       "cusip": "25461A528",
       "issuer": "DIREXION SHS ETF TR",
-      "ticker": null,
+      "ticker": "MUU",
       "title": "DAILY MU BULL",
       "guru_count": 1,
       "gurus": [
@@ -150894,7 +150894,7 @@
     {
       "cusip": "26922A198",
       "issuer": "ETF SER SOLUTIONS",
-      "ticker": null,
+      "ticker": "PFLD",
       "title": "AAM LW DUR PFD",
       "guru_count": 1,
       "gurus": [
@@ -152586,7 +152586,7 @@
     {
       "cusip": "266042407",
       "issuer": "DUOS TECHNOLOGIES GROUP INC",
-      "ticker": null,
+      "ticker": "DUOT",
       "title": "COM",
       "guru_count": 1,
       "gurus": [
@@ -152910,7 +152910,7 @@
     {
       "cusip": "26923Q655",
       "issuer": "ETF OPPORTUNITIES TRUST",
-      "ticker": null,
+      "ticker": "CRWU",
       "title": "T-REX 2X LONG",
       "guru_count": 1,
       "gurus": [
@@ -153594,7 +153594,7 @@
     {
       "cusip": "26923N280",
       "issuer": "ETF OPPORTUNITIES TRUST",
-      "ticker": null,
+      "ticker": "RBLU",
       "title": "T REX 2X LONG RE",
       "guru_count": 1,
       "gurus": [
@@ -153864,7 +153864,7 @@
     {
       "cusip": "26922A321",
       "issuer": "ETF SER SOLUTIONS",
-      "ticker": null,
+      "ticker": "DSTL",
       "title": "DISTILLATE US",
       "guru_count": 1,
       "gurus": [
@@ -154044,7 +154044,7 @@
     {
       "cusip": "25461A577",
       "issuer": "DIREXION SHS ETF TR",
-      "ticker": null,
+      "ticker": "JDST",
       "title": "DAILY JR GOLD MI",
       "guru_count": 1,
       "gurus": [
@@ -155088,7 +155088,7 @@
     {
       "cusip": "25461A395",
       "issuer": "DIREXION SHS ETF TR",
-      "ticker": null,
+      "ticker": "AMDD",
       "title": "DAILY AMD BEAR",
       "guru_count": 1,
       "gurus": [
@@ -155106,7 +155106,7 @@
     {
       "cusip": "26923N629",
       "issuer": "ETF OPPORTUNITIES TRUST",
-      "ticker": null,
+      "ticker": "AAPX",
       "title": "T REX 2X LNG APP",
       "guru_count": 1,
       "gurus": [
@@ -155952,7 +155952,7 @@
     {
       "cusip": "26922A602",
       "issuer": "ETF SER SOLUTIONS",
-      "ticker": null,
+      "ticker": "VBND",
       "title": "VIDENT US BOND",
       "guru_count": 1,
       "gurus": [
@@ -156168,7 +156168,7 @@
     {
       "cusip": "26923N660",
       "issuer": "ETF OPPORTUNITIES TRUST",
-      "ticker": null,
+      "ticker": "DYFI",
       "title": "IDX DYNAMIC FIXE",
       "guru_count": 1,
       "gurus": [
@@ -157032,7 +157032,7 @@
     {
       "cusip": "26923G772",
       "issuer": "ETFIS SER TR I",
-      "ticker": null,
+      "ticker": "AMZA",
       "title": "INFRAC ACT MLP",
       "guru_count": 1,
       "gurus": [
@@ -158706,7 +158706,7 @@
     {
       "cusip": "27828A100",
       "issuer": "EATON VANCE CALIF MUN BD FD",
-      "ticker": null,
+      "ticker": "XEVMX",
       "title": "COM",
       "guru_count": 1,
       "gurus": [
@@ -158814,7 +158814,7 @@
     {
       "cusip": "26923N538",
       "issuer": "ETF OPPORTUNITIES TRUST",
-      "ticker": null,
+      "ticker": "AIPI",
       "title": "REX AI EQUITY PR",
       "guru_count": 1,
       "gurus": [
@@ -158958,7 +158958,7 @@
     {
       "cusip": "26929N102",
       "issuer": "EVI INDS INC",
-      "ticker": null,
+      "ticker": "EVI",
       "title": "COM",
       "guru_count": 1,
       "gurus": [
@@ -159534,7 +159534,7 @@
     {
       "cusip": "26922B667",
       "issuer": "ETF SER SOLUTIONS",
-      "ticker": null,
+      "ticker": "DSMC",
       "title": "DISTILLATE SMLMD",
       "guru_count": 1,
       "gurus": [
@@ -159678,7 +159678,7 @@
     {
       "cusip": "26922A404",
       "issuer": "ETF SER SOLUTIONS",
-      "ticker": null,
+      "ticker": "VIDI",
       "title": "VIDENT INTERNATI",
       "guru_count": 1,
       "gurus": [
@@ -159768,7 +159768,7 @@
     {
       "cusip": "25461A403",
       "issuer": "DIREXION SHS ETF TR",
-      "ticker": null,
+      "ticker": "MSFD",
       "title": "DAILY MSFT BR 1X",
       "guru_count": 1,
       "gurus": [
@@ -160704,7 +160704,7 @@
     {
       "cusip": "268311107",
       "issuer": "EDAP TMS S A",
-      "ticker": null,
+      "ticker": "EDAP",
       "title": "SPONSORED ADR",
       "guru_count": 1,
       "gurus": [
@@ -161154,7 +161154,7 @@
     {
       "cusip": "26922B535",
       "issuer": "ETF SER SOLUTIONS",
-      "ticker": null,
+      "ticker": "DUBS",
       "title": "APTUS LARGE CAP",
       "guru_count": 1,
       "gurus": [
@@ -161514,7 +161514,7 @@
     {
       "cusip": "26922A388",
       "issuer": "ETF SER SOLUTIONS",
-      "ticker": null,
+      "ticker": "DRSK",
       "title": "APTUS DEFINED",
       "guru_count": 1,
       "gurus": [
@@ -162450,7 +162450,7 @@
     {
       "cusip": "26922A131",
       "issuer": "ETF SER SOLUTIONS",
-      "ticker": null,
+      "ticker": "PIFI",
       "title": "CLERSHS PITON IN",
       "guru_count": 1,
       "gurus": [
@@ -163386,7 +163386,7 @@
     {
       "cusip": "258622109",
       "issuer": "DOUBLELINE INCOME SOLUTIONS",
-      "ticker": null,
+      "ticker": "DSL",
       "title": "COM",
       "guru_count": 1,
       "gurus": [
@@ -163764,7 +163764,7 @@
     {
       "cusip": "26923N314",
       "issuer": "ETF OPPORTUNITIES TRUST",
-      "ticker": null,
+      "ticker": "DJTU",
       "title": "T REX 2X LONG DJ",
       "guru_count": 1,
       "gurus": [
@@ -163998,7 +163998,7 @@
     {
       "cusip": "26922B501",
       "issuer": "ETF SER SOLUTIONS",
-      "ticker": null,
+      "ticker": "DSTX",
       "title": "DISTILLATE INTNL",
       "guru_count": 1,
       "gurus": [
@@ -165078,7 +165078,7 @@
     {
       "cusip": "25461A197",
       "issuer": "DIREXION SHS ETF TR",
-      "ticker": null,
+      "ticker": "NVDD",
       "title": "DAILY NVDA BEAR",
       "guru_count": 1,
       "gurus": [
@@ -166410,7 +166410,7 @@
     {
       "cusip": "26922B774",
       "issuer": "ETF SER SOLUTIONS",
-      "ticker": null,
+      "ticker": "MSMR",
       "title": "MCELHENNY SHEFLD",
       "guru_count": 1,
       "gurus": [
@@ -166662,7 +166662,7 @@
     {
       "cusip": "26922A263",
       "issuer": "ETF SER SOLUTIONS",
-      "ticker": null,
+      "ticker": "ZIG",
       "title": "ACQUIRERS FD",
       "guru_count": 1,
       "gurus": [
@@ -166914,7 +166914,7 @@
     {
       "cusip": "26923G780",
       "issuer": "ETFIS SER TR I",
-      "ticker": null,
+      "ticker": "VRAI",
       "title": "VIRTUS REAL AS",
       "guru_count": 1,
       "gurus": [
@@ -167868,7 +167868,7 @@
     {
       "cusip": "26923G400",
       "issuer": "ETFIS SER TR I",
-      "ticker": null,
+      "ticker": "PFFR",
       "title": "INFRACP REIT PFD",
       "guru_count": 1,
       "gurus": [
@@ -169236,7 +169236,7 @@
     {
       "cusip": "26923Q614",
       "issuer": "ETF OPPORTUNITIES TRUST",
-      "ticker": null,
+      "ticker": "CCUP",
       "title": "T-REX 2X LONG",
       "guru_count": 1,
       "gurus": [
@@ -170118,7 +170118,7 @@
     {
       "cusip": "268961505",
       "issuer": "ETF SER SOLUTIONS",
-      "ticker": null,
+      "ticker": "BGDV",
       "title": "BAHL & GAYNOR DI",
       "guru_count": 1,
       "gurus": [
@@ -170370,7 +170370,7 @@
     {
       "cusip": "27828H105",
       "issuer": "EATON  VANCE    LIMITED       DURATION",
-      "ticker": null,
+      "ticker": "XEVVX",
       "title": "COM",
       "guru_count": 1,
       "gurus": [
@@ -171396,7 +171396,7 @@
     {
       "cusip": "26922A511",
       "issuer": "ETF SER SOLUTIONS",
-      "ticker": null,
+      "ticker": "PPTY",
       "title": "US DIVERSIFIED",
       "guru_count": 1,
       "gurus": [
@@ -172152,7 +172152,7 @@
     {
       "cusip": "26923N702",
       "issuer": "ETF OPPORTUNITIES TRUST",
-      "ticker": null,
+      "ticker": "KDRN",
       "title": "KINGSBARN TACTIC",
       "guru_count": 1,
       "gurus": [
@@ -172368,7 +172368,7 @@
     {
       "cusip": "26922B493",
       "issuer": "ETF SER SOLUTIONS",
-      "ticker": null,
+      "ticker": "TBFC",
       "title": "THE BRINSMERE FU",
       "guru_count": 1,
       "gurus": [
@@ -172512,7 +172512,7 @@
     {
       "cusip": "282644400",
       "issuer": "EKSO BIONICS HLDGS INC",
-      "ticker": null,
+      "ticker": "EKSO",
       "title": "COM NEW",
       "guru_count": 1,
       "gurus": [
@@ -172998,7 +172998,7 @@
     {
       "cusip": "26443V101",
       "issuer": "DULUTH HLDGS INC",
-      "ticker": null,
+      "ticker": "DLTH",
       "title": "COM CL B",
       "guru_count": 1,
       "gurus": [
@@ -174186,7 +174186,7 @@
     {
       "cusip": "26922B865",
       "issuer": "ETF SER SOLUTIONS",
-      "ticker": null,
+      "ticker": "SEA",
       "title": "U S GLOBAL SEA T",
       "guru_count": 1,
       "gurus": [
@@ -176850,7 +176850,7 @@
     {
       "cusip": "27829G106",
       "issuer": "EATON VANCE RISK-MANAGED DIV",
-      "ticker": null,
+      "ticker": "ETJ",
       "title": "COM",
       "guru_count": 1,
       "gurus": [
@@ -179478,7 +179478,7 @@
     {
       "cusip": "27826S103",
       "issuer": "EATON VANCE SR INCOME TR",
-      "ticker": null,
+      "ticker": "EVF",
       "title": "SH BEN INT",
       "guru_count": 1,
       "gurus": [
@@ -181566,7 +181566,7 @@
     {
       "cusip": "281479105",
       "issuer": "EDUCATIONAL DEV CORP",
-      "ticker": null,
+      "ticker": "EDUC",
       "title": "COM",
       "guru_count": 1,
       "gurus": [
@@ -181800,7 +181800,7 @@
     {
       "cusip": "27966L306",
       "issuer": "EDESA BIOTECH INC",
-      "ticker": null,
+      "ticker": "EDSA",
       "title": "COM NEW",
       "guru_count": 1,
       "gurus": [
@@ -182304,7 +182304,7 @@
     {
       "cusip": "26916J205",
       "issuer": "ESS TECH INC",
-      "ticker": null,
+      "ticker": "GWH",
       "title": "COM NEW",
       "guru_count": 1,
       "gurus": [
@@ -184320,7 +184320,7 @@
     {
       "cusip": "26745T101",
       "issuer": "DYADIC INTL INC DEL",
-      "ticker": null,
+      "ticker": "DYAI",
       "title": "COM",
       "guru_count": 1,
       "gurus": [
@@ -184968,7 +184968,7 @@
     {
       "cusip": "26916J114",
       "issuer": "ESS  TECH  INC",
-      "ticker": null,
+      "ticker": "GWH",
       "title": "*W      EXP  10/08/202",
       "guru_count": 1,
       "gurus": [
@@ -185652,7 +185652,7 @@
     {
       "cusip": "26145B114",
       "issuer": "DRAGONFLY    ENERGY  HOLDINGS    CO",
-      "ticker": null,
+      "ticker": "DFLIW",
       "title": "*W   EXP   10/07/202",
       "guru_count": 1,
       "gurus": [

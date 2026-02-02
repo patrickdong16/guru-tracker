@@ -719,8 +719,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.38,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EBAY",
+      "ticker": "EBAY"
     },
     {
       "issuer": "APPLIED MATLS INC",
@@ -869,8 +869,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.33,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DASH",
+      "ticker": "DASH"
     },
     {
       "issuer": "FORTINET INC",
@@ -899,8 +899,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.32,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EQT",
+      "ticker": "EQT"
     },
     {
       "issuer": "VERISIGN INC",
@@ -1124,8 +1124,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.24,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DT",
+      "ticker": "DT"
     },
     {
       "issuer": "GSK PLC",
@@ -2009,8 +2009,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.12,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DKNG",
+      "ticker": "DKNG"
     },
     {
       "issuer": "WEBSTER FINL CORP",
@@ -2204,8 +2204,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.11,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DOCU",
+      "ticker": "DOCU"
     },
     {
       "issuer": "ARCH CAP GROUP LTD",
@@ -2669,8 +2669,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.09,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EOG",
+      "ticker": "EOG"
     },
     {
       "issuer": "VEEVA SYS INC",
@@ -2744,8 +2744,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.09,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DBX",
+      "ticker": "DBX"
     },
     {
       "issuer": "CIENA CORP",
@@ -3554,8 +3554,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.06,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DUOL",
+      "ticker": "DUOL"
     },
     {
       "issuer": "CADENCE BANK",
@@ -3929,8 +3929,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.05,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EW",
+      "ticker": "EW"
     },
     {
       "issuer": "ABERCROMBIE & FITCH CO",
@@ -4259,8 +4259,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.05,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ECL",
+      "ticker": "ECL"
     },
     {
       "issuer": "WILLIS TOWERS WATSON PLC LTD",
@@ -4334,8 +4334,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.05,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DD",
+      "ticker": "DD"
     },
     {
       "issuer": "PEGASYSTEMS INC",
@@ -5429,8 +5429,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.03,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DOV",
+      "ticker": "DOV"
     },
     {
       "issuer": "SANMINA CORPORATION",
@@ -6044,8 +6044,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.03,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EBC",
+      "ticker": "EBC"
     },
     {
       "issuer": "SNOWFLAKE INC",
@@ -6839,8 +6839,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DY",
+      "ticker": "DY"
     },
     {
       "issuer": "STRIDE INC",
@@ -7529,8 +7529,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DG",
+      "ticker": "DG"
     },
     {
       "issuer": "KONTOOR BRANDS INC",
@@ -7664,8 +7664,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DLTR",
+      "ticker": "DLTR"
     },
     {
       "issuer": "VONTIER CORPORATION",
@@ -7814,8 +7814,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DUK",
+      "ticker": "DUK"
     },
     {
       "issuer": "FIRSTENERGY CORP",
@@ -9194,8 +9194,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DCI",
+      "ticker": "DCI"
     },
     {
       "issuer": "ELBIT SYS LTD",
@@ -9674,8 +9674,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ELF",
+      "ticker": "ELF"
     },
     {
       "issuer": "RAPID7 INC",
@@ -11819,8 +11819,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EXP",
+      "ticker": "EXP"
     },
     {
       "issuer": "ALAMOS GOLD INC NEW",
@@ -12614,8 +12614,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "D",
+      "ticker": "D"
     },
     {
       "issuer": "VIKING HOLDINGS LTD",
@@ -13349,8 +13349,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DLB",
+      "ticker": "DLB"
     },
     {
       "issuer": "GLOBAL E ONLINE LTD",
@@ -13499,8 +13499,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DORM",
+      "ticker": "DORM"
     },
     {
       "issuer": "EMBRAER S.A.",
@@ -13934,8 +13934,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DX",
+      "ticker": "DX"
     },
     {
       "issuer": "LEONARDO DRS INC",
@@ -14894,8 +14894,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DCO",
+      "ticker": "DCO"
     },
     {
       "issuer": "HENRY SCHEIN INC",

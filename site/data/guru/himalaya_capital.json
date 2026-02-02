@@ -104,8 +104,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 9.15,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EWBC",
+      "ticker": "EWBC"
     },
     {
       "issuer": "OCCIDENTAL PETE CORP",

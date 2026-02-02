@@ -224,8 +224,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.74,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DBX 0 03/01/26",
+      "ticker": "DBX"
     },
     {
       "issuer": "VANECK ETF TRUST",
@@ -344,8 +344,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.36,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DBX 0 03/01/28",
+      "ticker": "DBX"
     },
     {
       "issuer": "SOUTHERN CO",
@@ -464,8 +464,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.07,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DIS",
+      "ticker": "DIS"
     },
     {
       "issuer": "KODIAK AI INC.",
@@ -899,8 +899,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.44,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DD",
+      "ticker": "DD"
     },
     {
       "issuer": "CLOUDFLARE INC",
@@ -989,8 +989,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.41,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DASH",
+      "ticker": "DASH"
     },
     {
       "issuer": "SAILPOINT INC",

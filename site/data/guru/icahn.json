@@ -89,8 +89,8 @@
       "shared_voting": 4354542,
       "no_voting": 0,
       "weight": 3.64,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SATS",
+      "ticker": "SATS"
     },
     {
       "issuer": "International Flavors and Fragrances Inc.",

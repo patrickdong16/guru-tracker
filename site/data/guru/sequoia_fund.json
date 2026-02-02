@@ -644,8 +644,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DG",
+      "ticker": "DG"
     },
     {
       "issuer": "ATAI LIFE SCIENCES NV",

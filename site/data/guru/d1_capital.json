@@ -2084,8 +2084,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.05,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DUK",
+      "ticker": "DUK"
     },
     {
       "issuer": "SCHWAB STRATEGIC TR",
@@ -4049,8 +4049,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DIS",
+      "ticker": "DIS"
     },
     {
       "issuer": "MORGAN STANLEY",
@@ -4469,8 +4469,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DOCU",
+      "ticker": "DOCU"
     },
     {
       "issuer": "GENERAL DYNAMICS CORP",
@@ -4559,8 +4559,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EOG",
+      "ticker": "EOG"
     },
     {
       "issuer": "TRACTOR SUPPLY CO",
@@ -4664,8 +4664,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ECL",
+      "ticker": "ECL"
     },
     {
       "issuer": "INVESCO EXCH TRADED FD TR II",
@@ -4709,8 +4709,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DOW",
+      "ticker": "DOW"
     },
     {
       "issuer": "ISHARES TR",
@@ -4739,8 +4739,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DOV",
+      "ticker": "DOV"
     },
     {
       "issuer": "FORTUNA MNG CORP",
@@ -5654,8 +5654,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EMN",
+      "ticker": "EMN"
     },
     {
       "issuer": "ISHARES INC",
@@ -6314,8 +6314,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DD",
+      "ticker": "DD"
     },
     {
       "issuer": "LIGHTSPEED COMMERCE INC",
