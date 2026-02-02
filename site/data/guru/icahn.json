@@ -29,8 +29,8 @@
       "shared_voting": 518932944,
       "no_voting": 0,
       "weight": 47.8,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IEP",
+      "ticker": "IEP"
     },
     {
       "issuer": "CVR Energy Inc",
@@ -104,8 +104,8 @@
       "shared_voting": 4750000,
       "no_voting": 0,
       "weight": 3.2,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IFF",
+      "ticker": "IFF"
     },
     {
       "issuer": "Centuri Holdings, Inc.",

@@ -119,8 +119,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 6.87,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "META",
+      "ticker": "META"
     },
     {
       "issuer": "TESLA INC",

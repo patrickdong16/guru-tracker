@@ -464,8 +464,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.12,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "HEI/A",
+      "ticker": "HEI"
     },
     {
       "issuer": "LIBERTY MEDIA CORP DEL",

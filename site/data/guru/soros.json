@@ -74,8 +74,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 3.06,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GPN 1.5 03/01/31",
+      "ticker": "GPN"
     },
     {
       "issuer": "SPDR S&P 500 ETF TR",
@@ -134,8 +134,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 2.24,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "RSP",
+      "ticker": "RSP"
     },
     {
       "issuer": "RIVIAN AUTOMOTIVE INC",
@@ -164,8 +164,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.96,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "F 0 03/15/26",
+      "ticker": "F"
     },
     {
       "issuer": "ISHARES TR",
@@ -179,8 +179,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.89,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FXI",
+      "ticker": "FXI"
     },
     {
       "issuer": "TKO GROUP HOLDINGS INC",
@@ -299,8 +299,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.55,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IBKR",
+      "ticker": "IBKR"
     },
     {
       "issuer": "NVIDIA CORPORATION",
@@ -389,8 +389,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.27,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "TLT",
+      "ticker": "TLT"
     },
     {
       "issuer": "APPLE INC",
@@ -434,8 +434,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.16,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FIGR",
+      "ticker": "FIGR"
     },
     {
       "issuer": "MARRIOTT VACATIONS WORLDWIDE",
@@ -584,8 +584,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.76,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IDA",
+      "ticker": "IDA"
     },
     {
       "issuer": "SOMNIGROUP INTERNATIONAL INC",
@@ -659,8 +659,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.65,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IEF",
+      "ticker": "IEF"
     },
     {
       "issuer": "BGC GROUP INC",
@@ -689,8 +689,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.59,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GFL",
+      "ticker": "GFL"
     },
     {
       "issuer": "COMMVAULT SYS INC",
@@ -719,8 +719,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.58,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IPG",
+      "ticker": "IPG"
     },
     {
       "issuer": "NCL CORP LTD",
@@ -824,8 +824,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.48,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ETSY 0.125 10/01/26",
+      "ticker": "ETSY"
     },
     {
       "issuer": "FIRST SOLAR INC",
@@ -839,8 +839,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.48,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FSLR",
+      "ticker": "FSLR"
     },
     {
       "issuer": "CYBERARK SOFTWARE LTD",
@@ -1079,8 +1079,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.37,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "MUB",
+      "ticker": "MUB"
     },
     {
       "issuer": "UBER TECHNOLOGIES INC",
@@ -1154,8 +1154,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.34,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EMXC",
+      "ticker": "EMXC"
     },
     {
       "issuer": "ELECTRONIC ARTS INC",
@@ -1259,8 +1259,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.3,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "HON",
+      "ticker": "HON"
     },
     {
       "issuer": "GLOBE LIFE INC",
@@ -1274,8 +1274,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.3,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GL",
+      "ticker": "GL"
     },
     {
       "issuer": "INTEGRAL AD SCIENCE HLDNG CO",
@@ -1289,8 +1289,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.29,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IAS",
+      "ticker": "IAS"
     },
     {
       "issuer": "JBT MAREL CORPORATION",
@@ -1334,8 +1334,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.27,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EVGO",
+      "ticker": "EVGO"
     },
     {
       "issuer": "OLD NATL BANCORP IND",
@@ -1484,8 +1484,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.22,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "HUM",
+      "ticker": "HUM"
     },
     {
       "issuer": "CHART INDS INC",
@@ -1799,8 +1799,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.13,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GLXY",
+      "ticker": "GLXY"
     },
     {
       "issuer": "BLACK ROCK COFFEE BAR INC",
@@ -1889,8 +1889,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.11,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "HN9",
+      "ticker": "HN9"
     },
     {
       "issuer": "GOLDMAN SACHS GROUP INC",
@@ -1904,8 +1904,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.11,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GS",
+      "ticker": "GS"
     },
     {
       "issuer": "AIR LEASE CORP",
@@ -1949,8 +1949,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.09,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FCNCA",
+      "ticker": "FCNCA"
     },
     {
       "issuer": "LAZARD INC",
@@ -2024,8 +2024,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.09,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FIG",
+      "ticker": "FIG"
     },
     {
       "issuer": "SIMMONS 1ST NATL CORP",
@@ -2069,8 +2069,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.09,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EXC",
+      "ticker": "EXC"
     },
     {
       "issuer": "ONESTREAM INC",
@@ -2114,8 +2114,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.08,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "INTU",
+      "ticker": "INTU"
     },
     {
       "issuer": "SHOALS TECHNOLOGIES GROUP IN",
@@ -2174,8 +2174,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.07,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EWC",
+      "ticker": "EWC"
     },
     {
       "issuer": "NETSKOPE INC",
@@ -2249,8 +2249,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.05,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "HNGE",
+      "ticker": "HNGE"
     },
     {
       "issuer": "AIRO GROUP HLDGS INC",
@@ -2369,8 +2369,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.03,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "LQD",
+      "ticker": "LQD"
     },
     {
       "issuer": "HEARTFLOW INC",
@@ -2384,8 +2384,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.03,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "HTFL",
+      "ticker": "HTFL"
     },
     {
       "issuer": "ANYWHERE REAL ESTATE INC",
@@ -2519,8 +2519,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "HGTY",
+      "ticker": "HGTY"
     },
     {
       "issuer": "TARGET CORP",
@@ -2669,8 +2669,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FICO",
+      "ticker": "FICO"
     },
     {
       "issuer": "COMPASS INC",

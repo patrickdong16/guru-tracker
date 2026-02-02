@@ -89,8 +89,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 3.32,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SHV",
+      "ticker": "SHV"
     },
     {
       "issuer": "BROOKFIELD CORP",
@@ -119,8 +119,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 3.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "JPM",
+      "ticker": "JPM"
     },
     {
       "issuer": "ROYAL BK CDA",
@@ -254,8 +254,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 2.3,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "XOM",
+      "ticker": "XOM"
     },
     {
       "issuer": "SUNCOR ENERGY INC NEW",
@@ -389,8 +389,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.29,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "LQD",
+      "ticker": "LQD"
     },
     {
       "issuer": "WELLS FARGO CO NEW",
@@ -464,8 +464,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.05,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IVV",
+      "ticker": "IVV"
     },
     {
       "issuer": "VANGUARD INDEX FDS",
@@ -554,8 +554,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.78,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FCX",
+      "ticker": "FCX"
     },
     {
       "issuer": "VERIZON COMMUNICATIONS INC",
@@ -734,8 +734,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.34,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SGOV",
+      "ticker": "SGOV"
     },
     {
       "issuer": "OCCIDENTAL PETE CORP",
@@ -779,8 +779,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.33,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "HD",
+      "ticker": "HD"
     },
     {
       "issuer": "ISHARES TR",
@@ -794,8 +794,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.31,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IEF",
+      "ticker": "IEF"
     },
     {
       "issuer": "WILLIAMS COS INC",
@@ -854,8 +854,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.29,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IMO",
+      "ticker": "IMO"
     },
     {
       "issuer": "CHEVRON CORP NEW",
@@ -914,8 +914,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.26,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IJH",
+      "ticker": "IJH"
     },
     {
       "issuer": "VANGUARD SCOTTSDALE FDS",
@@ -959,8 +959,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.23,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IBM",
+      "ticker": "IBM"
     },
     {
       "issuer": "HUDBAY MINERALS INC",
@@ -974,8 +974,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.23,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "HBM",
+      "ticker": "HBM"
     },
     {
       "issuer": "PEMBINA PIPELINE CORP",
@@ -1004,8 +1004,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.22,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FTS",
+      "ticker": "FTS"
     },
     {
       "issuer": "BCE INC",
@@ -1109,8 +1109,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.17,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "PICB",
+      "ticker": "PICB"
     },
     {
       "issuer": "WEST FRASER TIMBER CO LTD",
@@ -1199,8 +1199,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.15,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IWR",
+      "ticker": "IWR"
     },
     {
       "issuer": "NEXTERA ENERGY INC",
@@ -1229,8 +1229,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.14,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IEMG",
+      "ticker": "IEMG"
     },
     {
       "issuer": "SPDR SERIES TRUST",
@@ -1274,8 +1274,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.12,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IEFA",
+      "ticker": "IEFA"
     },
     {
       "issuer": "CHUBB LIMITED",
@@ -1334,8 +1334,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.12,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GM",
+      "ticker": "GM"
     },
     {
       "issuer": "TESLA INC",
@@ -1454,8 +1454,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.1,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "MUB",
+      "ticker": "MUB"
     },
     {
       "issuer": "SHOPIFY INC",
@@ -1589,8 +1589,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.08,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ITW",
+      "ticker": "ITW"
     },
     {
       "issuer": "NUCOR CORP",
@@ -1664,8 +1664,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.07,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IYR",
+      "ticker": "IYR"
     },
     {
       "issuer": "FRANCO NEV CORP",
@@ -1679,8 +1679,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.06,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FNV",
+      "ticker": "FNV"
     },
     {
       "issuer": "DANAHER CORPORATION",
@@ -1769,8 +1769,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.06,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IWD",
+      "ticker": "IWD"
     },
     {
       "issuer": "SPROTT ASSET MANAGEMENT LP",
@@ -1829,8 +1829,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.06,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GE",
+      "ticker": "GE"
     },
     {
       "issuer": "SELECT SECTOR SPDR TR",
@@ -1889,8 +1889,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.06,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IWM",
+      "ticker": "IWM"
     },
     {
       "issuer": "AT&T INC",
@@ -1919,8 +1919,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.06,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "AGG",
+      "ticker": "AGG"
     },
     {
       "issuer": "META PLATFORMS INC",
@@ -1934,8 +1934,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.06,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "META",
+      "ticker": "META"
     },
     {
       "issuer": "VANGUARD BD INDEX FDS",
@@ -2114,8 +2114,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.05,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IJR",
+      "ticker": "IJR"
     },
     {
       "issuer": "VANGUARD INTL EQUITY INDEX F",
@@ -2204,8 +2204,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.04,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EWC",
+      "ticker": "EWC"
     },
     {
       "issuer": "VANGUARD STAR FDS",
@@ -2234,8 +2234,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.04,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GEHC",
+      "ticker": "GEHC"
     },
     {
       "issuer": "NETFLIX INC",
@@ -2279,8 +2279,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.04,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "USIG",
+      "ticker": "USIG"
     },
     {
       "issuer": "MID-AMER APT CMNTYS INC",
@@ -2324,8 +2324,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.04,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "PFF",
+      "ticker": "PFF"
     },
     {
       "issuer": "SUN LIFE FINANCIAL INC.",
@@ -2354,8 +2354,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.04,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ITOT",
+      "ticker": "ITOT"
     },
     {
       "issuer": "CARRIER GLOBAL CORPORATION",
@@ -2384,8 +2384,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.04,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EMB",
+      "ticker": "EMB"
     },
     {
       "issuer": "MICRON TECHNOLOGY INC",
@@ -2474,8 +2474,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.03,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GEV",
+      "ticker": "GEV"
     },
     {
       "issuer": "ISHARES TR",
@@ -2489,8 +2489,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.03,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ESGD",
+      "ticker": "ESGD"
     },
     {
       "issuer": "SCHWAB STRATEGIC TR",
@@ -2534,8 +2534,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.03,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IR",
+      "ticker": "IR"
     },
     {
       "issuer": "SELECT SECTOR SPDR TR",
@@ -2579,8 +2579,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.03,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SUB",
+      "ticker": "SUB"
     },
     {
       "issuer": "OTIS WORLDWIDE CORP",
@@ -2669,8 +2669,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.03,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IAU",
+      "ticker": "IAU"
     },
     {
       "issuer": "J P MORGAN EXCHANGE TRADED F",
@@ -2684,8 +2684,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.03,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "JEPI",
+      "ticker": "JEPI"
     },
     {
       "issuer": "INTERCONTINENTAL EXCHANGE IN",
@@ -2699,8 +2699,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ICE",
+      "ticker": "ICE"
     },
     {
       "issuer": "EMERA INC",
@@ -2744,8 +2744,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FVD",
+      "ticker": "FVD"
     },
     {
       "issuer": "COMCAST CORP NEW",
@@ -2774,8 +2774,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ACWI",
+      "ticker": "ACWI"
     },
     {
       "issuer": "SPDR SERIES TRUST",
@@ -2804,8 +2804,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "LIT",
+      "ticker": "LIT"
     },
     {
       "issuer": "QUALCOMM INC",
@@ -2864,8 +2864,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EFA",
+      "ticker": "EFA"
     },
     {
       "issuer": "ISHARES TR",
@@ -2879,8 +2879,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IYW",
+      "ticker": "IYW"
     },
     {
       "issuer": "GILEAD SCIENCES INC",
@@ -2894,8 +2894,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GILD",
+      "ticker": "GILD"
     },
     {
       "issuer": "SPDR SERIES TRUST",
@@ -2984,8 +2984,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "TLT",
+      "ticker": "TLT"
     },
     {
       "issuer": "SALESFORCE INC",
@@ -3044,8 +3044,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GOVT",
+      "ticker": "GOVT"
     },
     {
       "issuer": "OVINTIV INC",
@@ -3074,8 +3074,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IUSV",
+      "ticker": "IUSV"
     },
     {
       "issuer": "BAYTEX ENERGY CORP",
@@ -3119,8 +3119,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SHYG",
+      "ticker": "SHYG"
     },
     {
       "issuer": "J P MORGAN EXCHANGE TRADED F",
@@ -3134,8 +3134,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "JMTG",
+      "ticker": "JMTG"
     },
     {
       "issuer": "LOWES COS INC",
@@ -3254,8 +3254,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ICLN",
+      "ticker": "ICLN"
     },
     {
       "issuer": "TEXAS INSTRS INC",
@@ -3389,8 +3389,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EWA",
+      "ticker": "EWA"
     },
     {
       "issuer": "INVESCO ACTVELY MNGD ETC FD",
@@ -3404,8 +3404,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "PDBC",
+      "ticker": "PDBC"
     },
     {
       "issuer": "ISHARES TR",
@@ -3419,8 +3419,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IWN",
+      "ticker": "IWN"
     },
     {
       "issuer": "FIDELITY COMWLTH TR",
@@ -3434,8 +3434,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ONEQ",
+      "ticker": "ONEQ"
     },
     {
       "issuer": "ISHARES TR",
@@ -3449,8 +3449,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ISTB",
+      "ticker": "ISTB"
     },
     {
       "issuer": "ISHARES TR",
@@ -3464,8 +3464,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IWB",
+      "ticker": "IWB"
     },
     {
       "issuer": "SPDR SERIES TRUST",
@@ -3494,8 +3494,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EWL",
+      "ticker": "EWL"
     },
     {
       "issuer": "GLOBAL X FDS",
@@ -3509,8 +3509,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SHLD",
+      "ticker": "SHLD"
     },
     {
       "issuer": "ISHARES TR",
@@ -3524,8 +3524,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IEI",
+      "ticker": "IEI"
     },
     {
       "issuer": "VANGUARD INTL EQUITY INDEX F",
@@ -3554,8 +3554,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FAST",
+      "ticker": "FAST"
     },
     {
       "issuer": "CORNING INC",
@@ -3614,8 +3614,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SCZ",
+      "ticker": "SCZ"
     },
     {
       "issuer": "FORD MTR CO",
@@ -3629,8 +3629,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "F",
+      "ticker": "F"
     },
     {
       "issuer": "MPLX LP",
@@ -3674,8 +3674,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EWG",
+      "ticker": "EWG"
     },
     {
       "issuer": "PRICE T ROWE GROUP INC",
@@ -3719,8 +3719,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IWS",
+      "ticker": "IWS"
     },
     {
       "issuer": "ISHARES TR",
@@ -3734,8 +3734,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "BGRN",
+      "ticker": "BGRN"
     },
     {
       "issuer": "ISHARES TR",
@@ -3749,8 +3749,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IGRO",
+      "ticker": "IGRO"
     },
     {
       "issuer": "PRECISION DRILLING CORP",
@@ -3809,8 +3809,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IVW",
+      "ticker": "IVW"
     },
     {
       "issuer": "PIMCO ETF TR",
@@ -3974,8 +3974,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "URA",
+      "ticker": "URA"
     },
     {
       "issuer": "REGENERON PHARMACEUTICALS",
@@ -4034,8 +4034,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IJJ",
+      "ticker": "IJJ"
     },
     {
       "issuer": "DISNEY WALT CO",
@@ -4124,8 +4124,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EWM",
+      "ticker": "EWM"
     },
     {
       "issuer": "OPEN TEXT CORP",
@@ -4154,8 +4154,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FIS",
+      "ticker": "FIS"
     },
     {
       "issuer": "ISHARES TR",
@@ -4169,8 +4169,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IJS",
+      "ticker": "IJS"
     },
     {
       "issuer": "CAE INC",
@@ -4199,8 +4199,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FDX",
+      "ticker": "FDX"
     },
     {
       "issuer": "BLACKROCK ENHANCED EQUITY DI",
@@ -4229,8 +4229,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ISRG",
+      "ticker": "ISRG"
     },
     {
       "issuer": "EQUINOX GOLD CORP",
@@ -4274,8 +4274,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "HON",
+      "ticker": "HON"
     },
     {
       "issuer": "ISHARES TR",
@@ -4289,8 +4289,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EWU",
+      "ticker": "EWU"
     },
     {
       "issuer": "SYNOPSYS INC",
@@ -4334,8 +4334,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "THD",
+      "ticker": "THD"
     },
     {
       "issuer": "ISHARES TR",
@@ -4349,8 +4349,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EEM",
+      "ticker": "EEM"
     },
     {
       "issuer": "INVESCO EXCH TRADED FD TR II",
@@ -4379,8 +4379,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "HYG",
+      "ticker": "HYG"
     },
     {
       "issuer": "EXCHANGE TRADED CONCEPTS TRU",
@@ -4394,8 +4394,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ROBO",
+      "ticker": "ROBO"
     },
     {
       "issuer": "ISHARES TR",
@@ -4409,8 +4409,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DGRO",
+      "ticker": "DGRO"
     },
     {
       "issuer": "LINDE PLC",
@@ -4454,8 +4454,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IJK",
+      "ticker": "IJK"
     },
     {
       "issuer": "DOCUSIGN INC",
@@ -4484,8 +4484,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GD",
+      "ticker": "GD"
     },
     {
       "issuer": "PROLOGIS INC.",
@@ -4544,8 +4544,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IYH",
+      "ticker": "IYH"
     },
     {
       "issuer": "EOG RES INC",
@@ -4634,8 +4634,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SHY",
+      "ticker": "SHY"
     },
     {
       "issuer": "SPDR SERIES TRUST",
@@ -4694,8 +4694,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "INTU",
+      "ticker": "INTU"
     },
     {
       "issuer": "DOW INC",
@@ -4724,8 +4724,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ILF",
+      "ticker": "ILF"
     },
     {
       "issuer": "DOVER CORP",
@@ -4754,8 +4754,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FSM",
+      "ticker": "FSM"
     },
     {
       "issuer": "S&P GLOBAL INC",
@@ -4799,8 +4799,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IXC",
+      "ticker": "IXC"
     },
     {
       "issuer": "SOUTH BOW CORP",
@@ -4904,8 +4904,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "BBJP",
+      "ticker": "BBJP"
     },
     {
       "issuer": "MOTOROLA SOLUTIONS INC",
@@ -4934,8 +4934,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GSK",
+      "ticker": "GSK"
     },
     {
       "issuer": "COGNIZANT TECHNOLOGY SOLUTIO",
@@ -5009,8 +5009,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "PGF",
+      "ticker": "PGF"
     },
     {
       "issuer": "SSR MINING IN",
@@ -5069,8 +5069,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "AG",
+      "ticker": "AG"
     },
     {
       "issuer": "TAIWAN SEMICONDUCTOR MFG LTD",
@@ -5159,8 +5159,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GS",
+      "ticker": "GS"
     },
     {
       "issuer": "L3HARRIS TECHNOLOGIES INC",
@@ -5204,8 +5204,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FTSL",
+      "ticker": "FTSL"
     },
     {
       "issuer": "MARVELL TECHNOLOGY INC",
@@ -5264,8 +5264,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DRIV",
+      "ticker": "DRIV"
     },
     {
       "issuer": "REGIONS FINANCIAL CORP NEW",
@@ -5429,8 +5429,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "CIBR",
+      "ticker": "CIBR"
     },
     {
       "issuer": "DIAGEO PLC",
@@ -5669,8 +5669,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EWS",
+      "ticker": "EWS"
     },
     {
       "issuer": "SYSCO CORP",
@@ -5834,8 +5834,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ES",
+      "ticker": "ES"
     },
     {
       "issuer": "AMERICAN TOWER CORP NEW",
@@ -5894,8 +5894,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ING",
+      "ticker": "ING"
     },
     {
       "issuer": "HERSHEY CO",
@@ -5909,8 +5909,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "HSY",
+      "ticker": "HSY"
     },
     {
       "issuer": "WABTEC",
@@ -5939,8 +5939,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "HWM",
+      "ticker": "HWM"
     },
     {
       "issuer": "CLEVELAND-CLIFFS INC NEW",
@@ -6044,8 +6044,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ITRG",
+      "ticker": "ITRG"
     },
     {
       "issuer": "NEW FOUND GOLD CORP",
@@ -6089,8 +6089,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "HLN",
+      "ticker": "HLN"
     },
     {
       "issuer": "AON PLC",
@@ -6224,8 +6224,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "INTC",
+      "ticker": "INTC"
     },
     {
       "issuer": "ZOETIS INC",

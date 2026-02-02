@@ -44,8 +44,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 8.59,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "INSM",
+      "ticker": "INSM"
     },
     {
       "issuer": "Teva Pharmaceutical Inds Ltd",
@@ -164,8 +164,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 2.5,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EEM",
+      "ticker": "EEM"
     },
     {
       "issuer": "Amazon Com Inc",
@@ -209,8 +209,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.9,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FIGR",
+      "ticker": "FIGR"
     },
     {
       "issuer": "Restaurant Brands Intl Inc",
@@ -284,8 +284,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.38,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "META",
+      "ticker": "META"
     },
     {
       "issuer": "Newamsterdam Pharma Company",
@@ -314,8 +314,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.35,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IWM",
+      "ticker": "IWM"
     },
     {
       "issuer": "Carpenter Technology Corp",
@@ -419,8 +419,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.17,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GEV",
+      "ticker": "GEV"
     },
     {
       "issuer": "Crh Plc",
@@ -749,8 +749,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.49,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GPC",
+      "ticker": "GPC"
     },
     {
       "issuer": "Enliven Therapeutics Inc",
@@ -824,8 +824,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.44,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ARGT",
+      "ticker": "ARGT"
     },
     {
       "issuer": "Cogent Biosciences Inc",

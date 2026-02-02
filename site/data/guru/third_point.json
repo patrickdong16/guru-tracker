@@ -389,8 +389,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.8,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "META",
+      "ticker": "META"
     },
     {
       "issuer": "MASTEC INC",
@@ -434,8 +434,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.53,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "J",
+      "ticker": "J"
     },
     {
       "issuer": "PRIMO BRANDS CORPORATION",
@@ -464,8 +464,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.09,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FND",
+      "ticker": "FND"
     },
     {
       "issuer": "APOLLO GLOBAL MGMT INC",
@@ -554,8 +554,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.16,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "HTZWW",
+      "ticker": "HTZWW"
     },
     {
       "issuer": "PG&E CORP",
@@ -614,8 +614,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.06,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FLYX",
+      "ticker": "FLYX"
     },
     {
       "issuer": "AURORA INNOVATION INC",
@@ -689,8 +689,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FLYX/WS",
+      "ticker": "FLYX"
     }
   ],
   "comparison": {

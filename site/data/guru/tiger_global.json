@@ -104,8 +104,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 6.4,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "META",
+      "ticker": "META"
     },
     {
       "issuer": "TAKE-TWO INTERACTIVE SOFTWAR",
@@ -254,8 +254,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 2.19,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GEV",
+      "ticker": "GEV"
     },
     {
       "issuer": "LAM RESEARCH CORP",
@@ -614,8 +614,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.08,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "HNGE",
+      "ticker": "HNGE"
     },
     {
       "issuer": "CIRCLE INTERNET GROUP INC",
@@ -704,8 +704,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FIGR",
+      "ticker": "FIGR"
     },
     {
       "issuer": "DOORDASH INC",
@@ -779,8 +779,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FIG",
+      "ticker": "FIG"
     },
     {
       "issuer": "TRIUMPH FINANCIAL INC",
@@ -809,8 +809,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GEMI",
+      "ticker": "GEMI"
     },
     {
       "issuer": "ACCELERANT HOLDINGS",

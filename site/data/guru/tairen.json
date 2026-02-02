@@ -254,8 +254,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 2.11,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FICO",
+      "ticker": "FICO"
     },
     {
       "issuer": "AMER SPORTS INC",
@@ -569,8 +569,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GDS",
+      "ticker": "GDS"
     },
     {
       "issuer": "REPUBLIC SVCS INC",
@@ -839,8 +839,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.1,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "INTC",
+      "ticker": "INTC"
     },
     {
       "issuer": "BRITISH AMERN TOB PLC",
@@ -974,8 +974,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.03,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "LABX",
+      "ticker": "LABX"
     },
     {
       "issuer": "ORACLE CORP",
