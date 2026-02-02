@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-02T08:28:54Z",
-  "guru_count": 27,
-  "gurus_with_data": 27,
+  "generated_at": "2026-02-02T08:30:33Z",
+  "guru_count": 29,
+  "gurus_with_data": 29,
   "gurus": [
     {
       "id": "oriental_harbor",
@@ -671,6 +671,35 @@
       }
     },
     {
+      "id": "tairen",
+      "display_name": "泰仁资本 / Tairen Capital",
+      "name": "Tairen Capital Ltd",
+      "style": "growth",
+      "style_label": "科技成长",
+      "aum": "$1B",
+      "representative": "泰仁资本",
+      "bio": "低调但极具爆发力的对冲基金，愿意拥抱高波动和新兴趋势。相比传统价值投资，更偏杠杆科技成长和趋势捕捉。",
+      "famous_trade": "重仓比特币ETF(IBIT)、特斯拉、Robinhood等新兴资产。",
+      "cik": "0001652062",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2025-09-30",
+      "latest_filing_date": "2025-11-13",
+      "total_value": 925439862,
+      "holdings_count": 66,
+      "summary": {
+        "total_new": 33,
+        "total_increased": 13,
+        "total_decreased": 18,
+        "total_unchanged": 2,
+        "total_sold": 35,
+        "total_value_current": 925439862,
+        "total_value_previous": 978557017,
+        "total_value_change_pct": -5.4
+      }
+    },
+    {
       "id": "pabrai",
       "display_name": "Mohnish Pabrai / Pabrai Funds",
       "name": "Dalal Street, LLC",
@@ -755,6 +784,35 @@
         "total_value_current": 3230264839,
         "total_value_previous": 2689202442,
         "total_value_change_pct": 20.1
+      }
+    },
+    {
+      "id": "greenwoods",
+      "display_name": "蒋锦志 / 景林资产",
+      "name": "Greenwoods Asset Management Hong Kong Ltd.",
+      "style": "value",
+      "style_label": "逆向投资",
+      "aum": "$3-5B",
+      "representative": "蒋锦志 (Jiang Jinzhi)",
+      "bio": "中国最成功的百亿私募之一，海外美股动作被视为中资机构风向标。擅长在市场恐慌时左侧入场，重仓行业龙头。",
+      "famous_trade": "核心持仓拼多多、网易等中概股；2025年显著加码AI硬件链（台积电、英伟达、ASML）。",
+      "cik": "0001848138",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2025-09-30",
+      "latest_filing_date": "2025-11-10",
+      "total_value": 4440670727,
+      "holdings_count": 30,
+      "summary": {
+        "total_new": 9,
+        "total_increased": 8,
+        "total_decreased": 6,
+        "total_unchanged": 7,
+        "total_sold": 7,
+        "total_value_current": 4440670727,
+        "total_value_previous": 2873618968,
+        "total_value_change_pct": 54.5
       }
     },
     {
