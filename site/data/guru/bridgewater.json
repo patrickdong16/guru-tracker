@@ -1049,8 +1049,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.26,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EME",
+      "ticker": "EME"
     },
     {
       "issuer": "TALEN ENERGY CORP",
@@ -2309,8 +2309,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.11,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EQIX",
+      "ticker": "EQIX"
     },
     {
       "issuer": "EQUITABLE HLDGS INC",
@@ -2324,8 +2324,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.11,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EQH",
+      "ticker": "EQH"
     },
     {
       "issuer": "SCHLUMBERGER LTD",
@@ -4889,8 +4889,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.04,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EA",
+      "ticker": "EA"
     },
     {
       "issuer": "ZOOM COMMUNICATIONS INC",
@@ -5969,8 +5969,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.03,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ENPH",
+      "ticker": "ENPH"
     },
     {
       "issuer": "ENCOMPASS HEALTH CORP",
@@ -5984,8 +5984,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.03,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EHC",
+      "ticker": "EHC"
     },
     {
       "issuer": "WINMARK CORP",
@@ -6149,8 +6149,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.03,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EQNR",
+      "ticker": "EQNR"
     },
     {
       "issuer": "IES HLDGS INC",
@@ -7049,8 +7049,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EMR",
+      "ticker": "EMR"
     },
     {
       "issuer": "TRINET GROUP INC",
@@ -7784,8 +7784,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "UUUU",
+      "ticker": "UUUU"
     },
     {
       "issuer": "TKO GROUP HOLDINGS INC",
@@ -10904,8 +10904,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ELS",
+      "ticker": "ELS"
     },
     {
       "issuer": "MOSAIC CO NEW",
@@ -11249,8 +11249,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ENR",
+      "ticker": "ENR"
     },
     {
       "issuer": "FLUOR CORP NEW",
@@ -11339,8 +11339,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ETR",
+      "ticker": "ETR"
     },
     {
       "issuer": "STEELCASE INC",
@@ -11654,8 +11654,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "NVST",
+      "ticker": "NVST"
     },
     {
       "issuer": "GAMING & LEISURE PPTYS INC",
@@ -12509,8 +12509,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ENSG",
+      "ticker": "ENSG"
     },
     {
       "issuer": "GE HEALTHCARE TECHNOLOGIES I",
@@ -13514,8 +13514,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EMBJ",
+      "ticker": "EMBJ"
     },
     {
       "issuer": "FLOWERS FOODS INC",
@@ -14039,8 +14039,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EU",
+      "ticker": "EU"
     },
     {
       "issuer": "WATERS CORP",
@@ -14579,8 +14579,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ENS",
+      "ticker": "ENS"
     },
     {
       "issuer": "ARTISAN PARTNERS ASSET MGMT",

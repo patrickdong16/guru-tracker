@@ -329,8 +329,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.59,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ENB",
+      "ticker": "ENB"
     },
     {
       "issuer": "CENOVUS ENERGY INC",
@@ -1799,8 +1799,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.06,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EMR",
+      "ticker": "EMR"
     },
     {
       "issuer": "DENISON MINES CORP",
@@ -2714,8 +2714,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EMA",
+      "ticker": "EMA"
     },
     {
       "issuer": "SOUTHERN CO",
@@ -3779,8 +3779,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EGO",
+      "ticker": "EGO"
     },
     {
       "issuer": "SCHWAB STRATEGIC TR",
@@ -4244,8 +4244,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EQX",
+      "ticker": "EQX"
     },
     {
       "issuer": "BRISTOL-MYERS SQUIBB CO",
@@ -4994,8 +4994,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EQR",
+      "ticker": "EQR"
     },
     {
       "issuer": "INVESCO EXCHANGE TRADED FD T",
@@ -5534,8 +5534,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ELVA",
+      "ticker": "ELVA"
     },
     {
       "issuer": "CARNIVAL CORP",
@@ -6149,8 +6149,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ET",
+      "ticker": "ET"
     },
     {
       "issuer": "COCA-COLA EUROPACIFIC PARTNE",

@@ -389,8 +389,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.03,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EQH",
+      "ticker": "EQH"
     },
     {
       "issuer": "GROUP 1 AUTOMOTIVE INC",

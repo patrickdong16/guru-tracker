@@ -704,8 +704,8 @@
       "shared_voting": 2004253,
       "no_voting": 0,
       "weight": 0.31,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ETR",
+      "ticker": "ETR"
     },
     {
       "issuer": "KEURIG DR PEPPER INC",
@@ -1649,8 +1649,8 @@
       "shared_voting": 147366,
       "no_voting": 0,
       "weight": 0.19,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EQIX",
+      "ticker": "EQIX"
     },
     {
       "issuer": "REGENERON PHARMACEUTICALS",
@@ -2564,8 +2564,8 @@
       "shared_voting": 522144,
       "no_voting": 0,
       "weight": 0.13,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EPAM",
+      "ticker": "EPAM"
     },
     {
       "issuer": "STRATEGY INC",
@@ -4139,8 +4139,8 @@
       "shared_voting": 25410000,
       "no_voting": 0,
       "weight": 0.08,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EQXCN 4.75 10/15/28",
+      "ticker": "EQXCN"
     },
     {
       "issuer": "WEBSTER FINL CORP",
@@ -6974,8 +6974,8 @@
       "shared_voting": 1260400,
       "no_voting": 0,
       "weight": 0.04,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ELAN",
+      "ticker": "ELAN"
     },
     {
       "issuer": "ENOVIX CORPORATION",
@@ -6989,8 +6989,8 @@
       "shared_voting": 2527300,
       "no_voting": 0,
       "weight": 0.04,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ENVX",
+      "ticker": "ENVX"
     },
     {
       "issuer": "DESIGN THERAPEUTICS INC",
@@ -7769,8 +7769,8 @@
       "shared_voting": 1040410,
       "no_voting": 0,
       "weight": 0.04,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ELVN",
+      "ticker": "ELVN"
     },
     {
       "issuer": "ENVISTA HOLDINGS CORPORATION",
@@ -7784,8 +7784,8 @@
       "shared_voting": 1040784,
       "no_voting": 0,
       "weight": 0.04,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "NVST",
+      "ticker": "NVST"
     },
     {
       "issuer": "HALEON PLC",
@@ -10709,8 +10709,8 @@
       "shared_voting": 200300,
       "no_voting": 0,
       "weight": 0.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EQH",
+      "ticker": "EQH"
     },
     {
       "issuer": "AVIS BUDGET GROUP",
@@ -11264,8 +11264,8 @@
       "shared_voting": 802796,
       "no_voting": 0,
       "weight": 0.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EOSE",
+      "ticker": "EOSE"
     },
     {
       "issuer": "HALLIBURTON CO",
@@ -11894,8 +11894,8 @@
       "shared_voting": 1208399,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ENGN",
+      "ticker": "ENGN"
     },
     {
       "issuer": "SOLID BIOSCIENCES INC",
@@ -13454,8 +13454,8 @@
       "shared_voting": 612700,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DAVA",
+      "ticker": "DAVA"
     },
     {
       "issuer": "EXELON CORP",
@@ -13754,8 +13754,8 @@
       "shared_voting": 5500000,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "NVST 1.75 08/15/28",
+      "ticker": "NVST"
     },
     {
       "issuer": "WINGSTOP INC",
@@ -15134,8 +15134,8 @@
       "shared_voting": 300000,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ENTA",
+      "ticker": "ENTA"
     },
     {
       "issuer": "NUTANIX INC",
@@ -16679,8 +16679,8 @@
       "shared_voting": 65117,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ENPH",
+      "ticker": "ENPH"
     },
     {
       "issuer": "MOOG INC",
@@ -19439,8 +19439,8 @@
       "shared_voting": 27410,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EPAC",
+      "ticker": "EPAC"
     },
     {
       "issuer": "AVEANNA HEALTHCARE HLDGS INC",
@@ -19544,8 +19544,8 @@
       "shared_voting": 21400,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ENB",
+      "ticker": "ENB"
     },
     {
       "issuer": "UNDER ARMOUR INC",
@@ -22649,8 +22649,8 @@
       "shared_voting": 24800,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EDN",
+      "ticker": "EDN"
     },
     {
       "issuer": "THERMON GROUP HLDGS INC",
@@ -22964,8 +22964,8 @@
       "shared_voting": 13661,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ESI",
+      "ticker": "ESI"
     },
     {
       "issuer": "INGRAM MICRO HLDG CORP",
@@ -23009,8 +23009,8 @@
       "shared_voting": 2600,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EMR",
+      "ticker": "EMR"
     },
     {
       "issuer": "BECTON DICKINSON & CO",
@@ -23684,8 +23684,8 @@
       "shared_voting": 5466,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EIG",
+      "ticker": "EIG"
     },
     {
       "issuer": "BELITE BIO INC",
@@ -23804,8 +23804,8 @@
       "shared_voting": 47709,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "VSTS",
+      "ticker": "VSTS"
     },
     {
       "issuer": "GREAT LAKES DREDGE & DOCK CO",
@@ -23849,8 +23849,8 @@
       "shared_voting": 19162,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EQX",
+      "ticker": "EQX"
     },
     {
       "issuer": "APPIAN CORP",
@@ -23999,8 +23999,8 @@
       "shared_voting": 13857,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EFC",
+      "ticker": "EFC"
     },
     {
       "issuer": "DIVERSIFIED HEALTHCARE TR",
@@ -24149,8 +24149,8 @@
       "shared_voting": 15053,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EFXT",
+      "ticker": "EFXT"
     },
     {
       "issuer": "ARCOS DORADOS HOLDINGS INC",
@@ -24194,8 +24194,8 @@
       "shared_voting": 1383,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ENVA",
+      "ticker": "ENVA"
     },
     {
       "issuer": "FIRST FINL BANCORP OH",
@@ -24794,8 +24794,8 @@
       "shared_voting": 420,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EHC",
+      "ticker": "EHC"
     },
     {
       "issuer": "TEEKAY CORPORATION LTD",

@@ -44,8 +44,8 @@
       "shared_voting": 0,
       "no_voting": 459300,
       "weight": 13.76,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EPD",
+      "ticker": "EPD"
     },
     {
       "issuer": "BANK OZK",
@@ -119,8 +119,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.23,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ET",
+      "ticker": "ET"
     },
     {
       "issuer": "BERKSHIRE HATHAWAY INC DEL",

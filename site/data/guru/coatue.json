@@ -89,8 +89,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 4.23,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ENVA",
+      "ticker": "ENVA"
     },
     {
       "issuer": "SOMNIGROUP INTERNATIONAL INC",
@@ -2279,8 +2279,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.05,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ENPH",
+      "ticker": "ENPH"
     },
     {
       "issuer": "NATIONAL BEVERAGE CORP",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-02T12:40:37Z",
+  "generated_at": "2026-02-02T12:40:59Z",
   "total_stocks": 7355,
   "stocks": [
     {
@@ -9692,7 +9692,7 @@
     {
       "cusip": "29355A107",
       "issuer": "ENPHASE ENERGY INC",
-      "ticker": null,
+      "ticker": "ENPH",
       "title": "COM",
       "guru_count": 6,
       "gurus": [
@@ -13987,7 +13987,7 @@
     {
       "cusip": "29444U700",
       "issuer": "EQUINIX INC",
-      "ticker": null,
+      "ticker": "EQIX",
       "title": "COM",
       "guru_count": 5,
       "gurus": [
@@ -14861,7 +14861,7 @@
     {
       "cusip": "29364G103",
       "issuer": "ENTERGY CORP NEW",
-      "ticker": null,
+      "ticker": "ETR",
       "title": "COM",
       "guru_count": 5,
       "gurus": [
@@ -19737,7 +19737,7 @@
     {
       "cusip": "291011104",
       "issuer": "EMERSON ELEC CO",
-      "ticker": null,
+      "ticker": "EMR",
       "title": "COM",
       "guru_count": 5,
       "gurus": [
@@ -20105,7 +20105,7 @@
     {
       "cusip": "29452E101",
       "issuer": "EQUITABLE HLDGS INC",
-      "ticker": null,
+      "ticker": "EQH",
       "title": "COM",
       "guru_count": 5,
       "gurus": [
@@ -21301,7 +21301,7 @@
     {
       "cusip": "29446Y502",
       "issuer": "EQUINOX GOLD CORP",
-      "ticker": null,
+      "ticker": "EQX",
       "title": "COM",
       "guru_count": 5,
       "gurus": [
@@ -25118,7 +25118,7 @@
     {
       "cusip": "285512109",
       "issuer": "ELECTRONIC ARTS INC",
-      "ticker": null,
+      "ticker": "EA",
       "title": "COM",
       "guru_count": 4,
       "gurus": [
@@ -29135,7 +29135,7 @@
     {
       "cusip": "29273V100",
       "issuer": "ENERGY TRANSFER L P",
-      "ticker": null,
+      "ticker": "ET",
       "title": "COM UT LTD PTN",
       "guru_count": 4,
       "gurus": [
@@ -30266,7 +30266,7 @@
     {
       "cusip": "29261A100",
       "issuer": "ENCOMPASS HEALTH CORP",
-      "ticker": null,
+      "ticker": "EHC",
       "title": "COM",
       "guru_count": 4,
       "gurus": [
@@ -36038,7 +36038,7 @@
     {
       "cusip": "29357K103",
       "issuer": "ENOVA INTL INC",
-      "ticker": null,
+      "ticker": "ENVA",
       "title": "COM",
       "guru_count": 4,
       "gurus": [
@@ -37364,7 +37364,7 @@
     {
       "cusip": "29337E102",
       "issuer": "ENLIVEN THERAPEUTICS INC",
-      "ticker": null,
+      "ticker": "ELVN",
       "title": "COM",
       "guru_count": 4,
       "gurus": [
@@ -38807,7 +38807,7 @@
     {
       "cusip": "29415F104",
       "issuer": "ENVISTA HOLDINGS CORPORATION",
-      "ticker": null,
+      "ticker": "NVST",
       "title": "COM",
       "guru_count": 4,
       "gurus": [
@@ -41537,7 +41537,7 @@
     {
       "cusip": "29250N105",
       "issuer": "ENBRIDGE INC",
-      "ticker": null,
+      "ticker": "ENB",
       "title": "COM",
       "guru_count": 4,
       "gurus": [
@@ -45340,7 +45340,7 @@
     {
       "cusip": "29084Q100",
       "issuer": "EMCOR GROUP INC",
-      "ticker": null,
+      "ticker": "EME",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -46012,7 +46012,7 @@
     {
       "cusip": "29414B104",
       "issuer": "EPAM SYS INC",
-      "ticker": null,
+      "ticker": "EPAM",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -47484,7 +47484,7 @@
     {
       "cusip": "28414H103",
       "issuer": "ELANCO ANIMAL HEALTH INC",
-      "ticker": null,
+      "ticker": "ELAN",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -49308,7 +49308,7 @@
     {
       "cusip": "29415C101",
       "issuer": "EOS ENERGY ENTERPRISES INC",
-      "ticker": null,
+      "ticker": "EOSE",
       "title": "COM CL A",
       "guru_count": 3,
       "gurus": [
@@ -51196,7 +51196,7 @@
     {
       "cusip": "292671708",
       "issuer": "ENERGY FUELS INC",
-      "ticker": null,
+      "ticker": "UUUU",
       "title": "COM NEW",
       "guru_count": 3,
       "gurus": [
@@ -51740,7 +51740,7 @@
     {
       "cusip": "293594107",
       "issuer": "ENOVIX CORPORATION",
-      "ticker": null,
+      "ticker": "ENVX",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -54076,7 +54076,7 @@
     {
       "cusip": "29082A107",
       "issuer": "EMBRAER S.A.",
-      "ticker": null,
+      "ticker": "EMBJ",
       "title": "SPONSORED ADS",
       "guru_count": 3,
       "gurus": [
@@ -55388,7 +55388,7 @@
     {
       "cusip": "29472R108",
       "issuer": "EQUITY LIFESTYLE PPTYS INC",
-      "ticker": null,
+      "ticker": "ELS",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -55644,7 +55644,7 @@
     {
       "cusip": "29275Y102",
       "issuer": "ENERSYS",
-      "ticker": null,
+      "ticker": "ENS",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -58812,7 +58812,7 @@
     {
       "cusip": "29476L107",
       "issuer": "EQUITY RESIDENTIAL",
-      "ticker": null,
+      "ticker": "EQR",
       "title": "SH BEN INT",
       "guru_count": 3,
       "gurus": [
@@ -62044,7 +62044,7 @@
     {
       "cusip": "284902509",
       "issuer": "ELDORADO GOLD CORP NEW",
-      "ticker": null,
+      "ticker": "EGO",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -64700,7 +64700,7 @@
     {
       "cusip": "29446M102",
       "issuer": "EQUINOR ASA",
-      "ticker": null,
+      "ticker": "EQNR",
       "title": "SPONSORED ADR",
       "guru_count": 3,
       "gurus": [
@@ -66204,7 +66204,7 @@
     {
       "cusip": "28618M106",
       "issuer": "ELEMENT SOLUTIONS INC",
-      "ticker": null,
+      "ticker": "ESI",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -70300,7 +70300,7 @@
     {
       "cusip": "29272W109",
       "issuer": "ENERGIZER HLDGS INC NEW",
-      "ticker": null,
+      "ticker": "ENR",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -70524,7 +70524,7 @@
     {
       "cusip": "29251M106",
       "issuer": "ENANTA PHARMACEUTICALS INC",
-      "ticker": null,
+      "ticker": "ENTA",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -72316,7 +72316,7 @@
     {
       "cusip": "29430C102",
       "issuer": "VESTIS CORPORATION",
-      "ticker": null,
+      "ticker": "VSTS",
       "title": "COM SHS",
       "guru_count": 3,
       "gurus": [
@@ -72924,7 +72924,7 @@
     {
       "cusip": "29269R105",
       "issuer": "ENERFLEX LTD",
-      "ticker": null,
+      "ticker": "EFXT",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -73404,7 +73404,7 @@
     {
       "cusip": "29260V105",
       "issuer": "ENDAVA PLC",
-      "ticker": null,
+      "ticker": "DAVA",
       "title": "ADS",
       "guru_count": 3,
       "gurus": [
@@ -73660,7 +73660,7 @@
     {
       "cusip": "292765104",
       "issuer": "ENERPAC TOOL GROUP CORP",
-      "ticker": null,
+      "ticker": "EPAC",
       "title": "CL A COM",
       "guru_count": 3,
       "gurus": [
@@ -73756,7 +73756,7 @@
     {
       "cusip": "292218104",
       "issuer": "EMPLOYERS HLDGS INC",
-      "ticker": null,
+      "ticker": "EIG",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -74588,7 +74588,7 @@
     {
       "cusip": "29259W700",
       "issuer": "ENCORE ENERGY CORP",
-      "ticker": null,
+      "ticker": "EU",
       "title": "COM NEW",
       "guru_count": 3,
       "gurus": [
@@ -75804,7 +75804,7 @@
     {
       "cusip": "29286M105",
       "issuer": "ENGENE HOLDINGS INC",
-      "ticker": null,
+      "ticker": "ENGN",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -76604,7 +76604,7 @@
     {
       "cusip": "28852N109",
       "issuer": "ELLINGTON FINANCIAL INC",
-      "ticker": null,
+      "ticker": "EFC",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -81692,7 +81692,7 @@
     {
       "cusip": "28617B606",
       "issuer": "ELECTROVAYA INC",
-      "ticker": null,
+      "ticker": "ELVA",
       "title": "COM NEW",
       "guru_count": 3,
       "gurus": [
@@ -82456,7 +82456,7 @@
     {
       "cusip": "293792107",
       "issuer": "ENTERPRISE PRODS PARTNERS L",
-      "ticker": null,
+      "ticker": "EPD",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -83706,7 +83706,7 @@
     {
       "cusip": "29362U104",
       "issuer": "ENTEGRIS INC",
-      "ticker": null,
+      "ticker": "ENTG",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -85981,7 +85981,7 @@
     {
       "cusip": "29355AAH0",
       "issuer": "ENPHASE ENERGY INC",
-      "ticker": null,
+      "ticker": "ENPH",
       "title": "NOTE 3/0",
       "guru_count": 2,
       "gurus": [
@@ -86531,7 +86531,7 @@
     {
       "cusip": "29258Y103",
       "issuer": "ENDEAVOUR SILVER CORP",
-      "ticker": null,
+      "ticker": "EXK",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -89631,7 +89631,7 @@
     {
       "cusip": "294429105",
       "issuer": "EQUIFAX INC",
-      "ticker": null,
+      "ticker": "EFX",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -90806,7 +90806,7 @@
     {
       "cusip": "29082K105",
       "issuer": "EMBECTA CORP",
-      "ticker": null,
+      "ticker": "EMBC",
       "title": "COMMON STOCK",
       "guru_count": 2,
       "gurus": [
@@ -92281,7 +92281,7 @@
     {
       "cusip": "29249E109",
       "issuer": "ENACT HLDGS INC",
-      "ticker": null,
+      "ticker": "ACT",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -92481,7 +92481,7 @@
     {
       "cusip": "29280W109",
       "issuer": "ENERGY VAULT HOLDINGS INC",
-      "ticker": null,
+      "ticker": "NRGV",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -100131,7 +100131,7 @@
     {
       "cusip": "29270J100",
       "issuer": "ENERGY RECOVERY INC",
-      "ticker": null,
+      "ticker": "ERII",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -100656,7 +100656,7 @@
     {
       "cusip": "29479A108",
       "issuer": "ERASCA INC",
-      "ticker": null,
+      "ticker": "ERAS",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -101056,7 +101056,7 @@
     {
       "cusip": "294268107",
       "issuer": "EPLUS INC",
-      "ticker": null,
+      "ticker": "PLUS",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -101981,7 +101981,7 @@
     {
       "cusip": "29384C108",
       "issuer": "ENTRADA THERAPEUTICS INC",
-      "ticker": null,
+      "ticker": "TRDA",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -102056,7 +102056,7 @@
     {
       "cusip": "292554102",
       "issuer": "ENCORE CAP GROUP INC",
-      "ticker": null,
+      "ticker": "ECPG",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -102306,7 +102306,7 @@
     {
       "cusip": "292104106",
       "issuer": "EMPIRE ST RLTY TR INC",
-      "ticker": null,
+      "ticker": "ESRT",
       "title": "CL A",
       "guru_count": 2,
       "gurus": [
@@ -104581,7 +104581,7 @@
     {
       "cusip": "29089Q105",
       "issuer": "EMERGENT BIOSOLUTIONS INC",
-      "ticker": null,
+      "ticker": "EBS",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -105156,7 +105156,7 @@
     {
       "cusip": "29271Q103",
       "issuer": "ENERGY SVCS ACQUISITION CORP",
-      "ticker": null,
+      "ticker": "ESOA",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -108756,7 +108756,7 @@
     {
       "cusip": "29358P101",
       "issuer": "ENSIGN GROUP INC",
-      "ticker": null,
+      "ticker": "ENSG",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -108956,7 +108956,7 @@
     {
       "cusip": "29332G102",
       "issuer": "ENHABIT INC",
-      "ticker": null,
+      "ticker": "EHAB",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -109556,7 +109556,7 @@
     {
       "cusip": "290876101",
       "issuer": "EMERA INC",
-      "ticker": null,
+      "ticker": "EMA",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -109831,7 +109831,7 @@
     {
       "cusip": "293712105",
       "issuer": "ENTERPRISE FINL SVCS CORP",
-      "ticker": null,
+      "ticker": "EFSC",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -110556,7 +110556,7 @@
     {
       "cusip": "285409108",
       "issuer": "ELECTROMED INC",
-      "ticker": null,
+      "ticker": "ELMD",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -114031,7 +114031,7 @@
     {
       "cusip": "293389102",
       "issuer": "ENNIS INC",
-      "ticker": null,
+      "ticker": "EBF",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -118781,7 +118781,7 @@
     {
       "cusip": "29278D105",
       "issuer": "ENEL CHILE S.A.",
-      "ticker": null,
+      "ticker": "ENIC",
       "title": "SPONSORED ADR",
       "guru_count": 2,
       "gurus": [
@@ -119956,7 +119956,7 @@
     {
       "cusip": "294375209",
       "issuer": "EPSILON ENERGY LTD",
-      "ticker": null,
+      "ticker": "EPSN",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -120281,7 +120281,7 @@
     {
       "cusip": "29103W104",
       "issuer": "EMERALD HOLDING INC",
-      "ticker": null,
+      "ticker": "EEX",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -120856,7 +120856,7 @@
     {
       "cusip": "28657F103",
       "issuer": "ELICIO THERAPEUTICS INC",
-      "ticker": null,
+      "ticker": "ELTX",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -120981,7 +120981,7 @@
     {
       "cusip": "29382R107",
       "issuer": "ENTRAVISION COMMUNICATIONS C",
-      "ticker": null,
+      "ticker": "EVC",
       "title": "CL A",
       "guru_count": 2,
       "gurus": [
@@ -121506,7 +121506,7 @@
     {
       "cusip": "29402E102",
       "issuer": "ENVELA CORP",
-      "ticker": null,
+      "ticker": "ELA",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -122506,7 +122506,7 @@
     {
       "cusip": "29103K100",
       "issuer": "FOLD HLDGS INC",
-      "ticker": null,
+      "ticker": "FLD",
       "title": "COM CL A",
       "guru_count": 2,
       "gurus": [
@@ -122981,7 +122981,7 @@
     {
       "cusip": "282914100",
       "issuer": "8X8 INC NEW",
-      "ticker": null,
+      "ticker": "EGHT",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -123181,7 +123181,7 @@
     {
       "cusip": "29446K106",
       "issuer": "EQUILLIUM INC",
-      "ticker": null,
+      "ticker": "EQ",
       "title": "COM",
       "guru_count": 2,
       "gurus": [
@@ -124974,7 +124974,7 @@
     {
       "cusip": "29446YAC0",
       "issuer": "EQUINOX GOLD CORP",
-      "ticker": null,
+      "ticker": "EQXCN",
       "title": "NOTE  4.750%10/1",
       "guru_count": 1,
       "gurus": [
@@ -131958,7 +131958,7 @@
     {
       "cusip": "29415FAD6",
       "issuer": "ENVISTA HOLDINGS CORPORATION",
-      "ticker": null,
+      "ticker": "NVST",
       "title": "NOTE  1.750% 8/1",
       "guru_count": 1,
       "gurus": [
@@ -143082,7 +143082,7 @@
     {
       "cusip": "29460X109",
       "issuer": "EQUITY   BANCSHARES       INC",
-      "ticker": null,
+      "ticker": "EQBK",
       "title": "COM     CL   A",
       "guru_count": 1,
       "gurus": [
@@ -146466,7 +146466,7 @@
     {
       "cusip": "29287L874",
       "issuer": "TCW ETF TRUST",
-      "ticker": null,
+      "ticker": "HYBX",
       "title": "HIGH YIELD BOND",
       "guru_count": 1,
       "gurus": [
@@ -148356,7 +148356,7 @@
     {
       "cusip": "293828877",
       "issuer": "ENTREPRENEURSHARES SERIES TR",
-      "ticker": null,
+      "ticker": "XOVR",
       "title": "ERSHARES PRIVATE",
       "guru_count": 1,
       "gurus": [
@@ -148392,7 +148392,7 @@
     {
       "cusip": "28658R106",
       "issuer": "CLIMB   BIO  INC",
-      "ticker": null,
+      "ticker": "CLYM",
       "title": "COM",
       "guru_count": 1,
       "gurus": [
@@ -161856,7 +161856,7 @@
     {
       "cusip": "29244A102",
       "issuer": "EMPRESA DIST Y COMERCIAL NOR",
-      "ticker": null,
+      "ticker": "EDN",
       "title": "SPON ADR",
       "guru_count": 1,
       "gurus": [
@@ -166446,7 +166446,7 @@
     {
       "cusip": "29350E203",
       "issuer": "LUNAI  BIOWORKS   INC",
-      "ticker": null,
+      "ticker": "LNAI",
       "title": "COM     SHS",
       "guru_count": 1,
       "gurus": [
@@ -171324,7 +171324,7 @@
     {
       "cusip": "29287L841",
       "issuer": "TCW ETF TRUST",
-      "ticker": null,
+      "ticker": "IGCB",
       "title": "CORPORATE BOND E",
       "guru_count": 1,
       "gurus": [
@@ -171576,7 +171576,7 @@
     {
       "cusip": "29355X107",
       "issuer": "ENPRO INC",
-      "ticker": null,
+      "ticker": "NPO",
       "title": "COM",
       "guru_count": 1,
       "gurus": [
@@ -172278,7 +172278,7 @@
     {
       "cusip": "288578107",
       "issuer": "ELLINGTON    CREDIT  COMPANY",
-      "ticker": null,
+      "ticker": "EARN",
       "title": "COM   SHS     BEN  INT",
       "guru_count": 1,
       "gurus": [
@@ -175734,7 +175734,7 @@
     {
       "cusip": "292102100",
       "issuer": "EMPIRE ST RLTY OP L P",
-      "ticker": null,
+      "ticker": "ESBA",
       "title": "UNIT LTD PRTNSP",
       "guru_count": 1,
       "gurus": [
@@ -176868,7 +176868,7 @@
     {
       "cusip": "292034303",
       "issuer": "EMPIRE PETE CORP",
-      "ticker": null,
+      "ticker": "EP",
       "title": "COM",
       "guru_count": 1,
       "gurus": [
@@ -177264,7 +177264,7 @@
     {
       "cusip": "28617K101",
       "issuer": "ELEDON PHARMACEUTICALS INC",
-      "ticker": null,
+      "ticker": "ELDN",
       "title": "COM",
       "guru_count": 1,
       "gurus": [
@@ -178416,7 +178416,7 @@
     {
       "cusip": "29103K118",
       "issuer": "FOLD   HLDGS   INC",
-      "ticker": null,
+      "ticker": "FLDDW",
       "title": "*W      EXP     02/14/203",
       "guru_count": 1,
       "gurus": [
@@ -180072,7 +180072,7 @@
     {
       "cusip": "29286M113",
       "issuer": "ENGENE     HOLDINGS    INC",
-      "ticker": null,
+      "ticker": "ENGNW",
       "title": "*W   EXP     10/31/202",
       "guru_count": 1,
       "gurus": [
@@ -181404,7 +181404,7 @@
     {
       "cusip": "29268T508",
       "issuer": "ENERGY FOCUS INC",
-      "ticker": null,
+      "ticker": "EFOI",
       "title": "COM NEW",
       "guru_count": 1,
       "gurus": [
@@ -181746,7 +181746,7 @@
     {
       "cusip": "293602504",
       "issuer": "ENSYSCE BIOSCIENCES INC",
-      "ticker": null,
+      "ticker": "ENSC",
       "title": "COM NEW",
       "guru_count": 1,
       "gurus": [
@@ -182970,7 +182970,7 @@
     {
       "cusip": "291087203",
       "issuer": "EMERSON RADIO CORP",
-      "ticker": null,
+      "ticker": "MSN",
       "title": "COM NEW",
       "guru_count": 1,
       "gurus": [
@@ -185238,7 +185238,7 @@
     {
       "cusip": "29415V117",
       "issuer": "ENVOY   MEDICAL     INC",
-      "ticker": null,
+      "ticker": "COCHW",
       "title": "*W    EXP     09/29/202",
       "guru_count": 1,
       "gurus": [

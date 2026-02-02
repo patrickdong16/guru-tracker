@@ -764,8 +764,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.48,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ELVN",
+      "ticker": "ELVN"
     },
     {
       "issuer": "Post Hldgs Inc",

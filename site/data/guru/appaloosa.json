@@ -389,8 +389,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.15,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ET",
+      "ticker": "ET"
     },
     {
       "issuer": "MICRON TECHNOLOGY INC",

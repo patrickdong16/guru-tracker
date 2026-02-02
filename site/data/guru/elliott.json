@@ -389,8 +389,8 @@
       "shared_voting": 150000,
       "no_voting": 0,
       "weight": 0.52,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EQIX",
+      "ticker": "EQIX"
     },
     {
       "issuer": "SEADRILL LTD",
