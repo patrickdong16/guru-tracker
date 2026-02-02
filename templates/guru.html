@@ -241,7 +241,7 @@
                     <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">{{ loop.index }}</td>
                     <td class="py-1.5 pr-4 font-medium" data-value="{{ h.issuer }}"><a href="https://xueqiu.com/k?q={{ h.ticker or h.issuer | urlencode }}" target="_blank" class="text-blue-400 hover:text-blue-300 hover:underline transition">{{ h.issuer }}</a></td>
                     <td class="py-1.5 pr-4 text-zinc-500">{{ h.title }}</td>
-                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">{{ h.cusip }}</td>
+                    <td class="py-1.5 pr-4 font-mono text-[10px]"><a href="https://xueqiu.com/k?q={{ h.cusip }}" target="_blank" class="text-blue-400 hover:text-blue-300 hover:underline transition">{{ h.cusip }}</a></td>
                     <td class="py-1.5 pr-4 text-right tabular-nums" data-value="{{ h.value }}">{{ h.value | format_value }}</td>
                     <td class="py-1.5 pr-4 text-right tabular-nums" data-value="{{ h.shares }}">{{ h.shares | format_shares }}</td>
                     <td class="py-1.5 pr-4 text-right tabular-nums" data-value="{{ h.weight | default(0) }}">{{ h.weight | default(0) }}%</td>
