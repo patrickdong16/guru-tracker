@@ -28,7 +28,9 @@
       "sole_voting": 0,
       "shared_voting": 518932944,
       "no_voting": 0,
-      "weight": 47.8
+      "weight": 47.8,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CVR Energy Inc",
@@ -41,7 +43,9 @@
       "sole_voting": 0,
       "shared_voting": 70418471,
       "no_voting": 0,
-      "weight": 28.1
+      "weight": 28.1,
+      "ticker_raw": "CVI",
+      "ticker": "CVI"
     },
     {
       "issuer": "Southwest Gas Holdings Inc.",
@@ -54,7 +58,9 @@
       "sole_voting": 0,
       "shared_voting": 6032604,
       "no_voting": 0,
-      "weight": 5.17
+      "weight": 5.17,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CVR Partners, LP",
@@ -67,7 +73,9 @@
       "sole_voting": 0,
       "shared_voting": 4164274,
       "no_voting": 0,
-      "weight": 4.11
+      "weight": 4.11,
+      "ticker_raw": "UAN",
+      "ticker": "UAN"
     },
     {
       "issuer": "EchoStar Corporation",
@@ -80,7 +88,9 @@
       "sole_voting": 0,
       "shared_voting": 4354542,
       "no_voting": 0,
-      "weight": 3.64
+      "weight": 3.64,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "International Flavors and Fragrances Inc.",
@@ -93,7 +103,9 @@
       "sole_voting": 0,
       "shared_voting": 4750000,
       "no_voting": 0,
-      "weight": 3.2
+      "weight": 3.2,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Centuri Holdings, Inc.",
@@ -106,7 +118,9 @@
       "sole_voting": 0,
       "shared_voting": 10847672,
       "no_voting": 0,
-      "weight": 2.51
+      "weight": 2.51,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "JetBlue Airways Corp.",
@@ -119,7 +133,9 @@
       "sole_voting": 0,
       "shared_voting": 33621735,
       "no_voting": 0,
-      "weight": 1.81
+      "weight": 1.81,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "American Electric Power Company",
@@ -132,7 +148,9 @@
       "sole_voting": 0,
       "shared_voting": 1205300,
       "no_voting": 0,
-      "weight": 1.48
+      "weight": 1.48,
+      "ticker_raw": "AEP",
+      "ticker": "AEP"
     },
     {
       "issuer": "Caesars Entertainment, Inc.",
@@ -145,7 +163,9 @@
       "sole_voting": 0,
       "shared_voting": 2440109,
       "no_voting": 0,
-      "weight": 0.72
+      "weight": 0.72,
+      "ticker_raw": "CZR",
+      "ticker": "CZR"
     },
     {
       "issuer": "SandRidge Energy, Inc.",
@@ -158,7 +178,9 @@
       "sole_voting": 0,
       "shared_voting": 4870233,
       "no_voting": 0,
-      "weight": 0.6
+      "weight": 0.6,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Bausch Plus Lomb Corp.",
@@ -171,7 +193,9 @@
       "sole_voting": 0,
       "shared_voting": 3500000,
       "no_voting": 0,
-      "weight": 0.58
+      "weight": 0.58,
+      "ticker_raw": "BLCO",
+      "ticker": "BLCO"
     },
     {
       "issuer": "Monro, Inc.",
@@ -184,7 +208,9 @@
       "sole_voting": 0,
       "shared_voting": 1465000,
       "no_voting": 0,
-      "weight": 0.29
+      "weight": 0.29,
+      "ticker_raw": null,
+      "ticker": null
     }
   ],
   "comparison": {

@@ -28,7 +28,9 @@
       "sole_voting": 0,
       "shared_voting": 8592600,
       "no_voting": 0,
-      "weight": 27.76
+      "weight": 27.76,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ALIBABA GROUP HLDG LTD",
@@ -41,7 +43,9 @@
       "sole_voting": 0,
       "shared_voting": 3289666,
       "no_voting": 0,
-      "weight": 14.37
+      "weight": 14.37,
+      "ticker_raw": "BABA",
+      "ticker": "BABA"
     },
     {
       "issuer": "FUTU HLDGS LTD",
@@ -54,7 +58,9 @@
       "sole_voting": 0,
       "shared_voting": 3238179,
       "no_voting": 0,
-      "weight": 13.77
+      "weight": 13.77,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "WEBULL CORP",
@@ -67,7 +73,9 @@
       "sole_voting": 0,
       "shared_voting": 33080846,
       "no_voting": 0,
-      "weight": 11.96
+      "weight": 11.96,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "BEONE MEDICINES LTD",
@@ -80,7 +88,9 @@
       "sole_voting": 0,
       "shared_voting": 1034306,
       "no_voting": 0,
-      "weight": 8.61
+      "weight": 8.61,
+      "ticker_raw": "ONC",
+      "ticker": "ONC"
     },
     {
       "issuer": "BAIDU INC",
@@ -93,7 +103,9 @@
       "sole_voting": 0,
       "shared_voting": 1641000,
       "no_voting": 0,
-      "weight": 5.29
+      "weight": 5.29,
+      "ticker_raw": "BIDU",
+      "ticker": "BIDU"
     },
     {
       "issuer": "LEGEND BIOTECH CORP",
@@ -106,7 +118,9 @@
       "sole_voting": 0,
       "shared_voting": 5984550,
       "no_voting": 0,
-      "weight": 4.77
+      "weight": 4.77,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "NETEASE INC",
@@ -119,7 +133,9 @@
       "sole_voting": 0,
       "shared_voting": 790807,
       "no_voting": 0,
-      "weight": 2.94
+      "weight": 2.94,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ARRIVENT BIOPHARMA INC",
@@ -132,7 +148,9 @@
       "sole_voting": 0,
       "shared_voting": 4484672,
       "no_voting": 0,
-      "weight": 2.02
+      "weight": 2.02,
+      "ticker_raw": "AVBP",
+      "ticker": "AVBP"
     },
     {
       "issuer": "KE HLDGS INC",
@@ -145,7 +163,9 @@
       "sole_voting": 0,
       "shared_voting": 4236278,
       "no_voting": 0,
-      "weight": 1.97
+      "weight": 1.97,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "FULL TRUCK ALLIANCE CO LTD",
@@ -158,7 +178,9 @@
       "sole_voting": 0,
       "shared_voting": 4066553,
       "no_voting": 0,
-      "weight": 1.29
+      "weight": 1.29,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "YATSEN HLDG LTD",
@@ -171,7 +193,9 @@
       "sole_voting": 0,
       "shared_voting": 4885873,
       "no_voting": 0,
-      "weight": 1.08
+      "weight": 1.08,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SEA LTD",
@@ -184,7 +208,9 @@
       "sole_voting": 0,
       "shared_voting": 180050,
       "no_voting": 0,
-      "weight": 0.79
+      "weight": 0.79,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CLEARWATER ANALYTICS HLDGS I",
@@ -197,7 +223,9 @@
       "sole_voting": 0,
       "shared_voting": 1365971,
       "no_voting": 0,
-      "weight": 0.6
+      "weight": 0.6,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CYTEK BIOSCIENCES INC",
@@ -210,7 +238,9 @@
       "sole_voting": 0,
       "shared_voting": 6657030,
       "no_voting": 0,
-      "weight": 0.56
+      "weight": 0.56,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "I MAB",
@@ -223,7 +253,9 @@
       "sole_voting": 0,
       "shared_voting": 5980568,
       "no_voting": 0,
-      "weight": 0.55
+      "weight": 0.55,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "GOSSAMER BIO INC",
@@ -236,7 +268,9 @@
       "sole_voting": 0,
       "shared_voting": 4974041,
       "no_voting": 0,
-      "weight": 0.32
+      "weight": 0.32,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "MAZE THERAPEUTICS INC",
@@ -249,7 +283,9 @@
       "sole_voting": 0,
       "shared_voting": 457535,
       "no_voting": 0,
-      "weight": 0.29
+      "weight": 0.29,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "AGORA INC",
@@ -262,7 +298,9 @@
       "sole_voting": 0,
       "shared_voting": 2098553,
       "no_voting": 0,
-      "weight": 0.2
+      "weight": 0.2,
+      "ticker_raw": "API",
+      "ticker": "API"
     },
     {
       "issuer": "CONTINEUM THERAPEUTICS INC",
@@ -275,7 +313,9 @@
       "sole_voting": 0,
       "shared_voting": 669337,
       "no_voting": 0,
-      "weight": 0.19
+      "weight": 0.19,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SMART SH GLOBAL LTD",
@@ -288,7 +328,9 @@
       "sole_voting": 0,
       "shared_voting": 3949700,
       "no_voting": 0,
-      "weight": 0.13
+      "weight": 0.13,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SAGIMET BIOSCIENCES INC",
@@ -301,7 +343,9 @@
       "sole_voting": 0,
       "shared_voting": 724800,
       "no_voting": 0,
-      "weight": 0.12
+      "weight": 0.12,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "TUYA INC",
@@ -314,7 +358,9 @@
       "sole_voting": 0,
       "shared_voting": 1564400,
       "no_voting": 0,
-      "weight": 0.09
+      "weight": 0.09,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "GE AEROSPACE",
@@ -327,7 +373,9 @@
       "sole_voting": 0,
       "shared_voting": 10043,
       "no_voting": 0,
-      "weight": 0.07
+      "weight": 0.07,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "MOGU INC",
@@ -340,7 +388,9 @@
       "sole_voting": 0,
       "shared_voting": 847510,
       "no_voting": 0,
-      "weight": 0.07
+      "weight": 0.07,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "BRIGHT SCHOLAR ED HLDGS LTD",
@@ -353,7 +403,9 @@
       "sole_voting": 0,
       "shared_voting": 988143,
       "no_voting": 0,
-      "weight": 0.05
+      "weight": 0.05,
+      "ticker_raw": "BEDU",
+      "ticker": "BEDU"
     },
     {
       "issuer": "MOODYS CORP",
@@ -366,7 +418,9 @@
       "sole_voting": 0,
       "shared_voting": 2888,
       "no_voting": 0,
-      "weight": 0.03
+      "weight": 0.03,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "PACIFIC BIOSCIENCES CALIF IN",
@@ -379,7 +433,9 @@
       "sole_voting": 0,
       "shared_voting": 918892,
       "no_voting": 0,
-      "weight": 0.03
+      "weight": 0.03,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "EQUINOX GOLD CORP",
@@ -392,7 +448,9 @@
       "sole_voting": 0,
       "shared_voting": 80500,
       "no_voting": 0,
-      "weight": 0.02
+      "weight": 0.02,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "BARRICK MNG CORP",
@@ -405,7 +463,9 @@
       "sole_voting": 0,
       "shared_voting": 25400,
       "no_voting": 0,
-      "weight": 0.02
+      "weight": 0.02,
+      "ticker_raw": "B",
+      "ticker": "B"
     },
     {
       "issuer": "ALIGOS THERAPEUTICS INC",
@@ -418,7 +478,9 @@
       "sole_voting": 0,
       "shared_voting": 76247,
       "no_voting": 0,
-      "weight": 0.02
+      "weight": 0.02,
+      "ticker_raw": "ALGS",
+      "ticker": "ALGS"
     },
     {
       "issuer": "UXIN LTD",
@@ -431,7 +493,9 @@
       "sole_voting": 0,
       "shared_voting": 19156,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "RIDGETECH INC",
@@ -444,7 +508,9 @@
       "sole_voting": 0,
       "shared_voting": 20167,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": null,
+      "ticker": null
     }
   ],
   "comparison": {

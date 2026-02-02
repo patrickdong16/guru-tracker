@@ -40,6 +40,70 @@ logger = logging.getLogger("guru-tracker.site")
 MAX_HOLDINGS_IN_HTML = 200
 MAX_CHANGES_IN_HTML = 100
 
+# CUSIP-to-ticker mapping
+CUSIP_TICKER_MAP: Dict[str, Optional[str]] = {}
+
+
+def load_cusip_ticker_map():
+    """Load the CUSIP-to-ticker mapping from config."""
+    global CUSIP_TICKER_MAP
+    mapping_path = project_path("config", "cusip_tickers.json")
+    if os.path.exists(mapping_path):
+        CUSIP_TICKER_MAP = load_json(mapping_path) or {}
+        logger.info("Loaded %d CUSIP-to-ticker mappings", len(CUSIP_TICKER_MAP))
+    else:
+        logger.warning("No cusip_tickers.json found — tickers will be empty")
+        CUSIP_TICKER_MAP = {}
+
+
+def clean_ticker_for_xueqiu(raw_ticker: str) -> str:
+    """Clean a raw ticker symbol for use on Xueqiu.
+
+    Handles: bonds ('ANIP 2.25 09/01/29'), EUR/USD suffix ('ACXPEUR'),
+    warrants ('ALUR/WS'), preferred ('UHAL/B'), perpetuals ('BAC 7.25 PERP L').
+    Returns the base equity ticker that Xueqiu can recognize.
+    """
+    if not raw_ticker:
+        return ""
+    t = raw_ticker.strip()
+
+    # Strip /WS (warrants), /B /A (share classes)
+    if "/" in t:
+        t = t.split("/")[0]
+
+    # Strip EUR/USD suffix (e.g., ACXPEUR -> ACXP, SPMEUR -> SPM)
+    for suffix in ("EUR", "USD"):
+        if t.endswith(suffix) and len(t) > len(suffix):
+            t = t[: -len(suffix)]
+
+    # If it has spaces, it's likely a bond / convertible / preferred
+    # Take only the first token (the base ticker)
+    if " " in t:
+        t = t.split()[0]
+
+    # Final cleanup — only keep alphanumeric + dot (for HK stocks like 0700.HK)
+    import re
+    t = re.sub(r"[^A-Za-z0-9.]", "", t)
+
+    return t.upper() if t else ""
+
+
+def enrich_holding_with_ticker(holding: dict) -> dict:
+    """Add ticker field to a holding dict based on CUSIP mapping."""
+    cusip = holding.get("cusip", "")
+    raw_ticker = CUSIP_TICKER_MAP.get(cusip)
+    # Store both raw and cleaned versions
+    holding["ticker_raw"] = raw_ticker
+    holding["ticker"] = clean_ticker_for_xueqiu(raw_ticker) if raw_ticker else None
+    return holding
+
+
+def enrich_holdings_list(holdings: List[dict]) -> List[dict]:
+    """Add ticker to every holding in a list."""
+    for h in holdings:
+        enrich_holding_with_ticker(h)
+    return holdings
+
 # Style badge colors (Tailwind classes)
 STYLE_COLORS = {
     "value": ("blue", "bg-blue-500/20 text-blue-400 border-blue-500/30"),
@@ -195,6 +259,8 @@ def generate_guru_detail_json(guru_config: dict) -> Optional[dict]:
     comparison = get_latest_comparison(guru_id)
     value_change = compute_portfolio_value_change(guru_id)
 
+    holdings = enrich_holdings_list(latest_parsed.get("holdings", []))
+
     return {
         "info": {
             "id": guru_config["id"],
@@ -213,7 +279,7 @@ def generate_guru_detail_json(guru_config: dict) -> Optional[dict]:
         "filing_date": latest_parsed.get("filing_date", ""),
         "total_value": latest_parsed.get("total_value", 0),
         "holdings_count": latest_parsed.get("holdings_count", 0),
-        "holdings": latest_parsed.get("holdings", []),
+        "holdings": holdings,
         "comparison": comparison,
         "value_change": value_change,
         "periods": [os.path.basename(f).replace(".json", "") for f in period_files],
@@ -258,9 +324,12 @@ def generate_consensus_json(config: dict) -> dict:
 
     consensus = []
     for data in stock_map.values():
+        raw_ticker = CUSIP_TICKER_MAP.get(data["cusip"])
+        ticker = clean_ticker_for_xueqiu(raw_ticker) if raw_ticker else None
         consensus.append({
             "cusip": data["cusip"],
             "issuer": data["issuer"],
+            "ticker": ticker,
             "title": data.get("title", ""),
             "guru_count": len(data["gurus"]),
             "gurus": sorted(data["gurus"], key=lambda g: g["value"], reverse=True),
@@ -448,17 +517,16 @@ def render_html(gurus_data: dict, consensus_data: dict):
 
         html_holdings = all_holdings[:MAX_HOLDINGS_IN_HTML]
 
-        # Limit changes for HTML embed
+        # Limit changes for HTML embed + enrich with tickers
         comparison = detail.get("comparison")
         html_changes = None
         if comparison and comparison.get("changes"):
             changes = comparison["changes"]
-            html_changes = {
-                "new": changes.get("new", [])[:MAX_CHANGES_IN_HTML],
-                "increased": changes.get("increased", [])[:MAX_CHANGES_IN_HTML],
-                "decreased": changes.get("decreased", [])[:MAX_CHANGES_IN_HTML],
-                "sold": changes.get("sold", [])[:MAX_CHANGES_IN_HTML],
-            }
+            html_changes = {}
+            for ctype in ("new", "increased", "decreased", "sold"):
+                items = changes.get(ctype, [])[:MAX_CHANGES_IN_HTML]
+                enrich_holdings_list(items)
+                html_changes[ctype] = items
 
         html = tpl.render(
             guru=detail,
@@ -497,6 +565,7 @@ def main():
     logger.info("GENERATING SITE DATA + HTML")
     logger.info("=" * 60)
 
+    load_cusip_ticker_map()
     gurus_data, consensus_data = generate_json_data()
     render_html(gurus_data, consensus_data)
 

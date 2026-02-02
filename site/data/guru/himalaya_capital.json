@@ -28,7 +28,9 @@
       "sole_voting": 2543300,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 19.14
+      "weight": 19.14,
+      "ticker_raw": "GOOGL",
+      "ticker": "GOOGL"
     },
     {
       "issuer": "PDD HOLDINGS INC",
@@ -41,7 +43,9 @@
       "sole_voting": 4608000,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 18.85
+      "weight": 18.85,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ALPHABET INC",
@@ -54,7 +58,9 @@
       "sole_voting": 2451300,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 18.48
+      "weight": 18.48,
+      "ticker_raw": "GOOG",
+      "ticker": "GOOG"
     },
     {
       "issuer": "BK OF AMERICA CORP",
@@ -67,7 +73,9 @@
       "sole_voting": 10431387,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 16.66
+      "weight": 16.66,
+      "ticker_raw": "BAC",
+      "ticker": "BAC"
     },
     {
       "issuer": "BERKSHIRE HATHAWAY INC DEL",
@@ -80,7 +88,9 @@
       "sole_voting": 897749,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 13.97
+      "weight": 13.97,
+      "ticker_raw": "BRK/B",
+      "ticker": "BRK"
     },
     {
       "issuer": "EAST WEST BANCORP INC",
@@ -93,7 +103,9 @@
       "sole_voting": 2776351,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 9.15
+      "weight": 9.15,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "OCCIDENTAL PETE CORP",
@@ -106,7 +118,9 @@
       "sole_voting": 1466500,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 2.15
+      "weight": 2.15,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "APPLE INC",
@@ -119,7 +133,9 @@
       "sole_voting": 110600,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.87
+      "weight": 0.87,
+      "ticker_raw": "AAPL",
+      "ticker": "AAPL"
     },
     {
       "issuer": "SABLE OFFSHORE CORP",
@@ -132,7 +148,9 @@
       "sole_voting": 1343000,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.73
+      "weight": 0.73,
+      "ticker_raw": null,
+      "ticker": null
     }
   ],
   "comparison": {

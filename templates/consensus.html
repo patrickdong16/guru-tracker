@@ -42,10 +42,17 @@
             </thead>
             <tbody>
             {% for stock in stocks %}
-                <tr class="consensus-row border-t border-zinc-700/30 hover:bg-zinc-700/20" data-search="{{ stock.issuer }} {{ stock.cusip }}" data-guru-count="{{ stock.guru_count }}">
+                <tr class="consensus-row border-t border-zinc-700/30 hover:bg-zinc-700/20" data-search="{{ stock.issuer }} {{ stock.cusip }} {{ stock.ticker or '' }}" data-guru-count="{{ stock.guru_count }}">
                     <td class="px-4 py-2.5 text-zinc-500 tabular-nums">{{ loop.index }}</td>
-                    <td class="px-4 py-2.5 font-medium" data-value="{{ stock.issuer }}"><a href="https://xueqiu.com/k?q={{ stock.ticker or stock.issuer | urlencode }}" target="_blank" class="text-blue-400 hover:text-blue-300 hover:underline transition">{{ stock.issuer }}</a></td>
-                    <td class="px-4 py-2.5 font-mono text-[10px]"><a href="https://xueqiu.com/k?q={{ stock.cusip }}" target="_blank" class="text-blue-400 hover:text-blue-300 hover:underline transition">{{ stock.cusip }}</a></td>
+                    <td class="px-4 py-2.5 font-medium" data-value="{{ stock.issuer }}">
+                        <span class="text-zinc-200">{{ stock.issuer }}</span>
+                        {% if stock.ticker %}
+                        <a href="https://xueqiu.com/S/{{ stock.ticker }}" target="_blank" class="ml-1.5 inline-block px-1.5 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">{{ stock.ticker }}</a>
+                        {% else %}
+                        <a href="https://xueqiu.com/k?q={{ stock.issuer | urlencode }}" target="_blank" class="ml-1.5 inline-block px-1 py-0.5 text-[10px] text-zinc-500 hover:text-zinc-400 transition" title="搜索">🔍</a>
+                        {% endif %}
+                    </td>
+                    <td class="px-4 py-2.5 font-mono text-[10px] text-zinc-500">{{ stock.cusip }}</td>
                     <td class="px-4 py-2.5 text-center" data-value="{{ stock.guru_count }}">
                         <span class="inline-flex items-center justify-center min-w-[24px] px-1.5 py-0.5 rounded-full text-[10px] font-bold
                             {% if stock.guru_count >= 10 %}bg-blue-500/30 text-blue-300

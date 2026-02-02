@@ -28,7 +28,9 @@
       "sole_voting": 3525076,
       "shared_voting": 64546,
       "no_voting": 0,
-      "weight": 9.5
+      "weight": 9.5,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Coinbase Global Inc",
@@ -41,7 +43,9 @@
       "sole_voting": 2245966,
       "shared_voting": 39008,
       "no_voting": 110566,
-      "weight": 4.81
+      "weight": 4.81,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Roku Inc",
@@ -54,7 +58,9 @@
       "sole_voting": 6881963,
       "shared_voting": 132420,
       "no_voting": 337473,
-      "weight": 4.38
+      "weight": 4.38,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Palantir Technologies Inc",
@@ -67,7 +73,9 @@
       "sole_voting": 3861675,
       "shared_voting": 54754,
       "no_voting": 118664,
-      "weight": 4.38
+      "weight": 4.38,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ROBLOX Corp",
@@ -80,7 +88,9 @@
       "sole_voting": 4993080,
       "shared_voting": 88117,
       "no_voting": 231624,
-      "weight": 4.38
+      "weight": 4.38,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Robinhood Markets Inc",
@@ -93,7 +103,9 @@
       "sole_voting": 4552035,
       "shared_voting": 83274,
       "no_voting": 381735,
-      "weight": 4.28
+      "weight": 4.28,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Shopify Inc",
@@ -106,7 +118,9 @@
       "sole_voting": 4575113,
       "shared_voting": 73678,
       "no_voting": 167042,
-      "weight": 4.26
+      "weight": 4.26,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CRISPR Therapeutics AG",
@@ -119,7 +133,9 @@
       "sole_voting": 9115198,
       "shared_voting": 211277,
       "no_voting": 460498,
-      "weight": 3.78
+      "weight": 3.78,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Tempus AI Inc",
@@ -132,7 +148,9 @@
       "sole_voting": 6717533,
       "shared_voting": 136194,
       "no_voting": 322040,
-      "weight": 3.45
+      "weight": 3.45,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Advanced Micro Devices Inc",
@@ -145,7 +163,9 @@
       "sole_voting": 2930428,
       "shared_voting": 41493,
       "no_voting": 85990,
-      "weight": 2.94
+      "weight": 2.94,
+      "ticker_raw": "AMD",
+      "ticker": "AMD"
     },
     {
       "issuer": "Circle Internet Group Inc",
@@ -158,7 +178,9 @@
       "sole_voting": 2821603,
       "shared_voting": 46963,
       "no_voting": 98374,
-      "weight": 2.34
+      "weight": 2.34,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "BitMine Immersion Technologies",
@@ -171,7 +193,9 @@
       "sole_voting": 7099559,
       "shared_voting": 131629,
       "no_voting": 238625,
-      "weight": 2.31
+      "weight": 2.31,
+      "ticker_raw": "BMNR",
+      "ticker": "BMNR"
     },
     {
       "issuer": "Teradyne Inc",
@@ -184,7 +208,9 @@
       "sole_voting": 2610676,
       "shared_voting": 37570,
       "no_voting": 74081,
-      "weight": 2.23
+      "weight": 2.23,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Kratos Defense & Security Solu",
@@ -197,7 +223,9 @@
       "sole_voting": 3512815,
       "shared_voting": 29467,
       "no_voting": 62046,
-      "weight": 1.96
+      "weight": 1.96,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Archer Aviation Inc",
@@ -210,7 +238,9 @@
       "sole_voting": 29962089,
       "shared_voting": 508986,
       "no_voting": 830374,
-      "weight": 1.78
+      "weight": 1.78,
+      "ticker_raw": "ACHR",
+      "ticker": "ACHR"
     },
     {
       "issuer": "Beam Therapeutics Inc",
@@ -223,7 +253,9 @@
       "sole_voting": 10497479,
       "shared_voting": 194257,
       "no_voting": 347098,
-      "weight": 1.59
+      "weight": 1.59,
+      "ticker_raw": "BEAM",
+      "ticker": "BEAM"
     },
     {
       "issuer": "Amazon.com Inc",
@@ -236,7 +268,9 @@
       "sole_voting": 1173314,
       "shared_voting": 16293,
       "no_voting": 29001,
-      "weight": 1.59
+      "weight": 1.59,
+      "ticker_raw": "AMZN",
+      "ticker": "AMZN"
     },
     {
       "issuer": "ARK 21Shares Bitcoin ETF",
@@ -249,7 +283,9 @@
       "sole_voting": 5740519,
       "shared_voting": 7109,
       "no_voting": 575088,
-      "weight": 1.43
+      "weight": 1.43,
+      "ticker_raw": "ARKB",
+      "ticker": "ARKB"
     },
     {
       "issuer": "Meta Platforms Inc",
@@ -262,7 +298,9 @@
       "sole_voting": 288116,
       "shared_voting": 3485,
       "no_voting": 6811,
-      "weight": 1.3
+      "weight": 1.3,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Brera Holdings PLC",
@@ -275,7 +313,9 @@
       "sole_voting": 7279620,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 1.3
+      "weight": 1.3,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "NVIDIA Corporation",
@@ -288,7 +328,9 @@
       "sole_voting": 1119056,
       "shared_voting": 15064,
       "no_voting": 31541,
-      "weight": 1.29
+      "weight": 1.29,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Taiwan Semiconductor Manufactu",
@@ -301,7 +343,9 @@
       "sole_voting": 712799,
       "shared_voting": 9384,
       "no_voting": 19845,
-      "weight": 1.23
+      "weight": 1.23,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Intellia Therapeutics Inc",
@@ -314,7 +358,9 @@
       "sole_voting": 11042273,
       "shared_voting": 262288,
       "no_voting": 614617,
-      "weight": 1.23
+      "weight": 1.23,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Block Inc",
@@ -327,7 +373,9 @@
       "sole_voting": 2555100,
       "shared_voting": 31666,
       "no_voting": 86649,
-      "weight": 1.15
+      "weight": 1.15,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Twist Bioscience Corp",
@@ -340,7 +388,9 @@
       "sole_voting": 6312325,
       "shared_voting": 135598,
       "no_voting": 278885,
-      "weight": 1.13
+      "weight": 1.13,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Bullish",
@@ -353,7 +403,9 @@
       "sole_voting": 2451229,
       "shared_voting": 40597,
       "no_voting": 84883,
-      "weight": 0.98
+      "weight": 0.98,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Recursion Pharmaceuticals Inc",
@@ -366,7 +418,9 @@
       "sole_voting": 31792932,
       "shared_voting": 534530,
       "no_voting": 1218037,
-      "weight": 0.97
+      "weight": 0.97,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Gitlab Inc",
@@ -379,7 +433,9 @@
       "sole_voting": 3270494,
       "shared_voting": 58359,
       "no_voting": 108764,
-      "weight": 0.92
+      "weight": 0.92,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Pinterest Inc",
@@ -392,7 +448,9 @@
       "sole_voting": 4548355,
       "shared_voting": 73668,
       "no_voting": 148916,
-      "weight": 0.91
+      "weight": 0.91,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Veracyte Inc",
@@ -405,7 +463,9 @@
       "sole_voting": 4275350,
       "shared_voting": 85572,
       "no_voting": 104853,
-      "weight": 0.91
+      "weight": 0.91,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Deere & Co",
@@ -418,7 +478,9 @@
       "sole_voting": 316162,
       "shared_voting": 3462,
       "no_voting": 9577,
-      "weight": 0.9
+      "weight": 0.9,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "PagerDuty Inc",
@@ -431,7 +493,9 @@
       "sole_voting": 8224463,
       "shared_voting": 175660,
       "no_voting": 427281,
-      "weight": 0.87
+      "weight": 0.87,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Natera Inc",
@@ -444,7 +508,9 @@
       "sole_voting": 846045,
       "shared_voting": 15188,
       "no_voting": 31360,
-      "weight": 0.86
+      "weight": 0.86,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Illumina Inc",
@@ -457,7 +523,9 @@
       "sole_voting": 1392004,
       "shared_voting": 25587,
       "no_voting": 50288,
-      "weight": 0.83
+      "weight": 0.83,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "10X Genomics Inc",
@@ -470,7 +538,9 @@
       "sole_voting": 11051595,
       "shared_voting": 277623,
       "no_voting": 558178,
-      "weight": 0.83
+      "weight": 0.83,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SoFi Technologies Inc",
@@ -483,7 +553,9 @@
       "sole_voting": 4730833,
       "shared_voting": 70092,
       "no_voting": 144322,
-      "weight": 0.78
+      "weight": 0.78,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "DraftKings Inc",
@@ -496,7 +568,9 @@
       "sole_voting": 3249131,
       "shared_voting": 55725,
       "no_voting": 134060,
-      "weight": 0.77
+      "weight": 0.77,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "AeroVironment Inc",
@@ -509,7 +583,9 @@
       "sole_voting": 400457,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.75
+      "weight": 0.75,
+      "ticker_raw": "AVAV",
+      "ticker": "AVAV"
     },
     {
       "issuer": "Airbnb Inc",
@@ -522,7 +598,9 @@
       "sole_voting": 983285,
       "shared_voting": 17064,
       "no_voting": 35479,
-      "weight": 0.75
+      "weight": 0.75,
+      "ticker_raw": "ABNB",
+      "ticker": "ABNB"
     },
     {
       "issuer": "BWX Technologies Inc",
@@ -535,7 +613,9 @@
       "sole_voting": 642262,
       "shared_voting": 12345,
       "no_voting": 26389,
-      "weight": 0.75
+      "weight": 0.75,
+      "ticker_raw": "BWXT",
+      "ticker": "BWXT"
     },
     {
       "issuer": "Exact Sciences Corp",
@@ -548,7 +628,9 @@
       "sole_voting": 2054578,
       "shared_voting": 42048,
       "no_voting": 89542,
-      "weight": 0.71
+      "weight": 0.71,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Rocket Lab Corp",
@@ -561,7 +643,9 @@
       "sole_voting": 2486795,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.71
+      "weight": 0.71,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Iridium Communications Inc",
@@ -574,7 +658,9 @@
       "sole_voting": 6252675,
       "shared_voting": 77755,
       "no_voting": 159678,
-      "weight": 0.67
+      "weight": 0.67,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Trade Desk Inc/The",
@@ -587,7 +673,9 @@
       "sole_voting": 2164882,
       "shared_voting": 44983,
       "no_voting": 96826,
-      "weight": 0.67
+      "weight": 0.67,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Alphabet Inc",
@@ -600,7 +688,9 @@
       "sole_voting": 338956,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.49
+      "weight": 0.49,
+      "ticker_raw": "GOOG",
+      "ticker": "GOOG"
     },
     {
       "issuer": "Toast Inc",
@@ -613,7 +703,9 @@
       "sole_voting": 2063456,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.45
+      "weight": 0.45,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Trimble Inc",
@@ -626,7 +718,9 @@
       "sole_voting": 918438,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.45
+      "weight": 0.45,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Baidu Inc",
@@ -639,7 +733,9 @@
       "sole_voting": 490882,
       "shared_voting": 2549,
       "no_voting": 14957,
-      "weight": 0.4
+      "weight": 0.4,
+      "ticker_raw": "BIDU",
+      "ticker": "BIDU"
     },
     {
       "issuer": "L3Harris Technologies Inc",
@@ -652,7 +748,9 @@
       "sole_voting": 219294,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.4
+      "weight": 0.4,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CoreWeave Inc",
@@ -665,7 +763,9 @@
       "sole_voting": 467957,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.38
+      "weight": 0.38,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Crowdstrike Holdings Inc",
@@ -678,7 +778,9 @@
       "sole_voting": 130239,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.38
+      "weight": 0.38,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "MercadoLibre Inc",
@@ -691,7 +793,9 @@
       "sole_voting": 25722,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.36
+      "weight": 0.36,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "DoorDash Inc",
@@ -704,7 +808,9 @@
       "sole_voting": 211398,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.34
+      "weight": 0.34,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Spotify Technology SA",
@@ -717,7 +823,9 @@
       "sole_voting": 80240,
       "shared_voting": 45,
       "no_voting": 0,
-      "weight": 0.33
+      "weight": 0.33,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Personalis Inc",
@@ -730,7 +838,9 @@
       "sole_voting": 7910191,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.31
+      "weight": 0.31,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Guardant Health Inc",
@@ -743,7 +853,9 @@
       "sole_voting": 795234,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.3
+      "weight": 0.3,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Joby Aviation Inc",
@@ -756,7 +868,9 @@
       "sole_voting": 3010461,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.29
+      "weight": 0.29,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "GeneDx Holdings Corp",
@@ -769,7 +883,9 @@
       "sole_voting": 419231,
       "shared_voting": 9051,
       "no_voting": 18697,
-      "weight": 0.29
+      "weight": 0.29,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Cloudflare Inc",
@@ -782,7 +898,9 @@
       "sole_voting": 222318,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.28
+      "weight": 0.28,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Adaptive Biotechnologies Corp",
@@ -795,7 +913,9 @@
       "sole_voting": 3165636,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.28
+      "weight": 0.28,
+      "ticker_raw": "ADPT",
+      "ticker": "ADPT"
     },
     {
       "issuer": "Ionis Pharmaceuticals Inc",
@@ -808,7 +928,9 @@
       "sole_voting": 631215,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.25
+      "weight": 0.25,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Pacific Biosciences of Califor",
@@ -821,7 +943,9 @@
       "sole_voting": 28969023,
       "shared_voting": 630619,
       "no_voting": 1324461,
-      "weight": 0.24
+      "weight": 0.24,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Unity Software Inc",
@@ -834,7 +958,9 @@
       "sole_voting": 976973,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.23
+      "weight": 0.23,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Schrodinger Inc/United States",
@@ -847,7 +973,9 @@
       "sole_voting": 1872677,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.22
+      "weight": 0.22,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Alibaba Group Holding Ltd",
@@ -860,7 +988,9 @@
       "sole_voting": 196742,
       "shared_voting": 2161,
       "no_voting": 11275,
-      "weight": 0.22
+      "weight": 0.22,
+      "ticker_raw": "BABA",
+      "ticker": "BABA"
     },
     {
       "issuer": "Absci Corp",
@@ -873,7 +1003,9 @@
       "sole_voting": 12162773,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.22
+      "weight": 0.22,
+      "ticker_raw": "ABSI",
+      "ticker": "ABSI"
     },
     {
       "issuer": "QUALCOMM Inc",
@@ -886,7 +1018,9 @@
       "sole_voting": 221426,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.22
+      "weight": 0.22,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Reddit Inc",
@@ -899,7 +1033,9 @@
       "sole_voting": 158120,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.22
+      "weight": 0.22,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Arcturus Therapeutics Holdings",
@@ -912,7 +1048,9 @@
       "sole_voting": 1872721,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.21
+      "weight": 0.21,
+      "ticker_raw": "ARCT",
+      "ticker": "ARCT"
     },
     {
       "issuer": "Strata Critical Medical Inc",
@@ -925,7 +1063,9 @@
       "sole_voting": 6404585,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.19
+      "weight": 0.19,
+      "ticker_raw": "SRTA",
+      "ticker": "SRTA"
     },
     {
       "issuer": "Symbotic Inc",
@@ -938,7 +1078,9 @@
       "sole_voting": 589887,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.19
+      "weight": 0.19,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CareDx Inc",
@@ -951,7 +1093,9 @@
       "sole_voting": 2170625,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.19
+      "weight": 0.19,
+      "ticker_raw": "CDNA",
+      "ticker": "CDNA"
     },
     {
       "issuer": "Datadog Inc",
@@ -964,7 +1108,9 @@
       "sole_voting": 220178,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.19
+      "weight": 0.19,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Figma Inc",
@@ -977,7 +1123,9 @@
       "sole_voting": 586023,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.18
+      "weight": 0.18,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Prime Medicine Inc",
@@ -990,7 +1138,9 @@
       "sole_voting": 5477851,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.18
+      "weight": 0.18,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Genius Sports Limited",
@@ -1003,7 +1153,9 @@
       "sole_voting": 2430125,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.18
+      "weight": 0.18,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Cerus Corp",
@@ -1016,7 +1168,9 @@
       "sole_voting": 17519415,
       "shared_voting": 299780,
       "no_voting": 1030993,
-      "weight": 0.18
+      "weight": 0.18,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Pure Storage Inc",
@@ -1029,7 +1183,9 @@
       "sole_voting": 347093,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.17
+      "weight": 0.17,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Pony AI Inc",
@@ -1042,7 +1198,9 @@
       "sole_voting": 1183181,
       "shared_voting": 0,
       "no_voting": 89509,
-      "weight": 0.17
+      "weight": 0.17,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Sea Ltd",
@@ -1055,7 +1213,9 @@
       "sole_voting": 157132,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.17
+      "weight": 0.17,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Elbit Systems Ltd",
@@ -1068,7 +1228,9 @@
       "sole_voting": 53569,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.16
+      "weight": 0.16,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "3iQ Ether Staking ETF",
@@ -1081,7 +1243,9 @@
       "sole_voting": 1671669,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.16
+      "weight": 0.16,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Cameco Corp",
@@ -1094,7 +1258,9 @@
       "sole_voting": 321040,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.16
+      "weight": 0.16,
+      "ticker_raw": "CCJ",
+      "ticker": "CCJ"
     },
     {
       "issuer": "Rubrik Inc",
@@ -1107,7 +1273,9 @@
       "sole_voting": 319112,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.16
+      "weight": 0.16,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Aurora Innovation Inc",
@@ -1120,7 +1288,9 @@
       "sole_voting": 4743215,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.15
+      "weight": 0.15,
+      "ticker_raw": "AUR",
+      "ticker": "AUR"
     },
     {
       "issuer": "Synopsys Inc",
@@ -1133,7 +1303,9 @@
       "sole_voting": 51558,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.15
+      "weight": 0.15,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Ibotta Inc",
@@ -1146,7 +1318,9 @@
       "sole_voting": 907386,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.15
+      "weight": 0.15,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Futu Holdings Ltd",
@@ -1159,7 +1333,9 @@
       "sole_voting": 129777,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.13
+      "weight": 0.13,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "NU Holdings Ltd",
@@ -1172,7 +1348,9 @@
       "sole_voting": 1407648,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.13
+      "weight": 0.13,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Intuitive Machines Inc",
@@ -1185,7 +1363,9 @@
       "sole_voting": 2073233,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.13
+      "weight": 0.13,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Teledyne Technologies Inc",
@@ -1198,7 +1378,9 @@
       "sole_voting": 35539,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.12
+      "weight": 0.12,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Zillow Group Inc",
@@ -1211,7 +1393,9 @@
       "sole_voting": 261166,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.12
+      "weight": 0.12,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Salesforce Inc",
@@ -1224,7 +1408,9 @@
       "sole_voting": 76013,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.11
+      "weight": 0.11,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Oklo Inc",
@@ -1237,7 +1423,9 @@
       "sole_voting": 156481,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.1
+      "weight": 0.1,
+      "ticker_raw": "OKLO",
+      "ticker": "OKLO"
     },
     {
       "issuer": "908 Devices Inc",
@@ -1250,7 +1438,9 @@
       "sole_voting": 1953772,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.1
+      "weight": 0.1,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Klarna Group PLC",
@@ -1263,7 +1453,9 @@
       "sole_voting": 461712,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.1
+      "weight": 0.1,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Nextdoor Holdings Inc",
@@ -1276,7 +1468,9 @@
       "sole_voting": 7971035,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.1
+      "weight": 0.1,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "3iQ Solana Staking ETF",
@@ -1289,7 +1483,9 @@
       "sole_voting": 985476,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.1
+      "weight": 0.1,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Etoro Group Ltd",
@@ -1302,7 +1498,9 @@
       "sole_voting": 387164,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.1
+      "weight": 0.1,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Caterpillar Inc",
@@ -1315,7 +1513,9 @@
       "sole_voting": 31144,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.09
+      "weight": 0.09,
+      "ticker_raw": "CAT",
+      "ticker": "CAT"
     },
     {
       "issuer": "Nurix Therapeutics Inc",
@@ -1328,7 +1528,9 @@
       "sole_voting": 1510404,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.08
+      "weight": 0.08,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Global-e Online Ltd",
@@ -1341,7 +1543,9 @@
       "sole_voting": 386873,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.08
+      "weight": 0.08,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Amgen Inc",
@@ -1354,7 +1558,9 @@
       "sole_voting": 47265,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.08
+      "weight": 0.08,
+      "ticker_raw": "AMGN",
+      "ticker": "AMGN"
     },
     {
       "issuer": "Intuitive Surgical Inc",
@@ -1367,7 +1573,9 @@
       "sole_voting": 29812,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.08
+      "weight": 0.08,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Incyte Corp",
@@ -1380,7 +1588,9 @@
       "sole_voting": 147335,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.07
+      "weight": 0.07,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Compass Pathways Plc",
@@ -1393,7 +1603,9 @@
       "sole_voting": 2121118,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.07
+      "weight": 0.07,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Veeva Systems Inc",
@@ -1406,7 +1618,9 @@
       "sole_voting": 40551,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.07
+      "weight": 0.07,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Butterfly Network Inc",
@@ -1419,7 +1633,9 @@
       "sole_voting": 6145348,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.07
+      "weight": 0.07,
+      "ticker_raw": "BFLY",
+      "ticker": "BFLY"
     },
     {
       "issuer": "Kaspi.KZ JSC",
@@ -1432,7 +1648,9 @@
       "sole_voting": 141780,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.07
+      "weight": 0.07,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "PayPal Holdings Inc",
@@ -1445,7 +1663,9 @@
       "sole_voting": 160627,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.06
+      "weight": 0.06,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Quantum-Si Inc",
@@ -1458,7 +1678,9 @@
       "sole_voting": 7624042,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.06
+      "weight": 0.06,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ATAI Life Sciences NV",
@@ -1471,7 +1693,9 @@
       "sole_voting": 2019551,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.06
+      "weight": 0.06,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Intuit Inc",
@@ -1484,7 +1708,9 @@
       "sole_voting": 15430,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.06
+      "weight": 0.06,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Vertex Pharmaceuticals Inc",
@@ -1497,7 +1723,9 @@
       "sole_voting": 25665,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.06
+      "weight": 0.06,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Intercontinental Exchange Inc",
@@ -1510,7 +1738,9 @@
       "sole_voting": 56843,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.06
+      "weight": 0.06,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "BILL Holdings Inc",
@@ -1523,7 +1753,9 @@
       "sole_voting": 151654,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.05
+      "weight": 0.05,
+      "ticker_raw": "BILL",
+      "ticker": "BILL"
     },
     {
       "issuer": "Caris Life Sciences Inc",
@@ -1536,7 +1768,9 @@
       "sole_voting": 245350,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.04
+      "weight": 0.04,
+      "ticker_raw": "CAI",
+      "ticker": "CAI"
     },
     {
       "issuer": "Garmin Ltd",
@@ -1549,7 +1783,9 @@
       "sole_voting": 28925,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.04
+      "weight": 0.04,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Regeneron Pharmaceuticals Inc",
@@ -1562,7 +1798,9 @@
       "sole_voting": 12142,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.04
+      "weight": 0.04,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Kodiak AI Inc",
@@ -1575,7 +1813,9 @@
       "sole_voting": 919593,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.04
+      "weight": 0.04,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "HEICO Corp",
@@ -1588,7 +1828,9 @@
       "sole_voting": 16341,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.03
+      "weight": 0.03,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Stratasys Ltd",
@@ -1601,7 +1843,9 @@
       "sole_voting": 446325,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.03
+      "weight": 0.03,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "3D Systems Corp",
@@ -1614,7 +1858,9 @@
       "sole_voting": 1680520,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.03
+      "weight": 0.03,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Xometry Inc",
@@ -1627,7 +1873,9 @@
       "sole_voting": 84413,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.03
+      "weight": 0.03,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Honeywell International Inc",
@@ -1640,7 +1888,9 @@
       "sole_voting": 21714,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.03
+      "weight": 0.03,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "AMETEK Inc",
@@ -1653,7 +1903,9 @@
       "sole_voting": 22963,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.03
+      "weight": 0.03,
+      "ticker_raw": "AME",
+      "ticker": "AME"
     },
     {
       "issuer": "Standard BioTools Inc",
@@ -1666,7 +1918,9 @@
       "sole_voting": 3021728,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.02
+      "weight": 0.02,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "PTC Inc",
@@ -1679,7 +1933,9 @@
       "sole_voting": 17790,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.02
+      "weight": 0.02,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Proto Labs Inc",
@@ -1692,7 +1948,9 @@
       "sole_voting": 71797,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.02
+      "weight": 0.02,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Autodesk Inc",
@@ -1705,7 +1963,9 @@
       "sole_voting": 11025,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.02
+      "weight": 0.02,
+      "ticker_raw": "ADSK",
+      "ticker": "ADSK"
     },
     {
       "issuer": "The 3D Printing ETF",
@@ -1718,7 +1978,9 @@
       "sole_voting": 142696,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.02
+      "weight": 0.02,
+      "ticker_raw": "PRNT",
+      "ticker": "PRNT"
     },
     {
       "issuer": "HP Inc",
@@ -1731,7 +1993,9 @@
       "sole_voting": 117932,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.02
+      "weight": 0.02,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Gilat Satellite Networks Ltd",
@@ -1744,7 +2008,9 @@
       "sole_voting": 246235,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.02
+      "weight": 0.02,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Microsoft Corp",
@@ -1757,7 +2023,9 @@
       "sole_voting": 6124,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.02
+      "weight": 0.02,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Nano Dimension Ltd",
@@ -1770,7 +2038,9 @@
       "sole_voting": 1935939,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.02
+      "weight": 0.02,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "DENTSPLY SIRONA Inc",
@@ -1783,7 +2053,9 @@
       "sole_voting": 226543,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.02
+      "weight": 0.02,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Tower Semiconductor Ltd",
@@ -1796,7 +2068,9 @@
       "sole_voting": 39638,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.02
+      "weight": 0.02,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Materialise NV",
@@ -1809,7 +2083,9 @@
       "sole_voting": 505829,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.02
+      "weight": 0.02,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Sapiens International Corp NV",
@@ -1822,7 +2098,9 @@
       "sole_voting": 64757,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.02
+      "weight": 0.02,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Lockheed Martin Corp",
@@ -1835,7 +2113,9 @@
       "sole_voting": 5392,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.02
+      "weight": 0.02,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "TAT Technologies Ltd",
@@ -1848,7 +2128,9 @@
       "sole_voting": 62805,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.02
+      "weight": 0.02,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "UroGen Pharma Ltd",
@@ -1861,7 +2143,9 @@
       "sole_voting": 126720,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.02
+      "weight": 0.02,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Cellebrite DI Ltd",
@@ -1874,7 +2158,9 @@
       "sole_voting": 133518,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CyberArk Software Ltd",
@@ -1887,7 +2173,9 @@
       "sole_voting": 5062,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Teva Pharmaceutical Industries",
@@ -1900,7 +2188,9 @@
       "sole_voting": 118721,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Allot Ltd",
@@ -1913,7 +2203,9 @@
       "sole_voting": 226442,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "JFrog Ltd",
@@ -1926,7 +2218,9 @@
       "sole_voting": 47390,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Wix.com Ltd",
@@ -1939,7 +2233,9 @@
       "sole_voting": 12494,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Nova Ltd",
@@ -1952,7 +2248,9 @@
       "sole_voting": 6930,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Camtek Ltd",
@@ -1965,7 +2263,9 @@
       "sole_voting": 20950,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SimilarWeb Ltd",
@@ -1978,7 +2278,9 @@
       "sole_voting": 230053,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "RADCOM Ltd",
@@ -1991,7 +2293,9 @@
       "sole_voting": 144570,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Nayax Ltd",
@@ -2004,7 +2308,9 @@
       "sole_voting": 43117,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Inmode Ltd",
@@ -2017,7 +2323,9 @@
       "sole_voting": 137597,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Pagaya Technologies Ltd",
@@ -2030,7 +2338,9 @@
       "sole_voting": 66533,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Magic Software Enterprises Ltd",
@@ -2043,7 +2353,9 @@
       "sole_voting": 91821,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Check Point Software Technologies Ltd",
@@ -2056,7 +2368,9 @@
       "sole_voting": 8953,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Fiverr International Ltd",
@@ -2069,7 +2383,9 @@
       "sole_voting": 75569,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Nice Ltd",
@@ -2082,7 +2398,9 @@
       "sole_voting": 12638,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Taboola.com Ltd",
@@ -2095,7 +2413,9 @@
       "sole_voting": 530584,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Nexxen International Ltd",
@@ -2108,7 +2428,9 @@
       "sole_voting": 194362,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Ituran Location and Control Ltd",
@@ -2121,7 +2443,9 @@
       "sole_voting": 50002,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Radware Ltd",
@@ -2134,7 +2458,9 @@
       "sole_voting": 67391,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Kamada Ltd",
@@ -2147,7 +2473,9 @@
       "sole_voting": 256217,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Cognyte Software Ltd",
@@ -2160,7 +2488,9 @@
       "sole_voting": 210050,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "MediWound Ltd",
@@ -2173,7 +2503,9 @@
       "sole_voting": 96879,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Riskified Ltd",
@@ -2186,7 +2518,9 @@
       "sole_voting": 368310,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "AudioCodes Ltd",
@@ -2199,7 +2533,9 @@
       "sole_voting": 180164,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Oddity Tech Ltd",
@@ -2212,7 +2548,9 @@
       "sole_voting": 27476,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Mobileye Global Inc",
@@ -2225,7 +2563,9 @@
       "sole_voting": 120887,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Perion Network Ltd",
@@ -2238,7 +2578,9 @@
       "sole_voting": 171322,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Playtika Holding Corp",
@@ -2251,7 +2593,9 @@
       "sole_voting": 420301,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Nano-X Imaging Ltd",
@@ -2264,7 +2608,9 @@
       "sole_voting": 384788,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ARK Innovation ETF",
@@ -2277,7 +2623,9 @@
       "sole_voting": 16471,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": "ARKK",
+      "ticker": "ARKK"
     },
     {
       "issuer": "GE Aerospace",
@@ -2290,7 +2638,9 @@
       "sole_voting": 4393,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Monday.com Ltd",
@@ -2303,7 +2653,9 @@
       "sole_voting": 6721,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Moog Inc",
@@ -2316,7 +2668,9 @@
       "sole_voting": 6009,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Valens Semiconductor Ltd",
@@ -2329,7 +2683,9 @@
       "sole_voting": 691880,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Lincoln Electric Holdings Inc",
@@ -2342,7 +2698,9 @@
       "sole_voting": 5148,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Kaiser Aluminum Corp",
@@ -2355,7 +2713,9 @@
       "sole_voting": 12913,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "United Parcel Service Inc",
@@ -2368,7 +2728,9 @@
       "sole_voting": 11613,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Align Technology Inc",
@@ -2381,7 +2743,9 @@
       "sole_voting": 6208,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": "ALGN",
+      "ticker": "ALGN"
     },
     {
       "issuer": "iShares Russell 1000 Growth ETF",
@@ -2394,7 +2758,9 @@
       "sole_voting": 723,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ARK Genomic Revolution ETF",
@@ -2407,7 +2773,9 @@
       "sole_voting": 7051,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": "ARKG",
+      "ticker": "ARKG"
     },
     {
       "issuer": "iShares Ethereum Trust ETF",
@@ -2420,7 +2788,9 @@
       "sole_voting": 0,
       "shared_voting": 4432,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Materion Corp",
@@ -2433,7 +2803,9 @@
       "sole_voting": 694,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "DuPont de Nemours Inc",
@@ -2446,7 +2818,9 @@
       "sole_voting": 921,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Hexcel Corp",
@@ -2459,7 +2833,9 @@
       "sole_voting": 1130,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "3M Co",
@@ -2472,7 +2848,9 @@
       "sole_voting": 456,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Avient Corporation",
@@ -2485,7 +2863,9 @@
       "sole_voting": 2119,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": "AVNT",
+      "ticker": "AVNT"
     },
     {
       "issuer": "Jabil Inc",
@@ -2498,7 +2878,9 @@
       "sole_voting": 311,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Eastman Kodak Co",
@@ -2511,7 +2893,9 @@
       "sole_voting": 10310,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ATI Inc",
@@ -2524,7 +2908,9 @@
       "sole_voting": 742,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": "ATI",
+      "ticker": "ATI"
     },
     {
       "issuer": "Carpenter Technology Corp",
@@ -2537,7 +2923,9 @@
       "sole_voting": 241,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": "CRS",
+      "ticker": "CRS"
     },
     {
       "issuer": "Kennametal Inc",
@@ -2550,7 +2938,9 @@
       "sole_voting": 2753,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Eastman Chemical Co",
@@ -2563,7 +2953,9 @@
       "sole_voting": 852,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": null,
+      "ticker": null
     }
   ],
   "comparison": {

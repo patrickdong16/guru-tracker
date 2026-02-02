@@ -28,7 +28,9 @@
       "sole_voting": 30270518,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 20.25
+      "weight": 20.25,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "BROOKFIELD CORP",
@@ -41,7 +43,9 @@
       "sole_voting": 41020231,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 19.21
+      "weight": 19.21,
+      "ticker_raw": "BN",
+      "ticker": "BN"
     },
     {
       "issuer": "HOWARD HUGHES HOLDINGS INC",
@@ -54,7 +58,9 @@
       "sole_voting": 18852064,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 10.58
+      "weight": 10.58,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ALPHABET INC",
@@ -67,7 +73,9 @@
       "sole_voting": 6324031,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 10.52
+      "weight": 10.52,
+      "ticker_raw": "GOOG",
+      "ticker": "GOOG"
     },
     {
       "issuer": "RESTAURANT BRANDS INTL INC",
@@ -80,7 +88,9 @@
       "sole_voting": 22915496,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 10.04
+      "weight": 10.04,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "AMAZON COM INC",
@@ -93,7 +103,9 @@
       "sole_voting": 5823316,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 8.73
+      "weight": 8.73,
+      "ticker_raw": "AMZN",
+      "ticker": "AMZN"
     },
     {
       "issuer": "ALPHABET INC",
@@ -106,7 +118,9 @@
       "sole_voting": 4843973,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 8.04
+      "weight": 8.04,
+      "ticker_raw": "GOOGL",
+      "ticker": "GOOGL"
     },
     {
       "issuer": "CHIPOTLE MEXICAN GRILL INC",
@@ -119,7 +133,9 @@
       "sole_voting": 21541177,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 5.77
+      "weight": 5.77,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "HILTON WORLDWIDE HLDGS INC",
@@ -132,7 +148,9 @@
       "sole_voting": 3030578,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 5.37
+      "weight": 5.37,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SEAPORT ENTMT GROUP INC",
@@ -145,7 +163,9 @@
       "sole_voting": 5023780,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.79
+      "weight": 0.79,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "HERTZ GLOBAL HLDGS INC",
@@ -158,7 +178,9 @@
       "sole_voting": 15241127,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.71
+      "weight": 0.71,
+      "ticker_raw": null,
+      "ticker": null
     }
   ],
   "comparison": {

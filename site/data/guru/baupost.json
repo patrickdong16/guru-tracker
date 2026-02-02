@@ -28,7 +28,9 @@
       "sole_voting": 8252862,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 11.05
+      "weight": 11.05,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ALPHABET INC",
@@ -41,7 +43,9 @@
       "sole_voting": 1858138,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 9.45
+      "weight": 9.45,
+      "ticker_raw": "GOOG",
+      "ticker": "GOOG"
     },
     {
       "issuer": "ELEVANCE HEALTH INC FORMERLY",
@@ -54,7 +58,9 @@
       "sole_voting": 1319000,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 8.9
+      "weight": 8.9,
+      "ticker_raw": "ELV",
+      "ticker": "ELV"
     },
     {
       "issuer": "CRH PLC",
@@ -67,7 +73,9 @@
       "sole_voting": 3383395,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 8.47
+      "weight": 8.47,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "WILLIS TOWERS WATSON PLC LTD",
@@ -80,7 +88,9 @@
       "sole_voting": 1089065,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 7.85
+      "weight": 7.85,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "UNION PAC CORP",
@@ -93,7 +103,9 @@
       "sole_voting": 1496204,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 7.38
+      "weight": 7.38,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "WESCO INTL INC",
@@ -106,7 +118,9 @@
       "sole_voting": 1503180,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 6.64
+      "weight": 6.64,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "DOLLAR GEN CORP NEW",
@@ -119,7 +133,9 @@
       "sole_voting": 2666876,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 5.75
+      "weight": 5.75,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "FERGUSON ENTERPRISES INC",
@@ -132,7 +148,9 @@
       "sole_voting": 1155500,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 5.42
+      "weight": 5.42,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "LIBERTY GLOBAL LTD",
@@ -145,7 +163,9 @@
       "sole_voting": 21657803,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 5.31
+      "weight": 5.31,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "FIDELITY NATL INFORMATION SV",
@@ -158,7 +178,9 @@
       "sole_voting": 3789711,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 5.22
+      "weight": 5.22,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "EAGLE MATLS INC",
@@ -171,7 +193,9 @@
       "sole_voting": 939660,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 4.57
+      "weight": 4.57,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "GENUINE PARTS CO",
@@ -184,7 +208,9 @@
       "sole_voting": 1395000,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 4.04
+      "weight": 4.04,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "GDS HLDGS LTD",
@@ -197,7 +223,9 @@
       "sole_voting": 3249952,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 2.63
+      "weight": 2.63,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "FISERV INC",
@@ -210,7 +238,9 @@
       "sole_voting": 895000,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 2.41
+      "weight": 2.41,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "HERBALIFE LTD",
@@ -223,7 +253,9 @@
       "sole_voting": 7759844,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 1.37
+      "weight": 1.37,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "LIBERTY GLOBAL LTD",
@@ -236,7 +268,9 @@
       "sole_voting": 5076762,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 1.21
+      "weight": 1.21,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "AMERICOLD REALTY TRUST INC",
@@ -249,7 +283,9 @@
       "sole_voting": 3600000,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.92
+      "weight": 0.92,
+      "ticker_raw": "COLD",
+      "ticker": "COLD"
     },
     {
       "issuer": "PAGSEGURO DIGITAL LTD",
@@ -262,7 +298,9 @@
       "sole_voting": 2500000,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.52
+      "weight": 0.52,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "HERBALIFE LTD",
@@ -275,7 +313,9 @@
       "sole_voting": 17129000,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.33
+      "weight": 0.33,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "TAMBORAN RES CORP",
@@ -288,7 +328,9 @@
       "sole_voting": 570833,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.33
+      "weight": 0.33,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CABLE ONE INC",
@@ -301,7 +343,9 @@
       "sole_voting": 14100000,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.25
+      "weight": 0.25,
+      "ticker_raw": "CABO 1.125 03/15/28",
+      "ticker": "CABO"
     }
   ],
   "comparison": {

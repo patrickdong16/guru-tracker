@@ -28,7 +28,9 @@
       "sole_voting": 1225964,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 20.27
+      "weight": 20.27,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "NETEASE INC",
@@ -41,7 +43,9 @@
       "sole_voting": 2967433,
       "shared_voting": 0,
       "no_voting": 244767,
-      "weight": 10.99
+      "weight": 10.99,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "NVIDIA CORPORATION",
@@ -54,7 +58,9 @@
       "sole_voting": 2378757,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 9.99
+      "weight": 9.99,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "PDD HOLDINGS INC",
@@ -67,7 +73,9 @@
       "sole_voting": 2902989,
       "shared_voting": 0,
       "no_voting": 453975,
-      "weight": 9.99
+      "weight": 9.99,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ALPHABET INC",
@@ -80,7 +88,9 @@
       "sole_voting": 1760320,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 9.64
+      "weight": 9.64,
+      "ticker_raw": "GOOGL",
+      "ticker": "GOOGL"
     },
     {
       "issuer": "FULL TRUCK ALLIANCE CO LTD",
@@ -93,7 +103,9 @@
       "sole_voting": 25472967,
       "shared_voting": 0,
       "no_voting": 3124912,
-      "weight": 8.35
+      "weight": 8.35,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "FUTU HLDGS LTD",
@@ -106,7 +118,9 @@
       "sole_voting": 996348,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 3.9
+      "weight": 3.9,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ALIBABA GROUP HLDG LTD",
@@ -119,7 +133,9 @@
       "sole_voting": 643104,
       "shared_voting": 0,
       "no_voting": 200305,
-      "weight": 3.39
+      "weight": 3.39,
+      "ticker_raw": "BABA",
+      "ticker": "BABA"
     },
     {
       "issuer": "NEBIUS GROUP N.V.",
@@ -132,7 +148,9 @@
       "sole_voting": 1276303,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 3.23
+      "weight": 3.23,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "QFIN HOLDINGS INC",
@@ -145,7 +163,9 @@
       "sole_voting": 2739274,
       "shared_voting": 0,
       "no_voting": 556164,
-      "weight": 2.14
+      "weight": 2.14,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ATOUR LIFESTYLE HLDGS LTD",
@@ -158,7 +178,9 @@
       "sole_voting": 1988136,
       "shared_voting": 0,
       "no_voting": 302000,
-      "weight": 1.94
+      "weight": 1.94,
+      "ticker_raw": "ATAT",
+      "ticker": "ATAT"
     },
     {
       "issuer": "SYNOPSYS INC",
@@ -171,7 +193,9 @@
       "sole_voting": 165459,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 1.84
+      "weight": 1.84,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SEA LTD",
@@ -184,7 +208,9 @@
       "sole_voting": 411144,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 1.65
+      "weight": 1.65,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "NEW ORIENTAL ED & TECHNOLOGY",
@@ -197,7 +223,9 @@
       "sole_voting": 1301234,
       "shared_voting": 0,
       "no_voting": 26984,
-      "weight": 1.59
+      "weight": 1.59,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "KE HLDGS INC",
@@ -210,7 +238,9 @@
       "sole_voting": 3408963,
       "shared_voting": 0,
       "no_voting": 268032,
-      "weight": 1.57
+      "weight": 1.57,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "INTEL CORP",
@@ -223,7 +253,9 @@
       "sole_voting": 1896037,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 1.43
+      "weight": 1.43,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "UNITEDHEALTH GROUP INC",
@@ -236,7 +268,9 @@
       "sole_voting": 167432,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 1.3
+      "weight": 1.3,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SPDR SERIES TRUST",
@@ -249,7 +283,9 @@
       "sole_voting": 555015,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 1.25
+      "weight": 1.25,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "APPLE INC",
@@ -262,7 +298,9 @@
       "sole_voting": 213104,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 1.22
+      "weight": 1.22,
+      "ticker_raw": "AAPL",
+      "ticker": "AAPL"
     },
     {
       "issuer": "TAIWAN SEMICONDUCTOR MFG LTD",
@@ -275,7 +313,9 @@
       "sole_voting": 131264,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.83
+      "weight": 0.83,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "TAL EDUCATION GROUP",
@@ -288,7 +328,9 @@
       "sole_voting": 2175061,
       "shared_voting": 0,
       "no_voting": 422119,
-      "weight": 0.66
+      "weight": 0.66,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "WERIDE INC",
@@ -301,7 +343,9 @@
       "sole_voting": 2684200,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.6
+      "weight": 0.6,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "MAKEMYTRIP LIMITED MAURITIUS",
@@ -314,7 +358,9 @@
       "sole_voting": 256900,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.54
+      "weight": 0.54,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "UBER TECHNOLOGIES INC",
@@ -327,7 +373,9 @@
       "sole_voting": 244670,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.54
+      "weight": 0.54,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "JINKOSOLAR HLDG CO LTD",
@@ -340,7 +388,9 @@
       "sole_voting": 780933,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.42
+      "weight": 0.42,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "H WORLD GROUP LTD",
@@ -353,7 +403,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 360000,
-      "weight": 0.32
+      "weight": 0.32,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SPOTIFY TECHNOLOGY S A",
@@ -366,7 +418,9 @@
       "sole_voting": 13226,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.21
+      "weight": 0.21,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SUPER HI INTL HLDG LTD",
@@ -379,7 +433,9 @@
       "sole_voting": 268341,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.11
+      "weight": 0.11,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ATRENEW INC",
@@ -392,7 +448,9 @@
       "sole_voting": 525000,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.05
+      "weight": 0.05,
+      "ticker_raw": "RERE",
+      "ticker": "RERE"
     },
     {
       "issuer": "ALPHABET INC",
@@ -405,7 +463,9 @@
       "sole_voting": 3596,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.02
+      "weight": 0.02,
+      "ticker_raw": "GOOG",
+      "ticker": "GOOG"
     }
   ],
   "comparison": {
