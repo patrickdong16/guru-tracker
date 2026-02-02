@@ -1,0 +1,86 @@
+{
+  "guru_id": "daily_journal",
+  "current_period": "2025-12-31",
+  "previous_period": "2025-09-30",
+  "current_filing_date": "2026-01-13",
+  "previous_filing_date": "2025-10-08",
+  "summary": {
+    "total_new": 0,
+    "total_increased": 1,
+    "total_decreased": 0,
+    "total_unchanged": 3,
+    "total_sold": 0,
+    "total_value_current": 276651220,
+    "total_value_previous": 262245445,
+    "total_value_change_pct": 5.5
+  },
+  "changes": {
+    "new": [],
+    "increased": [
+      {
+        "issuer": "Alibaba Group Holding Ltd",
+        "title": "Sponsored ADS",
+        "cusip": "01609W102",
+        "value": 28583100,
+        "shares": 195000,
+        "share_type": "SH",
+        "discretion": "SOLE",
+        "sole_voting": 195000,
+        "shared_voting": 0,
+        "no_voting": 0,
+        "weight": 10.33,
+        "change_type": "INCREASED",
+        "prev_shares": 19500,
+        "prev_value": 34852350,
+        "share_change": 175500,
+        "share_change_pct": 900.0
+      }
+    ],
+    "decreased": [],
+    "unchanged": [
+      {
+        "issuer": "Wells Fargo & Co",
+        "title": "Common Stock",
+        "cusip": "949746101",
+        "value": 131691600,
+        "shares": 1413000,
+        "share_type": "SH",
+        "discretion": "SOLE",
+        "sole_voting": 1413000,
+        "shared_voting": 0,
+        "no_voting": 0,
+        "weight": 47.6,
+        "change_type": "UNCHANGED"
+      },
+      {
+        "issuer": "Bank of America Corp",
+        "title": "Common Stock",
+        "cusip": "060505104",
+        "value": 110000000,
+        "shares": 2000000,
+        "share_type": "SH",
+        "discretion": "SOLE",
+        "sole_voting": 2000000,
+        "shared_voting": 0,
+        "no_voting": 0,
+        "weight": 39.76,
+        "change_type": "UNCHANGED"
+      },
+      {
+        "issuer": "US Bancorp",
+        "title": "Common Stock",
+        "cusip": "902973304",
+        "value": 6376520,
+        "shares": 119500,
+        "share_type": "SH",
+        "discretion": "SOLE",
+        "sole_voting": 119500,
+        "shared_voting": 0,
+        "no_voting": 0,
+        "weight": 2.3,
+        "change_type": "UNCHANGED"
+      }
+    ],
+    "sold": []
+  }
+}

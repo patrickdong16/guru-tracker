@@ -1,0 +1,63 @@
+{
+  "guru_id": "daily_journal",
+  "cik": "0000783412",
+  "period_ending": "2025-09-30",
+  "filing_date": "2025-10-08",
+  "accession_number": "0001437749-25-030667",
+  "total_value": 262245445,
+  "holdings_count": 4,
+  "holdings": [
+    {
+      "issuer": "Wells Fargo & Co",
+      "title": "Common Stock",
+      "cusip": "949746101",
+      "value": 118437660,
+      "shares": 1413000,
+      "share_type": "SH",
+      "discretion": "SOLE",
+      "sole_voting": 1413000,
+      "shared_voting": 0,
+      "no_voting": 0,
+      "weight": 45.16
+    },
+    {
+      "issuer": "Bank of America Corp",
+      "title": "Common Stock",
+      "cusip": "060505104",
+      "value": 103180000,
+      "shares": 2000000,
+      "share_type": "SH",
+      "discretion": "SOLE",
+      "sole_voting": 2000000,
+      "shared_voting": 0,
+      "no_voting": 0,
+      "weight": 39.34
+    },
+    {
+      "issuer": "Alibaba Group Holding Ltd",
+      "title": "Sponsored ADS",
+      "cusip": "01609W102",
+      "value": 34852350,
+      "shares": 19500,
+      "share_type": "SH",
+      "discretion": "SOLE",
+      "sole_voting": 19500,
+      "shared_voting": 0,
+      "no_voting": 0,
+      "weight": 13.29
+    },
+    {
+      "issuer": "US Bancorp",
+      "title": "Common Stock",
+      "cusip": "902973304",
+      "value": 5775435,
+      "shares": 119500,
+      "share_type": "SH",
+      "discretion": "SOLE",
+      "sole_voting": 119500,
+      "shared_voting": 0,
+      "no_voting": 0,
+      "weight": 2.2
+    }
+  ]
+}
