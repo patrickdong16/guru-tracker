@@ -37,6 +37,12 @@ jobs:
         env:
           SEC_USER_AGENT: ${{ env.SEC_USER_AGENT }}
 
+      - name: Check for stale gurus (>1 year without filing)
+        id: stale
+        run: |
+          python scripts/check_stale.py --auto-remove && echo "stale=false" >> $GITHUB_OUTPUT || echo "stale=true" >> $GITHUB_OUTPUT
+        continue-on-error: true
+
       - name: Generate site data + HTML
         run: python scripts/generate_site.py
 
