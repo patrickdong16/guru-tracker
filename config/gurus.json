@@ -377,6 +377,22 @@
       "famous_trade": "2010年投资腾讯，2012年投资京东，均获数十倍回报。美股重仓百济神州、拼多多等中概股。",
       "filing_type": "13F-HR",
       "active": true
+    },
+    {
+      "id": "oriental_harbor",
+      "name": "Oriental Harbor Investment Master Fund",
+      "display_name": "但斌 / 东方港湾",
+      "cik": "0002046333",
+      "style": "value",
+      "style_label": "价值投资",
+      "category": "chinese",
+      "representative": "但斌 (Dan Bin)",
+      "aum": "$1B+",
+      "bio": "东方港湾创始人，中国著名价值投资者。早期重仓贵州茅台成名，近年积极配置美股科技和加密资产。通过香港子公司管理海外基金。",
+      "famous_trade": "长期持有贵州茅台超15年；近年重仓英伟达等AI概念股。",
+      "filing_type": "13F-HR",
+      "active": true,
+      "note": "SEC注册名原为 Oriental Harbor Investment Fund，2025年7月改为 Master Fund"
     }
   ]
 }

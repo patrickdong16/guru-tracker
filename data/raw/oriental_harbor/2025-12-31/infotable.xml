@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:informationTable xmlns:ns1="http://www.sec.gov/edgar/document/thirteenf/informationtable">
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>ALPHABET INC </ns1:nameOfIssuer>
+		<ns1:titleOfClass>CAP STK CL C</ns1:titleOfClass>
+		<ns1:cusip>02079K107</ns1:cusip>
+		<ns1:value>405891513</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>1293472</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>SOLE</ns1:investmentDiscretion>
+		<ns1:votingAuthority>
+			<ns1:Sole>1</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>AMAZON COM INC</ns1:nameOfIssuer>
+		<ns1:titleOfClass>COM</ns1:titleOfClass>
+		<ns1:cusip>023135106</ns1:cusip>
+		<ns1:value>42399325</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>183690</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>SOLE</ns1:investmentDiscretion>
+		<ns1:votingAuthority>
+			<ns1:Sole>1</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>APPLE INC</ns1:nameOfIssuer>
+		<ns1:titleOfClass>COM</ns1:titleOfClass>
+		<ns1:cusip>037833100</ns1:cusip>
+		<ns1:value>92853239</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>341548</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>SOLE</ns1:investmentDiscretion>
+		<ns1:votingAuthority>
+			<ns1:Sole>1</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>META PLATFORMS INC</ns1:nameOfIssuer>
+		<ns1:titleOfClass>CL A</ns1:titleOfClass>
+		<ns1:cusip>30303M102</ns1:cusip>
+		<ns1:value>90377542</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>136917</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>SOLE</ns1:investmentDiscretion>
+		<ns1:votingAuthority>
+			<ns1:Sole>1</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>MICROSOFT CORP</ns1:nameOfIssuer>
+		<ns1:titleOfClass>COM</ns1:titleOfClass>
+		<ns1:cusip>594918104</ns1:cusip>
+		<ns1:value>93593527</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>193527</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>SOLE</ns1:investmentDiscretion>
+		<ns1:votingAuthority>
+			<ns1:Sole>1</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>NVIDIA CORPORATION</ns1:nameOfIssuer>
+		<ns1:titleOfClass>COM</ns1:titleOfClass>
+		<ns1:cusip>67066G104</ns1:cusip>
+		<ns1:value>237139412</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>1271525</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>SOLE</ns1:investmentDiscretion>
+		<ns1:votingAuthority>
+			<ns1:Sole>1</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>TESLA INC</ns1:nameOfIssuer>
+		<ns1:titleOfClass>COM</ns1:titleOfClass>
+		<ns1:cusip>88160R101</ns1:cusip>
+		<ns1:value>89018476</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>197942</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>SOLE</ns1:investmentDiscretion>
+		<ns1:votingAuthority>
+			<ns1:Sole>1</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>DIREXION SHS ETF TR</ns1:nameOfIssuer>
+		<ns1:titleOfClass>DAILY GOOGL 2X S</ns1:titleOfClass>
+		<ns1:cusip>25461A841</ns1:cusip>
+		<ns1:value>31834477</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>328597</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>SOLE</ns1:investmentDiscretion>
+		<ns1:votingAuthority>
+			<ns1:Sole>1</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer> BANK MONTREAL QUE</ns1:nameOfIssuer>
+		<ns1:titleOfClass>CAL LKD 45</ns1:titleOfClass>
+		<ns1:cusip>063679385</ns1:cusip>
+		<ns1:value>105923768</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>4193340</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>SOLE</ns1:investmentDiscretion>
+		<ns1:votingAuthority>
+			<ns1:Sole>1</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>PROSHARES TR</ns1:nameOfIssuer>
+		<ns1:titleOfClass>ULTRAPRO QQQ</ns1:titleOfClass>
+		<ns1:cusip>74347X831</ns1:cusip>
+		<ns1:value>126614460</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>2401640</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>SOLE</ns1:investmentDiscretion>
+		<ns1:votingAuthority>
+			<ns1:Sole>1</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+</ns1:informationTable>
