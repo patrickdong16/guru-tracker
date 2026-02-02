@@ -409,22 +409,6 @@
       "filing_type": "13F-HR",
       "active": true,
       "note": "SEC注册名原为 Oriental Harbor Investment Fund，2025年7月改为 Master Fund"
-    },
-    {
-      "id": "duan_yongping",
-      "name": "H&H International Investment, LLC",
-      "display_name": "段永平 / H&H International",
-      "cik": "0001759760",
-      "style": "value",
-      "style_label": "价值投资",
-      "category": "chinese",
-      "representative": "段永平 (Duan Yongping)",
-      "aum": "未公开",
-      "bio": "步步高/OPPO/vivo创始人，雪球网名'大道无形我有型'。2006年以62万美元竞拍巴菲特午餐，中国价值投资标杆人物。通过H&H International管理美股投资。",
-      "famous_trade": "2001年以约$0.8/股抄底网易，最终涨超$70；长期重仓苹果、茅台。",
-      "filing_type": "13F-HR",
-      "active": true,
-      "note": "SEC 实体为 H&H International Investment, LLC，市场公认为段永平个人投资实体"
     }
   ]
 }
