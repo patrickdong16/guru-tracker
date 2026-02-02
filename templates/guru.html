@@ -1,0 +1,385 @@
+{% extends "base.html" %}
+{% set base_url = ".." %}
+
+{% block title %}{{ guru.info.display_name }}{% endblock %}
+
+{% block head %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+{% endblock %}
+
+{% block content %}
+<!-- Back link -->
+<a href="../index.html" class="inline-flex items-center gap-1 text-sm text-zinc-400 hover:text-zinc-200 transition mb-6">
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+    返回大师列表
+</a>
+
+<!-- Profile Card -->
+<div class="bg-zinc-800 border border-zinc-700/50 rounded-xl p-6 mb-6">
+    <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
+        <div class="flex-1">
+            <div class="flex items-center gap-3 mb-2">
+                <h1 class="text-xl font-bold text-zinc-50">{{ guru.info.display_name }}</h1>
+                <span class="px-2 py-0.5 text-xs font-medium rounded-full border {{ guru.info.style | style_badge }}">{{ guru.info.style_label }}</span>
+            </div>
+            <p class="text-sm text-zinc-400 mb-3">{{ guru.info.representative }}</p>
+            <p class="text-sm text-zinc-300 leading-relaxed">{{ guru.info.bio }}</p>
+            {% if guru.info.famous_trade %}
+            <p class="text-xs text-zinc-500 mt-2 italic">🏆 {{ guru.info.famous_trade }}</p>
+            {% endif %}
+        </div>
+        <div class="flex-shrink-0 grid grid-cols-2 gap-3 sm:text-right">
+            <div>
+                <p class="text-[10px] text-zinc-500 uppercase tracking-wider">AUM</p>
+                <p class="text-sm font-semibold text-zinc-50">{{ guru.info.aum }}</p>
+            </div>
+            <div>
+                <p class="text-[10px] text-zinc-500 uppercase tracking-wider">CIK</p>
+                <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={{ guru.info.cik }}&type=13F&dateb=&owner=include&count=10" target="_blank" class="text-sm text-blue-400 hover:text-blue-300 transition">{{ guru.info.cik }}</a>
+            </div>
+            <div>
+                <p class="text-[10px] text-zinc-500 uppercase tracking-wider">报告期</p>
+                <p class="text-sm font-semibold text-zinc-50">{{ guru.latest_period }}</p>
+            </div>
+            <div>
+                <p class="text-[10px] text-zinc-500 uppercase tracking-wider">提交日期</p>
+                <p class="text-sm font-semibold text-zinc-50">{{ guru.filing_date }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Summary Stats -->
+<div class="grid grid-cols-2 sm:grid-cols-5 gap-3 mb-6">
+    <div class="bg-zinc-800 border border-zinc-700/50 rounded-lg p-4 text-center">
+        <p class="text-xs text-zinc-500 mb-1">总持仓</p>
+        <p class="text-lg font-bold text-zinc-50 tabular-nums">{{ guru.total_value | format_value }}</p>
+    </div>
+    <div class="bg-zinc-800 border border-zinc-700/50 rounded-lg p-4 text-center">
+        <p class="text-xs text-zinc-500 mb-1">持仓数</p>
+        <p class="text-lg font-bold text-zinc-50 tabular-nums">{{ guru.holdings_count }}</p>
+    </div>
+    {% if comparison and comparison.summary %}
+    <div class="bg-zinc-800 border border-zinc-700/50 rounded-lg p-4 text-center">
+        <p class="text-xs text-zinc-500 mb-1">🆕 新建仓</p>
+        <p class="text-lg font-bold text-emerald-400 tabular-nums">{{ comparison.summary.total_new }}</p>
+    </div>
+    <div class="bg-zinc-800 border border-zinc-700/50 rounded-lg p-4 text-center">
+        <p class="text-xs text-zinc-500 mb-1">⬆⬇ 调仓</p>
+        <p class="text-lg font-bold text-amber-400 tabular-nums">{{ comparison.summary.total_increased + comparison.summary.total_decreased }}</p>
+    </div>
+    <div class="bg-zinc-800 border border-zinc-700/50 rounded-lg p-4 text-center">
+        <p class="text-xs text-zinc-500 mb-1">❌ 清仓</p>
+        <p class="text-lg font-bold text-red-400 tabular-nums">{{ comparison.summary.total_sold }}</p>
+    </div>
+    {% endif %}
+</div>
+
+<!-- Chart + Changes side by side on desktop -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
+    <!-- Top 10 Holdings Chart -->
+    <div class="bg-zinc-800 border border-zinc-700/50 rounded-xl p-5">
+        <h2 class="text-sm font-semibold text-zinc-50 mb-4">前 10 大持仓</h2>
+        <div class="relative" style="max-height: 280px;">
+            <canvas id="holdingsChart"></canvas>
+        </div>
+    </div>
+
+    <!-- Quarter Changes -->
+    {% if changes %}
+    <div class="lg:col-span-2 bg-zinc-800 border border-zinc-700/50 rounded-xl p-5">
+        <div class="flex items-center justify-between mb-4">
+            <h2 class="text-sm font-semibold text-zinc-50">季度变化</h2>
+            {% if comparison %}
+            <span class="text-xs text-zinc-500">{{ comparison.previous_period }} → {{ comparison.current_period }}</span>
+            {% endif %}
+        </div>
+        <!-- Change type tabs -->
+        <div class="flex gap-2 mb-4 flex-wrap" id="change-tabs">
+            {% if changes.new %}
+            <button class="change-tab active px-3 py-1 text-xs rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 transition" data-tab="new">🆕 新建仓 ({{ changes.new | length }})</button>
+            {% endif %}
+            {% if changes.increased %}
+            <button class="change-tab px-3 py-1 text-xs rounded-full bg-zinc-700/50 text-zinc-400 border border-zinc-600/30 hover:border-zinc-500 transition" data-tab="increased">⬆ 加仓 ({{ changes.increased | length }})</button>
+            {% endif %}
+            {% if changes.decreased %}
+            <button class="change-tab px-3 py-1 text-xs rounded-full bg-zinc-700/50 text-zinc-400 border border-zinc-600/30 hover:border-zinc-500 transition" data-tab="decreased">⬇ 减仓 ({{ changes.decreased | length }})</button>
+            {% endif %}
+            {% if changes.sold %}
+            <button class="change-tab px-3 py-1 text-xs rounded-full bg-zinc-700/50 text-zinc-400 border border-zinc-600/30 hover:border-zinc-500 transition" data-tab="sold">❌ 清仓 ({{ changes.sold | length }})</button>
+            {% endif %}
+        </div>
+        <!-- Tab content -->
+        <div class="overflow-x-auto max-h-64 overflow-y-auto custom-scrollbar">
+            {% if changes.new %}
+            <table class="change-panel w-full text-xs" data-panel="new">
+                <thead class="sticky top-0 bg-zinc-800">
+                    <tr class="text-zinc-500 text-left">
+                        <th class="pb-2 pr-4 font-medium">股票</th>
+                        <th class="pb-2 pr-4 font-medium text-right">市值</th>
+                        <th class="pb-2 pr-4 font-medium text-right">数量</th>
+                        <th class="pb-2 font-medium text-right">占比</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for h in changes.new %}
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-emerald-400 font-medium">{{ h.issuer }}</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">{{ h.value | format_value }}</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">{{ h.shares | format_shares }}</td>
+                        <td class="py-1.5 text-right tabular-nums">{{ h.weight | default(0) }}%</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            {% endif %}
+
+            {% if changes.increased %}
+            <table class="change-panel w-full text-xs hidden" data-panel="increased">
+                <thead class="sticky top-0 bg-zinc-800">
+                    <tr class="text-zinc-500 text-left">
+                        <th class="pb-2 pr-4 font-medium">股票</th>
+                        <th class="pb-2 pr-4 font-medium text-right">市值</th>
+                        <th class="pb-2 pr-4 font-medium text-right">变化</th>
+                        <th class="pb-2 font-medium text-right">变化%</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for h in changes.increased %}
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-zinc-200">{{ h.issuer }}</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">{{ h.value | format_value }}</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums text-emerald-400">+{{ h.share_change | format_shares }}</td>
+                        <td class="py-1.5 text-right tabular-nums text-emerald-400">+{{ h.share_change_pct }}%</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            {% endif %}
+
+            {% if changes.decreased %}
+            <table class="change-panel w-full text-xs hidden" data-panel="decreased">
+                <thead class="sticky top-0 bg-zinc-800">
+                    <tr class="text-zinc-500 text-left">
+                        <th class="pb-2 pr-4 font-medium">股票</th>
+                        <th class="pb-2 pr-4 font-medium text-right">市值</th>
+                        <th class="pb-2 pr-4 font-medium text-right">变化</th>
+                        <th class="pb-2 font-medium text-right">变化%</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for h in changes.decreased %}
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-zinc-200">{{ h.issuer }}</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">{{ h.value | format_value }}</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums text-red-400">{{ h.share_change | format_shares }}</td>
+                        <td class="py-1.5 text-right tabular-nums text-red-400">{{ h.share_change_pct }}%</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            {% endif %}
+
+            {% if changes.sold %}
+            <table class="change-panel w-full text-xs hidden" data-panel="sold">
+                <thead class="sticky top-0 bg-zinc-800">
+                    <tr class="text-zinc-500 text-left">
+                        <th class="pb-2 pr-4 font-medium">股票</th>
+                        <th class="pb-2 pr-4 font-medium text-right">上期市值</th>
+                        <th class="pb-2 font-medium text-right">上期数量</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for h in changes.sold %}
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 text-red-400 font-medium">{{ h.issuer }}</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">{{ h.value | format_value }}</td>
+                        <td class="py-1.5 text-right tabular-nums">{{ h.shares | format_shares }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+<!-- Holdings Table -->
+<div class="bg-zinc-800 border border-zinc-700/50 rounded-xl p-5">
+    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
+        <h2 class="text-sm font-semibold text-zinc-50">全部持仓 {% if truncated %}<span class="text-zinc-500 font-normal">(显示前 {{ holdings | length }}，共 {{ total_holdings }})</span>{% endif %}</h2>
+        <div class="relative">
+            <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-zinc-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+            </svg>
+            <input type="text" id="holdings-search" placeholder="搜索股票..." class="bg-zinc-900 border border-zinc-700 rounded-lg pl-9 pr-3 py-1.5 text-xs text-zinc-50 placeholder-zinc-500 focus:outline-none focus:border-blue-500 transition w-full sm:w-48">
+        </div>
+    </div>
+    <div class="overflow-x-auto">
+        <table class="w-full text-xs" id="holdings-table">
+            <thead class="sticky top-0 bg-zinc-800 z-10">
+                <tr class="text-zinc-500 text-left cursor-pointer select-none">
+                    <th class="pb-2 pr-4 font-medium" data-sort="string">#</th>
+                    <th class="pb-2 pr-4 font-medium sortable" data-sort="string">股票名称 ↕</th>
+                    <th class="pb-2 pr-4 font-medium">类型</th>
+                    <th class="pb-2 pr-4 font-medium">CUSIP</th>
+                    <th class="pb-2 pr-4 font-medium sortable text-right" data-sort="number">市值 ↕</th>
+                    <th class="pb-2 pr-4 font-medium sortable text-right" data-sort="number">数量 ↕</th>
+                    <th class="pb-2 font-medium sortable text-right" data-sort="number">占比 ↕</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for h in holdings %}
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="{{ h.issuer }} {{ h.cusip }}">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">{{ loop.index }}</td>
+                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="{{ h.issuer }}">{{ h.issuer }}</td>
+                    <td class="py-1.5 pr-4 text-zinc-500">{{ h.title }}</td>
+                    <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">{{ h.cusip }}</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="{{ h.value }}">{{ h.value | format_value }}</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="{{ h.shares }}">{{ h.shares | format_shares }}</td>
+                    <td class="py-1.5 text-right tabular-nums" data-value="{{ h.weight | default(0) }}">{{ h.weight | default(0) }}%</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Change type tabs
+    const changeTabs = document.querySelectorAll('.change-tab');
+    const changePanels = document.querySelectorAll('.change-panel');
+
+    changeTabs.forEach(tab => {
+        tab.addEventListener('click', function() {
+            const target = this.dataset.tab;
+            changeTabs.forEach(t => {
+                t.classList.remove('active');
+                t.classList.add('bg-zinc-700/50', 'text-zinc-400', 'border-zinc-600/30');
+                t.classList.remove('bg-emerald-500/20', 'text-emerald-400', 'border-emerald-500/30',
+                                   'bg-red-500/20', 'text-red-400', 'border-red-500/30');
+            });
+
+            const colorMap = {
+                'new': ['bg-emerald-500/20', 'text-emerald-400', 'border-emerald-500/30'],
+                'increased': ['bg-emerald-500/20', 'text-emerald-400', 'border-emerald-500/30'],
+                'decreased': ['bg-red-500/20', 'text-red-400', 'border-red-500/30'],
+                'sold': ['bg-red-500/20', 'text-red-400', 'border-red-500/30'],
+            };
+            this.classList.add('active');
+            this.classList.remove('bg-zinc-700/50', 'text-zinc-400', 'border-zinc-600/30');
+            (colorMap[target] || []).forEach(c => this.classList.add(c));
+
+            changePanels.forEach(p => {
+                p.classList.toggle('hidden', p.dataset.panel !== target);
+            });
+        });
+    });
+
+    // Holdings search
+    const searchInput = document.getElementById('holdings-search');
+    if (searchInput) {
+        searchInput.addEventListener('input', function() {
+            const q = this.value.toLowerCase().trim();
+            document.querySelectorAll('.holding-row').forEach(row => {
+                row.style.display = !q || row.dataset.search.toLowerCase().includes(q) ? '' : 'none';
+            });
+        });
+    }
+
+    // Table sorting
+    const table = document.getElementById('holdings-table');
+    if (table) {
+        const headers = table.querySelectorAll('th.sortable');
+        let sortCol = -1, sortAsc = true;
+
+        headers.forEach((th, idx) => {
+            th.addEventListener('click', function() {
+                const colIdx = Array.from(th.parentElement.children).indexOf(th);
+                const isNum = th.dataset.sort === 'number';
+                const tbody = table.querySelector('tbody');
+                const rows = Array.from(tbody.querySelectorAll('tr'));
+
+                if (sortCol === colIdx) {
+                    sortAsc = !sortAsc;
+                } else {
+                    sortCol = colIdx;
+                    sortAsc = isNum ? false : true; // numbers desc by default
+                }
+
+                rows.sort((a, b) => {
+                    const aCell = a.children[colIdx];
+                    const bCell = b.children[colIdx];
+                    let aVal = aCell.dataset.value || aCell.textContent.trim();
+                    let bVal = bCell.dataset.value || bCell.textContent.trim();
+
+                    if (isNum) {
+                        aVal = parseFloat(aVal) || 0;
+                        bVal = parseFloat(bVal) || 0;
+                        return sortAsc ? aVal - bVal : bVal - aVal;
+                    }
+                    return sortAsc ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
+                });
+
+                rows.forEach(r => tbody.appendChild(r));
+            });
+        });
+    }
+
+    // Doughnut chart — Top 10 Holdings
+    const chartCanvas = document.getElementById('holdingsChart');
+    if (chartCanvas) {
+        const top10 = {{ top10 | to_json }};
+        const labels = top10.map(h => h.issuer.length > 18 ? h.issuer.substring(0, 16) + '…' : h.issuer);
+        const values = top10.map(h => h.value);
+        const colors = [
+            '#3b82f6', '#8b5cf6', '#22c55e', '#ef4444', '#f59e0b',
+            '#06b6d4', '#ec4899', '#14b8a6', '#f97316', '#6366f1'
+        ];
+
+        new Chart(chartCanvas, {
+            type: 'doughnut',
+            data: {
+                labels: labels,
+                datasets: [{
+                    data: values,
+                    backgroundColor: colors,
+                    borderColor: '#27272a',
+                    borderWidth: 2,
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                cutout: '55%',
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            color: '#a1a1aa',
+                            font: { size: 10, family: 'Inter' },
+                            boxWidth: 10,
+                            padding: 8,
+                        }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(ctx) {
+                                const val = ctx.parsed;
+                                if (val >= 1e9) return ' $' + (val/1e9).toFixed(1) + 'B';
+                                if (val >= 1e6) return ' $' + (val/1e6).toFixed(1) + 'M';
+                                return ' $' + val.toLocaleString();
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    }
+});
+</script>
+{% endblock %}

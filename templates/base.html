@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Guru Tracker{% endblock %} — 投资大师持仓追踪</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="{{ base_url | default('.') }}/css/style.css">
+    {% block head %}{% endblock %}
+</head>
+<body class="bg-zinc-900 text-zinc-50 font-sans min-h-screen flex flex-col">
+    <!-- Navigation -->
+    <nav class="border-b border-zinc-800 bg-zinc-900/80 backdrop-blur-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-14">
+                <a href="{{ base_url | default('.') }}/index.html" class="flex items-center gap-2 hover:opacity-80 transition">
+                    <span class="text-xl">🧠</span>
+                    <span class="text-lg font-semibold text-zinc-50">Guru Tracker</span>
+                </a>
+                <div class="flex items-center gap-6 text-sm">
+                    <a href="{{ base_url | default('.') }}/index.html" class="text-zinc-400 hover:text-zinc-50 transition">首页</a>
+                    <a href="{{ base_url | default('.') }}/consensus.html" class="text-zinc-400 hover:text-zinc-50 transition">大师共识</a>
+                    <a href="https://github.com/patrickdong16/guru-tracker" target="_blank" class="text-zinc-500 hover:text-zinc-300 transition">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-1 w-full">
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-zinc-800 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-zinc-500 text-xs">
+            <p>数据来源：<a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=13F" class="text-blue-400 hover:text-blue-300" target="_blank" rel="noopener">SEC EDGAR</a>。仅供研究参考，不构成投资建议。</p>
+            <p class="mt-1">Last updated: {{ generated_at[:10] if generated_at else 'N/A' }}</p>
+        </div>
+    </footer>
+
+    <script src="{{ base_url | default('.') }}/js/app.js"></script>
+    {% block scripts %}{% endblock %}
+</body>
+</html>

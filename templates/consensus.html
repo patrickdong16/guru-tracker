@@ -1,0 +1,148 @@
+{% extends "base.html" %}
+{% set base_url = "." %}
+
+{% block title %}大师共识{% endblock %}
+
+{% block content %}
+<!-- Header -->
+<div class="mb-6">
+    <h1 class="text-2xl font-bold text-zinc-50 mb-1">大师共识排行</h1>
+    <p class="text-zinc-400 text-sm">哪些股票被最多投资大师同时持有 · 显示 {{ total_stocks }} 只（≥3位大师持有）{% if total_all %} · 全部 {{ total_all }} 只{% endif %}</p>
+</div>
+
+<!-- Search + Stats -->
+<div class="flex flex-col sm:flex-row gap-3 mb-6">
+    <div class="relative flex-1">
+        <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+        </svg>
+        <input type="text" id="consensus-search" placeholder="搜索股票名称或 CUSIP..." class="w-full bg-zinc-800 border border-zinc-700 rounded-lg pl-10 pr-4 py-2 text-sm text-zinc-50 placeholder-zinc-500 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition">
+    </div>
+    <div class="flex gap-2">
+        <button class="consensus-filter active px-3 py-2 text-xs font-medium rounded-lg bg-blue-500/20 text-blue-400 border border-blue-500/30 transition" data-min="5">≥5 位大师</button>
+        <button class="consensus-filter px-3 py-2 text-xs font-medium rounded-lg bg-zinc-800 text-zinc-400 border border-zinc-700 hover:border-zinc-600 transition" data-min="3">≥3 位大师</button>
+        <button class="consensus-filter px-3 py-2 text-xs font-medium rounded-lg bg-zinc-800 text-zinc-400 border border-zinc-700 hover:border-zinc-600 transition" data-min="1">全部</button>
+    </div>
+</div>
+
+<!-- Consensus Table -->
+<div class="bg-zinc-800 border border-zinc-700/50 rounded-xl overflow-hidden">
+    <div class="overflow-x-auto">
+        <table class="w-full text-xs" id="consensus-table">
+            <thead class="bg-zinc-800 sticky top-0 z-10">
+                <tr class="text-zinc-500 text-left border-b border-zinc-700">
+                    <th class="px-4 py-3 font-medium">#</th>
+                    <th class="px-4 py-3 font-medium sortable cursor-pointer select-none" data-sort="string">股票名称 ↕</th>
+                    <th class="px-4 py-3 font-medium">CUSIP</th>
+                    <th class="px-4 py-3 font-medium sortable cursor-pointer select-none text-center" data-sort="number">大师数 ↕</th>
+                    <th class="px-4 py-3 font-medium sortable cursor-pointer select-none text-right" data-sort="number">合计市值 ↕</th>
+                    <th class="px-4 py-3 font-medium sortable cursor-pointer select-none text-right" data-sort="number">平均占比 ↕</th>
+                    <th class="px-4 py-3 font-medium">持有大师</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for stock in stocks %}
+                <tr class="consensus-row border-t border-zinc-700/30 hover:bg-zinc-700/20" data-search="{{ stock.issuer }} {{ stock.cusip }}" data-guru-count="{{ stock.guru_count }}">
+                    <td class="px-4 py-2.5 text-zinc-500 tabular-nums">{{ loop.index }}</td>
+                    <td class="px-4 py-2.5 text-zinc-200 font-medium" data-value="{{ stock.issuer }}">{{ stock.issuer }}</td>
+                    <td class="px-4 py-2.5 text-zinc-500 font-mono text-[10px]">{{ stock.cusip }}</td>
+                    <td class="px-4 py-2.5 text-center" data-value="{{ stock.guru_count }}">
+                        <span class="inline-flex items-center justify-center min-w-[24px] px-1.5 py-0.5 rounded-full text-[10px] font-bold
+                            {% if stock.guru_count >= 10 %}bg-blue-500/30 text-blue-300
+                            {% elif stock.guru_count >= 5 %}bg-blue-500/20 text-blue-400
+                            {% else %}bg-zinc-700 text-zinc-400{% endif %}">{{ stock.guru_count }}</span>
+                    </td>
+                    <td class="px-4 py-2.5 text-right tabular-nums" data-value="{{ stock.total_value }}">{{ stock.total_value | format_value }}</td>
+                    <td class="px-4 py-2.5 text-right tabular-nums" data-value="{{ stock.avg_weight }}">{{ stock.avg_weight }}%</td>
+                    <td class="px-4 py-2.5">
+                        <div class="flex flex-wrap gap-1 max-w-xs">
+                            {% for g in stock.gurus[:8] %}
+                            <a href="./guru/{{ g.id }}.html" class="text-[10px] px-1.5 py-0.5 rounded bg-zinc-700/50 text-zinc-400 hover:text-zinc-200 hover:bg-zinc-600/50 transition truncate max-w-[100px]">{{ g.display_name.split('/')[0].strip()[:10] }}</a>
+                            {% endfor %}
+                            {% if stock.gurus | length > 8 %}
+                            <span class="text-[10px] px-1.5 py-0.5 rounded bg-zinc-700/50 text-zinc-500">+{{ stock.gurus | length - 8 }}</span>
+                            {% endif %}
+                        </div>
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('consensus-search');
+    const rows = document.querySelectorAll('.consensus-row');
+    const filterBtns = document.querySelectorAll('.consensus-filter');
+    let minGurus = 5;
+
+    // Filter by min guru count
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            filterBtns.forEach(b => {
+                b.classList.remove('active', 'bg-blue-500/20', 'text-blue-400', 'border-blue-500/30');
+                b.classList.add('bg-zinc-800', 'text-zinc-400', 'border-zinc-700');
+            });
+            this.classList.add('active', 'bg-blue-500/20', 'text-blue-400', 'border-blue-500/30');
+            this.classList.remove('bg-zinc-800', 'text-zinc-400', 'border-zinc-700');
+            minGurus = parseInt(this.dataset.min);
+            applyFilters();
+        });
+    });
+
+    // Search
+    if (searchInput) {
+        searchInput.addEventListener('input', applyFilters);
+    }
+
+    function applyFilters() {
+        const q = (searchInput?.value || '').toLowerCase().trim();
+        rows.forEach(row => {
+            const matchSearch = !q || row.dataset.search.toLowerCase().includes(q);
+            const matchCount = parseInt(row.dataset.guruCount) >= minGurus;
+            row.style.display = (matchSearch && matchCount) ? '' : 'none';
+        });
+    }
+
+    // Table sorting
+    const table = document.getElementById('consensus-table');
+    if (table) {
+        const headers = table.querySelectorAll('th.sortable');
+        let sortCol = -1, sortAsc = true;
+
+        headers.forEach(th => {
+            th.addEventListener('click', function() {
+                const colIdx = Array.from(th.parentElement.children).indexOf(th);
+                const isNum = th.dataset.sort === 'number';
+                const tbody = table.querySelector('tbody');
+                const trs = Array.from(tbody.querySelectorAll('tr'));
+
+                if (sortCol === colIdx) { sortAsc = !sortAsc; }
+                else { sortCol = colIdx; sortAsc = isNum ? false : true; }
+
+                trs.sort((a, b) => {
+                    const aCell = a.children[colIdx];
+                    const bCell = b.children[colIdx];
+                    let aVal = aCell.dataset.value || aCell.textContent.trim();
+                    let bVal = bCell.dataset.value || bCell.textContent.trim();
+                    if (isNum) {
+                        aVal = parseFloat(aVal) || 0;
+                        bVal = parseFloat(bVal) || 0;
+                        return sortAsc ? aVal - bVal : bVal - aVal;
+                    }
+                    return sortAsc ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
+                });
+                trs.forEach(r => tbody.appendChild(r));
+            });
+        });
+    }
+
+    // Apply initial filter
+    applyFilters();
+});
+</script>
+{% endblock %}
