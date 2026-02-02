@@ -28,7 +28,9 @@
       "sole_voting": 34829107,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 60.42
+      "weight": 60.42,
+      "ticker_raw": "AAPL",
+      "ticker": "AAPL"
     },
     {
       "issuer": "BERKSHIRE HATHAWAY INC DEL",
@@ -41,7 +43,9 @@
       "sole_voting": 5191300,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 17.78
+      "weight": 17.78,
+      "ticker_raw": "BRK/B",
+      "ticker": "BRK"
     },
     {
       "issuer": "PDD HOLDINGS INC",
@@ -54,7 +58,9 @@
       "sole_voting": 8574194,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 7.72
+      "weight": 7.72,
+      "ticker_raw": "PDD",
+      "ticker": "PDD"
     },
     {
       "issuer": "OCCIDENTAL PETE CORP",
@@ -67,7 +73,9 @@
       "sole_voting": 13556100,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 4.36
+      "weight": 4.36,
+      "ticker_raw": "OXY",
+      "ticker": "OXY"
     },
     {
       "issuer": "ALIBABA GROUP HLDG LTD",
@@ -80,7 +88,9 @@
       "sole_voting": 2777330,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 3.38
+      "weight": 3.38,
+      "ticker_raw": "BABA",
+      "ticker": "BABA"
     },
     {
       "issuer": "ALPHABET INC",
@@ -93,7 +103,9 @@
       "sole_voting": 1810500,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 3.0
+      "weight": 3.0,
+      "ticker_raw": "GOOG",
+      "ticker": "GOOG"
     },
     {
       "issuer": "MICROSOFT CORP",
@@ -106,7 +118,9 @@
       "sole_voting": 279200,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.99
+      "weight": 0.99,
+      "ticker_raw": "MSFT",
+      "ticker": "MSFT"
     },
     {
       "issuer": "NVIDIA CORPORATION",
@@ -119,7 +133,9 @@
       "sole_voting": 597800,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.76
+      "weight": 0.76,
+      "ticker_raw": "NVDA",
+      "ticker": "NVDA"
     },
     {
       "issuer": "DISNEY WALT CO",
@@ -132,7 +148,9 @@
       "sole_voting": 723000,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.56
+      "weight": 0.56,
+      "ticker_raw": "DIS",
+      "ticker": "DIS"
     },
     {
       "issuer": "ASML HOLDING N V",
@@ -145,7 +163,9 @@
       "sole_voting": 80000,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.53
+      "weight": 0.53,
+      "ticker_raw": "ASML",
+      "ticker": "ASML"
     },
     {
       "issuer": "TAIWAN SEMICONDUCTOR MFG LTD",
@@ -158,7 +178,9 @@
       "sole_voting": 259984,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.49
+      "weight": 0.49,
+      "ticker_raw": "TSM",
+      "ticker": "TSM"
     }
   ],
   "comparison": {

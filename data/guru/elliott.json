@@ -28,7 +28,9 @@
       "sole_voting": 0,
       "shared_voting": 133815727,
       "no_voting": 0,
-      "weight": 17.23
+      "weight": 17.23,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "PHILLIPS 66",
@@ -41,7 +43,9 @@
       "sole_voting": 0,
       "shared_voting": 19251000,
       "no_voting": 0,
-      "weight": 11.52
+      "weight": 11.52,
+      "ticker_raw": "PSX",
+      "ticker": "PSX"
     },
     {
       "issuer": "SUNCOR ENERGY INC NEW",
@@ -54,7 +58,9 @@
       "sole_voting": 0,
       "shared_voting": 52670800,
       "no_voting": 0,
-      "weight": 9.69
+      "weight": 9.69,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "INVESCO QQQ TR",
@@ -67,7 +73,9 @@
       "sole_voting": 0,
       "shared_voting": 3250000,
       "no_voting": 0,
-      "weight": 8.59
+      "weight": 8.59,
+      "ticker_raw": "INFY",
+      "ticker": "INFY"
     },
     {
       "issuer": "SOUTHWEST AIRLS CO",
@@ -80,7 +88,9 @@
       "sole_voting": 0,
       "shared_voting": 51128500,
       "no_voting": 0,
-      "weight": 7.18
+      "weight": 7.18,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SELECT SECTOR SPDR TR",
@@ -93,7 +103,9 @@
       "sole_voting": 0,
       "shared_voting": 15000000,
       "no_voting": 0,
-      "weight": 5.17
+      "weight": 5.17,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SELECT SECTOR SPDR TR",
@@ -106,7 +118,9 @@
       "sole_voting": 0,
       "shared_voting": 7500000,
       "no_voting": 0,
-      "weight": 5.09
+      "weight": 5.09,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ISHARES TR",
@@ -119,7 +133,9 @@
       "sole_voting": 0,
       "shared_voting": 5000000,
       "no_voting": 0,
-      "weight": 4.48
+      "weight": 4.48,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "PINTEREST INC",
@@ -132,7 +148,9 @@
       "sole_voting": 0,
       "shared_voting": 28000000,
       "no_voting": 0,
-      "weight": 3.96
+      "weight": 3.96,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "VANECK ETF TRUST",
@@ -145,7 +163,9 @@
       "sole_voting": 0,
       "shared_voting": 11500000,
       "no_voting": 0,
-      "weight": 3.87
+      "weight": 3.87,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "NVIDIA CORPORATION",
@@ -158,7 +178,9 @@
       "sole_voting": 0,
       "shared_voting": 4330000,
       "no_voting": 0,
-      "weight": 3.56
+      "weight": 3.56,
+      "ticker_raw": "NVDA",
+      "ticker": "NVDA"
     },
     {
       "issuer": "SELECT SECTOR SPDR TR",
@@ -171,7 +193,9 @@
       "sole_voting": 0,
       "shared_voting": 8000000,
       "no_voting": 0,
-      "weight": 3.15
+      "weight": 3.15,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "HEWLETT PACKARD ENTERPRISE C",
@@ -184,7 +208,9 @@
       "sole_voting": 0,
       "shared_voting": 18630978,
       "no_voting": 0,
-      "weight": 2.01
+      "weight": 2.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "UNITI GROUP LLC",
@@ -197,7 +223,9 @@
       "sole_voting": 0,
       "shared_voting": 59012219,
       "no_voting": 0,
-      "weight": 1.59
+      "weight": 1.59,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ISHARES TR",
@@ -210,7 +238,9 @@
       "sole_voting": 0,
       "shared_voting": 3000000,
       "no_voting": 0,
-      "weight": 1.52
+      "weight": 1.52,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ETSY INC",
@@ -223,7 +253,9 @@
       "sole_voting": 0,
       "shared_voting": 5000000,
       "no_voting": 0,
-      "weight": 1.46
+      "weight": 1.46,
+      "ticker_raw": "EQIX",
+      "ticker": "EQIX"
     },
     {
       "issuer": "SPDR SERIES TRUST",
@@ -236,7 +268,9 @@
       "sole_voting": 0,
       "shared_voting": 2400000,
       "no_voting": 0,
-      "weight": 1.4
+      "weight": 1.4,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ISHARES TR",
@@ -249,7 +283,9 @@
       "sole_voting": 0,
       "shared_voting": 3800000,
       "no_voting": 0,
-      "weight": 1.36
+      "weight": 1.36,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SELECT SECTOR SPDR TR",
@@ -262,7 +298,9 @@
       "sole_voting": 0,
       "shared_voting": 2000000,
       "no_voting": 0,
-      "weight": 1.23
+      "weight": 1.23,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "PEPSICO INC",
@@ -275,7 +313,9 @@
       "sole_voting": 0,
       "shared_voting": 1275000,
       "no_voting": 0,
-      "weight": 0.79
+      "weight": 0.79,
+      "ticker_raw": "PEP",
+      "ticker": "PEP"
     },
     {
       "issuer": "DIGITAL RLTY TR INC",
@@ -288,7 +328,9 @@
       "sole_voting": 0,
       "shared_voting": 1000000,
       "no_voting": 0,
-      "weight": 0.76
+      "weight": 0.76,
+      "ticker_raw": "DHR",
+      "ticker": "DHR"
     },
     {
       "issuer": "BILL HOLDINGS INC",
@@ -301,7 +343,9 @@
       "sole_voting": 0,
       "shared_voting": 3000000,
       "no_voting": 0,
-      "weight": 0.7
+      "weight": 0.7,
+      "ticker_raw": "BILL",
+      "ticker": "BILL"
     },
     {
       "issuer": "SPDR SERIES TRUST",
@@ -314,7 +358,9 @@
       "sole_voting": 0,
       "shared_voting": 1400000,
       "no_voting": 0,
-      "weight": 0.57
+      "weight": 0.57,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CROWN CASTLE INC",
@@ -327,7 +373,9 @@
       "sole_voting": 0,
       "shared_voting": 1225000,
       "no_voting": 0,
-      "weight": 0.52
+      "weight": 0.52,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "EQUINIX INC",
@@ -340,7 +388,9 @@
       "sole_voting": 0,
       "shared_voting": 150000,
       "no_voting": 0,
-      "weight": 0.52
+      "weight": 0.52,
+      "ticker_raw": "EQIX",
+      "ticker": "EQIX"
     },
     {
       "issuer": "SEADRILL LTD",
@@ -353,7 +403,9 @@
       "sole_voting": 0,
       "shared_voting": 3703746,
       "no_voting": 0,
-      "weight": 0.49
+      "weight": 0.49,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SENSATA TECHNOLOGIES HLDG PL",
@@ -366,7 +418,9 @@
       "sole_voting": 0,
       "shared_voting": 3250000,
       "no_voting": 0,
-      "weight": 0.44
+      "weight": 0.44,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "OR ROYALTIES INC.",
@@ -379,7 +433,9 @@
       "sole_voting": 0,
       "shared_voting": 2180151,
       "no_voting": 0,
-      "weight": 0.38
+      "weight": 0.38,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "WHEATON PRECIOUS METALS CORP",
@@ -392,7 +448,9 @@
       "sole_voting": 0,
       "shared_voting": 650000,
       "no_voting": 0,
-      "weight": 0.32
+      "weight": 0.32,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "STRATEGY INC",
@@ -405,7 +463,9 @@
       "sole_voting": 0,
       "shared_voting": 16000000,
       "no_voting": 0,
-      "weight": 0.16
+      "weight": 0.16,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "WAYFAIR INC",
@@ -418,7 +478,9 @@
       "sole_voting": 0,
       "shared_voting": 15000000,
       "no_voting": 0,
-      "weight": 0.14
+      "weight": 0.14,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "GCI LIBERTY INC",
@@ -431,7 +493,9 @@
       "sole_voting": 0,
       "shared_voting": 476895,
       "no_voting": 0,
-      "weight": 0.08
+      "weight": 0.08,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "OXFORD LANE CAP CORP",
@@ -444,7 +508,9 @@
       "sole_voting": 0,
       "shared_voting": 1019239,
       "no_voting": 0,
-      "weight": 0.08
+      "weight": 0.08,
+      "ticker_raw": null,
+      "ticker": null
     }
   ],
   "comparison": {

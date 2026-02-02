@@ -28,7 +28,9 @@
       "sole_voting": 238212764,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 22.69
+      "weight": 22.69,
+      "ticker_raw": "AAPL",
+      "ticker": "AAPL"
     },
     {
       "issuer": "AMERICAN EXPRESS CO",
@@ -41,7 +43,9 @@
       "sole_voting": 151610700,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 18.84
+      "weight": 18.84,
+      "ticker_raw": "AXP",
+      "ticker": "AXP"
     },
     {
       "issuer": "BANK AMER CORP",
@@ -54,7 +58,9 @@
       "sole_voting": 568070012,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 10.96
+      "weight": 10.96,
+      "ticker_raw": "BAC",
+      "ticker": "BAC"
     },
     {
       "issuer": "COCA COLA CO",
@@ -67,7 +73,9 @@
       "sole_voting": 400000000,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 9.92
+      "weight": 9.92,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CHEVRON CORP NEW",
@@ -80,7 +88,9 @@
       "sole_voting": 122064792,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 7.09
+      "weight": 7.09,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "OCCIDENTAL PETE CORP",
@@ -93,7 +103,9 @@
       "sole_voting": 264941431,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 4.68
+      "weight": 4.68,
+      "ticker_raw": "OXY",
+      "ticker": "OXY"
     },
     {
       "issuer": "MOODYS CORP",
@@ -106,7 +118,9 @@
       "sole_voting": 24669778,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 4.4
+      "weight": 4.4,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CHUBB LIMITED",
@@ -119,7 +133,9 @@
       "sole_voting": 31332895,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 3.31
+      "weight": 3.31,
+      "ticker_raw": "CB",
+      "ticker": "CB"
     },
     {
       "issuer": "KRAFT HEINZ CO",
@@ -132,7 +148,9 @@
       "sole_voting": 325634818,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 3.17
+      "weight": 3.17,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ALPHABET INC",
@@ -145,7 +163,9 @@
       "sole_voting": 17846142,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 1.62
+      "weight": 1.62,
+      "ticker_raw": "GOOGL",
+      "ticker": "GOOGL"
     },
     {
       "issuer": "DAVITA INC",
@@ -158,7 +178,9 @@
       "sole_voting": 32160579,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 1.6
+      "weight": 1.6,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "KROGER CO",
@@ -171,7 +193,9 @@
       "sole_voting": 50000000,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 1.26
+      "weight": 1.26,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SIRIUS XM HOLDINGS INC",
@@ -184,7 +208,9 @@
       "sole_voting": 124807117,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 1.09
+      "weight": 1.09,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "VISA INC",
@@ -197,7 +223,9 @@
       "sole_voting": 8297460,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 1.06
+      "weight": 1.06,
+      "ticker_raw": "V",
+      "ticker": "V"
     },
     {
       "issuer": "VERISIGN INC",
@@ -210,7 +238,9 @@
       "sole_voting": 8989880,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.94
+      "weight": 0.94,
+      "ticker_raw": "VICI",
+      "ticker": "VICI"
     },
     {
       "issuer": "MASTERCARD INC",
@@ -223,7 +253,9 @@
       "sole_voting": 3986648,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.85
+      "weight": 0.85,
+      "ticker_raw": "MA",
+      "ticker": "MA"
     },
     {
       "issuer": "AMAZON COM INC",
@@ -236,7 +268,9 @@
       "sole_voting": 10000000,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.82
+      "weight": 0.82,
+      "ticker_raw": "AMZN",
+      "ticker": "AMZN"
     },
     {
       "issuer": "CONSTELLATION BRANDS INC",
@@ -249,7 +283,9 @@
       "sole_voting": 13400000,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.68
+      "weight": 0.68,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "UNITEDHEALTH GROUP INC",
@@ -262,7 +298,9 @@
       "sole_voting": 5039564,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.65
+      "weight": 0.65,
+      "ticker_raw": "UNH",
+      "ticker": "UNH"
     },
     {
       "issuer": "CAPITAL ONE FINL CORP",
@@ -275,7 +313,9 @@
       "sole_voting": 7150000,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.57
+      "weight": 0.57,
+      "ticker_raw": "COF",
+      "ticker": "COF"
     },
     {
       "issuer": "AON PLC",
@@ -288,7 +328,9 @@
       "sole_voting": 4100000,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.55
+      "weight": 0.55,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "DOMINOS PIZZA INC",
@@ -301,7 +343,9 @@
       "sole_voting": 2981945,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.48
+      "weight": 0.48,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ALLY FINL INC",
@@ -314,7 +358,9 @@
       "sole_voting": 29000000,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.43
+      "weight": 0.43,
+      "ticker_raw": "ALLY",
+      "ticker": "ALLY"
     },
     {
       "issuer": "POOL CORP",
@@ -327,7 +373,9 @@
       "sole_voting": 3458885,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.4
+      "weight": 0.4,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "LIBERTY MEDIA CORP DEL",
@@ -340,7 +388,9 @@
       "sole_voting": 10917661,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.4
+      "weight": 0.4,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "LENNAR CORP",
@@ -353,7 +403,9 @@
       "sole_voting": 7050950,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.33
+      "weight": 0.33,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "NUCOR CORP",
@@ -366,7 +418,9 @@
       "sole_voting": 6407749,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.32
+      "weight": 0.32,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "LOUISIANA PAC CORP",
@@ -379,7 +433,9 @@
       "sole_voting": 5664793,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.19
+      "weight": 0.19,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "LIBERTY MEDIA CORP DEL",
@@ -392,7 +448,9 @@
       "sole_voting": 4986588,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.18
+      "weight": 0.18,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "HEICO CORP NEW",
@@ -405,7 +463,9 @@
       "sole_voting": 1294612,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.12
+      "weight": 0.12,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "LIBERTY MEDIA CORP DEL",
@@ -418,7 +478,9 @@
       "sole_voting": 3018555,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.12
+      "weight": 0.12,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CHARTER COMMUNICATIONS INC N",
@@ -431,7 +493,9 @@
       "sole_voting": 1060882,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.11
+      "weight": 0.11,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "LAMAR ADVERTISING CO NEW",
@@ -444,7 +508,9 @@
       "sole_voting": 1202110,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.06
+      "weight": 0.06,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ALLEGION PLC",
@@ -457,7 +523,9 @@
       "sole_voting": 780133,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.05
+      "weight": 0.05,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "NVR INC",
@@ -470,7 +538,9 @@
       "sole_voting": 11112,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.03
+      "weight": 0.03,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "JEFFERIES FINL GROUP INC",
@@ -483,7 +553,9 @@
       "sole_voting": 433558,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "LIBERTY LATIN AMERICA LTD",
@@ -496,7 +568,9 @@
       "sole_voting": 2630792,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "DIAGEO P L C",
@@ -509,7 +583,9 @@
       "sole_voting": 227750,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "LENNAR CORP",
@@ -522,7 +598,9 @@
       "sole_voting": 180980,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "LIBERTY LATIN AMERICA LTD",
@@ -535,7 +613,9 @@
       "sole_voting": 1284020,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ATLANTA BRAVES HLDGS INC",
@@ -548,7 +628,9 @@
       "sole_voting": 223645,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": "BATRK",
+      "ticker": "BATRK"
     }
   ],
   "comparison": {

@@ -28,7 +28,9 @@
       "sole_voting": 1,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 30.85
+      "weight": 30.85,
+      "ticker_raw": "GOOG",
+      "ticker": "GOOG"
     },
     {
       "issuer": "NVIDIA CORPORATION",
@@ -41,7 +43,9 @@
       "sole_voting": 1,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 18.02
+      "weight": 18.02,
+      "ticker_raw": "NVDA",
+      "ticker": "NVDA"
     },
     {
       "issuer": "PROSHARES TR",
@@ -54,7 +58,9 @@
       "sole_voting": 1,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 9.62
+      "weight": 9.62,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "BANK MONTREAL QUE",
@@ -67,7 +73,9 @@
       "sole_voting": 1,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 8.05
+      "weight": 8.05,
+      "ticker_raw": "FNGU",
+      "ticker": "FNGU"
     },
     {
       "issuer": "MICROSOFT CORP",
@@ -80,7 +88,9 @@
       "sole_voting": 1,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 7.11
+      "weight": 7.11,
+      "ticker_raw": "MSFT",
+      "ticker": "MSFT"
     },
     {
       "issuer": "APPLE INC",
@@ -93,7 +103,9 @@
       "sole_voting": 1,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 7.06
+      "weight": 7.06,
+      "ticker_raw": "AAPL",
+      "ticker": "AAPL"
     },
     {
       "issuer": "META PLATFORMS INC",
@@ -106,7 +118,9 @@
       "sole_voting": 1,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 6.87
+      "weight": 6.87,
+      "ticker_raw": "META",
+      "ticker": "META"
     },
     {
       "issuer": "TESLA INC",
@@ -119,7 +133,9 @@
       "sole_voting": 1,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 6.77
+      "weight": 6.77,
+      "ticker_raw": "TSLA",
+      "ticker": "TSLA"
     },
     {
       "issuer": "AMAZON COM INC",
@@ -132,7 +148,9 @@
       "sole_voting": 1,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 3.22
+      "weight": 3.22,
+      "ticker_raw": "AMZN",
+      "ticker": "AMZN"
     },
     {
       "issuer": "DIREXION SHS ETF TR",
@@ -145,7 +163,9 @@
       "sole_voting": 1,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 2.42
+      "weight": 2.42,
+      "ticker_raw": null,
+      "ticker": null
     }
   ],
   "comparison": {

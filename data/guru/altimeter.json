@@ -28,7 +28,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 18198,
-      "weight": 6.69
+      "weight": 6.69,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "BERKSHIRE HATHAWAY CLASS                  B",
@@ -41,7 +43,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 58833,
-      "weight": 6.22
+      "weight": 6.22,
+      "ticker_raw": "BRK/B",
+      "ticker": "BRK"
     },
     {
       "issuer": "MARKEL GROUP INC",
@@ -54,7 +58,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 13175,
-      "weight": 5.29
+      "weight": 5.29,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "WARNER BROS DISCOVERY IN",
@@ -67,7 +73,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 905680,
-      "weight": 3.72
+      "weight": 3.72,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CHARLES SCHWAB CORP",
@@ -80,7 +88,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 176774,
-      "weight": 3.55
+      "weight": 3.55,
+      "ticker_raw": "SCHW",
+      "ticker": "SCHW"
     },
     {
       "issuer": "ALPHABET INC CLASS                  C",
@@ -93,7 +103,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 64699,
-      "weight": 3.31
+      "weight": 3.31,
+      "ticker_raw": "GOOG",
+      "ticker": "GOOG"
     },
     {
       "issuer": "CANNAE HLDGS INC",
@@ -106,7 +118,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 835279,
-      "weight": 3.21
+      "weight": 3.21,
+      "ticker_raw": "CNNE",
+      "ticker": "CNNE"
     },
     {
       "issuer": "MICROSOFT CORP",
@@ -119,7 +133,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 23267,
-      "weight": 2.53
+      "weight": 2.53,
+      "ticker_raw": "MSFT",
+      "ticker": "MSFT"
     },
     {
       "issuer": "PARAMOUNT SKYDANCE CORP CLASS            CLASS B",
@@ -132,7 +148,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 634432,
-      "weight": 2.52
+      "weight": 2.52,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "APPLE INC",
@@ -145,7 +163,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 46039,
-      "weight": 2.46
+      "weight": 2.46,
+      "ticker_raw": "AAPL",
+      "ticker": "AAPL"
     },
     {
       "issuer": "WELLS FARGO & CO",
@@ -158,7 +178,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 139184,
-      "weight": 2.45
+      "weight": 2.45,
+      "ticker_raw": "WFC",
+      "ticker": "WFC"
     },
     {
       "issuer": "3M CO",
@@ -171,7 +193,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 67171,
-      "weight": 2.19
+      "weight": 2.19,
+      "ticker_raw": "TGT",
+      "ticker": "TGT"
     },
     {
       "issuer": "PEPSICO INC",
@@ -184,7 +208,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 70348,
-      "weight": 2.08
+      "weight": 2.08,
+      "ticker_raw": "PEP",
+      "ticker": "PEP"
     },
     {
       "issuer": "MASTERCARD INC CLASS                  A",
@@ -197,7 +223,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 14601,
-      "weight": 1.75
+      "weight": 1.75,
+      "ticker_raw": "MA",
+      "ticker": "MA"
     },
     {
       "issuer": "JEFFERIES FINL GROUP INC",
@@ -210,7 +238,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 123817,
-      "weight": 1.7
+      "weight": 1.7,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "VISA INC CLASS                  A",
@@ -223,7 +253,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 22281,
-      "weight": 1.6
+      "weight": 1.6,
+      "ticker_raw": "V",
+      "ticker": "V"
     },
     {
       "issuer": "AMAZON.COM INC",
@@ -236,7 +268,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 32994,
-      "weight": 1.52
+      "weight": 1.52,
+      "ticker_raw": "AMZN",
+      "ticker": "AMZN"
     },
     {
       "issuer": "HERSHEY CO",
@@ -249,7 +283,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 36689,
-      "weight": 1.44
+      "weight": 1.44,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ALIMENTATION COUCHE-TA F CLASS                  A",
@@ -262,7 +298,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 126350,
-      "weight": 1.41
+      "weight": 1.41,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "VIATRIS INC",
@@ -275,7 +313,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 677491,
-      "weight": 1.41
+      "weight": 1.41,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ALIBABA GROUP HLDG LTD F SPONSORED ADR 1 ADR REPS    8  ORD SHS",
@@ -288,7 +328,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 36988,
-      "weight": 1.39
+      "weight": 1.39,
+      "ticker_raw": "BABA",
+      "ticker": "BABA"
     },
     {
       "issuer": "BRITISH AMERN TOB PLC  F UNSPONSORED ADR 1 ADR REPS    1  ORD SHS",
@@ -301,7 +343,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 120554,
-      "weight": 1.35
+      "weight": 1.35,
+      "ticker_raw": "BTI",
+      "ticker": "BTI"
     },
     {
       "issuer": "CITIGROUP INC",
@@ -314,7 +358,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 62547,
-      "weight": 1.33
+      "weight": 1.33,
+      "ticker_raw": "C",
+      "ticker": "C"
     },
     {
       "issuer": "MEDTRONIC PLC          F",
@@ -327,7 +373,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 64205,
-      "weight": 1.29
+      "weight": 1.29,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "DISNEY WALT CO",
@@ -340,7 +388,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 51766,
-      "weight": 1.25
+      "weight": 1.25,
+      "ticker_raw": "DIS",
+      "ticker": "DIS"
     },
     {
       "issuer": "INVESCO LTD            F",
@@ -353,7 +403,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 253843,
-      "weight": 1.22
+      "weight": 1.22,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "DIAGEO PLC             F SPONSORED ADR 1 ADR REPS    4  ORD SHS",
@@ -366,7 +418,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 55189,
-      "weight": 1.11
+      "weight": 1.11,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "OCCIDENTAL PETE CORP",
@@ -379,7 +433,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 110466,
-      "weight": 1.1
+      "weight": 1.1,
+      "ticker_raw": "OXY",
+      "ticker": "OXY"
     },
     {
       "issuer": "BANK NEW YORK MELLON COR",
@@ -392,7 +448,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 47144,
-      "weight": 1.08
+      "weight": 1.08,
+      "ticker_raw": "BK",
+      "ticker": "BK"
     },
     {
       "issuer": "JACKSON FINL INC CLASS                  A",
@@ -405,7 +463,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 49575,
-      "weight": 1.05
+      "weight": 1.05,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "LAUDER ESTEE COS INC CLASS                  A",
@@ -418,7 +478,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 54421,
-      "weight": 1.01
+      "weight": 1.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "MARATHON PETE CORP",
@@ -431,7 +493,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 24437,
-      "weight": 0.99
+      "weight": 0.99,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "META PLATFORMS INC CLASS                  A",
@@ -444,7 +508,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 6341,
-      "weight": 0.98
+      "weight": 0.98,
+      "ticker_raw": "META",
+      "ticker": "META"
     },
     {
       "issuer": "AFFILIATED MANAGERS GROU",
@@ -457,7 +523,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 18318,
-      "weight": 0.92
+      "weight": 0.92,
+      "ticker_raw": "AMG",
+      "ticker": "AMG"
     },
     {
       "issuer": "GOLDMAN SACHS GROUP INC",
@@ -470,7 +538,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 5468,
-      "weight": 0.92
+      "weight": 0.92,
+      "ticker_raw": "GS",
+      "ticker": "GS"
     },
     {
       "issuer": "KKR & CO INC",
@@ -483,7 +553,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 32693,
-      "weight": 0.89
+      "weight": 0.89,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SCHWAB US LARGE CAP ETF",
@@ -496,7 +568,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 151707,
-      "weight": 0.84
+      "weight": 0.84,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "TARGET CORP EQUITY CLASS             EQUITY",
@@ -509,7 +583,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 43922,
-      "weight": 0.83
+      "weight": 0.83,
+      "ticker_raw": "TMUS",
+      "ticker": "TMUS"
     },
     {
       "issuer": "HF SINCLAIR CORP",
@@ -522,7 +598,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 66785,
-      "weight": 0.73
+      "weight": 0.73,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CENTENE CORP DEL",
@@ -535,7 +613,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 95967,
-      "weight": 0.72
+      "weight": 0.72,
+      "ticker_raw": "CNC",
+      "ticker": "CNC"
     },
     {
       "issuer": "ORGANON & CO",
@@ -548,7 +628,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 317748,
-      "weight": 0.71
+      "weight": 0.71,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SPHERE ENTERTAINMENT A CLASS                  A",
@@ -561,7 +643,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 53452,
-      "weight": 0.7
+      "weight": 0.7,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "UNITEDHEALTH GROUP INC",
@@ -574,7 +658,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 9013,
-      "weight": 0.65
+      "weight": 0.65,
+      "ticker_raw": "UNH",
+      "ticker": "UNH"
     },
     {
       "issuer": "JAZZ PHARMACEUTICALS P F",
@@ -587,7 +673,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 23017,
-      "weight": 0.64
+      "weight": 0.64,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "FIRST BUSINESS FINL SVCS",
@@ -600,7 +688,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 58327,
-      "weight": 0.63
+      "weight": 0.63,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "PETROLEO BRASILEIRO SA F SPONSORED ADR 1 ADR REPS    2  ORD SHS",
@@ -613,7 +703,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 235871,
-      "weight": 0.63
+      "weight": 0.63,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "NVIDIA CORP",
@@ -626,7 +718,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 15642,
-      "weight": 0.61
+      "weight": 0.61,
+      "ticker_raw": "NVDA",
+      "ticker": "NVDA"
     },
     {
       "issuer": "BANK OF AMERICA CORP",
@@ -639,7 +733,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 56499,
-      "weight": 0.61
+      "weight": 0.61,
+      "ticker_raw": "BAC",
+      "ticker": "BAC"
     },
     {
       "issuer": "CNH INDL N V           F",
@@ -652,7 +748,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 264663,
-      "weight": 0.6
+      "weight": 0.6,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CONSTELLATION BRANDS INC CLASS                  A",
@@ -665,7 +763,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 20373,
-      "weight": 0.58
+      "weight": 0.58,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "BRISTOL MYERS SQUIBB CO",
@@ -678,7 +778,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 56328,
-      "weight": 0.53
+      "weight": 0.53,
+      "ticker_raw": "BMY",
+      "ticker": "BMY"
     },
     {
       "issuer": "TRUIST FINL CORP",
@@ -691,7 +793,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 52374,
-      "weight": 0.5
+      "weight": 0.5,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "NETFLIX INC",
@@ -704,7 +808,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 1979,
-      "weight": 0.5
+      "weight": 0.5,
+      "ticker_raw": "NFLX",
+      "ticker": "NFLX"
     },
     {
       "issuer": "NESTLE S A             F SPONSORED ADR 1 ADR REPS    1  ORD SHS",
@@ -717,7 +823,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 25028,
-      "weight": 0.48
+      "weight": 0.48,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CARRIER GLOBAL CORP",
@@ -730,7 +838,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 38390,
-      "weight": 0.48
+      "weight": 0.48,
+      "ticker_raw": "CARR",
+      "ticker": "CARR"
     },
     {
       "issuer": "STARBUCKS CORP",
@@ -743,7 +853,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 26106,
-      "weight": 0.46
+      "weight": 0.46,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "AMERICAN INTL GROUP INC",
@@ -756,7 +868,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 27680,
-      "weight": 0.46
+      "weight": 0.46,
+      "ticker_raw": "AIG",
+      "ticker": "AIG"
     },
     {
       "issuer": "KEURIG DR PEPPER INC",
@@ -769,7 +883,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 84262,
-      "weight": 0.45
+      "weight": 0.45,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ALTRIA GROUP INC",
@@ -782,7 +898,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 32006,
-      "weight": 0.44
+      "weight": 0.44,
+      "ticker_raw": "MO",
+      "ticker": "MO"
     },
     {
       "issuer": "FISERV INC",
@@ -795,7 +913,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 15332,
-      "weight": 0.42
+      "weight": 0.42,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SEVEN & I HLDGS CO LTD F SPONSORED ADR 1 ADR REPS    1  ORD SHS",
@@ -808,7 +928,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 132941,
-      "weight": 0.37
+      "weight": 0.37,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "GENERAC HLDGS INC",
@@ -821,7 +943,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 10128,
-      "weight": 0.36
+      "weight": 0.36,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SCHLUMBERGER LTD       F",
@@ -834,7 +958,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 48719,
-      "weight": 0.35
+      "weight": 0.35,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CVS HEALTH CORP",
@@ -847,7 +973,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 21503,
-      "weight": 0.34
+      "weight": 0.34,
+      "ticker_raw": "CVS",
+      "ticker": "CVS"
     },
     {
       "issuer": "PRICE T ROWE GROUP INC",
@@ -860,7 +988,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 15732,
-      "weight": 0.34
+      "weight": 0.34,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "COTERRA ENERGY INC",
@@ -873,7 +1003,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 65903,
-      "weight": 0.33
+      "weight": 0.33,
+      "ticker_raw": "CTRA",
+      "ticker": "CTRA"
     },
     {
       "issuer": "VANGUARD TOTAL STOCK MARKET ETF",
@@ -886,7 +1018,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 4748,
-      "weight": 0.33
+      "weight": 0.33,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "PFIZER INC",
@@ -899,7 +1033,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 59439,
-      "weight": 0.32
+      "weight": 0.32,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "BECTON DICKINSON & CO",
@@ -912,7 +1048,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 8082,
-      "weight": 0.32
+      "weight": 0.32,
+      "ticker_raw": "BDX",
+      "ticker": "BDX"
     },
     {
       "issuer": "JPMORGAN CHASE & CO",
@@ -925,7 +1063,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 4255,
-      "weight": 0.28
+      "weight": 0.28,
+      "ticker_raw": "JPM",
+      "ticker": "JPM"
     },
     {
       "issuer": "FRANKLIN RES INC",
@@ -938,7 +1078,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 55031,
-      "weight": 0.27
+      "weight": 0.27,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "PHILLIPS 66",
@@ -951,7 +1093,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 9260,
-      "weight": 0.26
+      "weight": 0.26,
+      "ticker_raw": "PSX",
+      "ticker": "PSX"
     },
     {
       "issuer": "BOOKING HLDGS INC",
@@ -964,7 +1108,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 232,
-      "weight": 0.26
+      "weight": 0.26,
+      "ticker_raw": "BKNG",
+      "ticker": "BKNG"
     },
     {
       "issuer": "SHELL PLC              F TENDER OFFER EXP:",
@@ -977,7 +1123,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 17160,
-      "weight": 0.26
+      "weight": 0.26,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "EVEREST REINSURANCE GR F",
@@ -990,7 +1138,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 3434,
-      "weight": 0.25
+      "weight": 0.25,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "VANGUARD HIGH DIVIDEND YIELD ETF",
@@ -1003,7 +1153,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 8276,
-      "weight": 0.25
+      "weight": 0.25,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "IAC INC",
@@ -1016,7 +1168,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 33121,
-      "weight": 0.24
+      "weight": 0.24,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "DXC TECHNOLOGY CO",
@@ -1029,7 +1183,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 80899,
-      "weight": 0.23
+      "weight": 0.23,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "JOHNSON & JOHNSON",
@@ -1042,7 +1198,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 5919,
-      "weight": 0.23
+      "weight": 0.23,
+      "ticker_raw": "JNJ",
+      "ticker": "JNJ"
     },
     {
       "issuer": "TECHNIPFMC PLC         F",
@@ -1055,7 +1213,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 25821,
-      "weight": 0.21
+      "weight": 0.21,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ABBVIE INC",
@@ -1068,7 +1228,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 4080,
-      "weight": 0.2
+      "weight": 0.2,
+      "ticker_raw": "ABBV",
+      "ticker": "ABBV"
     },
     {
       "issuer": "FASTENAL CO",
@@ -1081,7 +1243,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 18724,
-      "weight": 0.19
+      "weight": 0.19,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "BP P L C               F SPONSORED ADR 1 ADR REPS    6  ORD SHS",
@@ -1094,7 +1258,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 25932,
-      "weight": 0.19
+      "weight": 0.19,
+      "ticker_raw": "BP",
+      "ticker": "BP"
     },
     {
       "issuer": "PALANTIR TECHNOLOGIES IN CLASS                  A",
@@ -1107,7 +1273,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 4622,
-      "weight": 0.18
+      "weight": 0.18,
+      "ticker_raw": "PLTR",
+      "ticker": "PLTR"
     },
     {
       "issuer": "US BANCORP DEL",
@@ -1120,7 +1288,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 17026,
-      "weight": 0.17
+      "weight": 0.17,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ISHARES RUSSELL 1000 GROWTH ETF",
@@ -1133,7 +1303,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 1632,
-      "weight": 0.16
+      "weight": 0.16,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "INTEL CORP",
@@ -1146,7 +1318,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 20997,
-      "weight": 0.15
+      "weight": 0.15,
+      "ticker_raw": "INTC",
+      "ticker": "INTC"
     },
     {
       "issuer": "KRANESHARES CSI CHINA INTERNET ETF",
@@ -1159,7 +1333,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 16086,
-      "weight": 0.14
+      "weight": 0.14,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "COSTCO WHSL CORP NEW",
@@ -1172,7 +1348,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 723,
-      "weight": 0.14
+      "weight": 0.14,
+      "ticker_raw": "COST",
+      "ticker": "COST"
     },
     {
       "issuer": "DEERE & CO",
@@ -1185,7 +1363,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 1392,
-      "weight": 0.13
+      "weight": 0.13,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "WALMART INC",
@@ -1198,7 +1378,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 6077,
-      "weight": 0.13
+      "weight": 0.13,
+      "ticker_raw": "WBA",
+      "ticker": "WBA"
     },
     {
       "issuer": "VANGUARD S&P 500 ETF",
@@ -1211,7 +1393,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 969,
-      "weight": 0.12
+      "weight": 0.12,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ARCH CAPITAL GROUP LTD F",
@@ -1224,7 +1408,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 6296,
-      "weight": 0.12
+      "weight": 0.12,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "BAUSCH HEALTH COS INC  F",
@@ -1237,7 +1423,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 86045,
-      "weight": 0.12
+      "weight": 0.12,
+      "ticker_raw": "BHC",
+      "ticker": "BHC"
     },
     {
       "issuer": "HOWARD HUGHES HLDGS INC",
@@ -1250,7 +1438,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 6578,
-      "weight": 0.11
+      "weight": 0.11,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ISHARES US AEROSPACE DEFENSE ETF",
@@ -1263,7 +1453,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 2350,
-      "weight": 0.1
+      "weight": 0.1,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "THE MOSAIC CO",
@@ -1276,7 +1468,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 14088,
-      "weight": 0.1
+      "weight": 0.1,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SMUCKER J M CO",
@@ -1289,7 +1483,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 4417,
-      "weight": 0.1
+      "weight": 0.1,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ALPHABET INC CLASS            CLASS A",
@@ -1302,7 +1498,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 1932,
-      "weight": 0.1
+      "weight": 0.1,
+      "ticker_raw": "GOOGL",
+      "ticker": "GOOGL"
     },
     {
       "issuer": "BLACKSTONE INC",
@@ -1315,7 +1513,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 2695,
-      "weight": 0.1
+      "weight": 0.1,
+      "ticker_raw": "BX",
+      "ticker": "BX"
     },
     {
       "issuer": "MCDONALDS CORP",
@@ -1328,7 +1528,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 1478,
-      "weight": 0.09
+      "weight": 0.09,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ADVANCED MICRO DEVIC",
@@ -1341,7 +1543,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 2732,
-      "weight": 0.09
+      "weight": 0.09,
+      "ticker_raw": "AMD",
+      "ticker": "AMD"
     },
     {
       "issuer": "LAM RESH CORP",
@@ -1354,7 +1558,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 3300,
-      "weight": 0.09
+      "weight": 0.09,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SALESFORCE INC",
@@ -1367,7 +1573,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 1826,
-      "weight": 0.09
+      "weight": 0.09,
+      "ticker_raw": "CRM",
+      "ticker": "CRM"
     },
     {
       "issuer": "HOME DEPOT INC",
@@ -1380,7 +1588,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 1022,
-      "weight": 0.09
+      "weight": 0.09,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CONSTELLATION ENERGY COR",
@@ -1393,7 +1603,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 1255,
-      "weight": 0.09
+      "weight": 0.09,
+      "ticker_raw": "CEG",
+      "ticker": "CEG"
     },
     {
       "issuer": "ISHARES CORE S&P SMALL CAP ETF",
@@ -1406,7 +1618,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 3393,
-      "weight": 0.08
+      "weight": 0.08,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "RTX CORP",
@@ -1419,7 +1633,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 2382,
-      "weight": 0.08
+      "weight": 0.08,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SPDR S&P 500 ETF",
@@ -1432,7 +1648,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 582,
-      "weight": 0.08
+      "weight": 0.08,
+      "ticker_raw": "SPY",
+      "ticker": "SPY"
     },
     {
       "issuer": "APOLLO GLOBAL MGMT INC N",
@@ -1445,7 +1663,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 2886,
-      "weight": 0.08
+      "weight": 0.08,
+      "ticker_raw": "APOEUR",
+      "ticker": "APO"
     },
     {
       "issuer": "ISHARES RUSSELL 1000 VALUE ETF",
@@ -1458,7 +1678,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 1889,
-      "weight": 0.08
+      "weight": 0.08,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "LOEWS CORP",
@@ -1471,7 +1693,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 3738,
-      "weight": 0.08
+      "weight": 0.08,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "BAXTER INTL INC",
@@ -1484,7 +1708,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 16034,
-      "weight": 0.08
+      "weight": 0.08,
+      "ticker_raw": "BAX",
+      "ticker": "BAX"
     },
     {
       "issuer": "BROADCOM INC",
@@ -1497,7 +1723,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 1104,
-      "weight": 0.08
+      "weight": 0.08,
+      "ticker_raw": "AVGO",
+      "ticker": "AVGO"
     },
     {
       "issuer": "ISHARES RUSSELL MID CAP ETF",
@@ -1510,7 +1738,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 3751,
-      "weight": 0.08
+      "weight": 0.08,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ISHARES US OIL GAS EXL PROD ETF",
@@ -1523,7 +1753,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 3500,
-      "weight": 0.07
+      "weight": 0.07,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "VANECK OIL REFINERS ETF",
@@ -1536,7 +1768,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 8698,
-      "weight": 0.07
+      "weight": 0.07,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "BLACKROCK INC NEW",
@@ -1549,7 +1783,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 261,
-      "weight": 0.06
+      "weight": 0.06,
+      "ticker_raw": "BLKCHF",
+      "ticker": "BLKCHF"
     },
     {
       "issuer": "CANADIAN PACIFIC KAN   F",
@@ -1562,7 +1798,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 4000,
-      "weight": 0.06
+      "weight": 0.06,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "MOLSON COORS BEVERAG B CLASS                  B",
@@ -1575,7 +1813,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 6302,
-      "weight": 0.06
+      "weight": 0.06,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "FIFTH THIRD BANCORP",
@@ -1588,7 +1828,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 6320,
-      "weight": 0.06
+      "weight": 0.06,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SPDR S&P BIOTECH ETF",
@@ -1601,7 +1843,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 2725,
-      "weight": 0.06
+      "weight": 0.06,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "PHILIP MORRIS INTL INC",
@@ -1614,7 +1858,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 1555,
-      "weight": 0.05
+      "weight": 0.05,
+      "ticker_raw": "PFE",
+      "ticker": "PFE"
     },
     {
       "issuer": "APPLOVIN CORP CLASS                  A",
@@ -1627,7 +1873,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 350,
-      "weight": 0.05
+      "weight": 0.05,
+      "ticker_raw": "APP",
+      "ticker": "APP"
     },
     {
       "issuer": "ISHARES MSCI USA MOMNTUM FCT ETF",
@@ -1640,7 +1888,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 979,
-      "weight": 0.05
+      "weight": 0.05,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "MGE ENERGY INC",
@@ -1653,7 +1903,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 2928,
-      "weight": 0.05
+      "weight": 0.05,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ENERGY SELECT SECTOR SPDR ETF",
@@ -1666,7 +1918,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 2711,
-      "weight": 0.05
+      "weight": 0.05,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "VANGUARD UTILITIES ETF",
@@ -1679,7 +1933,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 1250,
-      "weight": 0.05
+      "weight": 0.05,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "JOHNSON CONTROLS INT   F",
@@ -1692,7 +1948,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 2119,
-      "weight": 0.05
+      "weight": 0.05,
+      "ticker_raw": "JCI",
+      "ticker": "JCI"
     },
     {
       "issuer": "CHUBB LTD              F",
@@ -1705,7 +1963,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 818,
-      "weight": 0.05
+      "weight": 0.05,
+      "ticker_raw": "CB",
+      "ticker": "CB"
     },
     {
       "issuer": "ISHARES CORE MSCI EAFE ETF",
@@ -1718,7 +1978,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 2444,
-      "weight": 0.04
+      "weight": 0.04,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CISCO SYS INC",
@@ -1731,7 +1993,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 3073,
-      "weight": 0.04
+      "weight": 0.04,
+      "ticker_raw": "CSCO",
+      "ticker": "CSCO"
     },
     {
       "issuer": "COGNYTE SOFTWARE LTD   F",
@@ -1744,7 +2008,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 18398,
-      "weight": 0.03
+      "weight": 0.03,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "GERON CORP",
@@ -1757,7 +2023,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 76201,
-      "weight": 0.02
+      "weight": 0.02,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SABRE CORP",
@@ -1770,7 +2038,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 46852,
-      "weight": 0.02
+      "weight": 0.02,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SCRIPPS E W CO OHIO CLASS                  A",
@@ -1783,7 +2053,9 @@
       "sole_voting": 0,
       "shared_voting": 0,
       "no_voting": 17726,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     }
   ],
   "comparison": {

@@ -28,7 +28,9 @@
       "sole_voting": 6298419,
       "shared_voting": 0,
       "no_voting": 17142,
-      "weight": 9.99
+      "weight": 9.99,
+      "ticker_raw": "SCHW",
+      "ticker": "SCHW"
     },
     {
       "issuer": "LIBERTY MEDIA CORP DEL",
@@ -41,7 +43,9 @@
       "sole_voting": 5555607,
       "shared_voting": 0,
       "no_voting": 13382,
-      "weight": 9.64
+      "weight": 9.64,
+      "ticker_raw": "LSXMA",
+      "ticker": "LSXMA"
     },
     {
       "issuer": "ALPHABET INC",
@@ -54,7 +58,9 @@
       "sole_voting": 2352959,
       "shared_voting": 0,
       "no_voting": 3760,
-      "weight": 9.49
+      "weight": 9.49,
+      "ticker_raw": "GOOGL",
+      "ticker": "GOOGL"
     },
     {
       "issuer": "TAIWAN SEMICONDUCTOR MFG LTD",
@@ -67,7 +73,9 @@
       "sole_voting": 1876688,
       "shared_voting": 0,
       "no_voting": 5033,
-      "weight": 8.71
+      "weight": 8.71,
+      "ticker_raw": "TSM",
+      "ticker": "TSM"
     },
     {
       "issuer": "ELEVANCE HEALTH INC FORMERLY",
@@ -80,7 +88,9 @@
       "sole_voting": 1444379,
       "shared_voting": 0,
       "no_voting": 3904,
-      "weight": 7.75
+      "weight": 7.75,
+      "ticker_raw": "ELV",
+      "ticker": "ELV"
     },
     {
       "issuer": "INTERCONTINENTAL EXCHANGE IN",
@@ -93,7 +103,9 @@
       "sole_voting": 2736041,
       "shared_voting": 0,
       "no_voting": 7250,
-      "weight": 7.66
+      "weight": 7.66,
+      "ticker_raw": "ICE",
+      "ticker": "ICE"
     },
     {
       "issuer": "CAPITAL ONE FINL CORP",
@@ -106,7 +118,9 @@
       "sole_voting": 2092835,
       "shared_voting": 0,
       "no_voting": 5289,
-      "weight": 7.39
+      "weight": 7.39,
+      "ticker_raw": "COF",
+      "ticker": "COF"
     },
     {
       "issuer": "ALPHABET INC",
@@ -119,7 +133,9 @@
       "sole_voting": 1248252,
       "shared_voting": 0,
       "no_voting": 6319,
-      "weight": 5.06
+      "weight": 5.06,
+      "ticker_raw": "GOOG",
+      "ticker": "GOOG"
     },
     {
       "issuer": "ICON PLC",
@@ -132,7 +148,9 @@
       "sole_voting": 1696508,
       "shared_voting": 0,
       "no_voting": 4486,
-      "weight": 4.93
+      "weight": 4.93,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "MSA SAFETY INC",
@@ -145,7 +163,9 @@
       "sole_voting": 1700701,
       "shared_voting": 0,
       "no_voting": 4585,
-      "weight": 4.86
+      "weight": 4.86,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CREDIT ACCEP CORP MICH",
@@ -158,7 +178,9 @@
       "sole_voting": 576935,
       "shared_voting": 0,
       "no_voting": 1524,
-      "weight": 4.48
+      "weight": 4.48,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "UNITEDHEALTH GROUP INC",
@@ -171,7 +193,9 @@
       "sole_voting": 756223,
       "shared_voting": 0,
       "no_voting": 2000,
-      "weight": 4.34
+      "weight": 4.34,
+      "ticker_raw": "UNH",
+      "ticker": "UNH"
     },
     {
       "issuer": "META PLATFORMS INC",
@@ -184,7 +208,9 @@
       "sole_voting": 243123,
       "shared_voting": 0,
       "no_voting": 898,
-      "weight": 2.97
+      "weight": 2.97,
+      "ticker_raw": "META",
+      "ticker": "META"
     },
     {
       "issuer": "BERKSHIRE HATHAWAY INC DEL",
@@ -197,7 +223,9 @@
       "sole_voting": 322116,
       "shared_voting": 0,
       "no_voting": 436,
-      "weight": 2.69
+      "weight": 2.69,
+      "ticker_raw": "BRK/B",
+      "ticker": "BRK"
     },
     {
       "issuer": "LIBERTY BROADBAND CORP",
@@ -210,7 +238,9 @@
       "sole_voting": 1869580,
       "shared_voting": 0,
       "no_voting": 4657,
-      "weight": 1.97
+      "weight": 1.97,
+      "ticker_raw": "LBRDK",
+      "ticker": "LBRDK"
     },
     {
       "issuer": "CHARTER COMMUNICATIONS INC N",
@@ -223,7 +253,9 @@
       "sole_voting": 372261,
       "shared_voting": 0,
       "no_voting": 1171,
-      "weight": 1.7
+      "weight": 1.7,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "BERKSHIRE HATHAWAY INC DEL",
@@ -236,7 +268,9 @@
       "sole_voting": 117,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 1.46
+      "weight": 1.46,
+      "ticker_raw": "BRK/A",
+      "ticker": "BRK"
     },
     {
       "issuer": "BIO-TECHNE CORP",
@@ -249,7 +283,9 @@
       "sole_voting": 1469987,
       "shared_voting": 0,
       "no_voting": 3768,
-      "weight": 1.36
+      "weight": 1.36,
+      "ticker_raw": "TECH",
+      "ticker": "TECH"
     },
     {
       "issuer": "LIBERTY MEDIA CORP DEL",
@@ -262,7 +298,9 @@
       "sole_voting": 740572,
       "shared_voting": 0,
       "no_voting": 1738,
-      "weight": 1.17
+      "weight": 1.17,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "AMENTUM HOLDINGS INC",
@@ -275,7 +313,9 @@
       "sole_voting": 2417983,
       "shared_voting": 0,
       "no_voting": 5765,
-      "weight": 0.96
+      "weight": 0.96,
+      "ticker_raw": "AMTM",
+      "ticker": "AMTM"
     },
     {
       "issuer": "LIBERTY BROADBAND CORP",
@@ -288,7 +328,9 @@
       "sole_voting": 667867,
       "shared_voting": 0,
       "no_voting": 1293,
-      "weight": 0.7
+      "weight": 0.7,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "GCI LIBERTY INC",
@@ -301,7 +343,9 @@
       "sole_voting": 373740,
       "shared_voting": 0,
       "no_voting": 930,
-      "weight": 0.23
+      "weight": 0.23,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SAP SE",
@@ -314,7 +358,9 @@
       "sole_voting": 46000,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.2
+      "weight": 0.2,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "GCI LIBERTY INC",
@@ -327,7 +373,9 @@
       "sole_voting": 132943,
       "shared_voting": 0,
       "no_voting": 257,
-      "weight": 0.08
+      "weight": 0.08,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "EQUITABLE HLDGS INC",
@@ -340,7 +388,9 @@
       "sole_voting": 40636,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.03
+      "weight": 0.03,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "GROUP 1 AUTOMOTIVE INC",
@@ -353,7 +403,9 @@
       "sole_voting": 3610,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.03
+      "weight": 0.03,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "JACOBS SOLUTIONS INC",
@@ -366,7 +418,9 @@
       "sole_voting": 9349,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.02
+      "weight": 0.02,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "VANGUARD INDEX FDS",
@@ -379,7 +433,9 @@
       "sole_voting": 2647,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "LITHIA MTRS INC",
@@ -392,7 +448,9 @@
       "sole_voting": 2636,
       "shared_voting": 0,
       "no_voting": 80,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "NETFLIX INC",
@@ -405,7 +463,9 @@
       "sole_voting": 604,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": "NFLX",
+      "ticker": "NFLX"
     },
     {
       "issuer": "VANGUARD STAR FDS",
@@ -418,7 +478,9 @@
       "sole_voting": 5301,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "MICRON TECHNOLOGY INC",
@@ -431,7 +493,9 @@
       "sole_voting": 2162,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": "MU",
+      "ticker": "MU"
     },
     {
       "issuer": "MICROSOFT CORP",
@@ -444,7 +508,9 @@
       "sole_voting": 689,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": "MSFT",
+      "ticker": "MSFT"
     },
     {
       "issuer": "AMERICAN EXPRESS CO",
@@ -457,7 +523,9 @@
       "sole_voting": 932,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": "AXP",
+      "ticker": "AXP"
     },
     {
       "issuer": "COPA HOLDINGS SA",
@@ -470,7 +538,9 @@
       "sole_voting": 2555,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "KASPI KZ JSC",
@@ -483,7 +553,9 @@
       "sole_voting": 3712,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.01
+      "weight": 0.01,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SINCLAIR INC",
@@ -496,7 +568,9 @@
       "sole_voting": 17959,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "S&P GLOBAL INC",
@@ -509,7 +583,9 @@
       "sole_voting": 531,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "STELLANTIS N.V",
@@ -522,7 +598,9 @@
       "sole_voting": 27313,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "APPLE INC",
@@ -535,7 +613,9 @@
       "sole_voting": 891,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": "AAPL",
+      "ticker": "AAPL"
     },
     {
       "issuer": "FERGUSON ENTERPRISES INC",
@@ -548,7 +628,9 @@
       "sole_voting": 1000,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "DOLLAR GEN CORP NEW",
@@ -561,7 +643,9 @@
       "sole_voting": 2170,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ATAI LIFE SCIENCES NV",
@@ -574,7 +658,9 @@
       "sole_voting": 42112,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "BLACKROCK INC",
@@ -587,7 +673,9 @@
       "sole_voting": 186,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": "BLK",
+      "ticker": "BLK"
     },
     {
       "issuer": "SMITH DOUGLAS HOMES CORP",
@@ -600,7 +688,9 @@
       "sole_voting": 12209,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CARMAX INC",
@@ -613,7 +703,9 @@
       "sole_voting": 4469,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": "KMX",
+      "ticker": "KMX"
     },
     {
       "issuer": "RIMINI STR INC DEL",
@@ -626,7 +718,9 @@
       "sole_voting": 37141,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 0.0
+      "weight": 0.0,
+      "ticker_raw": null,
+      "ticker": null
     }
   ],
   "comparison": {

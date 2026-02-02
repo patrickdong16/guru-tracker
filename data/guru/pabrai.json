@@ -28,7 +28,9 @@
       "sole_voting": 1799831,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 34.0
+      "weight": 34.0,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ALPHA METALLURGICAL RESOUR I",
@@ -41,7 +43,9 @@
       "sole_voting": 532000,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 25.91
+      "weight": 25.91,
+      "ticker_raw": "AMR",
+      "ticker": "AMR"
     },
     {
       "issuer": "TRANSOCEAN LTD",
@@ -54,7 +58,9 @@
       "sole_voting": 24442332,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 22.64
+      "weight": 22.64,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "VALARIS LTD",
@@ -67,7 +73,9 @@
       "sole_voting": 1066255,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 15.44
+      "weight": 15.44,
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "NOBLE CORP PLC",
@@ -80,7 +88,9 @@
       "sole_voting": 239000,
       "shared_voting": 0,
       "no_voting": 0,
-      "weight": 2.01
+      "weight": 2.01,
+      "ticker_raw": null,
+      "ticker": null
     }
   ],
   "comparison": {
