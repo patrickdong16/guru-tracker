@@ -1,0 +1,77 @@
+name: Daily 13F Scan & Deploy
+
+on:
+  schedule:
+    # UTC 06:00 = CST 14:00 — run after US market data settles
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Manual trigger
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+env:
+  SEC_USER_AGENT: "GuruTracker patrickdong@gmail.com"
+
+jobs:
+  scan-build-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run data pipeline (fetch → parse → compare)
+        run: python main.py
+        env:
+          SEC_USER_AGENT: ${{ env.SEC_USER_AGENT }}
+
+      - name: Generate site data + HTML
+        run: python scripts/generate_site.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git add data/ site/
+          if git diff --staged --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "📭 No data changes detected"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "📬 New data detected!"
+            git diff --staged --stat
+          fi
+
+      - name: Commit data changes
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "Guru Tracker Bot"
+          git config user.email "bot@guru-tracker"
+          git commit -m "📊 data update: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          cname: ""
+
+      - name: Notify Telegram (if new filings)
+        if: steps.changes.outputs.changed == 'true'
+        run: python scripts/notify_telegram.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        continue-on-error: true # Don't fail the build if Telegram is unreachable
