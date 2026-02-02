@@ -179,8 +179,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 2.9,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FLYW",
+      "ticker": "FLYW"
     },
     {
       "issuer": "PG&E CORP",
@@ -359,8 +359,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.39,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IBIT",
+      "ticker": "IBIT"
     },
     {
       "issuer": "REX AMERICAN RES CORP",
@@ -494,8 +494,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.35,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IBAC",
+      "ticker": "IBAC"
     },
     {
       "issuer": "VOYAGER ACQUISITION CORP",
@@ -809,8 +809,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.29,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FGMC",
+      "ticker": "FGMC"
     },
     {
       "issuer": "FIGX CAP ACQUISITION CORP.",
@@ -1064,8 +1064,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.15,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ETHA",
+      "ticker": "ETHA"
     },
     {
       "issuer": "RIBBON ACQUISITION CORP",
@@ -1139,8 +1139,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.15,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FDSB",
+      "ticker": "FDSB"
     },
     {
       "issuer": "LAKE SHORE BANCORP INC",
@@ -1244,8 +1244,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.13,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FBLA",
+      "ticker": "FBLA"
     },
     {
       "issuer": "CALAMOS GBL DYN INCOME FUND",
@@ -1499,8 +1499,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.07,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "HTH",
+      "ticker": "HTH"
     },
     {
       "issuer": "SIGNET JEWELERS LIMITED",
@@ -1709,8 +1709,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.07,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GD",
+      "ticker": "GD"
     },
     {
       "issuer": "ROYAL BK CDA",
@@ -1859,8 +1859,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.06,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GAP",
+      "ticker": "GAP"
     },
     {
       "issuer": "EQT CORP",
@@ -2159,8 +2159,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.06,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "OMAB",
+      "ticker": "OMAB"
     },
     {
       "issuer": "TEXAS PACIFIC LAND CORPORATI",
@@ -2264,8 +2264,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.06,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "MOMO",
+      "ticker": "MOMO"
     },
     {
       "issuer": "ENPHASE ENERGY INC",
@@ -2309,8 +2309,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.05,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IT",
+      "ticker": "IT"
     },
     {
       "issuer": "COOPER COS INC",
@@ -2384,8 +2384,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.04,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FG",
+      "ticker": "FG"
     },
     {
       "issuer": "ALIGN TECHNOLOGY INC",

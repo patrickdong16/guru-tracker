@@ -104,8 +104,8 @@
       "shared_voting": 0,
       "no_voting": 7250,
       "weight": 7.66,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ICE",
+      "ticker": "ICE"
     },
     {
       "issuer": "CAPITAL ONE FINL CORP",
@@ -209,8 +209,8 @@
       "shared_voting": 0,
       "no_voting": 898,
       "weight": 2.97,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "META",
+      "ticker": "META"
     },
     {
       "issuer": "BERKSHIRE HATHAWAY INC DEL",
@@ -344,8 +344,8 @@
       "shared_voting": 0,
       "no_voting": 930,
       "weight": 0.23,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GLIBK",
+      "ticker": "GLIBK"
     },
     {
       "issuer": "SAP SE",
@@ -374,8 +374,8 @@
       "shared_voting": 0,
       "no_voting": 257,
       "weight": 0.08,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GLIBA",
+      "ticker": "GLIBA"
     },
     {
       "issuer": "EQUITABLE HLDGS INC",
@@ -404,8 +404,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.03,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GPI",
+      "ticker": "GPI"
     },
     {
       "issuer": "JACOBS SOLUTIONS INC",
@@ -419,8 +419,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "J",
+      "ticker": "J"
     },
     {
       "issuer": "VANGUARD INDEX FDS",
@@ -629,8 +629,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FERG",
+      "ticker": "FERG"
     },
     {
       "issuer": "DOLLAR GEN CORP NEW",

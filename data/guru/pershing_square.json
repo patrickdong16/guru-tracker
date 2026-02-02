@@ -59,8 +59,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 10.58,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "HHH",
+      "ticker": "HHH"
     },
     {
       "issuer": "ALPHABET INC",
@@ -149,8 +149,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 5.37,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "HLT",
+      "ticker": "HLT"
     },
     {
       "issuer": "SEAPORT ENTMT GROUP INC",
@@ -179,8 +179,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.71,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "HTZ",
+      "ticker": "HTZ"
     }
   ],
   "comparison": {

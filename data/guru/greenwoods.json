@@ -29,8 +29,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 20.27,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "META",
+      "ticker": "META"
     },
     {
       "issuer": "NETEASE INC",
@@ -104,8 +104,8 @@
       "shared_voting": 0,
       "no_voting": 3124912,
       "weight": 8.35,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "YMM",
+      "ticker": "YMM"
     },
     {
       "issuer": "FUTU HLDGS LTD",
@@ -119,8 +119,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 3.9,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FUTU",
+      "ticker": "FUTU"
     },
     {
       "issuer": "ALIBABA GROUP HLDG LTD",
@@ -254,8 +254,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.43,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "INTC",
+      "ticker": "INTC"
     },
     {
       "issuer": "UNITEDHEALTH GROUP INC",
@@ -404,8 +404,8 @@
       "shared_voting": 0,
       "no_voting": 360000,
       "weight": 0.32,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "HTHT",
+      "ticker": "HTHT"
     },
     {
       "issuer": "SPOTIFY TECHNOLOGY S A",

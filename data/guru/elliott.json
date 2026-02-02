@@ -74,8 +74,8 @@
       "shared_voting": 3250000,
       "no_voting": 0,
       "weight": 8.59,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "QQQ",
+      "ticker": "QQQ"
     },
     {
       "issuer": "SOUTHWEST AIRLS CO",
@@ -134,8 +134,8 @@
       "shared_voting": 5000000,
       "no_voting": 0,
       "weight": 4.48,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IWD",
+      "ticker": "IWD"
     },
     {
       "issuer": "PINTEREST INC",
@@ -209,8 +209,8 @@
       "shared_voting": 18630978,
       "no_voting": 0,
       "weight": 2.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "HPE",
+      "ticker": "HPE"
     },
     {
       "issuer": "UNITI GROUP LLC",
@@ -239,8 +239,8 @@
       "shared_voting": 3000000,
       "no_voting": 0,
       "weight": 1.52,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IGV",
+      "ticker": "IGV"
     },
     {
       "issuer": "ETSY INC",
@@ -254,8 +254,8 @@
       "shared_voting": 5000000,
       "no_voting": 0,
       "weight": 1.46,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ETSY",
+      "ticker": "ETSY"
     },
     {
       "issuer": "SPDR SERIES TRUST",
@@ -284,8 +284,8 @@
       "shared_voting": 3800000,
       "no_voting": 0,
       "weight": 1.36,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "HYG",
+      "ticker": "HYG"
     },
     {
       "issuer": "SELECT SECTOR SPDR TR",
@@ -494,8 +494,8 @@
       "shared_voting": 476895,
       "no_voting": 0,
       "weight": 0.08,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GLIBK",
+      "ticker": "GLIBK"
     },
     {
       "issuer": "OXFORD LANE CAP CORP",

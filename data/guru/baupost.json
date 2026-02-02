@@ -149,8 +149,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 5.42,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FERG",
+      "ticker": "FERG"
     },
     {
       "issuer": "LIBERTY GLOBAL LTD",
@@ -179,8 +179,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 5.22,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FIS",
+      "ticker": "FIS"
     },
     {
       "issuer": "EAGLE MATLS INC",
@@ -209,8 +209,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 4.04,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GPC",
+      "ticker": "GPC"
     },
     {
       "issuer": "GDS HLDGS LTD",
@@ -224,8 +224,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 2.63,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GDS",
+      "ticker": "GDS"
     },
     {
       "issuer": "FISERV INC",
@@ -239,8 +239,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 2.41,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FISV",
+      "ticker": "FISV"
     },
     {
       "issuer": "HERBALIFE LTD",
@@ -314,8 +314,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.33,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "HLF 4.25 06/15/28",
+      "ticker": "HLF"
     },
     {
       "issuer": "TAMBORAN RES CORP",

@@ -149,8 +149,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 3.68,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "META",
+      "ticker": "META"
     },
     {
       "issuer": "VISTRA CORP",
@@ -329,8 +329,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.62,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FISV",
+      "ticker": "FISV"
     },
     {
       "issuer": "AMERICAN AIRLS GROUP INC",
@@ -479,8 +479,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.73,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IQV",
+      "ticker": "IQV"
     },
     {
       "issuer": "LAM RESEARCH CORP",
@@ -509,8 +509,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.62,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FXI",
+      "ticker": "FXI"
     },
     {
       "issuer": "UNITED AIRLS HLDGS INC",
@@ -539,8 +539,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.52,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GT",
+      "ticker": "GT"
     },
     {
       "issuer": "KEYCORP",
