@@ -231,7 +231,8 @@
                     <th class="pb-2 pr-4 font-medium">CUSIP</th>
                     <th class="pb-2 pr-4 font-medium sortable text-right" data-sort="number">市值 ↕</th>
                     <th class="pb-2 pr-4 font-medium sortable text-right" data-sort="number">数量 ↕</th>
-                    <th class="pb-2 font-medium sortable text-right" data-sort="number">占比 ↕</th>
+                    <th class="pb-2 pr-4 font-medium sortable text-right" data-sort="number">占比 ↕</th>
+                    <th class="pb-2 font-medium sortable text-right" data-sort="number">变化 ↕</th>
                 </tr>
             </thead>
             <tbody>
@@ -243,7 +244,20 @@
                     <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">{{ h.cusip }}</td>
                     <td class="py-1.5 pr-4 text-right tabular-nums" data-value="{{ h.value }}">{{ h.value | format_value }}</td>
                     <td class="py-1.5 pr-4 text-right tabular-nums" data-value="{{ h.shares }}">{{ h.shares | format_shares }}</td>
-                    <td class="py-1.5 text-right tabular-nums" data-value="{{ h.weight | default(0) }}">{{ h.weight | default(0) }}%</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="{{ h.weight | default(0) }}">{{ h.weight | default(0) }}%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        {% if h.qty_change is defined and h.qty_change == "NEW" %}
+                        data-value="999999"><span class="px-1.5 py-0.5 text-[10px] font-semibold rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">NEW</span>
+                        {% elif h.qty_change is defined and h.qty_change > 0 %}
+                        data-value="{{ h.qty_change }}"><span class="text-emerald-400">+{{ '%.2f' | format(h.qty_change) }}%</span>
+                        {% elif h.qty_change is defined and h.qty_change < 0 %}
+                        data-value="{{ h.qty_change }}"><span class="text-red-400">{{ '%.2f' | format(h.qty_change) }}%</span>
+                        {% elif h.qty_change is defined %}
+                        data-value="0"><span class="text-zinc-500">0.00%</span>
+                        {% else %}
+                        data-value=""><span class="text-zinc-600">—</span>
+                        {% endif %}
+                    </td>
                 </tr>
             {% endfor %}
             </tbody>

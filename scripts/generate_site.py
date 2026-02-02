@@ -423,6 +423,29 @@ def render_html(gurus_data: dict, consensus_data: dict):
         detail = load_json(detail_path)
         # Limit holdings for HTML embed
         all_holdings = detail.get("holdings", [])
+
+        # Enrich holdings with share change % from comparison data
+        comparison = detail.get("comparison")
+        if comparison and comparison.get("changes"):
+            change_map = {}  # cusip -> {change_type, share_change_pct}
+            for ctype in ("new", "increased", "decreased", "unchanged"):
+                for item in comparison["changes"].get(ctype, []):
+                    cusip = item.get("cusip")
+                    if cusip:
+                        change_map[cusip] = {
+                            "change_type": item.get("change_type", ""),
+                            "share_change_pct": item.get("share_change_pct"),
+                        }
+            for h in all_holdings:
+                info = change_map.get(h.get("cusip"))
+                if info:
+                    if info["change_type"] == "NEW":
+                        h["qty_change"] = "NEW"
+                    elif info["change_type"] == "UNCHANGED":
+                        h["qty_change"] = 0.0
+                    elif info["share_change_pct"] is not None:
+                        h["qty_change"] = info["share_change_pct"]
+
         html_holdings = all_holdings[:MAX_HOLDINGS_IN_HTML]
 
         # Limit changes for HTML embed
