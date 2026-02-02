@@ -29,8 +29,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 7.02,
-      "ticker_raw": "TSLA",
-      "ticker": "TSLA"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ROBINHOOD MKTS INC",
@@ -44,8 +44,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 6.93,
-      "ticker_raw": "HOOD",
-      "ticker": "HOOD"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "NVIDIA CORPORATION",
@@ -59,8 +59,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 6.14,
-      "ticker_raw": "NVDA",
-      "ticker": "NVDA"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "TAIWAN SEMICONDUCTOR MFG LTD",
@@ -74,8 +74,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 4.78,
-      "ticker_raw": "TSM",
-      "ticker": "TSM"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ALIBABA GROUP HLDG LTD",
@@ -104,8 +104,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 3.98,
-      "ticker_raw": "ASML",
-      "ticker": "ASML"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ALPHABET INC",
@@ -164,8 +164,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 2.8,
-      "ticker_raw": "MSFT",
-      "ticker": "MSFT"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SYNOPSYS INC",
@@ -179,8 +179,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 2.48,
-      "ticker_raw": "SNPS",
-      "ticker": "SNPS"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CONSTELLATION ENERGY CORP",
@@ -224,8 +224,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 2.19,
-      "ticker_raw": "MU",
-      "ticker": "MU"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "LINDE PLC",
@@ -329,8 +329,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.95,
-      "ticker_raw": "WDC",
-      "ticker": "WDC"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "WABTEC",
@@ -344,8 +344,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.86,
-      "ticker_raw": "WAB",
-      "ticker": "WAB"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "TWILIO INC",
@@ -389,8 +389,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.44,
-      "ticker_raw": "SHOP",
-      "ticker": "SHOP"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "OKTA INC",
@@ -449,8 +449,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.27,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DOCS",
+      "ticker": "DOCS"
     },
     {
       "issuer": "ON HLDG AG",
@@ -629,8 +629,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.76,
-      "ticker_raw": "SPOT",
-      "ticker": "SPOT"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "PARKER-HANNIFIN CORP",
@@ -779,8 +779,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.24,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DUOL",
+      "ticker": "DUOL"
     },
     {
       "issuer": "PDD HOLDINGS INC",
@@ -794,8 +794,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.11,
-      "ticker_raw": "PDD",
-      "ticker": "PDD"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "SPDR SERIES TRUST",
@@ -824,8 +824,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.11,
-      "ticker_raw": "LRCX",
-      "ticker": "LRCX"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "INTEL CORP",
@@ -839,8 +839,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.1,
-      "ticker_raw": "INTC",
-      "ticker": "INTC"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "BRITISH AMERN TOB PLC",
@@ -899,8 +899,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.06,
-      "ticker_raw": "VST",
-      "ticker": "VST"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "TTM TECHNOLOGIES INC",
@@ -989,8 +989,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.02,
-      "ticker_raw": "ORCL",
-      "ticker": "ORCL"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "LEXINFINTECH HLDGS LTD",

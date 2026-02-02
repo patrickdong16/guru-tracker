@@ -29,8 +29,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 20.25,
-      "ticker_raw": "UBER",
-      "ticker": "UBER"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "BROOKFIELD CORP",
@@ -89,8 +89,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 10.04,
-      "ticker_raw": "QSR",
-      "ticker": "QSR"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "AMAZON COM INC",
@@ -134,8 +134,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 5.77,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "CMG",
+      "ticker": "CMG"
     },
     {
       "issuer": "HILTON WORLDWIDE HLDGS INC",

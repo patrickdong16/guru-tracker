@@ -44,8 +44,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 18.85,
-      "ticker_raw": "PDD",
-      "ticker": "PDD"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ALPHABET INC",
@@ -104,8 +104,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 9.15,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EWBC",
+      "ticker": "EWBC"
     },
     {
       "issuer": "OCCIDENTAL PETE CORP",
@@ -119,8 +119,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 2.15,
-      "ticker_raw": "OXY",
-      "ticker": "OXY"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "APPLE INC",

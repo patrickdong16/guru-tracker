@@ -74,8 +74,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 4.8,
-      "ticker_raw": "NVDA",
-      "ticker": "NVDA"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ALPHABET INC",
@@ -134,8 +134,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 4.01,
-      "ticker_raw": "TSM",
-      "ticker": "TSM"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "META PLATFORMS INC",
@@ -149,8 +149,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 3.68,
-      "ticker_raw": "META",
-      "ticker": "META"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "VISTRA CORP",
@@ -164,8 +164,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 3.3,
-      "ticker_raw": "VST",
-      "ticker": "VST"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "MICROSOFT CORP",
@@ -179,8 +179,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 3.24,
-      "ticker_raw": "MSFT",
-      "ticker": "MSFT"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "PDD HOLDINGS INC",
@@ -194,8 +194,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 3.22,
-      "ticker_raw": "PDD",
-      "ticker": "PDD"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "UBER TECHNOLOGIES INC",
@@ -209,8 +209,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 3.19,
-      "ticker_raw": "UBER",
-      "ticker": "UBER"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "JD.COM INC",
@@ -224,8 +224,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 2.95,
-      "ticker_raw": "JD",
-      "ticker": "JD"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "QUALCOMM INC",
@@ -239,8 +239,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 2.81,
-      "ticker_raw": "QCOM",
-      "ticker": "QCOM"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ADVANCED MICRO DEVICES INC",
@@ -299,8 +299,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.81,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GLW",
+      "ticker": "GLW"
     },
     {
       "issuer": "LYFT INC",
@@ -389,8 +389,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.15,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ET",
+      "ticker": "ET"
     },
     {
       "issuer": "MICRON TECHNOLOGY INC",
@@ -404,8 +404,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.13,
-      "ticker_raw": "MU",
-      "ticker": "MU"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "UNITEDHEALTH GROUP INC",
@@ -419,8 +419,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.95,
-      "ticker_raw": "UNH",
-      "ticker": "UNH"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "TRUIST FINL CORP",
@@ -449,8 +449,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.84,
-      "ticker_raw": "ASML",
-      "ticker": "ASML"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CAESARS ENTERTAINMENT INC NE",
@@ -494,8 +494,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.67,
-      "ticker_raw": "LRCX",
-      "ticker": "LRCX"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "ISHARES TR",
@@ -554,8 +554,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.51,
-      "ticker_raw": "KEY",
-      "ticker": "KEY"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CITIZENS FINL GROUP INC",
@@ -569,8 +569,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.43,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "CFG",
+      "ticker": "CFG"
     },
     {
       "issuer": "COMERICA INC",
@@ -584,8 +584,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.43,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "CMA",
+      "ticker": "CMA"
     },
     {
       "issuer": "BLOCK INC",
@@ -599,8 +599,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.36,
-      "ticker_raw": "SQ",
-      "ticker": "SQ"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "MPLX LP",
@@ -629,8 +629,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.36,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DAL",
+      "ticker": "DAL"
     },
     {
       "issuer": "OWENS CORNING NEW",

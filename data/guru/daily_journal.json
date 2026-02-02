@@ -29,8 +29,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 47.6,
-      "ticker_raw": "WFC",
-      "ticker": "WFC"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "Bank of America Corp",

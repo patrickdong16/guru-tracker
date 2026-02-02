@@ -74,8 +74,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 9.92,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "KO",
+      "ticker": "KO"
     },
     {
       "issuer": "CHEVRON CORP NEW",
@@ -89,8 +89,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 7.09,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "CVX",
+      "ticker": "CVX"
     },
     {
       "issuer": "OCCIDENTAL PETE CORP",
@@ -104,8 +104,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 4.68,
-      "ticker_raw": "OXY",
-      "ticker": "OXY"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "MOODYS CORP",
@@ -134,8 +134,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 3.31,
-      "ticker_raw": "CB",
-      "ticker": "CB"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "KRAFT HEINZ CO",
@@ -179,8 +179,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.6,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DVA",
+      "ticker": "DVA"
     },
     {
       "issuer": "KROGER CO",
@@ -224,8 +224,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.06,
-      "ticker_raw": "V",
-      "ticker": "V"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "VERISIGN INC",
@@ -239,8 +239,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.94,
-      "ticker_raw": "VICI",
-      "ticker": "VICI"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "MASTERCARD INC",
@@ -254,8 +254,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.85,
-      "ticker_raw": "MA",
-      "ticker": "MA"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "AMAZON COM INC",
@@ -284,8 +284,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.68,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "STZ",
+      "ticker": "STZ"
     },
     {
       "issuer": "UNITEDHEALTH GROUP INC",
@@ -299,8 +299,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.65,
-      "ticker_raw": "UNH",
-      "ticker": "UNH"
+      "ticker_raw": null,
+      "ticker": null
     },
     {
       "issuer": "CAPITAL ONE FINL CORP",
@@ -344,8 +344,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.48,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DPZ",
+      "ticker": "DPZ"
     },
     {
       "issuer": "ALLY FINL INC",
@@ -494,8 +494,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.11,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "CHTR",
+      "ticker": "CHTR"
     },
     {
       "issuer": "LAMAR ADVERTISING CO NEW",
@@ -584,8 +584,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DEO",
+      "ticker": "DEO"
     },
     {
       "issuer": "LENNAR CORP",
