@@ -59,8 +59,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 6.48,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SPY",
+      "ticker": "SPY"
     },
     {
       "issuer": "MICROSOFT CORP",
@@ -74,8 +74,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 6.34,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "MSFT",
+      "ticker": "MSFT"
     },
     {
       "issuer": "NVIDIA CORPORATION",
@@ -89,8 +89,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 5.92,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "NVDA",
+      "ticker": "NVDA"
     },
     {
       "issuer": "NORFOLK SOUTHN CORP",
@@ -134,8 +134,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 3.42,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "TSM",
+      "ticker": "TSM"
     },
     {
       "issuer": "CAPITAL ONE FINL CORP",
@@ -164,8 +164,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 3.16,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FLUT",
+      "ticker": "FLUT"
     },
     {
       "issuer": "CASEYS GEN STORES INC",
@@ -209,8 +209,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 2.89,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "CRH",
+      "ticker": "CRH"
     },
     {
       "issuer": "COSTAR GROUP INC",
@@ -344,8 +344,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 2.04,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "VST",
+      "ticker": "VST"
     },
     {
       "issuer": "KENVUE INC",
@@ -389,8 +389,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.8,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "META",
+      "ticker": "META"
     },
     {
       "issuer": "MASTEC INC",

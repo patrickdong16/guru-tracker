@@ -44,8 +44,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 18.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "NVDA",
+      "ticker": "NVDA"
     },
     {
       "issuer": "PROSHARES TR",
@@ -89,8 +89,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 7.11,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "MSFT",
+      "ticker": "MSFT"
     },
     {
       "issuer": "APPLE INC",
@@ -119,8 +119,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 6.87,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "META",
+      "ticker": "META"
     },
     {
       "issuer": "TESLA INC",
@@ -134,8 +134,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 6.77,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "TSLA",
+      "ticker": "TSLA"
     },
     {
       "issuer": "AMAZON COM INC",

@@ -29,8 +29,8 @@
       "shared_voting": 8592600,
       "no_voting": 0,
       "weight": 27.76,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "PDD",
+      "ticker": "PDD"
     },
     {
       "issuer": "ALIBABA GROUP HLDG LTD",
@@ -59,8 +59,8 @@
       "shared_voting": 3238179,
       "no_voting": 0,
       "weight": 13.77,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FUTU",
+      "ticker": "FUTU"
     },
     {
       "issuer": "WEBULL CORP",
@@ -74,8 +74,8 @@
       "shared_voting": 33080846,
       "no_voting": 0,
       "weight": 11.96,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "BULL",
+      "ticker": "BULL"
     },
     {
       "issuer": "BEONE MEDICINES LTD",
@@ -209,8 +209,8 @@
       "shared_voting": 180050,
       "no_voting": 0,
       "weight": 0.79,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SE",
+      "ticker": "SE"
     },
     {
       "issuer": "CLEARWATER ANALYTICS HLDGS I",
@@ -374,8 +374,8 @@
       "shared_voting": 10043,
       "no_voting": 0,
       "weight": 0.07,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GE",
+      "ticker": "GE"
     },
     {
       "issuer": "MOGU INC",

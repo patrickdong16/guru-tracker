@@ -29,8 +29,8 @@
       "shared_voting": 64546,
       "no_voting": 0,
       "weight": 9.5,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "TSLA",
+      "ticker": "TSLA"
     },
     {
       "issuer": "Coinbase Global Inc",
@@ -44,8 +44,8 @@
       "shared_voting": 39008,
       "no_voting": 110566,
       "weight": 4.81,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "COIN",
+      "ticker": "COIN"
     },
     {
       "issuer": "Roku Inc",
@@ -74,8 +74,8 @@
       "shared_voting": 54754,
       "no_voting": 118664,
       "weight": 4.38,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "PLTR",
+      "ticker": "PLTR"
     },
     {
       "issuer": "ROBLOX Corp",
@@ -104,8 +104,8 @@
       "shared_voting": 83274,
       "no_voting": 381735,
       "weight": 4.28,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "HOOD",
+      "ticker": "HOOD"
     },
     {
       "issuer": "Shopify Inc",
@@ -119,8 +119,8 @@
       "shared_voting": 73678,
       "no_voting": 167042,
       "weight": 4.26,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SHOP",
+      "ticker": "SHOP"
     },
     {
       "issuer": "CRISPR Therapeutics AG",
@@ -299,8 +299,8 @@
       "shared_voting": 3485,
       "no_voting": 6811,
       "weight": 1.3,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "META",
+      "ticker": "META"
     },
     {
       "issuer": "Brera Holdings PLC",
@@ -329,8 +329,8 @@
       "shared_voting": 15064,
       "no_voting": 31541,
       "weight": 1.29,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "NVDA",
+      "ticker": "NVDA"
     },
     {
       "issuer": "Taiwan Semiconductor Manufactu",
@@ -344,8 +344,8 @@
       "shared_voting": 9384,
       "no_voting": 19845,
       "weight": 1.23,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "TSM",
+      "ticker": "TSM"
     },
     {
       "issuer": "Intellia Therapeutics Inc",
@@ -374,8 +374,8 @@
       "shared_voting": 31666,
       "no_voting": 86649,
       "weight": 1.15,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SQ",
+      "ticker": "SQ"
     },
     {
       "issuer": "Twist Bioscience Corp",
@@ -794,8 +794,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.36,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "MELI",
+      "ticker": "MELI"
     },
     {
       "issuer": "DoorDash Inc",
@@ -809,8 +809,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.34,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DASH",
+      "ticker": "DASH"
     },
     {
       "issuer": "Spotify Technology SA",
@@ -824,8 +824,8 @@
       "shared_voting": 45,
       "no_voting": 0,
       "weight": 0.33,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SPOT",
+      "ticker": "SPOT"
     },
     {
       "issuer": "Personalis Inc",
@@ -1019,8 +1019,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.22,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "QCOM",
+      "ticker": "QCOM"
     },
     {
       "issuer": "Reddit Inc",
@@ -1034,8 +1034,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.22,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "RDDT",
+      "ticker": "RDDT"
     },
     {
       "issuer": "Arcturus Therapeutics Holdings",
@@ -1109,8 +1109,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.19,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DDOG",
+      "ticker": "DDOG"
     },
     {
       "issuer": "Figma Inc",
@@ -1214,8 +1214,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.17,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SE",
+      "ticker": "SE"
     },
     {
       "issuer": "Elbit Systems Ltd",
@@ -1304,8 +1304,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.15,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SNPS",
+      "ticker": "SNPS"
     },
     {
       "issuer": "Ibotta Inc",
@@ -1334,8 +1334,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.13,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FUTU",
+      "ticker": "FUTU"
     },
     {
       "issuer": "NU Holdings Ltd",
@@ -1409,8 +1409,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.11,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "CRM",
+      "ticker": "CRM"
     },
     {
       "issuer": "Oklo Inc",
@@ -1574,8 +1574,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.08,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "IWM",
+      "ticker": "IWM"
     },
     {
       "issuer": "Incyte Corp",
@@ -1664,8 +1664,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.06,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "PYPL",
+      "ticker": "PYPL"
     },
     {
       "issuer": "Quantum-Si Inc",
@@ -1709,8 +1709,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.06,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "INTU",
+      "ticker": "INTU"
     },
     {
       "issuer": "Vertex Pharmaceuticals Inc",
@@ -1724,8 +1724,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.06,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "VRTX",
+      "ticker": "VRTX"
     },
     {
       "issuer": "Intercontinental Exchange Inc",
@@ -1739,8 +1739,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.06,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "ICE",
+      "ticker": "ICE"
     },
     {
       "issuer": "BILL Holdings Inc",
@@ -2024,8 +2024,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.02,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "MSFT",
+      "ticker": "MSFT"
     },
     {
       "issuer": "Nano Dimension Ltd",
@@ -2174,8 +2174,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "CYBR",
+      "ticker": "CYBR"
     },
     {
       "issuer": "Teva Pharmaceutical Industries",
@@ -2639,8 +2639,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.01,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "GE",
+      "ticker": "GE"
     },
     {
       "issuer": "Monday.com Ltd",
@@ -2849,8 +2849,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.0,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "TGT",
+      "ticker": "TGT"
     },
     {
       "issuer": "Avient Corporation",

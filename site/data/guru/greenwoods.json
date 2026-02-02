@@ -29,8 +29,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 20.27,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "META",
+      "ticker": "META"
     },
     {
       "issuer": "NETEASE INC",
@@ -59,8 +59,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 9.99,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "NVDA",
+      "ticker": "NVDA"
     },
     {
       "issuer": "PDD HOLDINGS INC",
@@ -74,8 +74,8 @@
       "shared_voting": 0,
       "no_voting": 453975,
       "weight": 9.99,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "PDD",
+      "ticker": "PDD"
     },
     {
       "issuer": "ALPHABET INC",
@@ -119,8 +119,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 3.9,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "FUTU",
+      "ticker": "FUTU"
     },
     {
       "issuer": "ALIBABA GROUP HLDG LTD",
@@ -194,8 +194,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.84,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SNPS",
+      "ticker": "SNPS"
     },
     {
       "issuer": "SEA LTD",
@@ -209,8 +209,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.65,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SE",
+      "ticker": "SE"
     },
     {
       "issuer": "NEW ORIENTAL ED & TECHNOLOGY",
@@ -254,8 +254,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.43,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "INTC",
+      "ticker": "INTC"
     },
     {
       "issuer": "UNITEDHEALTH GROUP INC",
@@ -269,8 +269,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.3,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "UNH",
+      "ticker": "UNH"
     },
     {
       "issuer": "SPDR SERIES TRUST",
@@ -314,8 +314,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.83,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "TSM",
+      "ticker": "TSM"
     },
     {
       "issuer": "TAL EDUCATION GROUP",
@@ -374,8 +374,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.54,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "UBER",
+      "ticker": "UBER"
     },
     {
       "issuer": "JINKOSOLAR HLDG CO LTD",
@@ -419,8 +419,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.21,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SPOT",
+      "ticker": "SPOT"
     },
     {
       "issuer": "SUPER HI INTL HLDG LTD",

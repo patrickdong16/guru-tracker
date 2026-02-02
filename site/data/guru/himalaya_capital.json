@@ -44,8 +44,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 18.85,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "PDD",
+      "ticker": "PDD"
     },
     {
       "issuer": "ALPHABET INC",
@@ -119,8 +119,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 2.15,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "OXY",
+      "ticker": "OXY"
     },
     {
       "issuer": "APPLE INC",

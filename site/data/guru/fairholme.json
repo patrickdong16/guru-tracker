@@ -104,8 +104,8 @@
       "shared_voting": 0,
       "no_voting": 27000,
       "weight": 0.26,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "OXY",
+      "ticker": "OXY"
     },
     {
       "issuer": "ENERGY TRANSFER L P",

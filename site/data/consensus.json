@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-02-02T12:35:22Z",
+  "generated_at": "2026-02-02T12:35:38Z",
   "total_stocks": 7355,
   "stocks": [
     {
       "cusip": "67066G104",
       "issuer": "NVIDIA CORPORATION",
-      "ticker": null,
+      "ticker": "NVDA",
       "title": "COM",
       "guru_count": 18,
       "gurus": [
@@ -142,7 +142,7 @@
     {
       "cusip": "594918104",
       "issuer": "MICROSOFT CORP",
-      "ticker": null,
+      "ticker": "MSFT",
       "title": "COM",
       "guru_count": 15,
       "gurus": [
@@ -599,7 +599,7 @@
     {
       "cusip": "30303M102",
       "issuer": "META PLATFORMS INC",
-      "ticker": null,
+      "ticker": "META",
       "title": "CL A",
       "guru_count": 14,
       "gurus": [
@@ -817,7 +817,7 @@
     {
       "cusip": "874039100",
       "issuer": "TAIWAN SEMICONDUCTOR MFG LTD",
-      "ticker": null,
+      "ticker": "TSM",
       "title": "SPONSORED ADS",
       "guru_count": 14,
       "gurus": [
@@ -1021,7 +1021,7 @@
     {
       "cusip": "91324P102",
       "issuer": "UNITEDHEALTH GROUP INC",
-      "ticker": null,
+      "ticker": "UNH",
       "title": "COM",
       "guru_count": 10,
       "gurus": [
@@ -1102,7 +1102,7 @@
     {
       "cusip": "722304102",
       "issuer": "PDD HOLDINGS INC",
-      "ticker": null,
+      "ticker": "PDD",
       "title": "SPONSORED ADS",
       "guru_count": 10,
       "gurus": [
@@ -1183,7 +1183,7 @@
     {
       "cusip": "90353T100",
       "issuer": "UBER TECHNOLOGIES INC",
-      "ticker": null,
+      "ticker": "UBER",
       "title": "COM",
       "guru_count": 10,
       "gurus": [
@@ -1264,7 +1264,7 @@
     {
       "cusip": "78462F103",
       "issuer": "SPDR S&P 500 ETF TR",
-      "ticker": null,
+      "ticker": "SPY",
       "title": "TR UNIT",
       "guru_count": 9,
       "gurus": [
@@ -1412,7 +1412,7 @@
     {
       "cusip": "674599105",
       "issuer": "OCCIDENTAL PETE CORP",
-      "ticker": null,
+      "ticker": "OXY",
       "title": "COM",
       "guru_count": 9,
       "gurus": [
@@ -1486,7 +1486,7 @@
     {
       "cusip": "81141R100",
       "issuer": "SEA LTD",
-      "ticker": null,
+      "ticker": "SE",
       "title": "SPONSORD ADS",
       "guru_count": 9,
       "gurus": [
@@ -1627,7 +1627,7 @@
     {
       "cusip": "69608A108",
       "issuer": "PALANTIR TECHNOLOGIES INC",
-      "ticker": null,
+      "ticker": "PLTR",
       "title": "CL A",
       "guru_count": 8,
       "gurus": [
@@ -1761,7 +1761,7 @@
     {
       "cusip": "64110L106",
       "issuer": "NETFLIX INC",
-      "ticker": null,
+      "ticker": "NFLX",
       "title": "COM",
       "guru_count": 8,
       "gurus": [
@@ -1895,7 +1895,7 @@
     {
       "cusip": "595112103",
       "issuer": "MICRON TECHNOLOGY INC",
-      "ticker": null,
+      "ticker": "MU",
       "title": "COM",
       "guru_count": 8,
       "gurus": [
@@ -2029,7 +2029,7 @@
     {
       "cusip": "N07059210",
       "issuer": "ASML HOLDING N V",
-      "ticker": null,
+      "ticker": "ASML",
       "title": "N Y REGISTRY SHS",
       "guru_count": 8,
       "gurus": [
@@ -2096,7 +2096,7 @@
     {
       "cusip": "512807306",
       "issuer": "LAM RESEARCH CORP",
-      "ticker": null,
+      "ticker": "LRCX",
       "title": "COM NEW",
       "guru_count": 8,
       "gurus": [
@@ -2163,7 +2163,7 @@
     {
       "cusip": "79466L302",
       "issuer": "SALESFORCE INC",
-      "ticker": null,
+      "ticker": "CRM",
       "title": "COM",
       "guru_count": 8,
       "gurus": [
@@ -2230,7 +2230,7 @@
     {
       "cusip": "808513105",
       "issuer": "SCHWAB CHARLES CORP",
-      "ticker": null,
+      "ticker": "SCHW",
       "title": "COM",
       "guru_count": 8,
       "gurus": [
@@ -2297,7 +2297,7 @@
     {
       "cusip": "852234103",
       "issuer": "BLOCK INC",
-      "ticker": null,
+      "ticker": "SQ",
       "title": "CL A",
       "guru_count": 8,
       "gurus": [
@@ -2364,7 +2364,7 @@
     {
       "cusip": "949746101",
       "issuer": "Wells Fargo & Co",
-      "ticker": null,
+      "ticker": "WFC",
       "title": "Common Stock",
       "guru_count": 8,
       "gurus": [
@@ -2431,7 +2431,7 @@
     {
       "cusip": "92840M102",
       "issuer": "VISTRA CORP",
-      "ticker": null,
+      "ticker": "VST",
       "title": "COM",
       "guru_count": 8,
       "gurus": [
@@ -2498,7 +2498,7 @@
     {
       "cusip": "G25508105",
       "issuer": "CRH PLC",
-      "ticker": null,
+      "ticker": "CRH",
       "title": "ORD",
       "guru_count": 8,
       "gurus": [
@@ -2625,7 +2625,7 @@
     {
       "cusip": "88160R101",
       "issuer": "TESLA INC",
-      "ticker": null,
+      "ticker": "TSLA",
       "title": "COM",
       "guru_count": 7,
       "gurus": [
@@ -2685,7 +2685,7 @@
     {
       "cusip": "H1467J104",
       "issuer": "CHUBB LIMITED",
-      "ticker": null,
+      "ticker": "CB",
       "title": "COM",
       "guru_count": 7,
       "gurus": [
@@ -2745,7 +2745,7 @@
     {
       "cusip": "92826C839",
       "issuer": "VISA INC",
-      "ticker": null,
+      "ticker": "V",
       "title": "COM CL A",
       "guru_count": 7,
       "gurus": [
@@ -2805,7 +2805,7 @@
     {
       "cusip": "68389X105",
       "issuer": "ORACLE CORP",
-      "ticker": null,
+      "ticker": "ORCL",
       "title": "COM",
       "guru_count": 7,
       "gurus": [
@@ -2865,7 +2865,7 @@
     {
       "cusip": "770700102",
       "issuer": "ROBINHOOD MKTS INC",
-      "ticker": null,
+      "ticker": "HOOD",
       "title": "COM CL A",
       "guru_count": 7,
       "gurus": [
@@ -2925,7 +2925,7 @@
     {
       "cusip": "38141G104",
       "issuer": "GOLDMAN SACHS GROUP INC",
-      "ticker": null,
+      "ticker": "GS",
       "title": "COM",
       "guru_count": 7,
       "gurus": [
@@ -2985,7 +2985,7 @@
     {
       "cusip": "57636Q104",
       "issuer": "MASTERCARD INC",
-      "ticker": null,
+      "ticker": "MA",
       "title": "CL A",
       "guru_count": 7,
       "gurus": [
@@ -3045,7 +3045,7 @@
     {
       "cusip": "458140100",
       "issuer": "INTEL CORP",
-      "ticker": null,
+      "ticker": "INTC",
       "title": "COM",
       "guru_count": 7,
       "gurus": [
@@ -3105,7 +3105,7 @@
     {
       "cusip": "L8681T102",
       "issuer": "SPOTIFY TECHNOLOGY S A",
-      "ticker": null,
+      "ticker": "SPOT",
       "title": "SHS",
       "guru_count": 7,
       "gurus": [
@@ -3165,7 +3165,7 @@
     {
       "cusip": "172967424",
       "issuer": "CITIGROUP INC",
-      "ticker": null,
+      "ticker": "C",
       "title": "COM NEW",
       "guru_count": 7,
       "gurus": [
@@ -3225,7 +3225,7 @@
     {
       "cusip": "718546104",
       "issuer": "PHILLIPS 66",
-      "ticker": null,
+      "ticker": "PSX",
       "title": "COM",
       "guru_count": 7,
       "gurus": [
@@ -3285,7 +3285,7 @@
     {
       "cusip": "36828A101",
       "issuer": "GE VERNOVA INC",
-      "ticker": null,
+      "ticker": "GEV",
       "title": "COM",
       "guru_count": 7,
       "gurus": [
@@ -3405,7 +3405,7 @@
     {
       "cusip": "76131D103",
       "issuer": "RESTAURANT BRANDS INTL INC",
-      "ticker": null,
+      "ticker": "QSR",
       "title": "COM",
       "guru_count": 7,
       "gurus": [
@@ -3465,7 +3465,7 @@
     {
       "cusip": "478160104",
       "issuer": "JOHNSON & JOHNSON",
-      "ticker": null,
+      "ticker": "JNJ",
       "title": "COM",
       "guru_count": 7,
       "gurus": [
@@ -3525,7 +3525,7 @@
     {
       "cusip": "747525103",
       "issuer": "QUALCOMM INC",
-      "ticker": null,
+      "ticker": "QCOM",
       "title": "COM",
       "guru_count": 7,
       "gurus": [
@@ -3585,7 +3585,7 @@
     {
       "cusip": "58733R102",
       "issuer": "MERCADOLIBRE INC",
-      "ticker": null,
+      "ticker": "MELI",
       "title": "COM",
       "guru_count": 7,
       "gurus": [
@@ -3765,7 +3765,7 @@
     {
       "cusip": "713448108",
       "issuer": "PEPSICO INC",
-      "ticker": null,
+      "ticker": "PEP",
       "title": "COM",
       "guru_count": 7,
       "gurus": [
@@ -3825,7 +3825,7 @@
     {
       "cusip": "G3643J108",
       "issuer": "FLUTTER ENTMT PLC",
-      "ticker": null,
+      "ticker": "FLUT",
       "title": "SHS",
       "guru_count": 7,
       "gurus": [
@@ -3885,7 +3885,7 @@
     {
       "cusip": "22266T109",
       "issuer": "COUPANG INC",
-      "ticker": null,
+      "ticker": "CPNG",
       "title": "CL A",
       "guru_count": 7,
       "gurus": [
@@ -3945,7 +3945,7 @@
     {
       "cusip": "254687106",
       "issuer": "DISNEY WALT CO",
-      "ticker": null,
+      "ticker": "DIS",
       "title": "COM",
       "guru_count": 7,
       "gurus": [
@@ -4065,7 +4065,7 @@
     {
       "cusip": "369604301",
       "issuer": "GE AEROSPACE",
-      "ticker": null,
+      "ticker": "GE",
       "title": "COM NEW",
       "guru_count": 7,
       "gurus": [
@@ -4125,7 +4125,7 @@
     {
       "cusip": "461202103",
       "issuer": "INTUIT",
-      "ticker": null,
+      "ticker": "INTU",
       "title": "COM",
       "guru_count": 7,
       "gurus": [
@@ -4305,7 +4305,7 @@
     {
       "cusip": "531229755",
       "issuer": "LIBERTY MEDIA CORP DEL",
-      "ticker": null,
+      "ticker": "LSXMA",
       "title": "COM LBTY ONE S C",
       "guru_count": 7,
       "gurus": [
@@ -4485,7 +4485,7 @@
     {
       "cusip": "25809K105",
       "issuer": "DOORDASH INC",
-      "ticker": null,
+      "ticker": "DASH",
       "title": "CL A",
       "guru_count": 7,
       "gurus": [
@@ -4545,7 +4545,7 @@
     {
       "cusip": "45866F104",
       "issuer": "INTERCONTINENTAL EXCHANGE IN",
-      "ticker": null,
+      "ticker": "ICE",
       "title": "COM",
       "guru_count": 7,
       "gurus": [
@@ -4605,7 +4605,7 @@
     {
       "cusip": "21037T109",
       "issuer": "CONSTELLATION ENERGY CORP",
-      "ticker": null,
+      "ticker": "CEG",
       "title": "COM",
       "guru_count": 7,
       "gurus": [
@@ -4725,7 +4725,7 @@
     {
       "cusip": "871607107",
       "issuer": "SYNOPSYS INC",
-      "ticker": null,
+      "ticker": "SNPS",
       "title": "COM",
       "guru_count": 7,
       "gurus": [
@@ -4785,7 +4785,7 @@
     {
       "cusip": "23804L103",
       "issuer": "DATADOG INC",
-      "ticker": null,
+      "ticker": "DDOG",
       "title": "CL A COM",
       "guru_count": 7,
       "gurus": [
@@ -5445,7 +5445,7 @@
     {
       "cusip": "929740108",
       "issuer": "WABTEC",
-      "ticker": null,
+      "ticker": "WAB",
       "title": "COM",
       "guru_count": 7,
       "gurus": [
@@ -5770,7 +5770,7 @@
     {
       "cusip": "532457108",
       "issuer": "ELI LILLY & CO",
-      "ticker": null,
+      "ticker": "LLY",
       "title": "COM",
       "guru_count": 6,
       "gurus": [
@@ -5823,7 +5823,7 @@
     {
       "cusip": "22160K105",
       "issuer": "COSTCO WHSL CORP NEW",
-      "ticker": null,
+      "ticker": "COST",
       "title": "COM",
       "guru_count": 6,
       "gurus": [
@@ -6035,7 +6035,7 @@
     {
       "cusip": "75734B100",
       "issuer": "REDDIT INC",
-      "ticker": null,
+      "ticker": "RDDT",
       "title": "CL A",
       "guru_count": 6,
       "gurus": [
@@ -6194,7 +6194,7 @@
     {
       "cusip": "931142103",
       "issuer": "WALMART INC",
-      "ticker": null,
+      "ticker": "WBA",
       "title": "COM",
       "guru_count": 6,
       "gurus": [
@@ -6618,7 +6618,7 @@
     {
       "cusip": "82509L107",
       "issuer": "SHOPIFY INC",
-      "ticker": null,
+      "ticker": "SHOP",
       "title": "CL A SUB VTG SHS",
       "guru_count": 6,
       "gurus": [
@@ -6883,7 +6883,7 @@
     {
       "cusip": "70450Y103",
       "issuer": "PAYPAL HLDGS INC",
-      "ticker": null,
+      "ticker": "PYPL",
       "title": "COM",
       "guru_count": 6,
       "gurus": [
@@ -6989,7 +6989,7 @@
     {
       "cusip": "87612E106",
       "issuer": "TARGET CORP",
-      "ticker": null,
+      "ticker": "TMUS",
       "title": "COM",
       "guru_count": 6,
       "gurus": [
@@ -7519,7 +7519,7 @@
     {
       "cusip": "17275R102",
       "issuer": "CISCO SYS INC",
-      "ticker": null,
+      "ticker": "CSCO",
       "title": "COM",
       "guru_count": 6,
       "gurus": [
@@ -7572,7 +7572,7 @@
     {
       "cusip": "46120E602",
       "issuer": "INTUITIVE SURGICAL INC",
-      "ticker": null,
+      "ticker": "IWM",
       "title": "COM NEW",
       "guru_count": 6,
       "gurus": [
@@ -7837,7 +7837,7 @@
     {
       "cusip": "M2682V108",
       "issuer": "CYBERARK SOFTWARE LTD",
-      "ticker": null,
+      "ticker": "CYBR",
       "title": "SHS",
       "guru_count": 6,
       "gurus": [
@@ -7890,7 +7890,7 @@
     {
       "cusip": "36118L106",
       "issuer": "FUTU HLDGS LTD",
-      "ticker": null,
+      "ticker": "FUTU",
       "title": "SPON ADS CL A",
       "guru_count": 6,
       "gurus": [
@@ -8102,7 +8102,7 @@
     {
       "cusip": "88579Y101",
       "issuer": "3M CO",
-      "ticker": null,
+      "ticker": "TGT",
       "title": "COM",
       "guru_count": 6,
       "gurus": [
@@ -8261,7 +8261,7 @@
     {
       "cusip": "718172109",
       "issuer": "PHILIP MORRIS INTL INC",
-      "ticker": null,
+      "ticker": "PFE",
       "title": "COM",
       "guru_count": 6,
       "gurus": [
@@ -9851,7 +9851,7 @@
     {
       "cusip": "493267108",
       "issuer": "KEYCORP",
-      "ticker": null,
+      "ticker": "KEY",
       "title": "COM",
       "guru_count": 6,
       "gurus": [
@@ -10169,7 +10169,7 @@
     {
       "cusip": "464287655",
       "issuer": "ISHARES TR",
-      "ticker": null,
+      "ticker": "IVV",
       "title": "RUSSELL 2000 ETF",
       "guru_count": 5,
       "gurus": [
@@ -10261,7 +10261,7 @@
     {
       "cusip": "46625H100",
       "issuer": "JPMORGAN CHASE & CO.",
-      "ticker": null,
+      "ticker": "JPM",
       "title": "COM",
       "guru_count": 5,
       "gurus": [
@@ -10491,7 +10491,7 @@
     {
       "cusip": "92343E102",
       "issuer": "VERISIGN INC",
-      "ticker": null,
+      "ticker": "VICI",
       "title": "COM",
       "guru_count": 5,
       "gurus": [
@@ -10951,7 +10951,7 @@
     {
       "cusip": "30231G102",
       "issuer": "EXXON MOBIL CORP",
-      "ticker": null,
+      "ticker": "XOM",
       "title": "COM",
       "guru_count": 5,
       "gurus": [
@@ -10997,7 +10997,7 @@
     {
       "cusip": "958102105",
       "issuer": "WESTERN DIGITAL CORP",
-      "ticker": null,
+      "ticker": "WDC",
       "title": "COM",
       "guru_count": 5,
       "gurus": [
@@ -11687,7 +11687,7 @@
     {
       "cusip": "742718109",
       "issuer": "PROCTER AND GAMBLE CO",
-      "ticker": null,
+      "ticker": "PG",
       "title": "COM",
       "guru_count": 5,
       "gurus": [
@@ -11871,7 +11871,7 @@
     {
       "cusip": "47215P106",
       "issuer": "JD.COM INC",
-      "ticker": null,
+      "ticker": "JD",
       "title": "SPON ADS CL A",
       "guru_count": 5,
       "gurus": [
@@ -12285,7 +12285,7 @@
     {
       "cusip": "29786A106",
       "issuer": "ETSY INC",
-      "ticker": null,
+      "ticker": "EQIX",
       "title": "COM",
       "guru_count": 5,
       "gurus": [
@@ -13205,7 +13205,7 @@
     {
       "cusip": "20030N101",
       "issuer": "COMCAST CORP NEW",
-      "ticker": null,
+      "ticker": "CMCSA",
       "title": "CL A",
       "guru_count": 5,
       "gurus": [
@@ -13573,7 +13573,7 @@
     {
       "cusip": "571903202",
       "issuer": "MARRIOTT INTL INC NEW",
-      "ticker": null,
+      "ticker": "MRVL",
       "title": "CL A",
       "guru_count": 5,
       "gurus": [
@@ -13757,7 +13757,7 @@
     {
       "cusip": "G51502105",
       "issuer": "JOHNSON CTLS INTL PLC",
-      "ticker": null,
+      "ticker": "JCI",
       "title": "SHS",
       "guru_count": 5,
       "gurus": [
@@ -13987,7 +13987,7 @@
     {
       "cusip": "29444U700",
       "issuer": "EQUINIX INC",
-      "ticker": null,
+      "ticker": "EQIX",
       "title": "COM",
       "guru_count": 5,
       "gurus": [
@@ -14033,7 +14033,7 @@
     {
       "cusip": "92343V104",
       "issuer": "VERIZON COMMUNICATIONS INC",
-      "ticker": null,
+      "ticker": "VZ",
       "title": "COM",
       "guru_count": 5,
       "gurus": [
@@ -16057,7 +16057,7 @@
     {
       "cusip": "693475105",
       "issuer": "PNC FINL SVCS GROUP INC",
-      "ticker": null,
+      "ticker": "PANW",
       "title": "COM",
       "guru_count": 5,
       "gurus": [
@@ -16425,7 +16425,7 @@
     {
       "cusip": "253868103",
       "issuer": "DIGITAL RLTY TR INC",
-      "ticker": null,
+      "ticker": "DHR",
       "title": "COM",
       "guru_count": 5,
       "gurus": [
@@ -16471,7 +16471,7 @@
     {
       "cusip": "530307305",
       "issuer": "LIBERTY BROADBAND CORP",
-      "ticker": null,
+      "ticker": "LBRDK",
       "title": "COM SER C",
       "guru_count": 5,
       "gurus": [
@@ -22037,7 +22037,7 @@
     {
       "cusip": "46090E103",
       "issuer": "INVESCO QQQ TR",
-      "ticker": null,
+      "ticker": "INFY",
       "title": "UNIT SER 1",
       "guru_count": 4,
       "gurus": [
@@ -22193,7 +22193,7 @@
     {
       "cusip": "19260Q107",
       "issuer": "COINBASE GLOBAL INC",
-      "ticker": null,
+      "ticker": "COIN",
       "title": "COM CL A",
       "guru_count": 4,
       "gurus": [
@@ -23870,7 +23870,7 @@
     {
       "cusip": "G9572D103",
       "issuer": "WEBULL CORP",
-      "ticker": null,
+      "ticker": "BULL",
       "title": "ORD SHS",
       "guru_count": 4,
       "gurus": [
@@ -24416,7 +24416,7 @@
     {
       "cusip": "20825C104",
       "issuer": "CONOCOPHILLIPS",
-      "ticker": null,
+      "ticker": "COP",
       "title": "COM",
       "guru_count": 4,
       "gurus": [
@@ -27029,7 +27029,7 @@
     {
       "cusip": "92532F100",
       "issuer": "VERTEX PHARMACEUTICALS INC",
-      "ticker": null,
+      "ticker": "VRTX",
       "title": "COM",
       "guru_count": 4,
       "gurus": [
@@ -31280,7 +31280,7 @@
     {
       "cusip": "929160109",
       "issuer": "VULCAN MATLS CO",
-      "ticker": null,
+      "ticker": "VMC",
       "title": "COM",
       "guru_count": 4,
       "gurus": [
@@ -56540,7 +56540,7 @@
     {
       "cusip": "46187W107",
       "issuer": "INVITATION HOMES INC",
-      "ticker": null,
+      "ticker": "ISRG",
       "title": "COM",
       "guru_count": 3,
       "gurus": [
@@ -82931,7 +82931,7 @@
     {
       "cusip": "74460D109",
       "issuer": "PUBLIC STORAGE OPER CO",
-      "ticker": null,
+      "ticker": "PYPL",
       "title": "COM",
       "guru_count": 2,
       "gurus": [

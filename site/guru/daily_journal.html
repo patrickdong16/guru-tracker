@@ -212,12 +212,12 @@
             </thead>
             <tbody>
             
-                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="Wells Fargo & Co 949746101 ">
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="Wells Fargo & Co 949746101 WFC">
                     <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">1</td>
                     <td class="py-1.5 pr-4 font-medium" data-value="Wells Fargo & Co">
                         <span class="text-zinc-200">Wells Fargo & Co</span>
                         
-                        <a href="https://xueqiu.com/k?q=Wells%20Fargo%20%26%20Co" target="_blank" class="ml-1.5 inline-block px-1 py-0.5 text-[10px] text-zinc-500 hover:text-zinc-400 transition" title="搜索">🔍</a>
+                        <a href="https://xueqiu.com/S/WFC" target="_blank" class="ml-1.5 inline-block px-1.5 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">WFC</a>
                         
                     </td>
                     <td class="py-1.5 pr-4 text-zinc-500">Common Stock</td>
@@ -394,7 +394,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Doughnut chart — Top 10 Holdings
     const chartCanvas = document.getElementById('holdingsChart');
     if (chartCanvas) {
-        const top10 = [{"issuer": "Wells Fargo & Co", "title": "Common Stock", "cusip": "949746101", "value": 131691600, "shares": 1413000, "share_type": "SH", "discretion": "SOLE", "sole_voting": 1413000, "shared_voting": 0, "no_voting": 0, "weight": 47.6, "ticker_raw": null, "ticker": null, "qty_change": 0.0}, {"issuer": "Bank of America Corp", "title": "Common Stock", "cusip": "060505104", "value": 110000000, "shares": 2000000, "share_type": "SH", "discretion": "SOLE", "sole_voting": 2000000, "shared_voting": 0, "no_voting": 0, "weight": 39.76, "ticker_raw": "BAC", "ticker": "BAC", "qty_change": 0.0}, {"issuer": "Alibaba Group Holding Ltd", "title": "Sponsored ADS", "cusip": "01609W102", "value": 28583100, "shares": 195000, "share_type": "SH", "discretion": "SOLE", "sole_voting": 195000, "shared_voting": 0, "no_voting": 0, "weight": 10.33, "ticker_raw": "BABA", "ticker": "BABA", "qty_change": 900.0}, {"issuer": "US Bancorp", "title": "Common Stock", "cusip": "902973304", "value": 6376520, "shares": 119500, "share_type": "SH", "discretion": "SOLE", "sole_voting": 119500, "shared_voting": 0, "no_voting": 0, "weight": 2.3, "ticker_raw": null, "ticker": null, "qty_change": 0.0}];
+        const top10 = [{"issuer": "Wells Fargo & Co", "title": "Common Stock", "cusip": "949746101", "value": 131691600, "shares": 1413000, "share_type": "SH", "discretion": "SOLE", "sole_voting": 1413000, "shared_voting": 0, "no_voting": 0, "weight": 47.6, "ticker_raw": "WFC", "ticker": "WFC", "qty_change": 0.0}, {"issuer": "Bank of America Corp", "title": "Common Stock", "cusip": "060505104", "value": 110000000, "shares": 2000000, "share_type": "SH", "discretion": "SOLE", "sole_voting": 2000000, "shared_voting": 0, "no_voting": 0, "weight": 39.76, "ticker_raw": "BAC", "ticker": "BAC", "qty_change": 0.0}, {"issuer": "Alibaba Group Holding Ltd", "title": "Sponsored ADS", "cusip": "01609W102", "value": 28583100, "shares": 195000, "share_type": "SH", "discretion": "SOLE", "sole_voting": 195000, "shared_voting": 0, "no_voting": 0, "weight": 10.33, "ticker_raw": "BABA", "ticker": "BABA", "qty_change": 900.0}, {"issuer": "US Bancorp", "title": "Common Stock", "cusip": "902973304", "value": 6376520, "shares": 119500, "share_type": "SH", "discretion": "SOLE", "sole_voting": 119500, "shared_voting": 0, "no_voting": 0, "weight": 2.3, "ticker_raw": null, "ticker": null, "qty_change": 0.0}];
         const labels = top10.map(h => h.issuer.length > 18 ? h.issuer.substring(0, 16) + '…' : h.issuer);
         const values = top10.map(h => h.value);
         const colors = [

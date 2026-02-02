@@ -104,8 +104,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 4.68,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "OXY",
+      "ticker": "OXY"
     },
     {
       "issuer": "MOODYS CORP",
@@ -134,8 +134,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 3.31,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "CB",
+      "ticker": "CB"
     },
     {
       "issuer": "KRAFT HEINZ CO",
@@ -224,8 +224,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 1.06,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "V",
+      "ticker": "V"
     },
     {
       "issuer": "VERISIGN INC",
@@ -239,8 +239,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.94,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "VICI",
+      "ticker": "VICI"
     },
     {
       "issuer": "MASTERCARD INC",
@@ -254,8 +254,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.85,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "MA",
+      "ticker": "MA"
     },
     {
       "issuer": "AMAZON COM INC",
@@ -299,8 +299,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.65,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "UNH",
+      "ticker": "UNH"
     },
     {
       "issuer": "CAPITAL ONE FINL CORP",

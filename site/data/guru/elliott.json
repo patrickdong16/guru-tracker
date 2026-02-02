@@ -44,8 +44,8 @@
       "shared_voting": 19251000,
       "no_voting": 0,
       "weight": 11.52,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "PSX",
+      "ticker": "PSX"
     },
     {
       "issuer": "SUNCOR ENERGY INC NEW",
@@ -74,8 +74,8 @@
       "shared_voting": 3250000,
       "no_voting": 0,
       "weight": 8.59,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "INFY",
+      "ticker": "INFY"
     },
     {
       "issuer": "SOUTHWEST AIRLS CO",
@@ -179,8 +179,8 @@
       "shared_voting": 4330000,
       "no_voting": 0,
       "weight": 3.56,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "NVDA",
+      "ticker": "NVDA"
     },
     {
       "issuer": "SELECT SECTOR SPDR TR",
@@ -254,8 +254,8 @@
       "shared_voting": 5000000,
       "no_voting": 0,
       "weight": 1.46,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EQIX",
+      "ticker": "EQIX"
     },
     {
       "issuer": "SPDR SERIES TRUST",
@@ -314,8 +314,8 @@
       "shared_voting": 1275000,
       "no_voting": 0,
       "weight": 0.79,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "PEP",
+      "ticker": "PEP"
     },
     {
       "issuer": "DIGITAL RLTY TR INC",
@@ -329,8 +329,8 @@
       "shared_voting": 1000000,
       "no_voting": 0,
       "weight": 0.76,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DHR",
+      "ticker": "DHR"
     },
     {
       "issuer": "BILL HOLDINGS INC",
@@ -389,8 +389,8 @@
       "shared_voting": 150000,
       "no_voting": 0,
       "weight": 0.52,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "EQIX",
+      "ticker": "EQIX"
     },
     {
       "issuer": "SEADRILL LTD",

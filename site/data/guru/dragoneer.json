@@ -44,8 +44,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 10.45,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "SQ",
+      "ticker": "SQ"
     },
     {
       "issuer": "COUPANG INC",
@@ -59,8 +59,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 10.43,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "CPNG",
+      "ticker": "CPNG"
     },
     {
       "issuer": "GLOBAL E ONLINE LTD",
@@ -89,8 +89,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 8.56,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "NVDA",
+      "ticker": "NVDA"
     },
     {
       "issuer": "DAYFORCE INC",
@@ -149,8 +149,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 5.36,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "PDD",
+      "ticker": "PDD"
     },
     {
       "issuer": "MERCADOLIBRE INC",
@@ -164,8 +164,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 5.33,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "MELI",
+      "ticker": "MELI"
     },
     {
       "issuer": "SAILPOINT INC",
@@ -299,8 +299,8 @@
       "shared_voting": 0,
       "no_voting": 0,
       "weight": 0.85,
-      "ticker_raw": null,
-      "ticker": null
+      "ticker_raw": "DDOG",
+      "ticker": "DDOG"
     },
     {
       "issuer": "OSCAR HEALTH INC",
