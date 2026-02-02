@@ -129,7 +129,7 @@
                 <tbody>
                 {% for h in changes.new %}
                     <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
-                        <td class="py-1.5 pr-4 text-emerald-400 font-medium">{{ h.issuer }}</td>
+                        <td class="py-1.5 pr-4 font-medium"><a href="https://xueqiu.com/k?q={{ h.ticker or h.issuer | urlencode }}" target="_blank" class="text-emerald-400 hover:text-emerald-300 hover:underline transition">{{ h.issuer }}</a></td>
                         <td class="py-1.5 pr-4 text-right tabular-nums">{{ h.value | format_value }}</td>
                         <td class="py-1.5 pr-4 text-right tabular-nums">{{ h.shares | format_shares }}</td>
                         <td class="py-1.5 text-right tabular-nums">{{ h.weight | default(0) }}%</td>
@@ -152,7 +152,7 @@
                 <tbody>
                 {% for h in changes.increased %}
                     <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
-                        <td class="py-1.5 pr-4 text-zinc-200">{{ h.issuer }}</td>
+                        <td class="py-1.5 pr-4"><a href="https://xueqiu.com/k?q={{ h.ticker or h.issuer | urlencode }}" target="_blank" class="text-zinc-200 hover:text-blue-300 hover:underline transition">{{ h.issuer }}</a></td>
                         <td class="py-1.5 pr-4 text-right tabular-nums">{{ h.value | format_value }}</td>
                         <td class="py-1.5 pr-4 text-right tabular-nums text-emerald-400">+{{ h.share_change | format_shares }}</td>
                         <td class="py-1.5 text-right tabular-nums text-emerald-400">+{{ h.share_change_pct }}%</td>
@@ -175,7 +175,7 @@
                 <tbody>
                 {% for h in changes.decreased %}
                     <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
-                        <td class="py-1.5 pr-4 text-zinc-200">{{ h.issuer }}</td>
+                        <td class="py-1.5 pr-4"><a href="https://xueqiu.com/k?q={{ h.ticker or h.issuer | urlencode }}" target="_blank" class="text-zinc-200 hover:text-blue-300 hover:underline transition">{{ h.issuer }}</a></td>
                         <td class="py-1.5 pr-4 text-right tabular-nums">{{ h.value | format_value }}</td>
                         <td class="py-1.5 pr-4 text-right tabular-nums text-red-400">{{ h.share_change | format_shares }}</td>
                         <td class="py-1.5 text-right tabular-nums text-red-400">{{ h.share_change_pct }}%</td>
@@ -197,7 +197,7 @@
                 <tbody>
                 {% for h in changes.sold %}
                     <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
-                        <td class="py-1.5 pr-4 text-red-400 font-medium">{{ h.issuer }}</td>
+                        <td class="py-1.5 pr-4 font-medium"><a href="https://xueqiu.com/k?q={{ h.ticker or h.issuer | urlencode }}" target="_blank" class="text-red-400 hover:text-red-300 hover:underline transition">{{ h.issuer }}</a></td>
                         <td class="py-1.5 pr-4 text-right tabular-nums">{{ h.value | format_value }}</td>
                         <td class="py-1.5 text-right tabular-nums">{{ h.shares | format_shares }}</td>
                     </tr>
@@ -239,7 +239,7 @@
             {% for h in holdings %}
                 <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="{{ h.issuer }} {{ h.cusip }}">
                     <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">{{ loop.index }}</td>
-                    <td class="py-1.5 pr-4 text-zinc-200 font-medium" data-value="{{ h.issuer }}">{{ h.issuer }}</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="{{ h.issuer }}"><a href="https://xueqiu.com/k?q={{ h.ticker or h.issuer | urlencode }}" target="_blank" class="text-blue-400 hover:text-blue-300 hover:underline transition">{{ h.issuer }}</a></td>
                     <td class="py-1.5 pr-4 text-zinc-500">{{ h.title }}</td>
                     <td class="py-1.5 pr-4 text-zinc-500 font-mono text-[10px]">{{ h.cusip }}</td>
                     <td class="py-1.5 pr-4 text-right tabular-nums" data-value="{{ h.value }}">{{ h.value | format_value }}</td>

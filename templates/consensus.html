@@ -44,7 +44,7 @@
             {% for stock in stocks %}
                 <tr class="consensus-row border-t border-zinc-700/30 hover:bg-zinc-700/20" data-search="{{ stock.issuer }} {{ stock.cusip }}" data-guru-count="{{ stock.guru_count }}">
                     <td class="px-4 py-2.5 text-zinc-500 tabular-nums">{{ loop.index }}</td>
-                    <td class="px-4 py-2.5 text-zinc-200 font-medium" data-value="{{ stock.issuer }}">{{ stock.issuer }}</td>
+                    <td class="px-4 py-2.5 font-medium" data-value="{{ stock.issuer }}"><a href="https://xueqiu.com/k?q={{ stock.ticker or stock.issuer | urlencode }}" target="_blank" class="text-blue-400 hover:text-blue-300 hover:underline transition">{{ stock.issuer }}</a></td>
                     <td class="px-4 py-2.5 text-zinc-500 font-mono text-[10px]">{{ stock.cusip }}</td>
                     <td class="px-4 py-2.5 text-center" data-value="{{ stock.guru_count }}">
                         <span class="inline-flex items-center justify-center min-w-[24px] px-1.5 py-0.5 rounded-full text-[10px] font-bold
