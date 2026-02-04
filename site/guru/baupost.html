@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seth Klarman / Baupost — 投资大师持仓追踪</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="../css/style.css">
+    
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+
+</head>
+<body class="bg-zinc-900 text-zinc-50 font-sans min-h-screen flex flex-col">
+    <!-- Navigation -->
+    <nav class="border-b border-zinc-800 bg-zinc-900/80 backdrop-blur-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-14">
+                <a href="../index.html" class="flex items-center gap-2 hover:opacity-80 transition">
+                    <span class="text-xl">🧠</span>
+                    <span class="text-lg font-semibold text-zinc-50">Guru Tracker</span>
+                </a>
+                <div class="flex items-center gap-6 text-sm">
+                    <a href="../index.html" class="text-zinc-400 hover:text-zinc-50 transition">首页</a>
+                    <a href="../consensus.html" class="text-zinc-400 hover:text-zinc-50 transition">大师共识</a>
+                    <a href="https://github.com/patrickdong16/guru-tracker" target="_blank" class="text-zinc-500 hover:text-zinc-300 transition">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-1 w-full">
+        
+<!-- Back link -->
+<a href="../index.html" class="inline-flex items-center gap-1 text-sm text-zinc-400 hover:text-zinc-200 transition mb-6">
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+    返回大师列表
+</a>
+
+<!-- Profile Card -->
+<div class="bg-zinc-800 border border-zinc-700/50 rounded-xl p-6 mb-6">
+    <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
+        <div class="flex-1">
+            <div class="flex items-center gap-3 mb-2">
+                <h1 class="text-xl font-bold text-zinc-50">Seth Klarman / Baupost</h1>
+                <span class="px-2 py-0.5 text-xs font-medium rounded-full border bg-blue-500/20 text-blue-400 border-blue-500/30">价值投资</span>
+            </div>
+            <p class="text-sm text-zinc-400 mb-3">Seth Klarman</p>
+            <p class="text-sm text-zinc-300 leading-relaxed">《安全边际》作者，管理约250亿美元，以极端耐心和高现金比例著称。</p>
+            
+            <p class="text-xs text-zinc-500 mt-2 italic">🏆 经常持有30-50%现金等待机会，危机时大举买入。</p>
+            
+        </div>
+        <div class="flex-shrink-0 grid grid-cols-2 gap-3 sm:text-right">
+            <div>
+                <p class="text-[10px] text-zinc-500 uppercase tracking-wider">AUM</p>
+                <p class="text-sm font-semibold text-zinc-50">$25B</p>
+            </div>
+            <div>
+                <p class="text-[10px] text-zinc-500 uppercase tracking-wider">CIK</p>
+                <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001061768&type=13F&dateb=&owner=include&count=10" target="_blank" class="text-sm text-blue-400 hover:text-blue-300 transition">0001061768</a>
+            </div>
+            <div>
+                <p class="text-[10px] text-zinc-500 uppercase tracking-wider">报告期</p>
+                <p class="text-sm font-semibold text-zinc-50">2025-09-30</p>
+            </div>
+            <div>
+                <p class="text-[10px] text-zinc-500 uppercase tracking-wider">提交日期</p>
+                <p class="text-sm font-semibold text-zinc-50">2025-11-13</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Summary Stats -->
+<div class="grid grid-cols-2 sm:grid-cols-5 gap-3 mb-6">
+    <div class="bg-zinc-800 border border-zinc-700/50 rounded-lg p-4 text-center">
+        <p class="text-xs text-zinc-500 mb-1">总持仓</p>
+        <p class="text-lg font-bold text-zinc-50 tabular-nums">$4.8B</p>
+        
+        <p class="text-xs mt-1 tabular-nums text-emerald-400">
+            +16.0% 环比
+        </p>
+        
+    </div>
+    <div class="bg-zinc-800 border border-zinc-700/50 rounded-lg p-4 text-center">
+        <p class="text-xs text-zinc-500 mb-1">持仓数</p>
+        <p class="text-lg font-bold text-zinc-50 tabular-nums">22</p>
+    </div>
+    
+    <div class="bg-zinc-800 border border-zinc-700/50 rounded-lg p-4 text-center">
+        <p class="text-xs text-zinc-500 mb-1">🆕 新建仓</p>
+        <p class="text-lg font-bold text-emerald-400 tabular-nums">4</p>
+    </div>
+    <div class="bg-zinc-800 border border-zinc-700/50 rounded-lg p-4 text-center">
+        <p class="text-xs text-zinc-500 mb-1">⬆⬇ 调仓</p>
+        <p class="text-lg font-bold text-amber-400 tabular-nums">9</p>
+    </div>
+    <div class="bg-zinc-800 border border-zinc-700/50 rounded-lg p-4 text-center">
+        <p class="text-xs text-zinc-500 mb-1">❌ 清仓</p>
+        <p class="text-lg font-bold text-red-400 tabular-nums">5</p>
+    </div>
+    
+</div>
+
+<!-- Chart + Changes side by side on desktop -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
+    <!-- Top 10 Holdings Chart -->
+    <div class="bg-zinc-800 border border-zinc-700/50 rounded-xl p-5">
+        <h2 class="text-sm font-semibold text-zinc-50 mb-4">前 10 大持仓</h2>
+        <div class="relative" style="max-height: 280px;">
+            <canvas id="holdingsChart"></canvas>
+        </div>
+    </div>
+
+    <!-- Quarter Changes -->
+    
+    <div class="lg:col-span-2 bg-zinc-800 border border-zinc-700/50 rounded-xl p-5">
+        <div class="flex items-center justify-between mb-4">
+            <h2 class="text-sm font-semibold text-zinc-50">季度变化</h2>
+            
+            <span class="text-xs text-zinc-500">2025-06-30 → 2025-09-30</span>
+            
+        </div>
+        <!-- Change type tabs -->
+        <div class="flex gap-2 mb-4 flex-wrap" id="change-tabs">
+            
+            <button class="change-tab active px-3 py-1 text-xs rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 transition" data-tab="new">🆕 新建仓 (4)</button>
+            
+            
+            <button class="change-tab px-3 py-1 text-xs rounded-full bg-zinc-700/50 text-zinc-400 border border-zinc-600/30 hover:border-zinc-500 transition" data-tab="increased">⬆ 加仓 (4)</button>
+            
+            
+            <button class="change-tab px-3 py-1 text-xs rounded-full bg-zinc-700/50 text-zinc-400 border border-zinc-600/30 hover:border-zinc-500 transition" data-tab="decreased">⬇ 减仓 (5)</button>
+            
+            
+            <button class="change-tab px-3 py-1 text-xs rounded-full bg-zinc-700/50 text-zinc-400 border border-zinc-600/30 hover:border-zinc-500 transition" data-tab="sold">❌ 清仓 (5)</button>
+            
+        </div>
+        <!-- Tab content -->
+        <div class="overflow-x-auto max-h-64 overflow-y-auto custom-scrollbar">
+            
+            <table class="change-panel w-full text-xs" data-panel="new">
+                <thead class="sticky top-0 bg-zinc-800">
+                    <tr class="text-zinc-500 text-left">
+                        <th class="pb-2 pr-4 font-medium">股票</th>
+                        <th class="pb-2 pr-4 font-medium text-right">市值</th>
+                        <th class="pb-2 pr-4 font-medium text-right">数量</th>
+                        <th class="pb-2 font-medium text-right">占比</th>
+                    </tr>
+                </thead>
+                <tbody>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 font-medium">
+                            <span class="text-emerald-400">UNION PAC CORP</span>
+                            <a href="https://xueqiu.com/S/UNP" target="_blank" class="ml-1 px-1 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">UNP</a>
+                        </td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$353.7K</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">1,496,204</td>
+                        <td class="py-1.5 text-right tabular-nums">7.38%</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 font-medium">
+                            <span class="text-emerald-400">GENUINE PARTS CO</span>
+                            <a href="https://xueqiu.com/S/GPC" target="_blank" class="ml-1 px-1 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">GPC</a>
+                        </td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$193.3K</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">1,395,000</td>
+                        <td class="py-1.5 text-right tabular-nums">4.04%</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 font-medium">
+                            <span class="text-emerald-400">AMERICOLD REALTY TRUST INC</span>
+                            <a href="https://xueqiu.com/S/COLD" target="_blank" class="ml-1 px-1 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">COLD</a>
+                        </td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$44.1K</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">3,600,000</td>
+                        <td class="py-1.5 text-right tabular-nums">0.92%</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 font-medium">
+                            <span class="text-emerald-400">CABLE ONE INC</span>
+                            <a href="https://xueqiu.com/S/CABO" target="_blank" class="ml-1 px-1 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">CABO</a>
+                        </td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$12.1K</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">14,100,000</td>
+                        <td class="py-1.5 text-right tabular-nums">0.25%</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+            
+
+            
+            <table class="change-panel w-full text-xs hidden" data-panel="increased">
+                <thead class="sticky top-0 bg-zinc-800">
+                    <tr class="text-zinc-500 text-left">
+                        <th class="pb-2 pr-4 font-medium">股票</th>
+                        <th class="pb-2 pr-4 font-medium text-right">市值</th>
+                        <th class="pb-2 pr-4 font-medium text-right">变化</th>
+                        <th class="pb-2 font-medium text-right">变化%</th>
+                    </tr>
+                </thead>
+                <tbody>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4">
+                            <span class="text-zinc-200">RESTAURANT BRANDS INTL INC</span>
+                            <a href="https://xueqiu.com/S/QSR" target="_blank" class="ml-1 px-1 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">QSR</a>
+                        </td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$529.3K</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums text-emerald-400">+4,203,300</td>
+                        <td class="py-1.5 text-right tabular-nums text-emerald-400">+103.8%</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4">
+                            <span class="text-zinc-200">ELEVANCE HEALTH INC FORMERLY</span>
+                            <a href="https://xueqiu.com/S/ELV" target="_blank" class="ml-1 px-1 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">ELV</a>
+                        </td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$426.2K</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums text-emerald-400">+703,000</td>
+                        <td class="py-1.5 text-right tabular-nums text-emerald-400">+114.1%</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4">
+                            <span class="text-zinc-200">FERGUSON ENTERPRISES INC</span>
+                            <a href="https://xueqiu.com/S/FERG" target="_blank" class="ml-1 px-1 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">FERG</a>
+                        </td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$259.5K</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums text-emerald-400">+23,500</td>
+                        <td class="py-1.5 text-right tabular-nums text-emerald-400">+2.1%</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4">
+                            <span class="text-zinc-200">EAGLE MATLS INC</span>
+                            <a href="https://xueqiu.com/S/EXP" target="_blank" class="ml-1 px-1 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">EXP</a>
+                        </td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$219.0K</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums text-emerald-400">+263,403</td>
+                        <td class="py-1.5 text-right tabular-nums text-emerald-400">+39.0%</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+            
+
+            
+            <table class="change-panel w-full text-xs hidden" data-panel="decreased">
+                <thead class="sticky top-0 bg-zinc-800">
+                    <tr class="text-zinc-500 text-left">
+                        <th class="pb-2 pr-4 font-medium">股票</th>
+                        <th class="pb-2 pr-4 font-medium text-right">市值</th>
+                        <th class="pb-2 pr-4 font-medium text-right">变化</th>
+                        <th class="pb-2 font-medium text-right">变化%</th>
+                    </tr>
+                </thead>
+                <tbody>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4">
+                            <span class="text-zinc-200">ALPHABET INC</span>
+                            <a href="https://xueqiu.com/S/GOOG" target="_blank" class="ml-1 px-1 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">GOOG</a>
+                        </td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$452.6K</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums text-red-400">-775,850</td>
+                        <td class="py-1.5 text-right tabular-nums text-red-400">-29.5%</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4">
+                            <span class="text-zinc-200">CRH PLC</span>
+                            <a href="https://xueqiu.com/S/CRH" target="_blank" class="ml-1 px-1 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">CRH</a>
+                        </td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$405.7K</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums text-red-400">-442,000</td>
+                        <td class="py-1.5 text-right tabular-nums text-red-400">-11.6%</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4">
+                            <span class="text-zinc-200">WILLIS TOWERS WATSON PLC LTD</span>
+                            
+                        </td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$376.2K</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums text-red-400">-225,119</td>
+                        <td class="py-1.5 text-right tabular-nums text-red-400">-17.1%</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4">
+                            <span class="text-zinc-200">WESCO INTL INC</span>
+                            
+                        </td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$317.9K</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums text-red-400">-704,421</td>
+                        <td class="py-1.5 text-right tabular-nums text-red-400">-31.9%</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4">
+                            <span class="text-zinc-200">LIBERTY GLOBAL LTD</span>
+                            
+                        </td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$254.5K</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums text-red-400">-3,000,000</td>
+                        <td class="py-1.5 text-right tabular-nums text-red-400">-12.2%</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+            
+
+            
+            <table class="change-panel w-full text-xs hidden" data-panel="sold">
+                <thead class="sticky top-0 bg-zinc-800">
+                    <tr class="text-zinc-500 text-left">
+                        <th class="pb-2 pr-4 font-medium">股票</th>
+                        <th class="pb-2 pr-4 font-medium text-right">上期市值</th>
+                        <th class="pb-2 font-medium text-right">上期数量</th>
+                    </tr>
+                </thead>
+                <tbody>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 font-medium">
+                            <span class="text-red-400">VIASAT INC</span>
+                            
+                        </td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$134.2K</td>
+                        <td class="py-1.5 text-right tabular-nums">9,190,728</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 font-medium">
+                            <span class="text-red-400">LIBERTY BROADBAND CORP</span>
+                            <a href="https://xueqiu.com/S/LBRDK" target="_blank" class="ml-1 px-1 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">LBRDK</a>
+                        </td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$73.4K</td>
+                        <td class="py-1.5 text-right tabular-nums">745,610</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 font-medium">
+                            <span class="text-red-400">ICON PLC</span>
+                            
+                        </td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$58.9K</td>
+                        <td class="py-1.5 text-right tabular-nums">405,000</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 font-medium">
+                            <span class="text-red-400">AMCOR PLC</span>
+                            
+                        </td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$50.5K</td>
+                        <td class="py-1.5 text-right tabular-nums">5,500,000</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 font-medium">
+                            <span class="text-red-400">LIBERTY BROADBAND CORP</span>
+                            <a href="https://xueqiu.com/S/LBRDA" target="_blank" class="ml-1 px-1 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">LBRDA</a>
+                        </td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$740</td>
+                        <td class="py-1.5 text-right tabular-nums">7,560</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+            
+        </div>
+    </div>
+    
+</div>
+
+<!-- Holdings Table -->
+<div class="bg-zinc-800 border border-zinc-700/50 rounded-xl p-5">
+    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
+        <h2 class="text-sm font-semibold text-zinc-50">全部持仓 </h2>
+        <div class="relative">
+            <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-zinc-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+            </svg>
+            <input type="text" id="holdings-search" placeholder="搜索股票..." class="bg-zinc-900 border border-zinc-700 rounded-lg pl-9 pr-3 py-1.5 text-xs text-zinc-50 placeholder-zinc-500 focus:outline-none focus:border-blue-500 transition w-full sm:w-48">
+        </div>
+    </div>
+    <div class="overflow-x-auto">
+        <table class="w-full text-xs" id="holdings-table">
+            <thead class="sticky top-0 bg-zinc-800 z-10">
+                <tr class="text-zinc-500 text-left cursor-pointer select-none">
+                    <th class="pb-2 pr-4 font-medium" data-sort="string">#</th>
+                    <th class="pb-2 pr-4 font-medium sortable" data-sort="string">股票名称 ↕</th>
+                    <th class="pb-2 pr-4 font-medium">类型</th>
+                    <th class="pb-2 pr-4 font-medium sortable text-right" data-sort="number">市值 ↕</th>
+                    <th class="pb-2 pr-4 font-medium sortable text-right" data-sort="number">数量 ↕</th>
+                    <th class="pb-2 pr-4 font-medium sortable text-right" data-sort="number">占比 ↕</th>
+                    <th class="pb-2 font-medium sortable text-right" data-sort="number">变化 ↕</th>
+                </tr>
+            </thead>
+            <tbody>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="RESTAURANT BRANDS INTL INC 76131D103 QSR">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">1</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="RESTAURANT BRANDS INTL INC">
+                        <span class="text-zinc-200">RESTAURANT BRANDS INTL INC</span>
+                        
+                        <a href="https://xueqiu.com/S/QSR" target="_blank" class="ml-1.5 inline-block px-1.5 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">QSR</a>
+                        
+                    </td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="529337000">$529.3M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="8252862">8,252,862</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="11.05">11.05%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        
+                        data-value="103.8"><span class="text-emerald-400">+103.80%</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="ALPHABET INC 02079K107 GOOG">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">2</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="ALPHABET INC">
+                        <span class="text-zinc-200">ALPHABET INC</span>
+                        
+                        <a href="https://xueqiu.com/S/GOOG" target="_blank" class="ml-1.5 inline-block px-1.5 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">GOOG</a>
+                        
+                    </td>
+                    <td class="py-1.5 pr-4 text-zinc-500">CAP STK CL C</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="452550000">$452.6M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="1858138">1,858,138</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="9.45">9.45%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        
+                        data-value="-29.5"><span class="text-red-400">-29.50%</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="ELEVANCE HEALTH INC FORMERLY 036752103 ELV">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">3</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="ELEVANCE HEALTH INC FORMERLY">
+                        <span class="text-zinc-200">ELEVANCE HEALTH INC FORMERLY</span>
+                        
+                        <a href="https://xueqiu.com/S/ELV" target="_blank" class="ml-1.5 inline-block px-1.5 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">ELV</a>
+                        
+                    </td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="426195000">$426.2M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="1319000">1,319,000</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="8.9">8.9%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        
+                        data-value="114.1"><span class="text-emerald-400">+114.10%</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="CRH PLC G25508105 CRH">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">4</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="CRH PLC">
+                        <span class="text-zinc-200">CRH PLC</span>
+                        
+                        <a href="https://xueqiu.com/S/CRH" target="_blank" class="ml-1.5 inline-block px-1.5 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">CRH</a>
+                        
+                    </td>
+                    <td class="py-1.5 pr-4 text-zinc-500">ORD</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="405669000">$405.7M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="3383395">3,383,395</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="8.47">8.47%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        
+                        data-value="-11.6"><span class="text-red-400">-11.60%</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="WILLIS TOWERS WATSON PLC LTD G96629103 ">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">5</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="WILLIS TOWERS WATSON PLC LTD">
+                        <span class="text-zinc-200">WILLIS TOWERS WATSON PLC LTD</span>
+                        
+                        <a href="https://xueqiu.com/k?q=WILLIS%20TOWERS%20WATSON%20PLC%20LTD" target="_blank" class="ml-1.5 inline-block px-1 py-0.5 text-[10px] text-zinc-500 hover:text-zinc-400 transition" title="搜索">🔍</a>
+                        
+                    </td>
+                    <td class="py-1.5 pr-4 text-zinc-500">SHS</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="376218000">$376.2M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="1089065">1,089,065</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="7.85">7.85%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        
+                        data-value="-17.1"><span class="text-red-400">-17.10%</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="UNION PAC CORP 907818108 UNP">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">6</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="UNION PAC CORP">
+                        <span class="text-zinc-200">UNION PAC CORP</span>
+                        
+                        <a href="https://xueqiu.com/S/UNP" target="_blank" class="ml-1.5 inline-block px-1.5 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">UNP</a>
+                        
+                    </td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="353658000">$353.7M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="1496204">1,496,204</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="7.38">7.38%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        
+                        data-value="999999"><span class="px-1.5 py-0.5 text-[10px] font-semibold rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">NEW</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="WESCO INTL INC 95082P105 ">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">7</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="WESCO INTL INC">
+                        <span class="text-zinc-200">WESCO INTL INC</span>
+                        
+                        <a href="https://xueqiu.com/k?q=WESCO%20INTL%20INC" target="_blank" class="ml-1.5 inline-block px-1 py-0.5 text-[10px] text-zinc-500 hover:text-zinc-400 transition" title="搜索">🔍</a>
+                        
+                    </td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="317923000">$317.9M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="1503180">1,503,180</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="6.64">6.64%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        
+                        data-value="-31.9"><span class="text-red-400">-31.90%</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="DOLLAR GEN CORP NEW 256677105 DG">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">8</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="DOLLAR GEN CORP NEW">
+                        <span class="text-zinc-200">DOLLAR GEN CORP NEW</span>
+                        
+                        <a href="https://xueqiu.com/S/DG" target="_blank" class="ml-1.5 inline-block px-1.5 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">DG</a>
+                        
+                    </td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="275622000">$275.6M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="2666876">2,666,876</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="5.75">5.75%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        
+                        data-value="0"><span class="text-zinc-500">0.00%</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="FERGUSON ENTERPRISES INC 31488V107 FERG">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">9</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="FERGUSON ENTERPRISES INC">
+                        <span class="text-zinc-200">FERGUSON ENTERPRISES INC</span>
+                        
+                        <a href="https://xueqiu.com/S/FERG" target="_blank" class="ml-1.5 inline-block px-1.5 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">FERG</a>
+                        
+                    </td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COMMON STOCK NEW</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="259502000">$259.5M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="1155500">1,155,500</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="5.42">5.42%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        
+                        data-value="2.1"><span class="text-emerald-400">+2.10%</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="LIBERTY GLOBAL LTD G61188127 ">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">10</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="LIBERTY GLOBAL LTD">
+                        <span class="text-zinc-200">LIBERTY GLOBAL LTD</span>
+                        
+                        <a href="https://xueqiu.com/k?q=LIBERTY%20GLOBAL%20LTD" target="_blank" class="ml-1.5 inline-block px-1 py-0.5 text-[10px] text-zinc-500 hover:text-zinc-400 transition" title="搜索">🔍</a>
+                        
+                    </td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM CL C</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="254479000">$254.5M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="21657803">21,657,803</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="5.31">5.31%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        
+                        data-value="-12.2"><span class="text-red-400">-12.20%</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="FIDELITY NATL INFORMATION SV 31620M106 FIS">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">11</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="FIDELITY NATL INFORMATION SV">
+                        <span class="text-zinc-200">FIDELITY NATL INFORMATION SV</span>
+                        
+                        <a href="https://xueqiu.com/S/FIS" target="_blank" class="ml-1.5 inline-block px-1.5 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">FIS</a>
+                        
+                    </td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="249894000">$249.9M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="3789711">3,789,711</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="5.22">5.22%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        
+                        data-value="0"><span class="text-zinc-500">0.00%</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="EAGLE MATLS INC 26969P108 EXP">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">12</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="EAGLE MATLS INC">
+                        <span class="text-zinc-200">EAGLE MATLS INC</span>
+                        
+                        <a href="https://xueqiu.com/S/EXP" target="_blank" class="ml-1.5 inline-block px-1.5 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">EXP</a>
+                        
+                    </td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="218978000">$219.0M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="939660">939,660</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="4.57">4.57%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        
+                        data-value="39.0"><span class="text-emerald-400">+39.00%</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="GENUINE PARTS CO 372460105 GPC">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">13</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="GENUINE PARTS CO">
+                        <span class="text-zinc-200">GENUINE PARTS CO</span>
+                        
+                        <a href="https://xueqiu.com/S/GPC" target="_blank" class="ml-1.5 inline-block px-1.5 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">GPC</a>
+                        
+                    </td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="193347000">$193.3M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="1395000">1,395,000</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="4.04">4.04%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        
+                        data-value="999999"><span class="px-1.5 py-0.5 text-[10px] font-semibold rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">NEW</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="GDS HLDGS LTD 36165L108 GDS">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">14</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="GDS HLDGS LTD">
+                        <span class="text-zinc-200">GDS HLDGS LTD</span>
+                        
+                        <a href="https://xueqiu.com/S/GDS" target="_blank" class="ml-1.5 inline-block px-1.5 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">GDS</a>
+                        
+                    </td>
+                    <td class="py-1.5 pr-4 text-zinc-500">SPONSORED ADS</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="125773000">$125.8M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="3249952">3,249,952</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="2.63">2.63%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        
+                        data-value="0"><span class="text-zinc-500">0.00%</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="FISERV INC 337738108 FISV">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">15</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="FISERV INC">
+                        <span class="text-zinc-200">FISERV INC</span>
+                        
+                        <a href="https://xueqiu.com/S/FISV" target="_blank" class="ml-1.5 inline-block px-1.5 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">FISV</a>
+                        
+                    </td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="115392000">$115.4M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="895000">895,000</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="2.41">2.41%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        
+                        data-value="0"><span class="text-zinc-500">0.00%</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="HERBALIFE LTD G4412G101 ">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">16</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="HERBALIFE LTD">
+                        <span class="text-zinc-200">HERBALIFE LTD</span>
+                        
+                        <a href="https://xueqiu.com/k?q=HERBALIFE%20LTD" target="_blank" class="ml-1.5 inline-block px-1 py-0.5 text-[10px] text-zinc-500 hover:text-zinc-400 transition" title="搜索">🔍</a>
+                        
+                    </td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM SHS</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="65493000">$65.5M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="7759844">7,759,844</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="1.37">1.37%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        
+                        data-value="0"><span class="text-zinc-500">0.00%</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="LIBERTY GLOBAL LTD G61188101 ">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">17</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="LIBERTY GLOBAL LTD">
+                        <span class="text-zinc-200">LIBERTY GLOBAL LTD</span>
+                        
+                        <a href="https://xueqiu.com/k?q=LIBERTY%20GLOBAL%20LTD" target="_blank" class="ml-1.5 inline-block px-1 py-0.5 text-[10px] text-zinc-500 hover:text-zinc-400 transition" title="搜索">🔍</a>
+                        
+                    </td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM CL A</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="58180000">$58.2M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="5076762">5,076,762</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="1.21">1.21%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        
+                        data-value="0"><span class="text-zinc-500">0.00%</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="AMERICOLD REALTY TRUST INC 03064D108 COLD">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">18</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="AMERICOLD REALTY TRUST INC">
+                        <span class="text-zinc-200">AMERICOLD REALTY TRUST INC</span>
+                        
+                        <a href="https://xueqiu.com/S/COLD" target="_blank" class="ml-1.5 inline-block px-1.5 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">COLD</a>
+                        
+                    </td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="44064000">$44.1M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="3600000">3,600,000</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="0.92">0.92%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        
+                        data-value="999999"><span class="px-1.5 py-0.5 text-[10px] font-semibold rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">NEW</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="PAGSEGURO DIGITAL LTD G68707101 ">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">19</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="PAGSEGURO DIGITAL LTD">
+                        <span class="text-zinc-200">PAGSEGURO DIGITAL LTD</span>
+                        
+                        <a href="https://xueqiu.com/k?q=PAGSEGURO%20DIGITAL%20LTD" target="_blank" class="ml-1.5 inline-block px-1 py-0.5 text-[10px] text-zinc-500 hover:text-zinc-400 transition" title="搜索">🔍</a>
+                        
+                    </td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM CL A</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="25000000">$25.0M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="2500000">2,500,000</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="0.52">0.52%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        
+                        data-value="0"><span class="text-zinc-500">0.00%</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="HERBALIFE LTD 42703MAF0 HLF">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">20</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="HERBALIFE LTD">
+                        <span class="text-zinc-200">HERBALIFE LTD</span>
+                        
+                        <a href="https://xueqiu.com/S/HLF" target="_blank" class="ml-1.5 inline-block px-1.5 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">HLF</a>
+                        
+                    </td>
+                    <td class="py-1.5 pr-4 text-zinc-500">NOTE 4.250% 6/1</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="15833000">$15.8M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="17129000">17,129,000</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="0.33">0.33%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        
+                        data-value="0"><span class="text-zinc-500">0.00%</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="TAMBORAN RES CORP 87507T101 ">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">21</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="TAMBORAN RES CORP">
+                        <span class="text-zinc-200">TAMBORAN RES CORP</span>
+                        
+                        <a href="https://xueqiu.com/k?q=TAMBORAN%20RES%20CORP" target="_blank" class="ml-1.5 inline-block px-1 py-0.5 text-[10px] text-zinc-500 hover:text-zinc-400 transition" title="搜索">🔍</a>
+                        
+                    </td>
+                    <td class="py-1.5 pr-4 text-zinc-500">COM</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="15629000">$15.6M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="570833">570,833</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="0.33">0.33%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        
+                        data-value="0"><span class="text-zinc-500">0.00%</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="CABLE ONE INC 12685JAG0 CABO">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">22</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="CABLE ONE INC">
+                        <span class="text-zinc-200">CABLE ONE INC</span>
+                        
+                        <a href="https://xueqiu.com/S/CABO" target="_blank" class="ml-1.5 inline-block px-1.5 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">CABO</a>
+                        
+                    </td>
+                    <td class="py-1.5 pr-4 text-zinc-500">NOTE 1.125% 3/1</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="12068000">$12.1M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="14100000">14,100,000</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="0.25">0.25%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        
+                        data-value="999999"><span class="px-1.5 py-0.5 text-[10px] font-semibold rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">NEW</span>
+                        
+                    </td>
+                </tr>
+            
+            </tbody>
+        </table>
+    </div>
+</div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-zinc-800 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-zinc-500 text-xs">
+            <p>数据来源：<a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=13F" class="text-blue-400 hover:text-blue-300" target="_blank" rel="noopener">SEC EDGAR</a>。仅供研究参考，不构成投资建议。</p>
+            <p class="mt-1">Last updated: 2026-02-02</p>
+        </div>
+    </footer>
+
+    <script src="../js/app.js"></script>
+    
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Change type tabs
+    const changeTabs = document.querySelectorAll('.change-tab');
+    const changePanels = document.querySelectorAll('.change-panel');
+
+    changeTabs.forEach(tab => {
+        tab.addEventListener('click', function() {
+            const target = this.dataset.tab;
+            changeTabs.forEach(t => {
+                t.classList.remove('active');
+                t.classList.add('bg-zinc-700/50', 'text-zinc-400', 'border-zinc-600/30');
+                t.classList.remove('bg-emerald-500/20', 'text-emerald-400', 'border-emerald-500/30',
+                                   'bg-red-500/20', 'text-red-400', 'border-red-500/30');
+            });
+
+            const colorMap = {
+                'new': ['bg-emerald-500/20', 'text-emerald-400', 'border-emerald-500/30'],
+                'increased': ['bg-emerald-500/20', 'text-emerald-400', 'border-emerald-500/30'],
+                'decreased': ['bg-red-500/20', 'text-red-400', 'border-red-500/30'],
+                'sold': ['bg-red-500/20', 'text-red-400', 'border-red-500/30'],
+            };
+            this.classList.add('active');
+            this.classList.remove('bg-zinc-700/50', 'text-zinc-400', 'border-zinc-600/30');
+            (colorMap[target] || []).forEach(c => this.classList.add(c));
+
+            changePanels.forEach(p => {
+                p.classList.toggle('hidden', p.dataset.panel !== target);
+            });
+        });
+    });
+
+    // Holdings search
+    const searchInput = document.getElementById('holdings-search');
+    if (searchInput) {
+        searchInput.addEventListener('input', function() {
+            const q = this.value.toLowerCase().trim();
+            document.querySelectorAll('.holding-row').forEach(row => {
+                row.style.display = !q || row.dataset.search.toLowerCase().includes(q) ? '' : 'none';
+            });
+        });
+    }
+
+    // Table sorting
+    const table = document.getElementById('holdings-table');
+    if (table) {
+        const headers = table.querySelectorAll('th.sortable');
+        let sortCol = -1, sortAsc = true;
+
+        headers.forEach((th, idx) => {
+            th.addEventListener('click', function() {
+                const colIdx = Array.from(th.parentElement.children).indexOf(th);
+                const isNum = th.dataset.sort === 'number';
+                const tbody = table.querySelector('tbody');
+                const rows = Array.from(tbody.querySelectorAll('tr'));
+
+                if (sortCol === colIdx) {
+                    sortAsc = !sortAsc;
+                } else {
+                    sortCol = colIdx;
+                    sortAsc = isNum ? false : true; // numbers desc by default
+                }
+
+                rows.sort((a, b) => {
+                    const aCell = a.children[colIdx];
+                    const bCell = b.children[colIdx];
+                    let aVal = aCell.dataset.value || aCell.textContent.trim();
+                    let bVal = bCell.dataset.value || bCell.textContent.trim();
+
+                    if (isNum) {
+                        aVal = parseFloat(aVal) || 0;
+                        bVal = parseFloat(bVal) || 0;
+                        return sortAsc ? aVal - bVal : bVal - aVal;
+                    }
+                    return sortAsc ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
+                });
+
+                rows.forEach(r => tbody.appendChild(r));
+            });
+        });
+    }
+
+    // Doughnut chart — Top 10 Holdings
+    const chartCanvas = document.getElementById('holdingsChart');
+    if (chartCanvas) {
+        const top10 = [{"issuer": "RESTAURANT BRANDS INTL INC", "title": "COM", "cusip": "76131D103", "value": 529337000, "shares": 8252862, "share_type": "SH", "discretion": "SOLE", "sole_voting": 8252862, "shared_voting": 0, "no_voting": 0, "weight": 11.05, "ticker_raw": "QSR", "ticker": "QSR", "qty_change": 103.8}, {"issuer": "ALPHABET INC", "title": "CAP STK CL C", "cusip": "02079K107", "value": 452550000, "shares": 1858138, "share_type": "SH", "discretion": "SOLE", "sole_voting": 1858138, "shared_voting": 0, "no_voting": 0, "weight": 9.45, "ticker_raw": "GOOG", "ticker": "GOOG", "qty_change": -29.5}, {"issuer": "ELEVANCE HEALTH INC FORMERLY", "title": "COM", "cusip": "036752103", "value": 426195000, "shares": 1319000, "share_type": "SH", "discretion": "SOLE", "sole_voting": 1319000, "shared_voting": 0, "no_voting": 0, "weight": 8.9, "ticker_raw": "ELV", "ticker": "ELV", "qty_change": 114.1}, {"issuer": "CRH PLC", "title": "ORD", "cusip": "G25508105", "value": 405669000, "shares": 3383395, "share_type": "SH", "discretion": "SOLE", "sole_voting": 3383395, "shared_voting": 0, "no_voting": 0, "weight": 8.47, "ticker_raw": "CRH", "ticker": "CRH", "qty_change": -11.6}, {"issuer": "WILLIS TOWERS WATSON PLC LTD", "title": "SHS", "cusip": "G96629103", "value": 376218000, "shares": 1089065, "share_type": "SH", "discretion": "SOLE", "sole_voting": 1089065, "shared_voting": 0, "no_voting": 0, "weight": 7.85, "ticker_raw": null, "ticker": null, "qty_change": -17.1}, {"issuer": "UNION PAC CORP", "title": "COM", "cusip": "907818108", "value": 353658000, "shares": 1496204, "share_type": "SH", "discretion": "SOLE", "sole_voting": 1496204, "shared_voting": 0, "no_voting": 0, "weight": 7.38, "ticker_raw": "UNP", "ticker": "UNP", "qty_change": "NEW"}, {"issuer": "WESCO INTL INC", "title": "COM", "cusip": "95082P105", "value": 317923000, "shares": 1503180, "share_type": "SH", "discretion": "SOLE", "sole_voting": 1503180, "shared_voting": 0, "no_voting": 0, "weight": 6.64, "ticker_raw": null, "ticker": null, "qty_change": -31.9}, {"issuer": "DOLLAR GEN CORP NEW", "title": "COM", "cusip": "256677105", "value": 275622000, "shares": 2666876, "share_type": "SH", "discretion": "SOLE", "sole_voting": 2666876, "shared_voting": 0, "no_voting": 0, "weight": 5.75, "ticker_raw": "DG", "ticker": "DG", "qty_change": 0.0}, {"issuer": "FERGUSON ENTERPRISES INC", "title": "COMMON STOCK NEW", "cusip": "31488V107", "value": 259502000, "shares": 1155500, "share_type": "SH", "discretion": "SOLE", "sole_voting": 1155500, "shared_voting": 0, "no_voting": 0, "weight": 5.42, "ticker_raw": "FERG", "ticker": "FERG", "qty_change": 2.1}, {"issuer": "LIBERTY GLOBAL LTD", "title": "COM CL C", "cusip": "G61188127", "value": 254479000, "shares": 21657803, "share_type": "SH", "discretion": "SOLE", "sole_voting": 21657803, "shared_voting": 0, "no_voting": 0, "weight": 5.31, "ticker_raw": null, "ticker": null, "qty_change": -12.2}];
+        const labels = top10.map(h => h.issuer.length > 18 ? h.issuer.substring(0, 16) + '…' : h.issuer);
+        const values = top10.map(h => h.value);
+        const colors = [
+            '#3b82f6', '#8b5cf6', '#22c55e', '#ef4444', '#f59e0b',
+            '#06b6d4', '#ec4899', '#14b8a6', '#f97316', '#6366f1'
+        ];
+
+        new Chart(chartCanvas, {
+            type: 'doughnut',
+            data: {
+                labels: labels,
+                datasets: [{
+                    data: values,
+                    backgroundColor: colors,
+                    borderColor: '#27272a',
+                    borderWidth: 2,
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                cutout: '55%',
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            color: '#a1a1aa',
+                            font: { size: 10, family: 'Inter' },
+                            boxWidth: 10,
+                            padding: 8,
+                        }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(ctx) {
+                                const val = ctx.parsed;
+                                if (val >= 1e9) return ' $' + (val/1e9).toFixed(1) + 'B';
+                                if (val >= 1e6) return ' $' + (val/1e6).toFixed(1) + 'M';
+                                return ' $' + val.toLocaleString();
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    }
+});
+</script>
+
+</body>
+</html>

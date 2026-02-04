@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>芒格 / Daily Journal — 投资大师持仓追踪</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="../css/style.css">
+    
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+
+</head>
+<body class="bg-zinc-900 text-zinc-50 font-sans min-h-screen flex flex-col">
+    <!-- Navigation -->
+    <nav class="border-b border-zinc-800 bg-zinc-900/80 backdrop-blur-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-14">
+                <a href="../index.html" class="flex items-center gap-2 hover:opacity-80 transition">
+                    <span class="text-xl">🧠</span>
+                    <span class="text-lg font-semibold text-zinc-50">Guru Tracker</span>
+                </a>
+                <div class="flex items-center gap-6 text-sm">
+                    <a href="../index.html" class="text-zinc-400 hover:text-zinc-50 transition">首页</a>
+                    <a href="../consensus.html" class="text-zinc-400 hover:text-zinc-50 transition">大师共识</a>
+                    <a href="https://github.com/patrickdong16/guru-tracker" target="_blank" class="text-zinc-500 hover:text-zinc-300 transition">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-1 w-full">
+        
+<!-- Back link -->
+<a href="../index.html" class="inline-flex items-center gap-1 text-sm text-zinc-400 hover:text-zinc-200 transition mb-6">
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+    返回大师列表
+</a>
+
+<!-- Profile Card -->
+<div class="bg-zinc-800 border border-zinc-700/50 rounded-xl p-6 mb-6">
+    <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
+        <div class="flex-1">
+            <div class="flex items-center gap-3 mb-2">
+                <h1 class="text-xl font-bold text-zinc-50">芒格 / Daily Journal</h1>
+                <span class="px-2 py-0.5 text-xs font-medium rounded-full border bg-blue-500/20 text-blue-400 border-blue-500/30">价值投资</span>
+            </div>
+            <p class="text-sm text-zinc-400 mb-3">查理·芒格 (Charlie Munger, 遗产持仓)</p>
+            <p class="text-sm text-zinc-300 leading-relaxed">芒格生前担任Daily Journal董事长，投资组合极度集中：美国银行、富国银行和比亚迪。</p>
+            
+            <p class="text-xs text-zinc-500 mt-2 italic">🏆 重仓比亚迪和美国银行，长期持有不动。</p>
+            
+        </div>
+        <div class="flex-shrink-0 grid grid-cols-2 gap-3 sm:text-right">
+            <div>
+                <p class="text-[10px] text-zinc-500 uppercase tracking-wider">AUM</p>
+                <p class="text-sm font-semibold text-zinc-50">$5B</p>
+            </div>
+            <div>
+                <p class="text-[10px] text-zinc-500 uppercase tracking-wider">CIK</p>
+                <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000783412&type=13F&dateb=&owner=include&count=10" target="_blank" class="text-sm text-blue-400 hover:text-blue-300 transition">0000783412</a>
+            </div>
+            <div>
+                <p class="text-[10px] text-zinc-500 uppercase tracking-wider">报告期</p>
+                <p class="text-sm font-semibold text-zinc-50">2025-12-31</p>
+            </div>
+            <div>
+                <p class="text-[10px] text-zinc-500 uppercase tracking-wider">提交日期</p>
+                <p class="text-sm font-semibold text-zinc-50">2026-01-13</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Summary Stats -->
+<div class="grid grid-cols-2 sm:grid-cols-5 gap-3 mb-6">
+    <div class="bg-zinc-800 border border-zinc-700/50 rounded-lg p-4 text-center">
+        <p class="text-xs text-zinc-500 mb-1">总持仓</p>
+        <p class="text-lg font-bold text-zinc-50 tabular-nums">$276.7M</p>
+        
+        <p class="text-xs mt-1 tabular-nums text-emerald-400">
+            +5.5% 环比
+        </p>
+        
+    </div>
+    <div class="bg-zinc-800 border border-zinc-700/50 rounded-lg p-4 text-center">
+        <p class="text-xs text-zinc-500 mb-1">持仓数</p>
+        <p class="text-lg font-bold text-zinc-50 tabular-nums">4</p>
+    </div>
+    
+    <div class="bg-zinc-800 border border-zinc-700/50 rounded-lg p-4 text-center">
+        <p class="text-xs text-zinc-500 mb-1">🆕 新建仓</p>
+        <p class="text-lg font-bold text-emerald-400 tabular-nums">0</p>
+    </div>
+    <div class="bg-zinc-800 border border-zinc-700/50 rounded-lg p-4 text-center">
+        <p class="text-xs text-zinc-500 mb-1">⬆⬇ 调仓</p>
+        <p class="text-lg font-bold text-amber-400 tabular-nums">1</p>
+    </div>
+    <div class="bg-zinc-800 border border-zinc-700/50 rounded-lg p-4 text-center">
+        <p class="text-xs text-zinc-500 mb-1">❌ 清仓</p>
+        <p class="text-lg font-bold text-red-400 tabular-nums">0</p>
+    </div>
+    
+</div>
+
+<!-- Chart + Changes side by side on desktop -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
+    <!-- Top 10 Holdings Chart -->
+    <div class="bg-zinc-800 border border-zinc-700/50 rounded-xl p-5">
+        <h2 class="text-sm font-semibold text-zinc-50 mb-4">前 10 大持仓</h2>
+        <div class="relative" style="max-height: 280px;">
+            <canvas id="holdingsChart"></canvas>
+        </div>
+    </div>
+
+    <!-- Quarter Changes -->
+    
+    <div class="lg:col-span-2 bg-zinc-800 border border-zinc-700/50 rounded-xl p-5">
+        <div class="flex items-center justify-between mb-4">
+            <h2 class="text-sm font-semibold text-zinc-50">季度变化</h2>
+            
+            <span class="text-xs text-zinc-500">2025-09-30 → 2025-12-31</span>
+            
+        </div>
+        <!-- Change type tabs -->
+        <div class="flex gap-2 mb-4 flex-wrap" id="change-tabs">
+            
+            
+            <button class="change-tab px-3 py-1 text-xs rounded-full bg-zinc-700/50 text-zinc-400 border border-zinc-600/30 hover:border-zinc-500 transition" data-tab="increased">⬆ 加仓 (1)</button>
+            
+            
+            
+        </div>
+        <!-- Tab content -->
+        <div class="overflow-x-auto max-h-64 overflow-y-auto custom-scrollbar">
+            
+
+            
+            <table class="change-panel w-full text-xs hidden" data-panel="increased">
+                <thead class="sticky top-0 bg-zinc-800">
+                    <tr class="text-zinc-500 text-left">
+                        <th class="pb-2 pr-4 font-medium">股票</th>
+                        <th class="pb-2 pr-4 font-medium text-right">市值</th>
+                        <th class="pb-2 pr-4 font-medium text-right">变化</th>
+                        <th class="pb-2 font-medium text-right">变化%</th>
+                    </tr>
+                </thead>
+                <tbody>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4">
+                            <span class="text-zinc-200">Alibaba Group Holding Ltd</span>
+                            <a href="https://xueqiu.com/S/BABA" target="_blank" class="ml-1 px-1 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">BABA</a>
+                        </td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$28.6M</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums text-emerald-400">+175,500</td>
+                        <td class="py-1.5 text-right tabular-nums text-emerald-400">+900.0%</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+            
+
+            
+
+            
+        </div>
+    </div>
+    
+</div>
+
+<!-- Holdings Table -->
+<div class="bg-zinc-800 border border-zinc-700/50 rounded-xl p-5">
+    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
+        <h2 class="text-sm font-semibold text-zinc-50">全部持仓 </h2>
+        <div class="relative">
+            <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-zinc-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+            </svg>
+            <input type="text" id="holdings-search" placeholder="搜索股票..." class="bg-zinc-900 border border-zinc-700 rounded-lg pl-9 pr-3 py-1.5 text-xs text-zinc-50 placeholder-zinc-500 focus:outline-none focus:border-blue-500 transition w-full sm:w-48">
+        </div>
+    </div>
+    <div class="overflow-x-auto">
+        <table class="w-full text-xs" id="holdings-table">
+            <thead class="sticky top-0 bg-zinc-800 z-10">
+                <tr class="text-zinc-500 text-left cursor-pointer select-none">
+                    <th class="pb-2 pr-4 font-medium" data-sort="string">#</th>
+                    <th class="pb-2 pr-4 font-medium sortable" data-sort="string">股票名称 ↕</th>
+                    <th class="pb-2 pr-4 font-medium">类型</th>
+                    <th class="pb-2 pr-4 font-medium sortable text-right" data-sort="number">市值 ↕</th>
+                    <th class="pb-2 pr-4 font-medium sortable text-right" data-sort="number">数量 ↕</th>
+                    <th class="pb-2 pr-4 font-medium sortable text-right" data-sort="number">占比 ↕</th>
+                    <th class="pb-2 font-medium sortable text-right" data-sort="number">变化 ↕</th>
+                </tr>
+            </thead>
+            <tbody>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="Wells Fargo & Co 949746101 WFC">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">1</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="Wells Fargo & Co">
+                        <span class="text-zinc-200">Wells Fargo & Co</span>
+                        
+                        <a href="https://xueqiu.com/S/WFC" target="_blank" class="ml-1.5 inline-block px-1.5 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">WFC</a>
+                        
+                    </td>
+                    <td class="py-1.5 pr-4 text-zinc-500">Common Stock</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="131691600">$131.7M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="1413000">1,413,000</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="47.6">47.6%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        
+                        data-value="0"><span class="text-zinc-500">0.00%</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="Bank of America Corp 060505104 BAC">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">2</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="Bank of America Corp">
+                        <span class="text-zinc-200">Bank of America Corp</span>
+                        
+                        <a href="https://xueqiu.com/S/BAC" target="_blank" class="ml-1.5 inline-block px-1.5 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">BAC</a>
+                        
+                    </td>
+                    <td class="py-1.5 pr-4 text-zinc-500">Common Stock</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="110000000">$110.0M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="2000000">2,000,000</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="39.76">39.76%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        
+                        data-value="0"><span class="text-zinc-500">0.00%</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="Alibaba Group Holding Ltd 01609W102 BABA">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">3</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="Alibaba Group Holding Ltd">
+                        <span class="text-zinc-200">Alibaba Group Holding Ltd</span>
+                        
+                        <a href="https://xueqiu.com/S/BABA" target="_blank" class="ml-1.5 inline-block px-1.5 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">BABA</a>
+                        
+                    </td>
+                    <td class="py-1.5 pr-4 text-zinc-500">Sponsored ADS</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="28583100">$28.6M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="195000">195,000</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="10.33">10.33%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        
+                        data-value="900.0"><span class="text-emerald-400">+900.00%</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="US Bancorp 902973304 USB">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">4</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="US Bancorp">
+                        <span class="text-zinc-200">US Bancorp</span>
+                        
+                        <a href="https://xueqiu.com/S/USB" target="_blank" class="ml-1.5 inline-block px-1.5 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">USB</a>
+                        
+                    </td>
+                    <td class="py-1.5 pr-4 text-zinc-500">Common Stock</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="6376520">$6.4M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="119500">119,500</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="2.3">2.3%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        
+                        data-value="0"><span class="text-zinc-500">0.00%</span>
+                        
+                    </td>
+                </tr>
+            
+            </tbody>
+        </table>
+    </div>
+</div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-zinc-800 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-zinc-500 text-xs">
+            <p>数据来源：<a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=13F" class="text-blue-400 hover:text-blue-300" target="_blank" rel="noopener">SEC EDGAR</a>。仅供研究参考，不构成投资建议。</p>
+            <p class="mt-1">Last updated: 2026-02-02</p>
+        </div>
+    </footer>
+
+    <script src="../js/app.js"></script>
+    
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Change type tabs
+    const changeTabs = document.querySelectorAll('.change-tab');
+    const changePanels = document.querySelectorAll('.change-panel');
+
+    changeTabs.forEach(tab => {
+        tab.addEventListener('click', function() {
+            const target = this.dataset.tab;
+            changeTabs.forEach(t => {
+                t.classList.remove('active');
+                t.classList.add('bg-zinc-700/50', 'text-zinc-400', 'border-zinc-600/30');
+                t.classList.remove('bg-emerald-500/20', 'text-emerald-400', 'border-emerald-500/30',
+                                   'bg-red-500/20', 'text-red-400', 'border-red-500/30');
+            });
+
+            const colorMap = {
+                'new': ['bg-emerald-500/20', 'text-emerald-400', 'border-emerald-500/30'],
+                'increased': ['bg-emerald-500/20', 'text-emerald-400', 'border-emerald-500/30'],
+                'decreased': ['bg-red-500/20', 'text-red-400', 'border-red-500/30'],
+                'sold': ['bg-red-500/20', 'text-red-400', 'border-red-500/30'],
+            };
+            this.classList.add('active');
+            this.classList.remove('bg-zinc-700/50', 'text-zinc-400', 'border-zinc-600/30');
+            (colorMap[target] || []).forEach(c => this.classList.add(c));
+
+            changePanels.forEach(p => {
+                p.classList.toggle('hidden', p.dataset.panel !== target);
+            });
+        });
+    });
+
+    // Holdings search
+    const searchInput = document.getElementById('holdings-search');
+    if (searchInput) {
+        searchInput.addEventListener('input', function() {
+            const q = this.value.toLowerCase().trim();
+            document.querySelectorAll('.holding-row').forEach(row => {
+                row.style.display = !q || row.dataset.search.toLowerCase().includes(q) ? '' : 'none';
+            });
+        });
+    }
+
+    // Table sorting
+    const table = document.getElementById('holdings-table');
+    if (table) {
+        const headers = table.querySelectorAll('th.sortable');
+        let sortCol = -1, sortAsc = true;
+
+        headers.forEach((th, idx) => {
+            th.addEventListener('click', function() {
+                const colIdx = Array.from(th.parentElement.children).indexOf(th);
+                const isNum = th.dataset.sort === 'number';
+                const tbody = table.querySelector('tbody');
+                const rows = Array.from(tbody.querySelectorAll('tr'));
+
+                if (sortCol === colIdx) {
+                    sortAsc = !sortAsc;
+                } else {
+                    sortCol = colIdx;
+                    sortAsc = isNum ? false : true; // numbers desc by default
+                }
+
+                rows.sort((a, b) => {
+                    const aCell = a.children[colIdx];
+                    const bCell = b.children[colIdx];
+                    let aVal = aCell.dataset.value || aCell.textContent.trim();
+                    let bVal = bCell.dataset.value || bCell.textContent.trim();
+
+                    if (isNum) {
+                        aVal = parseFloat(aVal) || 0;
+                        bVal = parseFloat(bVal) || 0;
+                        return sortAsc ? aVal - bVal : bVal - aVal;
+                    }
+                    return sortAsc ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
+                });
+
+                rows.forEach(r => tbody.appendChild(r));
+            });
+        });
+    }
+
+    // Doughnut chart — Top 10 Holdings
+    const chartCanvas = document.getElementById('holdingsChart');
+    if (chartCanvas) {
+        const top10 = [{"issuer": "Wells Fargo & Co", "title": "Common Stock", "cusip": "949746101", "value": 131691600, "shares": 1413000, "share_type": "SH", "discretion": "SOLE", "sole_voting": 1413000, "shared_voting": 0, "no_voting": 0, "weight": 47.6, "ticker_raw": "WFC", "ticker": "WFC", "qty_change": 0.0}, {"issuer": "Bank of America Corp", "title": "Common Stock", "cusip": "060505104", "value": 110000000, "shares": 2000000, "share_type": "SH", "discretion": "SOLE", "sole_voting": 2000000, "shared_voting": 0, "no_voting": 0, "weight": 39.76, "ticker_raw": "BAC", "ticker": "BAC", "qty_change": 0.0}, {"issuer": "Alibaba Group Holding Ltd", "title": "Sponsored ADS", "cusip": "01609W102", "value": 28583100, "shares": 195000, "share_type": "SH", "discretion": "SOLE", "sole_voting": 195000, "shared_voting": 0, "no_voting": 0, "weight": 10.33, "ticker_raw": "BABA", "ticker": "BABA", "qty_change": 900.0}, {"issuer": "US Bancorp", "title": "Common Stock", "cusip": "902973304", "value": 6376520, "shares": 119500, "share_type": "SH", "discretion": "SOLE", "sole_voting": 119500, "shared_voting": 0, "no_voting": 0, "weight": 2.3, "ticker_raw": "USB", "ticker": "USB", "qty_change": 0.0}];
+        const labels = top10.map(h => h.issuer.length > 18 ? h.issuer.substring(0, 16) + '…' : h.issuer);
+        const values = top10.map(h => h.value);
+        const colors = [
+            '#3b82f6', '#8b5cf6', '#22c55e', '#ef4444', '#f59e0b',
+            '#06b6d4', '#ec4899', '#14b8a6', '#f97316', '#6366f1'
+        ];
+
+        new Chart(chartCanvas, {
+            type: 'doughnut',
+            data: {
+                labels: labels,
+                datasets: [{
+                    data: values,
+                    backgroundColor: colors,
+                    borderColor: '#27272a',
+                    borderWidth: 2,
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                cutout: '55%',
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            color: '#a1a1aa',
+                            font: { size: 10, family: 'Inter' },
+                            boxWidth: 10,
+                            padding: 8,
+                        }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(ctx) {
+                                const val = ctx.parsed;
+                                if (val >= 1e9) return ' $' + (val/1e9).toFixed(1) + 'B';
+                                if (val >= 1e6) return ' $' + (val/1e6).toFixed(1) + 'M';
+                                return ' $' + val.toLocaleString();
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    }
+});
+</script>
+
+</body>
+</html>
