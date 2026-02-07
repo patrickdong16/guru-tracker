@@ -148,7 +148,7 @@ def build_cusip_mapping(batch_size: int = 100, delay_seconds: int = 12):
     }
 
 if __name__ == "__main__":
-    os.chdir("/Users/dq/.openclaw/workspace/guru-tracker")
+    os.chdir("./guru-tracker")
     result = build_cusip_mapping()
     
     if result:

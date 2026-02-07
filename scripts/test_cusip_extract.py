@@ -9,7 +9,7 @@ import sys
 def test_extract():
     print("=== 测试 CUSIP 提取 ===")
     
-    os.chdir("/Users/dq/.openclaw/workspace/guru-tracker")
+    os.chdir("./guru-tracker")
     print(f"当前目录: {os.getcwd()}")
     
     # 检查 data/parsed 目录

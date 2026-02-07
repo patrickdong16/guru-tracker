@@ -86,7 +86,7 @@ def main():
     print("=== CUSIP→Ticker 全量映射开始 ===")
     start_time = datetime.now()
     
-    os.chdir("/Users/dq/.openclaw/workspace/guru-tracker")
+    os.chdir("./guru-tracker")
     print(f"工作目录: {os.getcwd()}")
     
     # 1. 提取所有唯一 CUSIP
