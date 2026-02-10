@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-07-25",
+  "last_updated": "2026-02-10",
   "gurus": [
     {
       "id": "berkshire_hathaway",
@@ -196,6 +196,22 @@
       "famous_trade": "推动Yahoo换帅、Sony分拆。",
       "filing_type": "13F-HR",
       "active": true
+    },
+    {
+      "id": "baillie_gifford",
+      "name": "Baillie Gifford & Co",
+      "display_name": "柏基投资 / Baillie Gifford",
+      "cik": "0001088875",
+      "style": "growth",
+      "style_label": "科技成长",
+      "category": "growth",
+      "representative": "James Anderson (前成长股负责人)",
+      "aum": "$300B+",
+      "bio": "苏格兰百年资管巨头（1908年成立），以长期成长股投资著称。曾是特斯拉、亚马逊、阿里巴巴等科技巨头的早期重仓者。持股周期极长，不惧波动。",
+      "famous_trade": "早期重仓特斯拉、亚马逊等科技股，持有超10年获数十倍回报。",
+      "filing_type": "13F-HR",
+      "active": true,
+      "note": "Q4 2025持仓总值1203.4亿美元，减持英伟达加仓谷歌，英伟达仍为第一大重仓股（6.80%）"
     },
     {
       "id": "ark_invest",
