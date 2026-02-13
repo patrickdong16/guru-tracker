@@ -1,0 +1,63 @@
+{
+  "guru_id": "pabrai",
+  "cik": "0001549575",
+  "period_ending": "2025-12-31",
+  "filing_date": "2026-02-13",
+  "accession_number": "0001549575-26-000002",
+  "total_value": 402040227,
+  "holdings_count": 4,
+  "holdings": [
+    {
+      "issuer": "WARRIOR MET COAL INC",
+      "title": "COM",
+      "cusip": "93627C101",
+      "value": 158691099,
+      "shares": 1799831,
+      "share_type": "SH",
+      "discretion": "SOLE",
+      "sole_voting": 1799831,
+      "shared_voting": 0,
+      "no_voting": 0,
+      "weight": 39.47
+    },
+    {
+      "issuer": "TRANSOCEAN LTD",
+      "title": "REGISTERED SHS",
+      "cusip": "H8817H100",
+      "value": 111675749,
+      "shares": 27040133,
+      "share_type": "SH",
+      "discretion": "SOLE",
+      "sole_voting": 27040133,
+      "shared_voting": 0,
+      "no_voting": 0,
+      "weight": 27.78
+    },
+    {
+      "issuer": "ALPHA METALLURGICAL RESOUR I",
+      "title": "COM",
+      "cusip": "020764106",
+      "value": 108534840,
+      "shares": 543000,
+      "share_type": "SH",
+      "discretion": "SOLE",
+      "sole_voting": 543000,
+      "shared_voting": 0,
+      "no_voting": 0,
+      "weight": 27.0
+    },
+    {
+      "issuer": "VALARIS LTD",
+      "title": "CL A",
+      "cusip": "G9460G101",
+      "value": 23138539,
+      "shares": 459098,
+      "share_type": "SH",
+      "discretion": "SOLE",
+      "sole_voting": 459098,
+      "shared_voting": 0,
+      "no_voting": 0,
+      "weight": 5.76
+    }
+  ]
+}
