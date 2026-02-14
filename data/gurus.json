@@ -1,8 +1,66 @@
 {
-  "generated_at": "2026-02-13T18:32:10Z",
+  "generated_at": "2026-02-14T01:07:14Z",
   "guru_count": 30,
   "gurus_with_data": 30,
   "gurus": [
+    {
+      "id": "bridgewater",
+      "display_name": "达利欧 / Bridgewater",
+      "name": "Bridgewater Associates",
+      "style": "macro",
+      "style_label": "全球宏观",
+      "aum": "$125B",
+      "representative": "瑞·达利欧 (Ray Dalio)",
+      "bio": "全球最大对冲基金创始人，以全天候(All Weather)策略著称。《原则》作者。",
+      "famous_trade": "全天候策略，通过风险平价配置在任何宏观环境下赚钱。",
+      "cik": "0001350694",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2025-12-31",
+      "latest_filing_date": "2026-02-13",
+      "total_value": 27421613830,
+      "holdings_count": 1040,
+      "summary": {
+        "total_new": 191,
+        "total_increased": 453,
+        "total_decreased": 392,
+        "total_unchanged": 4,
+        "total_sold": 165,
+        "total_value_current": 27421613830,
+        "total_value_previous": 25527677108,
+        "total_value_change_pct": 7.4
+      }
+    },
+    {
+      "id": "soros",
+      "display_name": "索罗斯 / Soros Fund",
+      "name": "Soros Fund Management",
+      "style": "macro",
+      "style_label": "全球宏观",
+      "aum": "$25B (Family Office)",
+      "representative": "乔治·索罗斯 (George Soros)",
+      "bio": "传奇投机家，1992年做空英镑赚10亿美元。量子基金年化回报超30%。",
+      "famous_trade": "1992年做空英镑，一天赚10亿美元。",
+      "cik": "0001029160",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2025-12-31",
+      "latest_filing_date": "2026-02-13",
+      "total_value": 8630929364,
+      "holdings_count": 237,
+      "summary": {
+        "total_new": 127,
+        "total_increased": 48,
+        "total_decreased": 46,
+        "total_unchanged": 16,
+        "total_sold": 68,
+        "total_value_current": 8630929364,
+        "total_value_previous": 7020738956,
+        "total_value_change_pct": 22.9
+      }
+    },
     {
       "id": "sequoia_fund",
       "display_name": "Sequoia Fund",
@@ -30,6 +88,35 @@
         "total_value_current": 6402461078,
         "total_value_previous": 6035626513,
         "total_value_change_pct": 6.1
+      }
+    },
+    {
+      "id": "baupost",
+      "display_name": "Seth Klarman / Baupost",
+      "name": "Baupost Group",
+      "style": "value",
+      "style_label": "价值投资",
+      "aum": "$25B",
+      "representative": "Seth Klarman",
+      "bio": "《安全边际》作者，管理约250亿美元，以极端耐心和高现金比例著称。",
+      "famous_trade": "经常持有30-50%现金等待机会，危机时大举买入。",
+      "cik": "0001061768",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2025-12-31",
+      "latest_filing_date": "2026-02-13",
+      "total_value": 5278590000,
+      "holdings_count": 22,
+      "summary": {
+        "total_new": 3,
+        "total_increased": 7,
+        "total_decreased": 12,
+        "total_unchanged": 0,
+        "total_sold": 3,
+        "total_value_current": 5278590000,
+        "total_value_previous": 4790804000,
+        "total_value_change_pct": 10.2
       }
     },
     {
@@ -555,35 +642,6 @@
       }
     },
     {
-      "id": "soros",
-      "display_name": "索罗斯 / Soros Fund",
-      "name": "Soros Fund Management",
-      "style": "macro",
-      "style_label": "全球宏观",
-      "aum": "$25B (Family Office)",
-      "representative": "乔治·索罗斯 (George Soros)",
-      "bio": "传奇投机家，1992年做空英镑赚10亿美元。量子基金年化回报超30%。",
-      "famous_trade": "1992年做空英镑，一天赚10亿美元。",
-      "cik": "0001029160",
-      "filing_type": "13F-HR",
-      "active": true,
-      "has_data": true,
-      "latest_period": "2025-09-30",
-      "latest_filing_date": "2025-11-14",
-      "total_value": 7020738956,
-      "holdings_count": 178,
-      "summary": {
-        "total_new": 73,
-        "total_increased": 39,
-        "total_decreased": 48,
-        "total_unchanged": 18,
-        "total_sold": 80,
-        "total_value_current": 7020738956,
-        "total_value_previous": 7966042757,
-        "total_value_change_pct": -11.9
-      }
-    },
-    {
       "id": "dragoneer",
       "display_name": "Marc Stad / Dragoneer",
       "name": "Dragoneer Investment Group",
@@ -729,35 +787,6 @@
       }
     },
     {
-      "id": "bridgewater",
-      "display_name": "达利欧 / Bridgewater",
-      "name": "Bridgewater Associates",
-      "style": "macro",
-      "style_label": "全球宏观",
-      "aum": "$125B",
-      "representative": "瑞·达利欧 (Ray Dalio)",
-      "bio": "全球最大对冲基金创始人，以全天候(All Weather)策略著称。《原则》作者。",
-      "famous_trade": "全天候策略，通过风险平价配置在任何宏观环境下赚钱。",
-      "cik": "0001350694",
-      "filing_type": "13F-HR",
-      "active": true,
-      "has_data": true,
-      "latest_period": "2025-09-30",
-      "latest_filing_date": "2025-11-13",
-      "total_value": 25527677108,
-      "holdings_count": 1014,
-      "summary": {
-        "total_new": 493,
-        "total_increased": 325,
-        "total_decreased": 194,
-        "total_unchanged": 2,
-        "total_sold": 64,
-        "total_value_current": 25527677108,
-        "total_value_previous": 24791713463,
-        "total_value_change_pct": 3.0
-      }
-    },
-    {
       "id": "appaloosa",
       "display_name": "David Tepper / Appaloosa",
       "name": "Appaloosa Management",
@@ -784,35 +813,6 @@
         "total_value_current": 7383589018,
         "total_value_previous": 6448959614,
         "total_value_change_pct": 14.5
-      }
-    },
-    {
-      "id": "baupost",
-      "display_name": "Seth Klarman / Baupost",
-      "name": "Baupost Group",
-      "style": "value",
-      "style_label": "价值投资",
-      "aum": "$25B",
-      "representative": "Seth Klarman",
-      "bio": "《安全边际》作者，管理约250亿美元，以极端耐心和高现金比例著称。",
-      "famous_trade": "经常持有30-50%现金等待机会，危机时大举买入。",
-      "cik": "0001061768",
-      "filing_type": "13F-HR",
-      "active": true,
-      "has_data": true,
-      "latest_period": "2025-09-30",
-      "latest_filing_date": "2025-11-13",
-      "total_value": 4790804000,
-      "holdings_count": 22,
-      "summary": {
-        "total_new": 4,
-        "total_increased": 4,
-        "total_decreased": 5,
-        "total_unchanged": 9,
-        "total_sold": 5,
-        "total_value_current": 4790804,
-        "total_value_previous": 4130042,
-        "total_value_change_pct": 16.0
       }
     },
     {
