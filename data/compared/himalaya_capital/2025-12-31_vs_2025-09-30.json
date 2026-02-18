@@ -1,0 +1,177 @@
+{
+  "guru_id": "himalaya_capital",
+  "current_period": "2025-12-31",
+  "previous_period": "2025-09-30",
+  "current_filing_date": "2026-02-17",
+  "previous_filing_date": "2025-11-12",
+  "summary": {
+    "total_new": 1,
+    "total_increased": 1,
+    "total_decreased": 1,
+    "total_unchanged": 6,
+    "total_sold": 1,
+    "total_value_current": 3568876223,
+    "total_value_previous": 3230264839,
+    "total_value_change_pct": 10.5
+  },
+  "changes": {
+    "new": [
+      {
+        "issuer": "CROCS INC",
+        "title": "COM",
+        "cusip": "227046109",
+        "value": 53720158,
+        "shares": 628159,
+        "share_type": "SH",
+        "discretion": "SOLE",
+        "sole_voting": 628159,
+        "shared_voting": 0,
+        "no_voting": 0,
+        "weight": 1.51,
+        "change_type": "NEW"
+      }
+    ],
+    "increased": [
+      {
+        "issuer": "ALPHABET INC",
+        "title": "CAP STK CL C",
+        "cusip": "02079K107",
+        "value": 796052900,
+        "shares": 2543300,
+        "share_type": "SH",
+        "discretion": "SOLE",
+        "sole_voting": 2543300,
+        "shared_voting": 0,
+        "no_voting": 0,
+        "weight": 22.31,
+        "change_type": "INCREASED",
+        "prev_shares": 2451300,
+        "prev_value": 597014115,
+        "share_change": 92000,
+        "share_change_pct": 3.8
+      }
+    ],
+    "decreased": [
+      {
+        "issuer": "ALPHABET INC",
+        "title": "CAP STK CL A",
+        "cusip": "02079K305",
+        "value": 769217940,
+        "shares": 2451300,
+        "share_type": "SH",
+        "discretion": "SOLE",
+        "sole_voting": 2451300,
+        "shared_voting": 0,
+        "no_voting": 0,
+        "weight": 21.55,
+        "change_type": "DECREASED",
+        "prev_shares": 2543300,
+        "prev_value": 618276230,
+        "share_change": -92000,
+        "share_change_pct": -3.6
+      }
+    ],
+    "unchanged": [
+      {
+        "issuer": "BK OF AMERICA CORP",
+        "title": "COM",
+        "cusip": "060505104",
+        "value": 573726285,
+        "shares": 10431387,
+        "share_type": "SH",
+        "discretion": "SOLE",
+        "sole_voting": 10431387,
+        "shared_voting": 0,
+        "no_voting": 0,
+        "weight": 16.08,
+        "change_type": "UNCHANGED"
+      },
+      {
+        "issuer": "PDD HOLDINGS INC",
+        "title": "SPONSORED ADS",
+        "cusip": "722304102",
+        "value": 522501120,
+        "shares": 4608000,
+        "share_type": "SH",
+        "discretion": "SOLE",
+        "sole_voting": 4608000,
+        "shared_voting": 0,
+        "no_voting": 0,
+        "weight": 14.64,
+        "change_type": "UNCHANGED"
+      },
+      {
+        "issuer": "BERKSHIRE HATHAWAY INC DEL",
+        "title": "CL B NEW",
+        "cusip": "084670702",
+        "value": 451253535,
+        "shares": 897749,
+        "share_type": "SH",
+        "discretion": "SOLE",
+        "sole_voting": 897749,
+        "shared_voting": 0,
+        "no_voting": 0,
+        "weight": 12.64,
+        "change_type": "UNCHANGED"
+      },
+      {
+        "issuer": "EAST WEST BANCORP INC",
+        "title": "COM",
+        "cusip": "27579R104",
+        "value": 312034089,
+        "shares": 2776351,
+        "share_type": "SH",
+        "discretion": "SOLE",
+        "sole_voting": 2776351,
+        "shared_voting": 0,
+        "no_voting": 0,
+        "weight": 8.74,
+        "change_type": "UNCHANGED"
+      },
+      {
+        "issuer": "OCCIDENTAL PETE CORP",
+        "title": "COM",
+        "cusip": "674599105",
+        "value": 60302480,
+        "shares": 1466500,
+        "share_type": "SH",
+        "discretion": "SOLE",
+        "sole_voting": 1466500,
+        "shared_voting": 0,
+        "no_voting": 0,
+        "weight": 1.69,
+        "change_type": "UNCHANGED"
+      },
+      {
+        "issuer": "APPLE INC",
+        "title": "COM",
+        "cusip": "037833100",
+        "value": 30067716,
+        "shares": 110600,
+        "share_type": "SH",
+        "discretion": "SOLE",
+        "sole_voting": 110600,
+        "shared_voting": 0,
+        "no_voting": 0,
+        "weight": 0.84,
+        "change_type": "UNCHANGED"
+      }
+    ],
+    "sold": [
+      {
+        "issuer": "SABLE OFFSHORE CORP",
+        "title": "COM",
+        "cusip": "78574H104",
+        "value": 23448780,
+        "shares": 1343000,
+        "share_type": "SH",
+        "discretion": "SOLE",
+        "sole_voting": 1343000,
+        "shared_voting": 0,
+        "no_voting": 0,
+        "weight": 0.73,
+        "change_type": "SOLD"
+      }
+    ]
+  }
+}
