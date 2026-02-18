@@ -1,8 +1,37 @@
 {
-  "generated_at": "2026-02-18T06:49:39Z",
+  "generated_at": "2026-02-18T12:36:39Z",
   "guru_count": 30,
   "gurus_with_data": 30,
   "gurus": [
+    {
+      "id": "elliott",
+      "display_name": "Paul Singer / Elliott",
+      "name": "Elliott Investment Management",
+      "style": "activist",
+      "style_label": "激进主义",
+      "aum": "$65B+",
+      "representative": "Paul Singer",
+      "bio": "全球最知名的激进投资机构，风格极为强硬，曾与阿根廷政府打15年官司。",
+      "famous_trade": "与阿根廷政府的主权债务诉讼。",
+      "cik": "0001791786",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2025-12-31",
+      "latest_filing_date": "2026-02-18",
+      "total_value": 22594232626,
+      "holdings_count": 32,
+      "summary": {
+        "total_new": 2,
+        "total_increased": 6,
+        "total_decreased": 6,
+        "total_unchanged": 18,
+        "total_sold": 3,
+        "total_value_current": 22594232626,
+        "total_value_previous": 22721159137,
+        "total_value_change_pct": -0.6
+      }
+    },
     {
       "id": "citadel",
       "display_name": "Ken Griffin / Citadel",
@@ -842,35 +871,6 @@
         "total_value_current": 225064738,
         "total_value_previous": 279529557,
         "total_value_change_pct": -19.5
-      }
-    },
-    {
-      "id": "elliott",
-      "display_name": "Paul Singer / Elliott",
-      "name": "Elliott Investment Management",
-      "style": "activist",
-      "style_label": "激进主义",
-      "aum": "$65B+",
-      "representative": "Paul Singer",
-      "bio": "全球最知名的激进投资机构，风格极为强硬，曾与阿根廷政府打15年官司。",
-      "famous_trade": "与阿根廷政府的主权债务诉讼。",
-      "cik": "0001791786",
-      "filing_type": "13F-HR",
-      "active": true,
-      "has_data": true,
-      "latest_period": "2025-09-30",
-      "latest_filing_date": "2025-11-14",
-      "total_value": 22721159137,
-      "holdings_count": 33,
-      "summary": {
-        "total_new": 11,
-        "total_increased": 5,
-        "total_decreased": 2,
-        "total_unchanged": 15,
-        "total_sold": 8,
-        "total_value_current": 22721159137,
-        "total_value_previous": 17593419802,
-        "total_value_change_pct": 29.1
       }
     }
   ]
