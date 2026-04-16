@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T18:20:30Z",
+  "generated_at": "2026-04-16T00:17:39Z",
   "total_stocks": 7336,
   "stocks": [
     {
@@ -1066,9 +1066,9 @@
         {
           "id": "daily_journal",
           "display_name": "芒格 / Daily Journal",
-          "value": 28583100,
+          "value": 24464700,
           "shares": 195000,
-          "weight": 10.33
+          "weight": 10.17
         },
         {
           "id": "altimeter",
@@ -1092,8 +1092,8 @@
           "weight": 0.0
         }
       ],
-      "total_value": 5823555337,
-      "avg_weight": 4.03
+      "total_value": 5819436937,
+      "avg_weight": 4.02
     },
     {
       "cusip": "91324P102",
@@ -1964,9 +1964,9 @@
         {
           "id": "daily_journal",
           "display_name": "芒格 / Daily Journal",
-          "value": 110000000,
+          "value": 97500000,
           "shares": 2000000,
-          "weight": 39.76
+          "weight": 40.51
         },
         {
           "id": "bridgewater",
@@ -1990,8 +1990,8 @@
           "weight": 0.63
         }
       ],
-      "total_value": 31214843878,
-      "avg_weight": 7.7
+      "total_value": 31202343878,
+      "avg_weight": 7.78
     },
     {
       "cusip": "674599105",
@@ -5311,9 +5311,9 @@
         {
           "id": "daily_journal",
           "display_name": "芒格 / Daily Journal",
-          "value": 131691600,
+          "value": 112488930,
           "shares": 1413000,
-          "weight": 47.6
+          "weight": 46.74
         },
         {
           "id": "bridgewater",
@@ -5344,8 +5344,8 @@
           "weight": 0.78
         }
       ],
-      "total_value": 2245095714,
-      "avg_weight": 7.41
+      "total_value": 2225893044,
+      "avg_weight": 7.29
     },
     {
       "cusip": "808513105",
@@ -7005,9 +7005,9 @@
         {
           "id": "daily_journal",
           "display_name": "芒格 / Daily Journal",
-          "value": 6376520,
+          "value": 6215195,
           "shares": 119500,
-          "weight": 2.3
+          "weight": 2.58
         },
         {
           "id": "altimeter",
@@ -7024,8 +7024,8 @@
           "weight": 0.01
         }
       ],
-      "total_value": 517022319,
-      "avg_weight": 0.41
+      "total_value": 516860994,
+      "avg_weight": 0.45
     },
     {
       "cusip": "316841105",
