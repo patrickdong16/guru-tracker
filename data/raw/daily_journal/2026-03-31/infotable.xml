@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<informationTable xmlns="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<infoTable>
+<nameOfIssuer>Alibaba Group Holding Ltd</nameOfIssuer>
+<titleOfClass>Sponsored ADS</titleOfClass>
+<cusip>01609W102</cusip>
+<value>24464700</value>
+<shrsOrPrnAmt>
+<sshPrnamt>195000</sshPrnamt>
+<sshPrnamtType>SH</sshPrnamtType>
+</shrsOrPrnAmt>
+<investmentDiscretion>SOLE</investmentDiscretion>
+<votingAuthority>
+<Sole>195000</Sole>
+<Shared>0</Shared>
+<None>0</None>
+</votingAuthority>
+</infoTable>
+<infoTable>
+<nameOfIssuer>Bank of America Corp</nameOfIssuer>
+<titleOfClass>Common Stock</titleOfClass>
+<cusip>060505104</cusip>
+<value>97500000</value>
+<shrsOrPrnAmt>
+<sshPrnamt>2000000</sshPrnamt>
+<sshPrnamtType>SH</sshPrnamtType>
+</shrsOrPrnAmt>
+<investmentDiscretion>SOLE</investmentDiscretion>
+<votingAuthority>
+<Sole>2000000</Sole>
+<Shared>0</Shared>
+<None>0</None>
+</votingAuthority>
+</infoTable>
+<infoTable>
+<nameOfIssuer>US Bancorp</nameOfIssuer>
+<titleOfClass>Common Stock</titleOfClass>
+<cusip>902973304</cusip>
+<value>6215195</value>
+<shrsOrPrnAmt>
+<sshPrnamt>119500</sshPrnamt>
+<sshPrnamtType>SH</sshPrnamtType>
+</shrsOrPrnAmt>
+<investmentDiscretion>SOLE</investmentDiscretion>
+<votingAuthority>
+<Sole>119500</Sole>
+<Shared>0</Shared>
+<None>0</None>
+</votingAuthority>
+</infoTable>
+<infoTable>
+<nameOfIssuer>Wells Fargo &amp; Co</nameOfIssuer>
+<titleOfClass>Common Stock</titleOfClass>
+<cusip>949746101</cusip>
+<value>112488930</value>
+<shrsOrPrnAmt>
+<sshPrnamt>1413000</sshPrnamt>
+<sshPrnamtType>SH</sshPrnamtType>
+</shrsOrPrnAmt>
+<investmentDiscretion>SOLE</investmentDiscretion>
+<votingAuthority>
+<Sole>1413000</Sole>
+<Shared>0</Shared>
+<None>0</None>
+</votingAuthority>
+</infoTable>
+</informationTable>
