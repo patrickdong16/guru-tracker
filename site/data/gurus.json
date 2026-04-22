@@ -1,8 +1,37 @@
 {
-  "generated_at": "2026-04-21T18:18:34Z",
+  "generated_at": "2026-04-22T00:13:25Z",
   "guru_count": 30,
   "gurus_with_data": 30,
   "gurus": [
+    {
+      "id": "altimeter",
+      "display_name": "Brad Gerstner / Altimeter",
+      "name": "Altimeter Capital Management",
+      "style": "growth",
+      "style_label": "科技成长",
+      "aum": "$10B",
+      "representative": "Brad Gerstner",
+      "bio": "科技成长型投资者，善于在科技领域寻找结构性增长机会。",
+      "famous_trade": "SPAC热潮中高调活跃。",
+      "cik": "0001730815",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2026-03-31",
+      "latest_filing_date": "2026-04-21",
+      "total_value": 474952596,
+      "holdings_count": 153,
+      "summary": {
+        "total_new": 19,
+        "total_increased": 43,
+        "total_decreased": 63,
+        "total_unchanged": 28,
+        "total_sold": 7,
+        "total_value_current": 474952596,
+        "total_value_previous": 488745623,
+        "total_value_change_pct": -2.8
+      }
+    },
     {
       "id": "daily_journal",
       "display_name": "芒格 / Daily Journal",
@@ -784,35 +813,6 @@
         "total_value_current": 4044709984,
         "total_value_previous": 4440670727,
         "total_value_change_pct": -8.9
-      }
-    },
-    {
-      "id": "altimeter",
-      "display_name": "Brad Gerstner / Altimeter",
-      "name": "Altimeter Capital Management",
-      "style": "growth",
-      "style_label": "科技成长",
-      "aum": "$10B",
-      "representative": "Brad Gerstner",
-      "bio": "科技成长型投资者，善于在科技领域寻找结构性增长机会。",
-      "famous_trade": "SPAC热潮中高调活跃。",
-      "cik": "0001730815",
-      "filing_type": "13F-HR",
-      "active": true,
-      "has_data": true,
-      "latest_period": "2025-12-31",
-      "latest_filing_date": "2026-02-06",
-      "total_value": 488745623,
-      "holdings_count": 141,
-      "summary": {
-        "total_new": 9,
-        "total_increased": 33,
-        "total_decreased": 66,
-        "total_unchanged": 33,
-        "total_sold": 4,
-        "total_value_current": 488745623,
-        "total_value_previous": 475750717,
-        "total_value_change_pct": 2.7
       }
     },
     {
