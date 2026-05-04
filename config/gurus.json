@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-02-10",
+  "last_updated": "2026-05-04",
   "gurus": [
     {
       "id": "berkshire_hathaway",
@@ -455,6 +455,22 @@
       "famous_trade": "重仓比特币ETF(IBIT)、特斯拉、Robinhood等新兴资产。",
       "filing_type": "13F-HR",
       "active": true
+    },
+    {
+      "id": "situational_awareness",
+      "name": "Situational Awareness LP",
+      "display_name": "Leopold Aschenbrenner / Situational Awareness",
+      "cik": "0002045724",
+      "style": "growth",
+      "style_label": "AI 基础设施",
+      "category": "growth",
+      "representative": "Leopold Aschenbrenner",
+      "aum": "$2B+",
+      "bio": "由 Leopold Aschenbrenner 创立的 AI/AGI 主题投资机构，关注半导体、电力、数据中心和 AI 基础设施链条。13F 持仓高度集中，适合作为 AI capex 叙事的高敏感度观察样本。",
+      "famous_trade": "2025 年 13F 显示集中配置 Broadcom、Vistra、Core Scientific、Constellation Energy 等 AI 算力与电力基础设施相关资产，并持有半导体 ETF/Intel 期权。",
+      "filing_type": "13F-HR",
+      "active": true,
+      "note": "SEC filer: Situational Awareness LP; CIK 0002045724; first visible 13F period 2024-12-31."
     }
   ]
 }
