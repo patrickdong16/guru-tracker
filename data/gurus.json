@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-04T12:27:47Z",
-  "guru_count": 30,
-  "gurus_with_data": 30,
+  "generated_at": "2026-05-04T15:45:17Z",
+  "guru_count": 31,
+  "gurus_with_data": 31,
   "gurus": [
     {
       "id": "oriental_harbor",
@@ -813,6 +813,35 @@
         "total_value_current": 15067426139,
         "total_value_previous": 16799815854,
         "total_value_change_pct": -10.3
+      }
+    },
+    {
+      "id": "situational_awareness",
+      "display_name": "Leopold Aschenbrenner / Situational Awareness",
+      "name": "Situational Awareness LP",
+      "style": "growth",
+      "style_label": "AI 基础设施",
+      "aum": "$2B+",
+      "representative": "Leopold Aschenbrenner",
+      "bio": "由 Leopold Aschenbrenner 创立的 AI/AGI 主题投资机构，关注半导体、电力、数据中心和 AI 基础设施链条。13F 持仓高度集中，适合作为 AI capex 叙事的高敏感度观察样本。",
+      "famous_trade": "2025 年 13F 显示集中配置 Broadcom、Vistra、Core Scientific、Constellation Energy 等 AI 算力与电力基础设施相关资产，并持有半导体 ETF/Intel 期权。",
+      "cik": "0002045724",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2025-12-31",
+      "latest_filing_date": "2026-02-11",
+      "total_value": 5516758345,
+      "holdings_count": 25,
+      "summary": {
+        "total_new": 12,
+        "total_increased": 13,
+        "total_decreased": 0,
+        "total_unchanged": 0,
+        "total_sold": 12,
+        "total_value_current": 5516758345,
+        "total_value_previous": 4138368748,
+        "total_value_change_pct": 33.3
       }
     },
     {
