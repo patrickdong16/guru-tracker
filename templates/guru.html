@@ -131,6 +131,7 @@
                     <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
                         <td class="py-1.5 pr-4 font-medium">
                             <span class="text-emerald-400">{{ h.issuer }}</span>
+                            <div class="text-[10px] text-zinc-500 font-normal">{{ h.title }}{% if h.put_call %} · {{ h.put_call }}{% endif %} · {{ h.cusip }}</div>
                             {% if h.ticker %}<a href="https://xueqiu.com/S/{{ h.ticker }}" target="_blank" class="ml-1 px-1 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">{{ h.ticker }}</a>{% endif %}
                         </td>
                         <td class="py-1.5 pr-4 text-right tabular-nums">{{ h.value | format_value }}</td>
@@ -157,6 +158,7 @@
                     <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
                         <td class="py-1.5 pr-4">
                             <span class="text-zinc-200">{{ h.issuer }}</span>
+                            <div class="text-[10px] text-zinc-500 font-normal">{{ h.title }}{% if h.put_call %} · {{ h.put_call }}{% endif %} · {{ h.cusip }}</div>
                             {% if h.ticker %}<a href="https://xueqiu.com/S/{{ h.ticker }}" target="_blank" class="ml-1 px-1 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">{{ h.ticker }}</a>{% endif %}
                         </td>
                         <td class="py-1.5 pr-4 text-right tabular-nums">{{ h.value | format_value }}</td>
@@ -183,6 +185,7 @@
                     <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
                         <td class="py-1.5 pr-4">
                             <span class="text-zinc-200">{{ h.issuer }}</span>
+                            <div class="text-[10px] text-zinc-500 font-normal">{{ h.title }}{% if h.put_call %} · {{ h.put_call }}{% endif %} · {{ h.cusip }}</div>
                             {% if h.ticker %}<a href="https://xueqiu.com/S/{{ h.ticker }}" target="_blank" class="ml-1 px-1 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">{{ h.ticker }}</a>{% endif %}
                         </td>
                         <td class="py-1.5 pr-4 text-right tabular-nums">{{ h.value | format_value }}</td>
@@ -208,6 +211,7 @@
                     <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
                         <td class="py-1.5 pr-4 font-medium">
                             <span class="text-red-400">{{ h.issuer }}</span>
+                            <div class="text-[10px] text-zinc-500 font-normal">{{ h.title }}{% if h.put_call %} · {{ h.put_call }}{% endif %} · {{ h.cusip }}</div>
                             {% if h.ticker %}<a href="https://xueqiu.com/S/{{ h.ticker }}" target="_blank" class="ml-1 px-1 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">{{ h.ticker }}</a>{% endif %}
                         </td>
                         <td class="py-1.5 pr-4 text-right tabular-nums">{{ h.value | format_value }}</td>
@@ -252,6 +256,7 @@
                     <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">{{ loop.index }}</td>
                     <td class="py-1.5 pr-4 font-medium" data-value="{{ h.issuer }}">
                         <span class="text-zinc-200">{{ h.issuer }}</span>
+                        <div class="text-[10px] text-zinc-500 font-normal">{{ h.title }}{% if h.put_call %} · {{ h.put_call }}{% endif %} · {{ h.cusip }}</div>
                         {% if h.ticker %}
                         <a href="https://xueqiu.com/S/{{ h.ticker }}" target="_blank" class="ml-1.5 inline-block px-1.5 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">{{ h.ticker }}</a>
                         {% else %}

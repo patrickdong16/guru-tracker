@@ -225,6 +225,12 @@ def parse_infotable(xml_path: str) -> List[Dict]:
                 or entry.findtext("{http://www.sec.gov/edgar/document/thirteenf/informationtable}investmentDiscretion", "")
             ).strip()
 
+            put_call = (
+                entry.findtext("ns:putCall", "", ns)
+                or entry.findtext("{http://www.sec.gov/edgar/document/thirteenf/informationtable}putCall", "")
+                or ""
+            ).strip()
+
             holding = {
                 "issuer": issuer,
                 "title": title,
@@ -232,6 +238,7 @@ def parse_infotable(xml_path: str) -> List[Dict]:
                 "value": int(raw_value) * value_multiplier,
                 "shares": int(raw_shares),
                 "share_type": share_type.strip(),
+                "put_call": put_call,
                 "discretion": discretion,
                 "sole_voting": sole_voting,
                 "shared_voting": shared_voting,
@@ -246,8 +253,10 @@ def parse_infotable(xml_path: str) -> List[Dict]:
         logger.warning("No holdings parsed from %s", xml_path)
         return []
 
-    # Aggregate same CUSIP entries
-    aggregated = aggregate_by_cusip(holdings)
+    # Aggregate same instrument entries. Keep put/call options separate from common stock
+    # even when SEC reports the same underlying CUSIP, otherwise common + options get
+    # merged and quarter-change tabs look misleading.
+    aggregated = aggregate_by_instrument(holdings)
 
     # Calculate weights
     total_value = sum(h["value"] for h in aggregated)
@@ -265,25 +274,31 @@ def parse_infotable(xml_path: str) -> List[Dict]:
     return aggregated
 
 
-def aggregate_by_cusip(holdings: List[Dict]) -> List[Dict]:
+def aggregate_by_instrument(holdings: List[Dict]) -> List[Dict]:
     """
-    Aggregate holdings by CUSIP.
+    Aggregate holdings by instrument identity: CUSIP + put/call flag.
 
-    Large institutions (e.g. Berkshire) have multiple investment managers,
-    each reporting the same stock separately. We sum them up.
+    Large institutions may have multiple investment managers reporting the same
+    stock separately, so identical instruments should be summed. But 13F rows can
+    include options on the same issuer/underlying; those must remain separate.
     """
-    cusip_map: Dict[str, Dict] = {}
+    instrument_map: Dict[str, Dict] = {}
     for h in holdings:
-        key = h["cusip"]
-        if key in cusip_map:
-            cusip_map[key]["value"] += h["value"]
-            cusip_map[key]["shares"] += h["shares"]
-            cusip_map[key]["sole_voting"] += h["sole_voting"]
-            cusip_map[key]["shared_voting"] += h["shared_voting"]
-            cusip_map[key]["no_voting"] += h["no_voting"]
+        key = f"{h['cusip']}|{h.get('put_call') or ''}"
+        if key in instrument_map:
+            instrument_map[key]["value"] += h["value"]
+            instrument_map[key]["shares"] += h["shares"]
+            instrument_map[key]["sole_voting"] += h["sole_voting"]
+            instrument_map[key]["shared_voting"] += h["shared_voting"]
+            instrument_map[key]["no_voting"] += h["no_voting"]
         else:
-            cusip_map[key] = h.copy()
-    return list(cusip_map.values())
+            instrument_map[key] = h.copy()
+    return list(instrument_map.values())
+
+
+def aggregate_by_cusip(holdings: List[Dict]) -> List[Dict]:
+    """Backward-compatible alias; use aggregate_by_instrument for new code."""
+    return aggregate_by_instrument(holdings)
 
 
 # ---------------------------------------------------------------------------

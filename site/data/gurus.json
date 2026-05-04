@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-04T15:46:49Z",
+  "generated_at": "2026-05-04T16:28:08Z",
   "guru_count": 31,
   "gurus_with_data": 31,
   "gurus": [
@@ -832,11 +832,11 @@
       "latest_period": "2025-12-31",
       "latest_filing_date": "2026-02-11",
       "total_value": 5516758345,
-      "holdings_count": 25,
+      "holdings_count": 29,
       "summary": {
         "total_new": 12,
-        "total_increased": 13,
-        "total_decreased": 0,
+        "total_increased": 11,
+        "total_decreased": 2,
         "total_unchanged": 0,
         "total_sold": 12,
         "total_value_current": 5516758345,
