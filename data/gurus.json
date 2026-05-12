@@ -1,8 +1,37 @@
 {
-  "generated_at": "2026-05-12T12:34:32Z",
+  "generated_at": "2026-05-12T18:33:15Z",
   "guru_count": 31,
   "gurus_with_data": 31,
   "gurus": [
+    {
+      "id": "ark_invest",
+      "display_name": "Cathie Wood / ARK Invest",
+      "name": "ARK Investment Management LLC",
+      "style": "growth",
+      "style_label": "科技成长",
+      "aum": "$15B",
+      "representative": "Cathie Wood",
+      "bio": "颠覆性创新教母，重仓AI、基因编辑、区块链、机器人等主题。2020年ARKK回报152%。",
+      "famous_trade": "2020年ARKK回报152%，重仓Tesla。",
+      "cik": "0001697748",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2026-03-31",
+      "latest_filing_date": "2026-05-12",
+      "total_value": 12859485476,
+      "holdings_count": 182,
+      "summary": {
+        "total_new": 13,
+        "total_increased": 85,
+        "total_decreased": 83,
+        "total_unchanged": 0,
+        "total_sold": 28,
+        "total_value_current": 12859485476,
+        "total_value_previous": 15067426139,
+        "total_value_change_pct": -14.7
+      }
+    },
     {
       "id": "baillie_gifford",
       "display_name": "柏基投资 / Baillie Gifford",
@@ -842,35 +871,6 @@
         "total_value_current": 402040227,
         "total_value_previous": 336857377,
         "total_value_change_pct": 19.4
-      }
-    },
-    {
-      "id": "ark_invest",
-      "display_name": "Cathie Wood / ARK Invest",
-      "name": "ARK Investment Management LLC",
-      "style": "growth",
-      "style_label": "科技成长",
-      "aum": "$15B",
-      "representative": "Cathie Wood",
-      "bio": "颠覆性创新教母，重仓AI、基因编辑、区块链、机器人等主题。2020年ARKK回报152%。",
-      "famous_trade": "2020年ARKK回报152%，重仓Tesla。",
-      "cik": "0001697748",
-      "filing_type": "13F-HR",
-      "active": true,
-      "has_data": true,
-      "latest_period": "2025-12-31",
-      "latest_filing_date": "2026-02-11",
-      "total_value": 15067426139,
-      "holdings_count": 196,
-      "summary": {
-        "total_new": 9,
-        "total_increased": 109,
-        "total_decreased": 77,
-        "total_unchanged": 1,
-        "total_sold": 9,
-        "total_value_current": 15067426139,
-        "total_value_previous": 16799815854,
-        "total_value_change_pct": -10.3
       }
     },
     {
