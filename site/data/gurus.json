@@ -1,8 +1,37 @@
 {
-  "generated_at": "2026-05-14T12:30:57Z",
+  "generated_at": "2026-05-14T18:32:36Z",
   "guru_count": 31,
   "gurus_with_data": 31,
   "gurus": [
+    {
+      "id": "pabrai",
+      "display_name": "Mohnish Pabrai / Pabrai Funds",
+      "name": "Dalal Street, LLC",
+      "style": "value",
+      "style_label": "价值投资",
+      "aum": "$5-10B",
+      "representative": "Mohnish Pabrai",
+      "bio": "巴菲特忠实追随者，曾花65万美元与巴菲特共进午餐。极度集中投资，组合不超过10只股票。",
+      "famous_trade": "集中持仓策略，曾重仓Fiat Chrysler获利丰厚。",
+      "cik": "0001549575",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2026-03-31",
+      "latest_filing_date": "2026-05-14",
+      "total_value": 422885142,
+      "holdings_count": 3,
+      "summary": {
+        "total_new": 0,
+        "total_increased": 2,
+        "total_decreased": 1,
+        "total_unchanged": 0,
+        "total_sold": 1,
+        "total_value_current": 422885142,
+        "total_value_previous": 402040227,
+        "total_value_change_pct": 5.2
+      }
+    },
     {
       "id": "ark_invest",
       "display_name": "Cathie Wood / ARK Invest",
@@ -842,35 +871,6 @@
         "total_value_current": 5278590000,
         "total_value_previous": 4790804000,
         "total_value_change_pct": 10.2
-      }
-    },
-    {
-      "id": "pabrai",
-      "display_name": "Mohnish Pabrai / Pabrai Funds",
-      "name": "Dalal Street, LLC",
-      "style": "value",
-      "style_label": "价值投资",
-      "aum": "$5-10B",
-      "representative": "Mohnish Pabrai",
-      "bio": "巴菲特忠实追随者，曾花65万美元与巴菲特共进午餐。极度集中投资，组合不超过10只股票。",
-      "famous_trade": "集中持仓策略，曾重仓Fiat Chrysler获利丰厚。",
-      "cik": "0001549575",
-      "filing_type": "13F-HR",
-      "active": true,
-      "has_data": true,
-      "latest_period": "2025-12-31",
-      "latest_filing_date": "2026-02-13",
-      "total_value": 402040227,
-      "holdings_count": 4,
-      "summary": {
-        "total_new": 0,
-        "total_increased": 2,
-        "total_decreased": 1,
-        "total_unchanged": 1,
-        "total_sold": 1,
-        "total_value_current": 402040227,
-        "total_value_previous": 336857377,
-        "total_value_change_pct": 19.4
       }
     },
     {

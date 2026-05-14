@@ -1,0 +1,98 @@
+{
+  "guru_id": "pabrai",
+  "current_period": "2026-03-31",
+  "previous_period": "2025-12-31",
+  "current_filing_date": "2026-05-14",
+  "previous_filing_date": "2026-02-13",
+  "summary": {
+    "total_new": 0,
+    "total_increased": 2,
+    "total_decreased": 1,
+    "total_unchanged": 0,
+    "total_sold": 1,
+    "total_value_current": 422885142,
+    "total_value_previous": 402040227,
+    "total_value_change_pct": 5.2
+  },
+  "changes": {
+    "new": [],
+    "increased": [
+      {
+        "issuer": "WARRIOR MET COAL INC",
+        "title": "COM",
+        "cusip": "93627C101",
+        "value": 168678908,
+        "shares": 1810831,
+        "share_type": "SH",
+        "put_call": "",
+        "discretion": "SOLE",
+        "sole_voting": 1810831,
+        "shared_voting": 0,
+        "no_voting": 0,
+        "weight": 39.89,
+        "change_type": "INCREASED",
+        "prev_shares": 1799831,
+        "prev_value": 158691099,
+        "share_change": 11000,
+        "share_change_pct": 0.6
+      },
+      {
+        "issuer": "ALPHA METALLURGICAL RESOUR I",
+        "title": "COM",
+        "cusip": "020764106",
+        "value": 119002819,
+        "shares": 579738,
+        "share_type": "SH",
+        "put_call": "",
+        "discretion": "SOLE",
+        "sole_voting": 579738,
+        "shared_voting": 0,
+        "no_voting": 0,
+        "weight": 28.14,
+        "change_type": "INCREASED",
+        "prev_shares": 543000,
+        "prev_value": 108534840,
+        "share_change": 36738,
+        "share_change_pct": 6.8
+      }
+    ],
+    "decreased": [
+      {
+        "issuer": "TRANSOCEAN LTD",
+        "title": "REGISTERED SHS",
+        "cusip": "H8817H100",
+        "value": 135203415,
+        "shares": 20392672,
+        "share_type": "SH",
+        "put_call": "",
+        "discretion": "SOLE",
+        "sole_voting": 20392672,
+        "shared_voting": 0,
+        "no_voting": 0,
+        "weight": 31.97,
+        "change_type": "DECREASED",
+        "prev_shares": 27040133,
+        "prev_value": 111675749,
+        "share_change": -6647461,
+        "share_change_pct": -24.6
+      }
+    ],
+    "unchanged": [],
+    "sold": [
+      {
+        "issuer": "VALARIS LTD",
+        "title": "CL A",
+        "cusip": "G9460G101",
+        "value": 23138539,
+        "shares": 459098,
+        "share_type": "SH",
+        "discretion": "SOLE",
+        "sole_voting": 459098,
+        "shared_voting": 0,
+        "no_voting": 0,
+        "weight": 5.76,
+        "change_type": "SOLD"
+      }
+    ]
+  }
+}
