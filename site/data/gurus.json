@@ -1,8 +1,37 @@
 {
-  "generated_at": "2026-05-14T18:32:36Z",
+  "generated_at": "2026-05-15T00:23:15Z",
   "guru_count": 31,
   "gurus_with_data": 31,
   "gurus": [
+    {
+      "id": "baupost",
+      "display_name": "Seth Klarman / Baupost",
+      "name": "Baupost Group",
+      "style": "value",
+      "style_label": "价值投资",
+      "aum": "$25B",
+      "representative": "Seth Klarman",
+      "bio": "《安全边际》作者，管理约250亿美元，以极端耐心和高现金比例著称。",
+      "famous_trade": "经常持有30-50%现金等待机会，危机时大举买入。",
+      "cik": "0001061768",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2026-03-31",
+      "latest_filing_date": "2026-05-14",
+      "total_value": 5115380000,
+      "holdings_count": 22,
+      "summary": {
+        "total_new": 6,
+        "total_increased": 9,
+        "total_decreased": 4,
+        "total_unchanged": 3,
+        "total_sold": 6,
+        "total_value_current": 5115380000,
+        "total_value_previous": 5278590000,
+        "total_value_change_pct": -3.1
+      }
+    },
     {
       "id": "pabrai",
       "display_name": "Mohnish Pabrai / Pabrai Funds",
@@ -842,35 +871,6 @@
         "total_value_current": 6402461078,
         "total_value_previous": 6035626513,
         "total_value_change_pct": 6.1
-      }
-    },
-    {
-      "id": "baupost",
-      "display_name": "Seth Klarman / Baupost",
-      "name": "Baupost Group",
-      "style": "value",
-      "style_label": "价值投资",
-      "aum": "$25B",
-      "representative": "Seth Klarman",
-      "bio": "《安全边际》作者，管理约250亿美元，以极端耐心和高现金比例著称。",
-      "famous_trade": "经常持有30-50%现金等待机会，危机时大举买入。",
-      "cik": "0001061768",
-      "filing_type": "13F-HR",
-      "active": true,
-      "has_data": true,
-      "latest_period": "2025-12-31",
-      "latest_filing_date": "2026-02-13",
-      "total_value": 5278590000,
-      "holdings_count": 22,
-      "summary": {
-        "total_new": 3,
-        "total_increased": 7,
-        "total_decreased": 12,
-        "total_unchanged": 0,
-        "total_sold": 3,
-        "total_value_current": 5278590000,
-        "total_value_previous": 4790804000,
-        "total_value_change_pct": 10.2
       }
     },
     {
