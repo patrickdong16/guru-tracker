@@ -1,8 +1,37 @@
 {
-  "generated_at": "2026-05-19T07:06:12Z",
+  "generated_at": "2026-05-19T12:56:45Z",
   "guru_count": 31,
   "gurus_with_data": 31,
   "gurus": [
+    {
+      "id": "duan_yongping",
+      "display_name": "段永平 / H&H International",
+      "name": "H&H International Investment, LLC",
+      "style": "value",
+      "style_label": "价值投资",
+      "aum": "未公开",
+      "representative": "段永平 (Duan Yongping)",
+      "bio": "步步高/OPPO/vivo创始人，雪球网名'大道无形我有型'。2006年以62万美元竞拍巴菲特午餐，中国价值投资标杆人物。通过H&H International管理美股投资。",
+      "famous_trade": "2001年以约$0.8/股抄底网易，最终涨超$70；长期重仓苹果、茅台。",
+      "cik": "0001759760",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2026-03-31",
+      "latest_filing_date": "2026-05-19",
+      "total_value": 20003996234,
+      "holdings_count": 19,
+      "summary": {
+        "total_new": 8,
+        "total_increased": 7,
+        "total_decreased": 4,
+        "total_unchanged": 0,
+        "total_sold": 3,
+        "total_value_current": 20003996234,
+        "total_value_previous": 17488569921,
+        "total_value_change_pct": 14.4
+      }
+    },
     {
       "id": "situational_awareness",
       "display_name": "Leopold Aschenbrenner / Situational Awareness",
@@ -871,35 +900,6 @@
         "total_value_current": 301202802,
         "total_value_previous": 225064738,
         "total_value_change_pct": 33.8
-      }
-    },
-    {
-      "id": "duan_yongping",
-      "display_name": "段永平 / H&H International",
-      "name": "H&H International Investment, LLC",
-      "style": "value",
-      "style_label": "价值投资",
-      "aum": "未公开",
-      "representative": "段永平 (Duan Yongping)",
-      "bio": "步步高/OPPO/vivo创始人，雪球网名'大道无形我有型'。2006年以62万美元竞拍巴菲特午餐，中国价值投资标杆人物。通过H&H International管理美股投资。",
-      "famous_trade": "2001年以约$0.8/股抄底网易，最终涨超$70；长期重仓苹果、茅台。",
-      "cik": "0001759760",
-      "filing_type": "13F-HR",
-      "active": true,
-      "has_data": true,
-      "latest_period": "2025-12-31",
-      "latest_filing_date": "2026-02-17",
-      "total_value": 17488569921,
-      "holdings_count": 14,
-      "summary": {
-        "total_new": 3,
-        "total_increased": 6,
-        "total_decreased": 5,
-        "total_unchanged": 0,
-        "total_sold": 0,
-        "total_value_current": 17488569921,
-        "total_value_previous": 14678516884,
-        "total_value_change_pct": 19.1
       }
     }
   ]
