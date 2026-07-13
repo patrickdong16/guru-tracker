@@ -1,8 +1,37 @@
 {
-  "generated_at": "2026-07-13T12:45:32Z",
+  "generated_at": "2026-07-13T18:30:46Z",
   "guru_count": 31,
   "gurus_with_data": 31,
   "gurus": [
+    {
+      "id": "d1_capital",
+      "display_name": "Dan Sundheim / D1 Capital",
+      "name": "D1 Capital Partners",
+      "style": "growth",
+      "style_label": "科技成长",
+      "aum": "$20B",
+      "representative": "Dan Sundheim",
+      "bio": "前Viking Global投资组合经理，混合公开市场和私募投资，专注科技/消费/医疗。",
+      "famous_trade": "2018年创立D1，快速成长为顶级基金。",
+      "cik": "0001799900",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2026-06-30",
+      "latest_filing_date": "2026-07-13",
+      "total_value": 331575444,
+      "holdings_count": 424,
+      "summary": {
+        "total_new": 6,
+        "total_increased": 46,
+        "total_decreased": 95,
+        "total_unchanged": 277,
+        "total_sold": 33,
+        "total_value_current": 331575444,
+        "total_value_previous": 301202802,
+        "total_value_change_pct": 10.1
+      }
+    },
     {
       "id": "duan_yongping",
       "display_name": "段永平 / H&H International",
@@ -871,35 +900,6 @@
         "total_value_current": 240668825,
         "total_value_previous": 276651220,
         "total_value_change_pct": -13.0
-      }
-    },
-    {
-      "id": "d1_capital",
-      "display_name": "Dan Sundheim / D1 Capital",
-      "name": "D1 Capital Partners",
-      "style": "growth",
-      "style_label": "科技成长",
-      "aum": "$20B",
-      "representative": "Dan Sundheim",
-      "bio": "前Viking Global投资组合经理，混合公开市场和私募投资，专注科技/消费/医疗。",
-      "famous_trade": "2018年创立D1，快速成长为顶级基金。",
-      "cik": "0001799900",
-      "filing_type": "13F-HR",
-      "active": true,
-      "has_data": true,
-      "latest_period": "2026-03-31",
-      "latest_filing_date": "2026-04-09",
-      "total_value": 301202802,
-      "holdings_count": 451,
-      "summary": {
-        "total_new": 54,
-        "total_increased": 40,
-        "total_decreased": 92,
-        "total_unchanged": 265,
-        "total_sold": 38,
-        "total_value_current": 301202802,
-        "total_value_previous": 225064738,
-        "total_value_change_pct": 33.8
       }
     }
   ]
