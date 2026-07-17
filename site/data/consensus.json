@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T18:21:49Z",
+  "generated_at": "2026-07-17T00:21:05Z",
   "total_stocks": 7629,
   "stocks": [
     {
@@ -2334,18 +2334,18 @@
           "weight": 0.04
         },
         {
-          "id": "daily_journal",
-          "display_name": "芒格 / Daily Journal",
-          "value": 24464700,
-          "shares": 195000,
-          "weight": 10.17
-        },
-        {
           "id": "tairen",
           "display_name": "泰仁资本 / Tairen Capital",
           "value": 23210100,
           "shares": 185000,
           "weight": 2.51
+        },
+        {
+          "id": "daily_journal",
+          "display_name": "芒格 / Daily Journal",
+          "value": 18716100,
+          "shares": 195000,
+          "weight": 7.29
         },
         {
           "id": "point72",
@@ -2369,8 +2369,8 @@
           "weight": 0.0
         }
       ],
-      "total_value": 3455462435,
-      "avg_weight": 2.54
+      "total_value": 3449713835,
+      "avg_weight": 2.37
     },
     {
       "cusip": "78462F103",
@@ -2914,18 +2914,18 @@
           "weight": 4.57
         },
         {
+          "id": "daily_journal",
+          "display_name": "芒格 / Daily Journal",
+          "value": 113960000,
+          "shares": 2000000,
+          "weight": 44.4
+        },
+        {
           "id": "millennium",
           "display_name": "Israel Englander / Millennium",
           "value": 100990500,
           "shares": 2071600,
           "weight": 0.04
-        },
-        {
-          "id": "daily_journal",
-          "display_name": "芒格 / Daily Journal",
-          "value": 97500000,
-          "shares": 2000000,
-          "weight": 40.51
         },
         {
           "id": "citadel",
@@ -2970,8 +2970,8 @@
           "weight": 0.58
         }
       ],
-      "total_value": 27577884522,
-      "avg_weight": 3.86
+      "total_value": 27594344522,
+      "avg_weight": 4.12
     },
     {
       "cusip": "084670702",
@@ -7918,18 +7918,18 @@
           "weight": 0.0
         },
         {
+          "id": "daily_journal",
+          "display_name": "芒格 / Daily Journal",
+          "value": 7217800,
+          "shares": 119500,
+          "weight": 2.81
+        },
+        {
           "id": "millennium",
           "display_name": "Israel Englander / Millennium",
           "value": 6288009,
           "shares": 120900,
           "weight": 0.0
-        },
-        {
-          "id": "daily_journal",
-          "display_name": "芒格 / Daily Journal",
-          "value": 6215195,
-          "shares": 119500,
-          "weight": 2.58
         },
         {
           "id": "point72",
@@ -7967,8 +7967,8 @@
           "weight": 0.0
         }
       ],
-      "total_value": 488876037,
-      "avg_weight": 0.23
+      "total_value": 489878642,
+      "avg_weight": 0.25
     },
     {
       "cusip": "026874784",
@@ -10302,9 +10302,9 @@
         {
           "id": "daily_journal",
           "display_name": "芒格 / Daily Journal",
-          "value": 112488930,
+          "value": 116770320,
           "shares": 1413000,
-          "weight": 46.74
+          "weight": 45.5
         },
         {
           "id": "millennium",
@@ -10349,8 +10349,8 @@
           "weight": 1.27
         }
       ],
-      "total_value": 1834100703,
-      "avg_weight": 4.26
+      "total_value": 1838382093,
+      "avg_weight": 4.16
     },
     {
       "cusip": "539830109",
