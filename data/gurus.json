@@ -1,8 +1,37 @@
 {
-  "generated_at": "2026-07-16T18:21:48Z",
+  "generated_at": "2026-07-17T00:21:04Z",
   "guru_count": 31,
   "gurus_with_data": 31,
   "gurus": [
+    {
+      "id": "daily_journal",
+      "display_name": "芒格 / Daily Journal",
+      "name": "Daily Journal Corp",
+      "style": "value",
+      "style_label": "价值投资",
+      "aum": "$5B",
+      "representative": "查理·芒格 (Charlie Munger, 遗产持仓)",
+      "bio": "芒格生前担任Daily Journal董事长，投资组合极度集中：美国银行、富国银行和比亚迪。",
+      "famous_trade": "重仓比亚迪和美国银行，长期持有不动。",
+      "cik": "0000783412",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2026-06-30",
+      "latest_filing_date": "2026-07-16",
+      "total_value": 256664220,
+      "holdings_count": 4,
+      "summary": {
+        "total_new": 0,
+        "total_increased": 0,
+        "total_decreased": 0,
+        "total_unchanged": 4,
+        "total_sold": 0,
+        "total_value_current": 256664220,
+        "total_value_previous": 240668825,
+        "total_value_change_pct": 6.6
+      }
+    },
     {
       "id": "d1_capital",
       "display_name": "Dan Sundheim / D1 Capital",
@@ -871,35 +900,6 @@
         "total_value_current": 474952596,
         "total_value_previous": 488745623,
         "total_value_change_pct": -2.8
-      }
-    },
-    {
-      "id": "daily_journal",
-      "display_name": "芒格 / Daily Journal",
-      "name": "Daily Journal Corp",
-      "style": "value",
-      "style_label": "价值投资",
-      "aum": "$5B",
-      "representative": "查理·芒格 (Charlie Munger, 遗产持仓)",
-      "bio": "芒格生前担任Daily Journal董事长，投资组合极度集中：美国银行、富国银行和比亚迪。",
-      "famous_trade": "重仓比亚迪和美国银行，长期持有不动。",
-      "cik": "0000783412",
-      "filing_type": "13F-HR",
-      "active": true,
-      "has_data": true,
-      "latest_period": "2026-03-31",
-      "latest_filing_date": "2026-04-15",
-      "total_value": 240668825,
-      "holdings_count": 4,
-      "summary": {
-        "total_new": 0,
-        "total_increased": 0,
-        "total_decreased": 0,
-        "total_unchanged": 4,
-        "total_sold": 0,
-        "total_value_current": 240668825,
-        "total_value_previous": 276651220,
-        "total_value_change_pct": -13.0
       }
     }
   ]
