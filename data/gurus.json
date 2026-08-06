@@ -1,8 +1,37 @@
 {
-  "generated_at": "2026-08-06T13:38:29Z",
+  "generated_at": "2026-08-06T23:47:43Z",
   "guru_count": 31,
   "gurus_with_data": 31,
   "gurus": [
+    {
+      "id": "baillie_gifford",
+      "display_name": "柏基投资 / Baillie Gifford",
+      "name": "Baillie Gifford & Co",
+      "style": "growth",
+      "style_label": "科技成长",
+      "aum": "$300B+",
+      "representative": "James Anderson (前成长股负责人)",
+      "bio": "苏格兰百年资管巨头（1908年成立），以长期成长股投资著称。曾是特斯拉、亚马逊、阿里巴巴等科技巨头的早期重仓者。持股周期极长，不惧波动。",
+      "famous_trade": "早期重仓特斯拉、亚马逊等科技股，持有超10年获数十倍回报。",
+      "cik": "0001088875",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2026-06-30",
+      "latest_filing_date": "2026-08-06",
+      "total_value": 110225053010,
+      "holdings_count": 273,
+      "summary": {
+        "total_new": 28,
+        "total_increased": 58,
+        "total_decreased": 179,
+        "total_unchanged": 8,
+        "total_sold": 26,
+        "total_value_current": 110225053010,
+        "total_value_previous": 97893043995,
+        "total_value_change_pct": 12.6
+      }
+    },
     {
       "id": "altimeter",
       "display_name": "Brad Gerstner / Altimeter",
@@ -813,35 +842,6 @@
         "total_value_current": 12859485476,
         "total_value_previous": 15067426139,
         "total_value_change_pct": -14.7
-      }
-    },
-    {
-      "id": "baillie_gifford",
-      "display_name": "柏基投资 / Baillie Gifford",
-      "name": "Baillie Gifford & Co",
-      "style": "growth",
-      "style_label": "科技成长",
-      "aum": "$300B+",
-      "representative": "James Anderson (前成长股负责人)",
-      "bio": "苏格兰百年资管巨头（1908年成立），以长期成长股投资著称。曾是特斯拉、亚马逊、阿里巴巴等科技巨头的早期重仓者。持股周期极长，不惧波动。",
-      "famous_trade": "早期重仓特斯拉、亚马逊等科技股，持有超10年获数十倍回报。",
-      "cik": "0001088875",
-      "filing_type": "13F-HR",
-      "active": true,
-      "has_data": true,
-      "latest_period": "2026-03-31",
-      "latest_filing_date": "2026-05-08",
-      "total_value": 97893043995,
-      "holdings_count": 271,
-      "summary": {
-        "total_new": 16,
-        "total_increased": 63,
-        "total_decreased": 175,
-        "total_unchanged": 17,
-        "total_sold": 11,
-        "total_value_current": 97893043995,
-        "total_value_previous": 120341270939,
-        "total_value_change_pct": -18.7
       }
     },
     {
