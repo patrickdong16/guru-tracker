@@ -1,8 +1,37 @@
 {
-  "generated_at": "2026-08-07T06:58:22Z",
+  "generated_at": "2026-08-07T12:37:47Z",
   "guru_count": 31,
   "gurus_with_data": 31,
   "gurus": [
+    {
+      "id": "greenwoods",
+      "display_name": "蒋锦志 / 景林资产",
+      "name": "Greenwoods Asset Management Hong Kong Ltd.",
+      "style": "value",
+      "style_label": "逆向投资",
+      "aum": "$3-5B",
+      "representative": "蒋锦志 (Jiang Jinzhi)",
+      "bio": "中国最成功的百亿私募之一，海外美股动作被视为中资机构风向标。擅长在市场恐慌时左侧入场，重仓行业龙头。",
+      "famous_trade": "核心持仓拼多多、网易等中概股；2025年显著加码AI硬件链（台积电、英伟达、ASML）。",
+      "cik": "0001848138",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2026-06-30",
+      "latest_filing_date": "2026-08-07",
+      "total_value": 2185501549,
+      "holdings_count": 21,
+      "summary": {
+        "total_new": 4,
+        "total_increased": 1,
+        "total_decreased": 11,
+        "total_unchanged": 5,
+        "total_sold": 8,
+        "total_value_current": 2185501549,
+        "total_value_previous": 3878030259,
+        "total_value_change_pct": -43.6
+      }
+    },
     {
       "id": "baillie_gifford",
       "display_name": "柏基投资 / Baillie Gifford",
@@ -842,35 +871,6 @@
         "total_value_current": 12859485476,
         "total_value_previous": 15067426139,
         "total_value_change_pct": -14.7
-      }
-    },
-    {
-      "id": "greenwoods",
-      "display_name": "蒋锦志 / 景林资产",
-      "name": "Greenwoods Asset Management Hong Kong Ltd.",
-      "style": "value",
-      "style_label": "逆向投资",
-      "aum": "$3-5B",
-      "representative": "蒋锦志 (Jiang Jinzhi)",
-      "bio": "中国最成功的百亿私募之一，海外美股动作被视为中资机构风向标。擅长在市场恐慌时左侧入场，重仓行业龙头。",
-      "famous_trade": "核心持仓拼多多、网易等中概股；2025年显著加码AI硬件链（台积电、英伟达、ASML）。",
-      "cik": "0001848138",
-      "filing_type": "13F-HR",
-      "active": true,
-      "has_data": true,
-      "latest_period": "2026-03-31",
-      "latest_filing_date": "2026-05-08",
-      "total_value": 3878030259,
-      "holdings_count": 25,
-      "summary": {
-        "total_new": 3,
-        "total_increased": 9,
-        "total_decreased": 7,
-        "total_unchanged": 6,
-        "total_sold": 6,
-        "total_value_current": 3878030259,
-        "total_value_previous": 4044709984,
-        "total_value_change_pct": -4.1
       }
     },
     {
