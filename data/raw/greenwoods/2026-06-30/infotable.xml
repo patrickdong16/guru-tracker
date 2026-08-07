@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:informationTable xmlns:ns1="http://www.sec.gov/edgar/document/thirteenf/informationtable">
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>ATRENEW INC</ns1:nameOfIssuer>
+		<ns1:titleOfClass>SPONSORED ADS</ns1:titleOfClass>
+		<ns1:cusip>00138L108</ns1:cusip>
+		<ns1:value>2031750</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>525000</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>OTR</ns1:investmentDiscretion>
+		<ns1:otherManager>1</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>525000</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>FULL TRUCK ALLIANCE CO LTD</ns1:nameOfIssuer>
+		<ns1:titleOfClass>SPONSORED ADS</ns1:titleOfClass>
+		<ns1:cusip>35969L108</ns1:cusip>
+		<ns1:value>297166885</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>36596907</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>OTR</ns1:investmentDiscretion>
+		<ns1:otherManager>1</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>36596907</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>FULL TRUCK ALLIANCE CO LTD</ns1:nameOfIssuer>
+		<ns1:titleOfClass>SPONSORED ADS</ns1:titleOfClass>
+		<ns1:cusip>35969L108</ns1:cusip>
+		<ns1:value>23186757</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>2855512</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>OTR</ns1:investmentDiscretion>
+		<ns1:otherManager>1</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>0</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>2855512</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>FUTU HLDGS LTD</ns1:nameOfIssuer>
+		<ns1:titleOfClass>SPON ADS CL A</ns1:titleOfClass>
+		<ns1:cusip>36118L106</ns1:cusip>
+		<ns1:value>89612440</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>955968</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>OTR</ns1:investmentDiscretion>
+		<ns1:otherManager>1</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>955968</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>FUTU HLDGS LTD</ns1:nameOfIssuer>
+		<ns1:titleOfClass>SPON ADS CL A</ns1:titleOfClass>
+		<ns1:cusip>36118L106</ns1:cusip>
+		<ns1:value>12904811</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>137666</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>OTR</ns1:investmentDiscretion>
+		<ns1:otherManager>1</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>0</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>137666</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>NETEASE COM INC</ns1:nameOfIssuer>
+		<ns1:titleOfClass>SPONSORED ADS</ns1:titleOfClass>
+		<ns1:cusip>64110W102</ns1:cusip>
+		<ns1:value>76964856</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>600631</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>OTR</ns1:investmentDiscretion>
+		<ns1:otherManager>1</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>600631</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>PDD HOLDINGS INC</ns1:nameOfIssuer>
+		<ns1:titleOfClass>SPONSORED ADS</ns1:titleOfClass>
+		<ns1:cusip>722304102</ns1:cusip>
+		<ns1:value>330726509</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>4335691</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>OTR</ns1:investmentDiscretion>
+		<ns1:otherManager>1</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>4335691</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>PDD HOLDINGS INC</ns1:nameOfIssuer>
+		<ns1:titleOfClass>SPONSORED ADS</ns1:titleOfClass>
+		<ns1:cusip>722304102</ns1:cusip>
+		<ns1:value>34324093</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>449975</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>OTR</ns1:investmentDiscretion>
+		<ns1:otherManager>1</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>0</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>449975</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>QFIN HOLDINGS INC</ns1:nameOfIssuer>
+		<ns1:titleOfClass>AMERICAN DEP</ns1:titleOfClass>
+		<ns1:cusip>88557W101</ns1:cusip>
+		<ns1:value>43307922</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>2739274</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>OTR</ns1:investmentDiscretion>
+		<ns1:otherManager>1</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>2739274</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>QFIN HOLDINGS INC</ns1:nameOfIssuer>
+		<ns1:titleOfClass>AMERICAN DEP</ns1:titleOfClass>
+		<ns1:cusip>88557W101</ns1:cusip>
+		<ns1:value>4619113</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>292164</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>OTR</ns1:investmentDiscretion>
+		<ns1:otherManager>1</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>0</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>292164</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>ALPHABET INC</ns1:nameOfIssuer>
+		<ns1:titleOfClass>CAP STK CL A</ns1:titleOfClass>
+		<ns1:cusip>02079K305</ns1:cusip>
+		<ns1:value>646967281</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>1810357</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>OTR</ns1:investmentDiscretion>
+		<ns1:otherManager>1</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>1810357</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>SEA LTD</ns1:nameOfIssuer>
+		<ns1:titleOfClass>SPONSORD ADS</ns1:titleOfClass>
+		<ns1:cusip>81141R100</ns1:cusip>
+		<ns1:value>20793002</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>216978</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>OTR</ns1:investmentDiscretion>
+		<ns1:otherManager>1</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>216978</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>TAIWAN SEMICONDUCTOR MANUFAC</ns1:nameOfIssuer>
+		<ns1:titleOfClass>SPONSORED ADS</ns1:titleOfClass>
+		<ns1:cusip>874039100</ns1:cusip>
+		<ns1:value>30818070</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>64531</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>OTR</ns1:investmentDiscretion>
+		<ns1:otherManager>1</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>64531</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>TAIWAN SEMICONDUCTOR MANUFAC</ns1:nameOfIssuer>
+		<ns1:titleOfClass>SPONSORED ADS</ns1:titleOfClass>
+		<ns1:cusip>874039100</ns1:cusip>
+		<ns1:value>8845074</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>18521</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>OTR</ns1:investmentDiscretion>
+		<ns1:otherManager>1</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>0</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>18521</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>APPLE INC</ns1:nameOfIssuer>
+		<ns1:titleOfClass>COM</ns1:titleOfClass>
+		<ns1:cusip>037833100</ns1:cusip>
+		<ns1:value>42439852</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>146668</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>OTR</ns1:investmentDiscretion>
+		<ns1:otherManager>1</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>146668</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>ATOUR LIFESTYLE HLDGS LTD</ns1:nameOfIssuer>
+		<ns1:titleOfClass>SPONSORED ADS</ns1:titleOfClass>
+		<ns1:cusip>04965M106</ns1:cusip>
+		<ns1:value>46822320</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>1472400</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>OTR</ns1:investmentDiscretion>
+		<ns1:otherManager>1</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>1472400</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>ATOUR LIFESTYLE HLDGS LTD</ns1:nameOfIssuer>
+		<ns1:titleOfClass>SPONSORED ADS</ns1:titleOfClass>
+		<ns1:cusip>04965M106</ns1:cusip>
+		<ns1:value>10048800</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>316000</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>OTR</ns1:investmentDiscretion>
+		<ns1:otherManager>1</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>0</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>316000</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>SUPER HI INTL HLDG LTD</ns1:nameOfIssuer>
+		<ns1:titleOfClass>SPONSORED ADS</ns1:titleOfClass>
+		<ns1:cusip>86803S106</ns1:cusip>
+		<ns1:value>3327428</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>268341</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>OTR</ns1:investmentDiscretion>
+		<ns1:otherManager>1</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>268341</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>H WORLD GROUP LTD</ns1:nameOfIssuer>
+		<ns1:titleOfClass>SPONSORED ADS</ns1:titleOfClass>
+		<ns1:cusip>44332N106</ns1:cusip>
+		<ns1:value>13415984</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>321572</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>OTR</ns1:investmentDiscretion>
+		<ns1:otherManager>1</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>0</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>321572</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>INTEL CORP</ns1:nameOfIssuer>
+		<ns1:titleOfClass>COM</ns1:titleOfClass>
+		<ns1:cusip>458140100</ns1:cusip>
+		<ns1:value>384149079</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>2751193</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>OTR</ns1:investmentDiscretion>
+		<ns1:otherManager>1</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>2751193</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>MAKEMYTRIP LIMITED MAURITIUS</ns1:nameOfIssuer>
+		<ns1:titleOfClass>SHS</ns1:titleOfClass>
+		<ns1:cusip>V5633W109</ns1:cusip>
+		<ns1:value>20706203</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>388557</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>OTR</ns1:investmentDiscretion>
+		<ns1:otherManager>1</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>388557</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>TRIP COM GROUP LTD</ns1:nameOfIssuer>
+		<ns1:titleOfClass>ADS</ns1:titleOfClass>
+		<ns1:cusip>89677Q107</ns1:cusip>
+		<ns1:value>478080</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>12000</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>OTR</ns1:investmentDiscretion>
+		<ns1:otherManager>1</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>0</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>12000</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>WERIDE INC</ns1:nameOfIssuer>
+		<ns1:titleOfClass>SPONSORED ADS</ns1:titleOfClass>
+		<ns1:cusip>950915108</ns1:cusip>
+		<ns1:value>12814476</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>2201800</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>OTR</ns1:investmentDiscretion>
+		<ns1:otherManager>1</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>2201800</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>APPLIED OPTOELECTRONICS INC</ns1:nameOfIssuer>
+		<ns1:titleOfClass>COM</ns1:titleOfClass>
+		<ns1:cusip>03823U102</ns1:cusip>
+		<ns1:value>7929523</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>53520</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>OTR</ns1:investmentDiscretion>
+		<ns1:otherManager>1</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>53520</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>ASML HLDG NV</ns1:nameOfIssuer>
+		<ns1:titleOfClass>N Y REGISTRY SHS</ns1:titleOfClass>
+		<ns1:cusip>N07059210</ns1:cusip>
+		<ns1:value>14065341</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>7070</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>OTR</ns1:investmentDiscretion>
+		<ns1:otherManager>1</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>7070</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>VNET GROUP INC</ns1:nameOfIssuer>
+		<ns1:titleOfClass>SPONSORED ADS A</ns1:titleOfClass>
+		<ns1:cusip>90138A103</ns1:cusip>
+		<ns1:value>5213940</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>648500</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>OTR</ns1:investmentDiscretion>
+		<ns1:otherManager>1</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>0</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>648500</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>APPLIED MATLS INC</ns1:nameOfIssuer>
+		<ns1:titleOfClass>COM</ns1:titleOfClass>
+		<ns1:cusip>038222105</ns1:cusip>
+		<ns1:value>1821960</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>2520</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>OTR</ns1:investmentDiscretion>
+		<ns1:otherManager>1</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>2520</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>0</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+</ns1:informationTable>
