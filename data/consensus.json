@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T06:44:39Z",
+  "generated_at": "2026-08-11T12:37:56Z",
   "total_stocks": 7621,
   "stocks": [
     {
@@ -138,9 +138,9 @@
         {
           "id": "oriental_harbor",
           "display_name": "但斌 / 东方港湾",
-          "value": 70874536,
-          "shares": 209719,
-          "weight": 6.25
+          "value": 65565107,
+          "shares": 137289,
+          "weight": 3.97
         },
         {
           "id": "millennium",
@@ -206,8 +206,8 @@
           "weight": 0.0
         }
       ],
-      "total_value": 12880749680,
-      "avg_weight": 2.23
+      "total_value": 12875440251,
+      "avg_weight": 2.15
     },
     {
       "cusip": "67066G104",
@@ -317,9 +317,9 @@
         {
           "id": "oriental_harbor",
           "display_name": "但斌 / 东方港湾",
-          "value": 224227649,
-          "shares": 1285709,
-          "weight": 19.79
+          "value": 216862944,
+          "shares": 1083827,
+          "weight": 13.15
         },
         {
           "id": "soros",
@@ -392,180 +392,8 @@
           "weight": 0.0
         }
       ],
-      "total_value": 49515418380,
-      "avg_weight": 4.25
-    },
-    {
-      "cusip": "02079K305",
-      "issuer": "ALPHABET INC",
-      "ticker": "GOOGL",
-      "title": "CAP STK CL A",
-      "guru_count": 23,
-      "gurus": [
-        {
-          "id": "berkshire_hathaway",
-          "display_name": "巴菲特 / Berkshire Hathaway",
-          "value": 15600071913,
-          "shares": 54249798,
-          "weight": 5.93
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 5017864488,
-          "shares": 17449800,
-          "weight": 0.81
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 4337928868,
-          "shares": 15085300,
-          "weight": 0.7
-        },
-        {
-          "id": "tiger_global",
-          "display_name": "Chase Coleman / Tiger Global",
-          "value": 3057165959,
-          "shares": 10631402,
-          "weight": 13.38
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 1886422356,
-          "shares": 6560100,
-          "weight": 0.79
-        },
-        {
-          "id": "baillie_gifford",
-          "display_name": "柏基投资 / Baillie Gifford",
-          "value": 1003677934,
-          "shares": 2808512,
-          "weight": 0.91
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 816693980,
-          "shares": 2840082,
-          "weight": 0.13
-        },
-        {
-          "id": "himalaya_capital",
-          "display_name": "李录 / Himalaya Capital",
-          "value": 731351348,
-          "shares": 2543300,
-          "weight": 22.85
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 666103984,
-          "shares": 2316400,
-          "weight": 0.28
-        },
-        {
-          "id": "greenwoods",
-          "display_name": "蒋锦志 / 景林资产",
-          "value": 646967281,
-          "shares": 1810357,
-          "weight": 29.6
-        },
-        {
-          "id": "sequoia_fund",
-          "display_name": "Sequoia Fund",
-          "value": 608949709,
-          "shares": 2117644,
-          "weight": 10.1
-        },
-        {
-          "id": "bridgewater",
-          "display_name": "达利欧 / Bridgewater",
-          "value": 574451135,
-          "shares": 1997674,
-          "weight": 2.56
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 478266054,
-          "shares": 1663187,
-          "weight": 0.2
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 185683243,
-          "shares": 645720,
-          "weight": 0.24
-        },
-        {
-          "id": "soros",
-          "display_name": "索罗斯 / Soros Fund",
-          "value": 165039023,
-          "shares": 573929,
-          "weight": 1.81
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 85261540,
-          "shares": 296500,
-          "weight": 0.11
-        },
-        {
-          "id": "oriental_harbor",
-          "display_name": "但斌 / 东方港湾",
-          "value": 79670223,
-          "shares": 277056,
-          "weight": 7.03
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 58230900,
-          "shares": 202500,
-          "weight": 0.07
-        },
-        {
-          "id": "third_point",
-          "display_name": "Dan Loeb / Third Point",
-          "value": 50323000,
-          "shares": 175000,
-          "weight": 2.42
-        },
-        {
-          "id": "tairen",
-          "display_name": "泰仁资本 / Tairen Capital",
-          "value": 42616392,
-          "shares": 148200,
-          "weight": 4.61
-        },
-        {
-          "id": "pershing_square",
-          "display_name": "Bill Ackman / Pershing Square",
-          "value": 9310043,
-          "shares": 32376,
-          "weight": 0.07
-        },
-        {
-          "id": "altimeter",
-          "display_name": "Brad Gerstner / Altimeter",
-          "value": 1386219,
-          "shares": 3879,
-          "weight": 0.3
-        },
-        {
-          "id": "d1_capital",
-          "display_name": "Dan Sundheim / D1 Capital",
-          "value": 1001150,
-          "shares": 2783,
-          "weight": 0.3
-        }
-      ],
-      "total_value": 36104436742,
-      "avg_weight": 4.57
+      "total_value": 49508053675,
+      "avg_weight": 3.99
     },
     {
       "cusip": "023135106",
@@ -701,18 +529,18 @@
           "weight": 1.23
         },
         {
-          "id": "oriental_harbor",
-          "display_name": "但斌 / 东方港湾",
-          "value": 37809335,
-          "shares": 181540,
-          "weight": 3.34
-        },
-        {
           "id": "point72",
           "display_name": "Steve Cohen / Point72",
           "value": 26054577,
           "shares": 125100,
           "weight": 0.03
+        },
+        {
+          "id": "oriental_harbor",
+          "display_name": "但斌 / 东方港湾",
+          "value": 14275850,
+          "shares": 59897,
+          "weight": 0.87
         },
         {
           "id": "d1_capital",
@@ -736,8 +564,8 @@
           "weight": 1.64
         }
       ],
-      "total_value": 30257340270,
-      "avg_weight": 4.56
+      "total_value": 30233806785,
+      "avg_weight": 4.46
     },
     {
       "cusip": "30303M102",
@@ -859,13 +687,6 @@
           "weight": 0.69
         },
         {
-          "id": "oriental_harbor",
-          "display_name": "但斌 / 东方港湾",
-          "value": 78251364,
-          "shares": 136772,
-          "weight": 6.91
-        },
-        {
           "id": "point72",
           "display_name": "Steve Cohen / Point72",
           "value": 63392004,
@@ -901,6 +722,13 @@
           "weight": 0.78
         },
         {
+          "id": "oriental_harbor",
+          "display_name": "但斌 / 东方港湾",
+          "value": 135752,
+          "shares": 241,
+          "weight": 0.01
+        },
+        {
           "id": "d1_capital",
           "display_name": "Dan Sundheim / D1 Capital",
           "value": 22729,
@@ -908,8 +736,8 @@
           "weight": 0.01
         }
       ],
-      "total_value": 24772225704,
-      "avg_weight": 2.65
+      "total_value": 24694110092,
+      "avg_weight": 2.35
     },
     {
       "cusip": "02079K107",
@@ -998,9 +826,9 @@
         {
           "id": "oriental_harbor",
           "display_name": "但斌 / 东方港湾",
-          "value": 345632737,
-          "shares": 1204883,
-          "weight": 30.5
+          "value": 370873894,
+          "shares": 1049653,
+          "weight": 22.48
         },
         {
           "id": "baupost",
@@ -1080,8 +908,173 @@
           "weight": 0.02
         }
       ],
-      "total_value": 13267118771,
-      "avg_weight": 4.06
+      "total_value": 13292359928,
+      "avg_weight": 3.71
+    },
+    {
+      "cusip": "02079K305",
+      "issuer": "ALPHABET INC",
+      "ticker": "GOOGL",
+      "title": "CAP STK CL A",
+      "guru_count": 22,
+      "gurus": [
+        {
+          "id": "berkshire_hathaway",
+          "display_name": "巴菲特 / Berkshire Hathaway",
+          "value": 15600071913,
+          "shares": 54249798,
+          "weight": 5.93
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 5017864488,
+          "shares": 17449800,
+          "weight": 0.81
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 4337928868,
+          "shares": 15085300,
+          "weight": 0.7
+        },
+        {
+          "id": "tiger_global",
+          "display_name": "Chase Coleman / Tiger Global",
+          "value": 3057165959,
+          "shares": 10631402,
+          "weight": 13.38
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 1886422356,
+          "shares": 6560100,
+          "weight": 0.79
+        },
+        {
+          "id": "baillie_gifford",
+          "display_name": "柏基投资 / Baillie Gifford",
+          "value": 1003677934,
+          "shares": 2808512,
+          "weight": 0.91
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 816693980,
+          "shares": 2840082,
+          "weight": 0.13
+        },
+        {
+          "id": "himalaya_capital",
+          "display_name": "李录 / Himalaya Capital",
+          "value": 731351348,
+          "shares": 2543300,
+          "weight": 22.85
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 666103984,
+          "shares": 2316400,
+          "weight": 0.28
+        },
+        {
+          "id": "greenwoods",
+          "display_name": "蒋锦志 / 景林资产",
+          "value": 646967281,
+          "shares": 1810357,
+          "weight": 29.6
+        },
+        {
+          "id": "sequoia_fund",
+          "display_name": "Sequoia Fund",
+          "value": 608949709,
+          "shares": 2117644,
+          "weight": 10.1
+        },
+        {
+          "id": "bridgewater",
+          "display_name": "达利欧 / Bridgewater",
+          "value": 574451135,
+          "shares": 1997674,
+          "weight": 2.56
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 478266054,
+          "shares": 1663187,
+          "weight": 0.2
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 185683243,
+          "shares": 645720,
+          "weight": 0.24
+        },
+        {
+          "id": "soros",
+          "display_name": "索罗斯 / Soros Fund",
+          "value": 165039023,
+          "shares": 573929,
+          "weight": 1.81
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 85261540,
+          "shares": 296500,
+          "weight": 0.11
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 58230900,
+          "shares": 202500,
+          "weight": 0.07
+        },
+        {
+          "id": "third_point",
+          "display_name": "Dan Loeb / Third Point",
+          "value": 50323000,
+          "shares": 175000,
+          "weight": 2.42
+        },
+        {
+          "id": "tairen",
+          "display_name": "泰仁资本 / Tairen Capital",
+          "value": 42616392,
+          "shares": 148200,
+          "weight": 4.61
+        },
+        {
+          "id": "pershing_square",
+          "display_name": "Bill Ackman / Pershing Square",
+          "value": 9310043,
+          "shares": 32376,
+          "weight": 0.07
+        },
+        {
+          "id": "altimeter",
+          "display_name": "Brad Gerstner / Altimeter",
+          "value": 1386219,
+          "shares": 3879,
+          "weight": 0.3
+        },
+        {
+          "id": "d1_capital",
+          "display_name": "Dan Sundheim / D1 Capital",
+          "value": 1001150,
+          "shares": 2783,
+          "weight": 0.3
+        }
+      ],
+      "total_value": 36024766519,
+      "avg_weight": 4.46
     },
     {
       "cusip": "595112103",
@@ -1168,6 +1161,13 @@
           "weight": 0.25
         },
         {
+          "id": "oriental_harbor",
+          "display_name": "但斌 / 东方港湾",
+          "value": 170358198,
+          "shares": 147587,
+          "weight": 10.33
+        },
+        {
           "id": "point72",
           "display_name": "Steve Cohen / Point72",
           "value": 90101928,
@@ -1187,13 +1187,6 @@
           "value": 85676224,
           "shares": 253600,
           "weight": 0.11
-        },
-        {
-          "id": "oriental_harbor",
-          "display_name": "但斌 / 东方港湾",
-          "value": 24672455,
-          "shares": 73030,
-          "weight": 2.18
         },
         {
           "id": "duquesne",
@@ -1245,159 +1238,8 @@
           "weight": 0.02
         }
       ],
-      "total_value": 14858080679,
-      "avg_weight": 1.56
-    },
-    {
-      "cusip": "037833100",
-      "issuer": "APPLE INC",
-      "ticker": "AAPL",
-      "title": "COM",
-      "guru_count": 20,
-      "gurus": [
-        {
-          "id": "berkshire_hathaway",
-          "display_name": "巴菲特 / Berkshire Hathaway",
-          "value": 57843260493,
-          "shares": 227917808,
-          "weight": 21.99
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 8075826211,
-          "shares": 31820900,
-          "weight": 1.31
-        },
-        {
-          "id": "duan_yongping",
-          "display_name": "段永平 / H&H International",
-          "value": 7346105601,
-          "shares": 28945607,
-          "weight": 36.72
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 4659152957,
-          "shares": 18358300,
-          "weight": 0.75
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 2209673393,
-          "shares": 8706700,
-          "weight": 0.92
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 1326078129,
-          "shares": 5225100,
-          "weight": 0.55
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 1323228067,
-          "shares": 5213870,
-          "weight": 0.21
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 1184776232,
-          "shares": 4668333,
-          "weight": 0.49
-        },
-        {
-          "id": "baillie_gifford",
-          "display_name": "柏基投资 / Baillie Gifford",
-          "value": 509444611,
-          "shares": 1760591,
-          "weight": 0.46
-        },
-        {
-          "id": "bridgewater",
-          "display_name": "达利欧 / Bridgewater",
-          "value": 143008635,
-          "shares": 563492,
-          "weight": 0.64
-        },
-        {
-          "id": "soros",
-          "display_name": "索罗斯 / Soros Fund",
-          "value": 127030524,
-          "shares": 500534,
-          "weight": 1.39
-        },
-        {
-          "id": "oriental_harbor",
-          "display_name": "但斌 / 东方港湾",
-          "value": 87373806,
-          "shares": 344276,
-          "weight": 7.71
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 85146545,
-          "shares": 335500,
-          "weight": 0.11
-        },
-        {
-          "id": "greenwoods",
-          "display_name": "蒋锦志 / 景林资产",
-          "value": 42439852,
-          "shares": 146668,
-          "weight": 1.94
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 33348006,
-          "shares": 131400,
-          "weight": 0.04
-        },
-        {
-          "id": "himalaya_capital",
-          "display_name": "李录 / Himalaya Capital",
-          "value": 28069174,
-          "shares": 110600,
-          "weight": 0.88
-        },
-        {
-          "id": "d1_capital",
-          "display_name": "Dan Sundheim / D1 Capital",
-          "value": 17424339,
-          "shares": 56542,
-          "weight": 5.26
-        },
-        {
-          "id": "altimeter",
-          "display_name": "Brad Gerstner / Altimeter",
-          "value": 13652080,
-          "shares": 47180,
-          "weight": 2.93
-        },
-        {
-          "id": "fairholme",
-          "display_name": "Bruce Berkowitz / Fairholme",
-          "value": 609096,
-          "shares": 2400,
-          "weight": 0.04
-        },
-        {
-          "id": "sequoia_fund",
-          "display_name": "Sequoia Fund",
-          "value": 243892,
-          "shares": 961,
-          "weight": 0.0
-        }
-      ],
-      "total_value": 85055891643,
-      "avg_weight": 4.22
+      "total_value": 15003766422,
+      "avg_weight": 1.93
     },
     {
       "cusip": "594918104",
@@ -1555,7 +1397,7 @@
       "issuer": "BROADCOM INC",
       "ticker": "AVGO",
       "title": "COM",
-      "guru_count": 19,
+      "guru_count": 20,
       "gurus": [
         {
           "id": "citadel",
@@ -1663,6 +1505,13 @@
           "weight": 0.05
         },
         {
+          "id": "oriental_harbor",
+          "display_name": "但斌 / 东方港湾",
+          "value": 24911479,
+          "shares": 65947,
+          "weight": 1.51
+        },
+        {
           "id": "point72",
           "display_name": "Steve Cohen / Point72",
           "value": 20582415,
@@ -1691,15 +1540,15 @@
           "weight": 0.02
         }
       ],
-      "total_value": 12757907982,
-      "avg_weight": 1.17
+      "total_value": 12782819461,
+      "avg_weight": 1.19
     },
     {
       "cusip": "007903107",
       "issuer": "ADVANCED MICRO DEVICES INC",
       "ticker": "AMD",
       "title": "COM",
-      "guru_count": 19,
+      "guru_count": 20,
       "gurus": [
         {
           "id": "citadel",
@@ -1763,6 +1612,13 @@
           "value": 262987591,
           "shares": 1292767,
           "weight": 1.17
+        },
+        {
+          "id": "oriental_harbor",
+          "display_name": "但斌 / 东方港湾",
+          "value": 146062267,
+          "shares": 251437,
+          "weight": 8.85
         },
         {
           "id": "citadel",
@@ -1835,15 +1691,15 @@
           "weight": 0.0
         }
       ],
-      "total_value": 9544864629,
-      "avg_weight": 1.22
+      "total_value": 9690926896,
+      "avg_weight": 1.6
     },
     {
       "cusip": "458140100",
       "issuer": "INTEL CORP",
       "ticker": "INTC",
       "title": "COM",
-      "guru_count": 19,
+      "guru_count": 20,
       "gurus": [
         {
           "id": "citadel",
@@ -1879,6 +1735,13 @@
           "value": 279066911,
           "shares": 6323746,
           "weight": 0.05
+        },
+        {
+          "id": "oriental_harbor",
+          "display_name": "但斌 / 东方港湾",
+          "value": 258230325,
+          "shares": 1849390,
+          "weight": 15.65
         },
         {
           "id": "situational_awareness",
@@ -1979,8 +1842,152 @@
           "weight": 0.0
         }
       ],
-      "total_value": 3916175473,
-      "avg_weight": 1.31
+      "total_value": 4174405798,
+      "avg_weight": 2.02
+    },
+    {
+      "cusip": "037833100",
+      "issuer": "APPLE INC",
+      "ticker": "AAPL",
+      "title": "COM",
+      "guru_count": 19,
+      "gurus": [
+        {
+          "id": "berkshire_hathaway",
+          "display_name": "巴菲特 / Berkshire Hathaway",
+          "value": 57843260493,
+          "shares": 227917808,
+          "weight": 21.99
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 8075826211,
+          "shares": 31820900,
+          "weight": 1.31
+        },
+        {
+          "id": "duan_yongping",
+          "display_name": "段永平 / H&H International",
+          "value": 7346105601,
+          "shares": 28945607,
+          "weight": 36.72
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 4659152957,
+          "shares": 18358300,
+          "weight": 0.75
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 2209673393,
+          "shares": 8706700,
+          "weight": 0.92
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 1326078129,
+          "shares": 5225100,
+          "weight": 0.55
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 1323228067,
+          "shares": 5213870,
+          "weight": 0.21
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 1184776232,
+          "shares": 4668333,
+          "weight": 0.49
+        },
+        {
+          "id": "baillie_gifford",
+          "display_name": "柏基投资 / Baillie Gifford",
+          "value": 509444611,
+          "shares": 1760591,
+          "weight": 0.46
+        },
+        {
+          "id": "bridgewater",
+          "display_name": "达利欧 / Bridgewater",
+          "value": 143008635,
+          "shares": 563492,
+          "weight": 0.64
+        },
+        {
+          "id": "soros",
+          "display_name": "索罗斯 / Soros Fund",
+          "value": 127030524,
+          "shares": 500534,
+          "weight": 1.39
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 85146545,
+          "shares": 335500,
+          "weight": 0.11
+        },
+        {
+          "id": "greenwoods",
+          "display_name": "蒋锦志 / 景林资产",
+          "value": 42439852,
+          "shares": 146668,
+          "weight": 1.94
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 33348006,
+          "shares": 131400,
+          "weight": 0.04
+        },
+        {
+          "id": "himalaya_capital",
+          "display_name": "李录 / Himalaya Capital",
+          "value": 28069174,
+          "shares": 110600,
+          "weight": 0.88
+        },
+        {
+          "id": "d1_capital",
+          "display_name": "Dan Sundheim / D1 Capital",
+          "value": 17424339,
+          "shares": 56542,
+          "weight": 5.26
+        },
+        {
+          "id": "altimeter",
+          "display_name": "Brad Gerstner / Altimeter",
+          "value": 13652080,
+          "shares": 47180,
+          "weight": 2.93
+        },
+        {
+          "id": "fairholme",
+          "display_name": "Bruce Berkowitz / Fairholme",
+          "value": 609096,
+          "shares": 2400,
+          "weight": 0.04
+        },
+        {
+          "id": "sequoia_fund",
+          "display_name": "Sequoia Fund",
+          "value": 243892,
+          "shares": 961,
+          "weight": 0.0
+        }
+      ],
+      "total_value": 84968517837,
+      "avg_weight": 4.03
     },
     {
       "cusip": "64110L106",
@@ -2111,6 +2118,136 @@
       ],
       "total_value": 9441697870,
       "avg_weight": 0.28
+    },
+    {
+      "cusip": "80004C200",
+      "issuer": "SANDISK CORP",
+      "ticker": "SNDK",
+      "title": "COM",
+      "guru_count": 17,
+      "gurus": [
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 2243702575,
+          "shares": 3531499,
+          "weight": 0.36
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 1564470746,
+          "shares": 2462415,
+          "weight": 0.25
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 725745705,
+          "shares": 1142295,
+          "weight": 0.3
+        },
+        {
+          "id": "situational_awareness",
+          "display_name": "Leopold Aschenbrenner / Situational Awareness",
+          "value": 724363205,
+          "shares": 1140119,
+          "weight": 5.3
+        },
+        {
+          "id": "situational_awareness",
+          "display_name": "Leopold Aschenbrenner / Situational Awareness",
+          "value": 388764546,
+          "shares": 611900,
+          "weight": 2.84
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 386157746,
+          "shares": 607797,
+          "weight": 0.06
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 239274127,
+          "shares": 376608,
+          "weight": 0.31
+        },
+        {
+          "id": "appaloosa",
+          "display_name": "David Tepper / Appaloosa",
+          "value": 178689375,
+          "shares": 281250,
+          "weight": 3.01
+        },
+        {
+          "id": "oriental_harbor",
+          "display_name": "但斌 / 东方港湾",
+          "value": 175704759,
+          "shares": 77276,
+          "weight": 10.65
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 123255960,
+          "shares": 194000,
+          "weight": 0.16
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 88312260,
+          "shares": 139000,
+          "weight": 0.04
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 78019752,
+          "shares": 122800,
+          "weight": 0.03
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 51970812,
+          "shares": 81800,
+          "weight": 0.07
+        },
+        {
+          "id": "tairen",
+          "display_name": "泰仁资本 / Tairen Capital",
+          "value": 33333113,
+          "shares": 52465,
+          "weight": 3.61
+        },
+        {
+          "id": "duquesne",
+          "display_name": "Druckenmiller / Duquesne",
+          "value": 24241000,
+          "shares": 38155,
+          "weight": 0.72
+        },
+        {
+          "id": "bridgewater",
+          "display_name": "达利欧 / Bridgewater",
+          "value": 6008410,
+          "shares": 9457,
+          "weight": 0.03
+        },
+        {
+          "id": "altimeter",
+          "display_name": "Brad Gerstner / Altimeter",
+          "value": 393355,
+          "shares": 173,
+          "weight": 0.08
+        }
+      ],
+      "total_value": 7032407446,
+      "avg_weight": 1.64
     },
     {
       "cusip": "N07059210",
@@ -2373,6 +2510,136 @@
       "avg_weight": 0.95
     },
     {
+      "cusip": "55024U109",
+      "issuer": "LUMENTUM HLDGS INC",
+      "ticker": "LITE",
+      "title": "COM",
+      "guru_count": 17,
+      "gurus": [
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 872687368,
+          "shares": 1241800,
+          "weight": 0.14
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 673876564,
+          "shares": 958900,
+          "weight": 0.11
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 98911361,
+          "shares": 140747,
+          "weight": 0.02
+        },
+        {
+          "id": "tiger_global",
+          "display_name": "Chase Coleman / Tiger Global",
+          "value": 96137568,
+          "shares": 136800,
+          "weight": 0.42
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 85746559,
+          "shares": 122014,
+          "weight": 0.04
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 64736846,
+          "shares": 92118,
+          "weight": 0.08
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 58610184,
+          "shares": 83400,
+          "weight": 0.02
+        },
+        {
+          "id": "tairen",
+          "display_name": "泰仁资本 / Tairen Capital",
+          "value": 38472596,
+          "shares": 54745,
+          "weight": 4.16
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 35629932,
+          "shares": 50700,
+          "weight": 0.05
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 30991716,
+          "shares": 44100,
+          "weight": 0.04
+        },
+        {
+          "id": "oriental_harbor",
+          "display_name": "但斌 / 东方港湾",
+          "value": 22414243,
+          "shares": 26122,
+          "weight": 1.36
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 12228024,
+          "shares": 17400,
+          "weight": 0.01
+        },
+        {
+          "id": "duquesne",
+          "display_name": "Druckenmiller / Duquesne",
+          "value": 4893000,
+          "shares": 6963,
+          "weight": 0.14
+        },
+        {
+          "id": "bridgewater",
+          "display_name": "达利欧 / Bridgewater",
+          "value": 4088658,
+          "shares": 5818,
+          "weight": 0.02
+        },
+        {
+          "id": "hillhouse",
+          "display_name": "张磊 / 高瓴 HHLR",
+          "value": 1054140,
+          "shares": 1500,
+          "weight": 0.06
+        },
+        {
+          "id": "altimeter",
+          "display_name": "Brad Gerstner / Altimeter",
+          "value": 261022,
+          "shares": 304,
+          "weight": 0.06
+        },
+        {
+          "id": "baillie_gifford",
+          "display_name": "柏基投资 / Baillie Gifford",
+          "value": 5148,
+          "shares": 6,
+          "weight": 0.0
+        }
+      ],
+      "total_value": 2100744929,
+      "avg_weight": 0.4
+    },
+    {
       "cusip": "78462F103",
       "issuer": "STATE STR SPDR S&P 500 ETF T",
       "ticker": "SPY",
@@ -2617,129 +2884,6 @@
       ],
       "total_value": 8733729168,
       "avg_weight": 3.15
-    },
-    {
-      "cusip": "80004C200",
-      "issuer": "SANDISK CORP",
-      "ticker": "SNDK",
-      "title": "COM",
-      "guru_count": 16,
-      "gurus": [
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 2243702575,
-          "shares": 3531499,
-          "weight": 0.36
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 1564470746,
-          "shares": 2462415,
-          "weight": 0.25
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 725745705,
-          "shares": 1142295,
-          "weight": 0.3
-        },
-        {
-          "id": "situational_awareness",
-          "display_name": "Leopold Aschenbrenner / Situational Awareness",
-          "value": 724363205,
-          "shares": 1140119,
-          "weight": 5.3
-        },
-        {
-          "id": "situational_awareness",
-          "display_name": "Leopold Aschenbrenner / Situational Awareness",
-          "value": 388764546,
-          "shares": 611900,
-          "weight": 2.84
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 386157746,
-          "shares": 607797,
-          "weight": 0.06
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 239274127,
-          "shares": 376608,
-          "weight": 0.31
-        },
-        {
-          "id": "appaloosa",
-          "display_name": "David Tepper / Appaloosa",
-          "value": 178689375,
-          "shares": 281250,
-          "weight": 3.01
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 123255960,
-          "shares": 194000,
-          "weight": 0.16
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 88312260,
-          "shares": 139000,
-          "weight": 0.04
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 78019752,
-          "shares": 122800,
-          "weight": 0.03
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 51970812,
-          "shares": 81800,
-          "weight": 0.07
-        },
-        {
-          "id": "tairen",
-          "display_name": "泰仁资本 / Tairen Capital",
-          "value": 33333113,
-          "shares": 52465,
-          "weight": 3.61
-        },
-        {
-          "id": "duquesne",
-          "display_name": "Druckenmiller / Duquesne",
-          "value": 24241000,
-          "shares": 38155,
-          "weight": 0.72
-        },
-        {
-          "id": "bridgewater",
-          "display_name": "达利欧 / Bridgewater",
-          "value": 6008410,
-          "shares": 9457,
-          "weight": 0.03
-        },
-        {
-          "id": "altimeter",
-          "display_name": "Brad Gerstner / Altimeter",
-          "value": 393355,
-          "shares": 173,
-          "weight": 0.08
-        }
-      ],
-      "total_value": 6856702687,
-      "avg_weight": 1.07
     },
     {
       "cusip": "90353T100",
@@ -3234,129 +3378,6 @@
       "avg_weight": 0.62
     },
     {
-      "cusip": "55024U109",
-      "issuer": "LUMENTUM HLDGS INC",
-      "ticker": "LITE",
-      "title": "COM",
-      "guru_count": 16,
-      "gurus": [
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 872687368,
-          "shares": 1241800,
-          "weight": 0.14
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 673876564,
-          "shares": 958900,
-          "weight": 0.11
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 98911361,
-          "shares": 140747,
-          "weight": 0.02
-        },
-        {
-          "id": "tiger_global",
-          "display_name": "Chase Coleman / Tiger Global",
-          "value": 96137568,
-          "shares": 136800,
-          "weight": 0.42
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 85746559,
-          "shares": 122014,
-          "weight": 0.04
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 64736846,
-          "shares": 92118,
-          "weight": 0.08
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 58610184,
-          "shares": 83400,
-          "weight": 0.02
-        },
-        {
-          "id": "tairen",
-          "display_name": "泰仁资本 / Tairen Capital",
-          "value": 38472596,
-          "shares": 54745,
-          "weight": 4.16
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 35629932,
-          "shares": 50700,
-          "weight": 0.05
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 30991716,
-          "shares": 44100,
-          "weight": 0.04
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 12228024,
-          "shares": 17400,
-          "weight": 0.01
-        },
-        {
-          "id": "duquesne",
-          "display_name": "Druckenmiller / Duquesne",
-          "value": 4893000,
-          "shares": 6963,
-          "weight": 0.14
-        },
-        {
-          "id": "bridgewater",
-          "display_name": "达利欧 / Bridgewater",
-          "value": 4088658,
-          "shares": 5818,
-          "weight": 0.02
-        },
-        {
-          "id": "hillhouse",
-          "display_name": "张磊 / 高瓴 HHLR",
-          "value": 1054140,
-          "shares": 1500,
-          "weight": 0.06
-        },
-        {
-          "id": "altimeter",
-          "display_name": "Brad Gerstner / Altimeter",
-          "value": 261022,
-          "shares": 304,
-          "weight": 0.06
-        },
-        {
-          "id": "baillie_gifford",
-          "display_name": "柏基投资 / Baillie Gifford",
-          "value": 5148,
-          "shares": 6,
-          "weight": 0.0
-        }
-      ],
-      "total_value": 2078330686,
-      "avg_weight": 0.34
-    },
-    {
       "cusip": "219350105",
       "issuer": "CORNING INC",
       "ticker": "GLW",
@@ -3478,122 +3499,6 @@
       ],
       "total_value": 1242530940,
       "avg_weight": 0.46
-    },
-    {
-      "cusip": "88160R101",
-      "issuer": "TESLA INC",
-      "ticker": "TSLA",
-      "title": "COM",
-      "guru_count": 15,
-      "gurus": [
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 13532815250,
-          "shares": 36403000,
-          "weight": 2.19
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 9452561600,
-          "shares": 25427200,
-          "weight": 1.53
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 1825218150,
-          "shares": 4909800,
-          "weight": 0.76
-        },
-        {
-          "id": "duan_yongping",
-          "display_name": "段永平 / H&H International",
-          "value": 1267258575,
-          "shares": 3408900,
-          "weight": 6.34
-        },
-        {
-          "id": "ark_invest",
-          "display_name": "Cathie Wood / ARK Invest",
-          "value": 1052546690,
-          "shares": 2831329,
-          "weight": 8.18
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 777815871,
-          "shares": 2092309,
-          "weight": 0.13
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 643871000,
-          "shares": 1732000,
-          "weight": 0.27
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 584615165,
-          "shares": 1572603,
-          "weight": 0.24
-        },
-        {
-          "id": "baillie_gifford",
-          "display_name": "柏基投资 / Baillie Gifford",
-          "value": 307307604,
-          "shares": 730641,
-          "weight": 0.28
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 82602850,
-          "shares": 222200,
-          "weight": 0.11
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 76431800,
-          "shares": 205600,
-          "weight": 0.1
-        },
-        {
-          "id": "oriental_harbor",
-          "display_name": "但斌 / 东方港湾",
-          "value": 74144050,
-          "shares": 199446,
-          "weight": 6.54
-        },
-        {
-          "id": "soros",
-          "display_name": "索罗斯 / Soros Fund",
-          "value": 19737323,
-          "shares": 53093,
-          "weight": 0.22
-        },
-        {
-          "id": "bridgewater",
-          "display_name": "达利欧 / Bridgewater",
-          "value": 749820,
-          "shares": 2017,
-          "weight": 0.0
-        },
-        {
-          "id": "d1_capital",
-          "display_name": "Dan Sundheim / D1 Capital",
-          "value": 245126,
-          "shares": 624,
-          "weight": 0.07
-        }
-      ],
-      "total_value": 29697920874,
-      "avg_weight": 1.8
     },
     {
       "cusip": "060505104",
@@ -4283,6 +4188,115 @@
       ],
       "total_value": 32326169144,
       "avg_weight": 0.9
+    },
+    {
+      "cusip": "88160R101",
+      "issuer": "TESLA INC",
+      "ticker": "TSLA",
+      "title": "COM",
+      "guru_count": 14,
+      "gurus": [
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 13532815250,
+          "shares": 36403000,
+          "weight": 2.19
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 9452561600,
+          "shares": 25427200,
+          "weight": 1.53
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 1825218150,
+          "shares": 4909800,
+          "weight": 0.76
+        },
+        {
+          "id": "duan_yongping",
+          "display_name": "段永平 / H&H International",
+          "value": 1267258575,
+          "shares": 3408900,
+          "weight": 6.34
+        },
+        {
+          "id": "ark_invest",
+          "display_name": "Cathie Wood / ARK Invest",
+          "value": 1052546690,
+          "shares": 2831329,
+          "weight": 8.18
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 777815871,
+          "shares": 2092309,
+          "weight": 0.13
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 643871000,
+          "shares": 1732000,
+          "weight": 0.27
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 584615165,
+          "shares": 1572603,
+          "weight": 0.24
+        },
+        {
+          "id": "baillie_gifford",
+          "display_name": "柏基投资 / Baillie Gifford",
+          "value": 307307604,
+          "shares": 730641,
+          "weight": 0.28
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 82602850,
+          "shares": 222200,
+          "weight": 0.11
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 76431800,
+          "shares": 205600,
+          "weight": 0.1
+        },
+        {
+          "id": "soros",
+          "display_name": "索罗斯 / Soros Fund",
+          "value": 19737323,
+          "shares": 53093,
+          "weight": 0.22
+        },
+        {
+          "id": "bridgewater",
+          "display_name": "达利欧 / Bridgewater",
+          "value": 749820,
+          "shares": 2017,
+          "weight": 0.0
+        },
+        {
+          "id": "d1_capital",
+          "display_name": "Dan Sundheim / D1 Capital",
+          "value": 245126,
+          "shares": 624,
+          "weight": 0.07
+        }
+      ],
+      "total_value": 29623776824,
+      "avg_weight": 1.46
     },
     {
       "cusip": "674599105",
@@ -5048,6 +5062,115 @@
       "avg_weight": 1.67
     },
     {
+      "cusip": "573874104",
+      "issuer": "MARVELL TECHNOLOGY INC",
+      "ticker": "MRVL",
+      "title": "COM",
+      "guru_count": 14,
+      "gurus": [
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 605490372,
+          "shares": 6112977,
+          "weight": 0.25
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 479362380,
+          "shares": 4839600,
+          "weight": 0.08
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 357035630,
+          "shares": 3604600,
+          "weight": 0.06
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 273457240,
+          "shares": 2760800,
+          "weight": 0.11
+        },
+        {
+          "id": "bridgewater",
+          "display_name": "达利欧 / Bridgewater",
+          "value": 193043200,
+          "shares": 1948947,
+          "weight": 0.86
+        },
+        {
+          "id": "oriental_harbor",
+          "display_name": "但斌 / 东方港湾",
+          "value": 130809158,
+          "shares": 439119,
+          "weight": 7.93
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 78559823,
+          "shares": 793133,
+          "weight": 0.01
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 73861585,
+          "shares": 745700,
+          "weight": 0.03
+        },
+        {
+          "id": "hillhouse",
+          "display_name": "张磊 / 高瓴 HHLR",
+          "value": 16940819,
+          "shares": 171033,
+          "weight": 1.01
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 15233890,
+          "shares": 153800,
+          "weight": 0.02
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 13450990,
+          "shares": 135800,
+          "weight": 0.02
+        },
+        {
+          "id": "altimeter",
+          "display_name": "Brad Gerstner / Altimeter",
+          "value": 494795,
+          "shares": 1661,
+          "weight": 0.11
+        },
+        {
+          "id": "baillie_gifford",
+          "display_name": "柏基投资 / Baillie Gifford",
+          "value": 16384,
+          "shares": 55,
+          "weight": 0.0
+        },
+        {
+          "id": "d1_capital",
+          "display_name": "Dan Sundheim / D1 Capital",
+          "value": 12016,
+          "shares": 49,
+          "weight": 0.0
+        }
+      ],
+      "total_value": 2237768282,
+      "avg_weight": 0.75
+    },
+    {
       "cusip": "093712107",
       "issuer": "BLOOM ENERGY CORP",
       "ticker": "BE",
@@ -5264,6 +5387,115 @@
       ],
       "total_value": 2035104465,
       "avg_weight": 0.66
+    },
+    {
+      "cusip": "042068205",
+      "issuer": "ARM HOLDINGS PLC",
+      "ticker": "ARM",
+      "title": "SPONSORED ADS",
+      "guru_count": 14,
+      "gurus": [
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 537104512,
+          "shares": 3550400,
+          "weight": 0.09
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 407276016,
+          "shares": 2692200,
+          "weight": 0.07
+        },
+        {
+          "id": "baillie_gifford",
+          "display_name": "柏基投资 / Baillie Gifford",
+          "value": 156494788,
+          "shares": 441365,
+          "weight": 0.14
+        },
+        {
+          "id": "bridgewater",
+          "display_name": "达利欧 / Bridgewater",
+          "value": 89763652,
+          "shares": 593361,
+          "weight": 0.4
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 77062032,
+          "shares": 509400,
+          "weight": 0.1
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 76456912,
+          "shares": 505400,
+          "weight": 0.03
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 74202840,
+          "shares": 490500,
+          "weight": 0.03
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 55716424,
+          "shares": 368300,
+          "weight": 0.07
+        },
+        {
+          "id": "oriental_harbor",
+          "display_name": "但斌 / 东方港湾",
+          "value": 53388668,
+          "shares": 150573,
+          "weight": 3.24
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 43692690,
+          "shares": 288820,
+          "weight": 0.01
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 40870410,
+          "shares": 270164,
+          "weight": 0.02
+        },
+        {
+          "id": "tairen",
+          "display_name": "泰仁资本 / Tairen Capital",
+          "value": 16247472,
+          "shares": 107400,
+          "weight": 1.76
+        },
+        {
+          "id": "duquesne",
+          "display_name": "Druckenmiller / Duquesne",
+          "value": 16142000,
+          "shares": 106700,
+          "weight": 0.48
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 2157555,
+          "shares": 14262,
+          "weight": 0.0
+        }
+      ],
+      "total_value": 1646575971,
+      "avg_weight": 0.46
     },
     {
       "cusip": "78409V104",
@@ -6511,108 +6743,6 @@
       "avg_weight": 0.71
     },
     {
-      "cusip": "573874104",
-      "issuer": "MARVELL TECHNOLOGY INC",
-      "ticker": "MRVL",
-      "title": "COM",
-      "guru_count": 13,
-      "gurus": [
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 605490372,
-          "shares": 6112977,
-          "weight": 0.25
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 479362380,
-          "shares": 4839600,
-          "weight": 0.08
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 357035630,
-          "shares": 3604600,
-          "weight": 0.06
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 273457240,
-          "shares": 2760800,
-          "weight": 0.11
-        },
-        {
-          "id": "bridgewater",
-          "display_name": "达利欧 / Bridgewater",
-          "value": 193043200,
-          "shares": 1948947,
-          "weight": 0.86
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 78559823,
-          "shares": 793133,
-          "weight": 0.01
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 73861585,
-          "shares": 745700,
-          "weight": 0.03
-        },
-        {
-          "id": "hillhouse",
-          "display_name": "张磊 / 高瓴 HHLR",
-          "value": 16940819,
-          "shares": 171033,
-          "weight": 1.01
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 15233890,
-          "shares": 153800,
-          "weight": 0.02
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 13450990,
-          "shares": 135800,
-          "weight": 0.02
-        },
-        {
-          "id": "altimeter",
-          "display_name": "Brad Gerstner / Altimeter",
-          "value": 494795,
-          "shares": 1661,
-          "weight": 0.11
-        },
-        {
-          "id": "baillie_gifford",
-          "display_name": "柏基投资 / Baillie Gifford",
-          "value": 16384,
-          "shares": 55,
-          "weight": 0.0
-        },
-        {
-          "id": "d1_capital",
-          "display_name": "Dan Sundheim / D1 Capital",
-          "value": 12016,
-          "shares": 49,
-          "weight": 0.0
-        }
-      ],
-      "total_value": 2106959124,
-      "avg_weight": 0.2
-    },
-    {
       "cusip": "833445109",
       "issuer": "SNOWFLAKE INC",
       "ticker": "SNOW",
@@ -6713,210 +6843,6 @@
       ],
       "total_value": 1878366010,
       "avg_weight": 0.08
-    },
-    {
-      "cusip": "042068205",
-      "issuer": "ARM HOLDINGS PLC",
-      "ticker": "ARM",
-      "title": "SPONSORED ADS",
-      "guru_count": 13,
-      "gurus": [
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 537104512,
-          "shares": 3550400,
-          "weight": 0.09
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 407276016,
-          "shares": 2692200,
-          "weight": 0.07
-        },
-        {
-          "id": "baillie_gifford",
-          "display_name": "柏基投资 / Baillie Gifford",
-          "value": 156494788,
-          "shares": 441365,
-          "weight": 0.14
-        },
-        {
-          "id": "bridgewater",
-          "display_name": "达利欧 / Bridgewater",
-          "value": 89763652,
-          "shares": 593361,
-          "weight": 0.4
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 77062032,
-          "shares": 509400,
-          "weight": 0.1
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 76456912,
-          "shares": 505400,
-          "weight": 0.03
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 74202840,
-          "shares": 490500,
-          "weight": 0.03
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 55716424,
-          "shares": 368300,
-          "weight": 0.07
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 43692690,
-          "shares": 288820,
-          "weight": 0.01
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 40870410,
-          "shares": 270164,
-          "weight": 0.02
-        },
-        {
-          "id": "tairen",
-          "display_name": "泰仁资本 / Tairen Capital",
-          "value": 16247472,
-          "shares": 107400,
-          "weight": 1.76
-        },
-        {
-          "id": "duquesne",
-          "display_name": "Druckenmiller / Duquesne",
-          "value": 16142000,
-          "shares": 106700,
-          "weight": 0.48
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 2157555,
-          "shares": 14262,
-          "weight": 0.0
-        }
-      ],
-      "total_value": 1593187303,
-      "avg_weight": 0.25
-    },
-    {
-      "cusip": "172573107",
-      "issuer": "CIRCLE INTERNET GROUP INC",
-      "ticker": "CRCL",
-      "title": "COM CL A",
-      "guru_count": 13,
-      "gurus": [
-        {
-          "id": "ark_invest",
-          "display_name": "Cathie Wood / ARK Invest",
-          "value": 430249668,
-          "shares": 4509482,
-          "weight": 3.35
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 399815605,
-          "shares": 4190500,
-          "weight": 0.06
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 353761198,
-          "shares": 3707800,
-          "weight": 0.06
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 82797847,
-          "shares": 867811,
-          "weight": 0.01
-        },
-        {
-          "id": "baillie_gifford",
-          "display_name": "柏基投资 / Baillie Gifford",
-          "value": 61166149,
-          "shares": 976627,
-          "weight": 0.06
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 19740329,
-          "shares": 206900,
-          "weight": 0.01
-        },
-        {
-          "id": "duan_yongping",
-          "display_name": "段永平 / H&H International",
-          "value": 19082000,
-          "shares": 200000,
-          "weight": 0.1
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 14653449,
-          "shares": 153584,
-          "weight": 0.01
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 10113460,
-          "shares": 106000,
-          "weight": 0.01
-        },
-        {
-          "id": "soros",
-          "display_name": "索罗斯 / Soros Fund",
-          "value": 7221201,
-          "shares": 75686,
-          "weight": 0.08
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 6220732,
-          "shares": 65200,
-          "weight": 0.0
-        },
-        {
-          "id": "oriental_harbor",
-          "display_name": "但斌 / 东方港湾",
-          "value": 3025832,
-          "shares": 31714,
-          "weight": 0.27
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 2194430,
-          "shares": 23000,
-          "weight": 0.0
-        }
-      ],
-      "total_value": 1410041900,
-      "avg_weight": 0.31
     },
     {
       "cusip": "92840M102",
@@ -11392,6 +11318,101 @@
       ],
       "total_value": 1443760041,
       "avg_weight": 0.08
+    },
+    {
+      "cusip": "172573107",
+      "issuer": "CIRCLE INTERNET GROUP INC",
+      "ticker": "CRCL",
+      "title": "COM CL A",
+      "guru_count": 12,
+      "gurus": [
+        {
+          "id": "ark_invest",
+          "display_name": "Cathie Wood / ARK Invest",
+          "value": 430249668,
+          "shares": 4509482,
+          "weight": 3.35
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 399815605,
+          "shares": 4190500,
+          "weight": 0.06
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 353761198,
+          "shares": 3707800,
+          "weight": 0.06
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 82797847,
+          "shares": 867811,
+          "weight": 0.01
+        },
+        {
+          "id": "baillie_gifford",
+          "display_name": "柏基投资 / Baillie Gifford",
+          "value": 61166149,
+          "shares": 976627,
+          "weight": 0.06
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 19740329,
+          "shares": 206900,
+          "weight": 0.01
+        },
+        {
+          "id": "duan_yongping",
+          "display_name": "段永平 / H&H International",
+          "value": 19082000,
+          "shares": 200000,
+          "weight": 0.1
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 14653449,
+          "shares": 153584,
+          "weight": 0.01
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 10113460,
+          "shares": 106000,
+          "weight": 0.01
+        },
+        {
+          "id": "soros",
+          "display_name": "索罗斯 / Soros Fund",
+          "value": 7221201,
+          "shares": 75686,
+          "weight": 0.08
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 6220732,
+          "shares": 65200,
+          "weight": 0.0
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 2194430,
+          "shares": 23000,
+          "weight": 0.0
+        }
+      ],
+      "total_value": 1407016068,
+      "avg_weight": 0.31
     },
     {
       "cusip": "032654105",
@@ -129552,45 +129573,6 @@
       "avg_weight": 0.18
     },
     {
-      "cusip": "74347X831",
-      "issuer": "PROSHARES TR",
-      "ticker": "TQQQ",
-      "title": "ULTRAPRO QQQ",
-      "guru_count": 4,
-      "gurus": [
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 387869912,
-          "shares": 9305900,
-          "weight": 0.06
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 275325576,
-          "shares": 6605700,
-          "weight": 0.04
-        },
-        {
-          "id": "oriental_harbor",
-          "display_name": "但斌 / 东方港湾",
-          "value": 81762155,
-          "shares": 1961664,
-          "weight": 7.22
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 2182657,
-          "shares": 52367,
-          "weight": 0.0
-        }
-      ],
-      "total_value": 747140300,
-      "avg_weight": 1.83
-    },
-    {
       "cusip": "126633205",
       "issuer": "CVR PARTNERS LP/CVR NITROGEN",
       "ticker": "UAN",
@@ -130837,45 +130819,6 @@
       ],
       "total_value": 107242400,
       "avg_weight": 0.01
-    },
-    {
-      "cusip": "25461A841",
-      "issuer": "DIREXION SHARES ETF TRUST",
-      "ticker": "GGLL",
-      "title": "DLY GOOGL BUL 2X",
-      "guru_count": 4,
-      "gurus": [
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 48508075,
-          "shares": 621500,
-          "weight": 0.01
-        },
-        {
-          "id": "oriental_harbor",
-          "display_name": "但斌 / 东方港湾",
-          "value": 25646995,
-          "shares": 328597,
-          "weight": 2.26
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 25093075,
-          "shares": 321500,
-          "weight": 0.0
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 4875627,
-          "shares": 62468,
-          "weight": 0.0
-        }
-      ],
-      "total_value": 104123772,
-      "avg_weight": 0.57
     },
     {
       "cusip": "500081104",
@@ -155278,6 +155221,38 @@
       "avg_weight": 2.9
     },
     {
+      "cusip": "74347X831",
+      "issuer": "PROSHARES TR",
+      "ticker": "TQQQ",
+      "title": "ULTRAPRO QQQ",
+      "guru_count": 3,
+      "gurus": [
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 387869912,
+          "shares": 9305900,
+          "weight": 0.06
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 275325576,
+          "shares": 6605700,
+          "weight": 0.04
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 2182657,
+          "shares": 52367,
+          "weight": 0.0
+        }
+      ],
+      "total_value": 665378145,
+      "avg_weight": 0.03
+    },
+    {
       "cusip": "25459W458",
       "issuer": "DIREXION SHARES ETF TRUST",
       "ticker": "SOXL",
@@ -156652,6 +156627,38 @@
       ],
       "total_value": 78598284,
       "avg_weight": 0.61
+    },
+    {
+      "cusip": "25461A841",
+      "issuer": "DIREXION SHARES ETF TRUST",
+      "ticker": "GGLL",
+      "title": "DLY GOOGL BUL 2X",
+      "guru_count": 3,
+      "gurus": [
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 48508075,
+          "shares": 621500,
+          "weight": 0.01
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 25093075,
+          "shares": 321500,
+          "weight": 0.0
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 4875627,
+          "shares": 62468,
+          "weight": 0.0
+        }
+      ],
+      "total_value": 78476777,
+      "avg_weight": 0.0
     },
     {
       "cusip": "922280AD4",

@@ -1,8 +1,37 @@
 {
-  "generated_at": "2026-08-11T06:44:38Z",
+  "generated_at": "2026-08-11T12:37:55Z",
   "guru_count": 31,
   "gurus_with_data": 31,
   "gurus": [
+    {
+      "id": "oriental_harbor",
+      "display_name": "但斌 / 东方港湾",
+      "name": "Oriental Harbor Investment Master Fund",
+      "style": "value",
+      "style_label": "价值投资",
+      "aum": "$1B+",
+      "representative": "但斌 (Dan Bin)",
+      "bio": "东方港湾创始人，中国著名价值投资者。早期重仓贵州茅台成名，近年积极配置美股科技和加密资产。通过香港子公司管理海外基金。",
+      "famous_trade": "长期持有贵州茅台超15年；近年重仓英伟达等AI概念股。",
+      "cik": "0002046333",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2026-06-30",
+      "latest_filing_date": "2026-08-11",
+      "total_value": 1649592644,
+      "holdings_count": 13,
+      "summary": {
+        "total_new": 7,
+        "total_increased": 1,
+        "total_decreased": 5,
+        "total_unchanged": 0,
+        "total_sold": 6,
+        "total_value_current": 1649592644,
+        "total_value_previous": 1133091137,
+        "total_value_change_pct": 45.6
+      }
+    },
     {
       "id": "greenwoods",
       "display_name": "蒋锦志 / 景林资产",
@@ -871,35 +900,6 @@
         "total_value_current": 12859485476,
         "total_value_previous": 15067426139,
         "total_value_change_pct": -14.7
-      }
-    },
-    {
-      "id": "oriental_harbor",
-      "display_name": "但斌 / 东方港湾",
-      "name": "Oriental Harbor Investment Master Fund",
-      "style": "value",
-      "style_label": "价值投资",
-      "aum": "$1B+",
-      "representative": "但斌 (Dan Bin)",
-      "bio": "东方港湾创始人，中国著名价值投资者。早期重仓贵州茅台成名，近年积极配置美股科技和加密资产。通过香港子公司管理海外基金。",
-      "famous_trade": "长期持有贵州茅台超15年；近年重仓英伟达等AI概念股。",
-      "cik": "0002046333",
-      "filing_type": "13F-HR",
-      "active": true,
-      "has_data": true,
-      "latest_period": "2026-03-31",
-      "latest_filing_date": "2026-04-28",
-      "total_value": 1133091137,
-      "holdings_count": 12,
-      "summary": {
-        "total_new": 4,
-        "total_increased": 3,
-        "total_decreased": 4,
-        "total_unchanged": 1,
-        "total_sold": 2,
-        "total_value_current": 1133091137,
-        "total_value_previous": 1315645739,
-        "total_value_change_pct": -13.9
       }
     }
   ]
