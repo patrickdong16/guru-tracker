@@ -78,11 +78,11 @@
             </div>
             <div>
                 <p class="text-[10px] text-zinc-500 uppercase tracking-wider">报告期</p>
-                <p class="text-sm font-semibold text-zinc-50">2026-03-31</p>
+                <p class="text-sm font-semibold text-zinc-50">2026-06-30</p>
             </div>
             <div>
                 <p class="text-[10px] text-zinc-500 uppercase tracking-wider">提交日期</p>
-                <p class="text-sm font-semibold text-zinc-50">2026-05-14</p>
+                <p class="text-sm font-semibold text-zinc-50">2026-08-13</p>
             </div>
         </div>
     </div>
@@ -92,21 +92,21 @@
 <div class="grid grid-cols-2 sm:grid-cols-5 gap-3 mb-6">
     <div class="bg-zinc-800 border border-zinc-700/50 rounded-lg p-4 text-center">
         <p class="text-xs text-zinc-500 mb-1">总持仓</p>
-        <p class="text-lg font-bold text-zinc-50 tabular-nums">$422.9M</p>
+        <p class="text-lg font-bold text-zinc-50 tabular-nums">$326.7M</p>
         
-        <p class="text-xs mt-1 tabular-nums text-emerald-400">
-            +5.2% 环比
+        <p class="text-xs mt-1 tabular-nums text-red-400">
+            -22.7% 环比
         </p>
         
     </div>
     <div class="bg-zinc-800 border border-zinc-700/50 rounded-lg p-4 text-center">
         <p class="text-xs text-zinc-500 mb-1">持仓数</p>
-        <p class="text-lg font-bold text-zinc-50 tabular-nums">3</p>
+        <p class="text-lg font-bold text-zinc-50 tabular-nums">4</p>
     </div>
     
     <div class="bg-zinc-800 border border-zinc-700/50 rounded-lg p-4 text-center">
         <p class="text-xs text-zinc-500 mb-1">🆕 新建仓</p>
-        <p class="text-lg font-bold text-emerald-400 tabular-nums">0</p>
+        <p class="text-lg font-bold text-emerald-400 tabular-nums">1</p>
     </div>
     <div class="bg-zinc-800 border border-zinc-700/50 rounded-lg p-4 text-center">
         <p class="text-xs text-zinc-500 mb-1">⬆⬇ 调仓</p>
@@ -114,7 +114,7 @@
     </div>
     <div class="bg-zinc-800 border border-zinc-700/50 rounded-lg p-4 text-center">
         <p class="text-xs text-zinc-500 mb-1">❌ 清仓</p>
-        <p class="text-lg font-bold text-red-400 tabular-nums">1</p>
+        <p class="text-lg font-bold text-red-400 tabular-nums">0</p>
     </div>
     
 </div>
@@ -135,24 +135,49 @@
         <div class="flex items-center justify-between mb-4">
             <h2 class="text-sm font-semibold text-zinc-50">季度变化</h2>
             
-            <span class="text-xs text-zinc-500">2025-12-31 → 2026-03-31</span>
+            <span class="text-xs text-zinc-500">2026-03-31 → 2026-06-30</span>
             
         </div>
         <!-- Change type tabs -->
         <div class="flex gap-2 mb-4 flex-wrap" id="change-tabs">
             
-            
-            <button class="change-tab px-3 py-1 text-xs rounded-full bg-zinc-700/50 text-zinc-400 border border-zinc-600/30 hover:border-zinc-500 transition" data-tab="increased">⬆ 加仓 (2)</button>
-            
-            
-            <button class="change-tab px-3 py-1 text-xs rounded-full bg-zinc-700/50 text-zinc-400 border border-zinc-600/30 hover:border-zinc-500 transition" data-tab="decreased">⬇ 减仓 (1)</button>
+            <button class="change-tab active px-3 py-1 text-xs rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 transition" data-tab="new">🆕 新建仓 (1)</button>
             
             
-            <button class="change-tab px-3 py-1 text-xs rounded-full bg-zinc-700/50 text-zinc-400 border border-zinc-600/30 hover:border-zinc-500 transition" data-tab="sold">❌ 清仓 (1)</button>
+            <button class="change-tab px-3 py-1 text-xs rounded-full bg-zinc-700/50 text-zinc-400 border border-zinc-600/30 hover:border-zinc-500 transition" data-tab="increased">⬆ 加仓 (1)</button>
+            
+            
+            <button class="change-tab px-3 py-1 text-xs rounded-full bg-zinc-700/50 text-zinc-400 border border-zinc-600/30 hover:border-zinc-500 transition" data-tab="decreased">⬇ 减仓 (2)</button>
+            
             
         </div>
         <!-- Tab content -->
         <div class="overflow-x-auto max-h-64 overflow-y-auto custom-scrollbar">
+            
+            <table class="change-panel w-full text-xs" data-panel="new">
+                <thead class="sticky top-0 bg-zinc-800">
+                    <tr class="text-zinc-500 text-left">
+                        <th class="pb-2 pr-4 font-medium">股票</th>
+                        <th class="pb-2 pr-4 font-medium text-right">市值</th>
+                        <th class="pb-2 pr-4 font-medium text-right">数量</th>
+                        <th class="pb-2 font-medium text-right">占比</th>
+                    </tr>
+                </thead>
+                <tbody>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4 font-medium">
+                            <span class="text-emerald-400">KASPI KZ JSC</span>
+                            <div class="text-[10px] text-zinc-500 font-normal">SPONSORED ADS · 48581R205</div>
+                            <a href="https://xueqiu.com/S/KSPI" target="_blank" class="ml-1 px-1 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">KSPI</a>
+                        </td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$147.5K</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">1,702</td>
+                        <td class="py-1.5 text-right tabular-nums">0.05%</td>
+                    </tr>
+                
+                </tbody>
+            </table>
             
 
             
@@ -169,24 +194,13 @@
                 
                     <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
                         <td class="py-1.5 pr-4">
-                            <span class="text-zinc-200">WARRIOR MET COAL INC</span>
-                            <div class="text-[10px] text-zinc-500 font-normal">COM · 93627C101</div>
+                            <span class="text-zinc-200">TRANSOCEAN LTD</span>
+                            <div class="text-[10px] text-zinc-500 font-normal">REGISTERED SHS · H8817H100</div>
                             
                         </td>
-                        <td class="py-1.5 pr-4 text-right tabular-nums">$168.7M</td>
-                        <td class="py-1.5 pr-4 text-right tabular-nums text-emerald-400">+11,000</td>
-                        <td class="py-1.5 text-right tabular-nums text-emerald-400">+0.6%</td>
-                    </tr>
-                
-                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
-                        <td class="py-1.5 pr-4">
-                            <span class="text-zinc-200">ALPHA METALLURGICAL RESOUR I</span>
-                            <div class="text-[10px] text-zinc-500 font-normal">COM · 020764106</div>
-                            <a href="https://xueqiu.com/S/AMR" target="_blank" class="ml-1 px-1 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">AMR</a>
-                        </td>
-                        <td class="py-1.5 pr-4 text-right tabular-nums">$119.0M</td>
-                        <td class="py-1.5 pr-4 text-right tabular-nums text-emerald-400">+36,738</td>
-                        <td class="py-1.5 text-right tabular-nums text-emerald-400">+6.8%</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$99.7M</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums text-emerald-400">+5,987</td>
+                        <td class="py-1.5 text-right tabular-nums text-emerald-400">+0.0%</td>
                     </tr>
                 
                 </tbody>
@@ -207,42 +221,30 @@
                 
                     <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
                         <td class="py-1.5 pr-4">
-                            <span class="text-zinc-200">TRANSOCEAN LTD</span>
-                            <div class="text-[10px] text-zinc-500 font-normal">REGISTERED SHS · H8817H100</div>
+                            <span class="text-zinc-200">WARRIOR MET COAL INC</span>
+                            <div class="text-[10px] text-zinc-500 font-normal">COM · 93627C101</div>
                             
                         </td>
-                        <td class="py-1.5 pr-4 text-right tabular-nums">$135.2M</td>
-                        <td class="py-1.5 pr-4 text-right tabular-nums text-red-400">-6,647,461</td>
-                        <td class="py-1.5 text-right tabular-nums text-red-400">-24.6%</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$141.5M</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums text-red-400">-66,781</td>
+                        <td class="py-1.5 text-right tabular-nums text-red-400">-3.7%</td>
+                    </tr>
+                
+                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
+                        <td class="py-1.5 pr-4">
+                            <span class="text-zinc-200">ALPHA METALLURGICAL RESOUR I</span>
+                            <div class="text-[10px] text-zinc-500 font-normal">COM · 020764106</div>
+                            <a href="https://xueqiu.com/S/AMR" target="_blank" class="ml-1 px-1 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">AMR</a>
+                        </td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums">$85.3M</td>
+                        <td class="py-1.5 pr-4 text-right tabular-nums text-red-400">-62,544</td>
+                        <td class="py-1.5 text-right tabular-nums text-red-400">-10.8%</td>
                     </tr>
                 
                 </tbody>
             </table>
             
 
-            
-            <table class="change-panel w-full text-xs hidden" data-panel="sold">
-                <thead class="sticky top-0 bg-zinc-800">
-                    <tr class="text-zinc-500 text-left">
-                        <th class="pb-2 pr-4 font-medium">股票</th>
-                        <th class="pb-2 pr-4 font-medium text-right">上期市值</th>
-                        <th class="pb-2 font-medium text-right">上期数量</th>
-                    </tr>
-                </thead>
-                <tbody>
-                
-                    <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20">
-                        <td class="py-1.5 pr-4 font-medium">
-                            <span class="text-red-400">VALARIS LTD</span>
-                            <div class="text-[10px] text-zinc-500 font-normal">CL A · G9460G101</div>
-                            
-                        </td>
-                        <td class="py-1.5 pr-4 text-right tabular-nums">$23.1M</td>
-                        <td class="py-1.5 text-right tabular-nums">459,098</td>
-                    </tr>
-                
-                </tbody>
-            </table>
             
         </div>
     </div>
@@ -285,12 +287,12 @@
                         
                     </td>
                     <td class="py-1.5 pr-4 text-zinc-500">COM</td>
-                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="168678908">$168.7M</td>
-                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="1810831">1,810,831</td>
-                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="39.89">39.89%</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="141547098">$141.5M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="1744050">1,744,050</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="43.32">43.32%</td>
                     <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
                         
-                        data-value="0.6"><span class="text-emerald-400">+0.60%</span>
+                        data-value="-3.7"><span class="text-red-400">-3.70%</span>
                         
                     </td>
                 </tr>
@@ -305,12 +307,12 @@
                         
                     </td>
                     <td class="py-1.5 pr-4 text-zinc-500">REGISTERED SHS</td>
-                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="135203415">$135.2M</td>
-                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="20392672">20,392,672</td>
-                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="31.97">31.97%</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="99749443">$99.7M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="20398659">20,398,659</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="30.53">30.53%</td>
                     <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
                         
-                        data-value="-24.6"><span class="text-red-400">-24.60%</span>
+                        data-value="0"><span class="text-zinc-500">0.00%</span>
                         
                     </td>
                 </tr>
@@ -325,12 +327,32 @@
                         
                     </td>
                     <td class="py-1.5 pr-4 text-zinc-500">COM</td>
-                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="119002819">$119.0M</td>
-                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="579738">579,738</td>
-                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="28.14">28.14%</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="85305978">$85.3M</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="517194">517,194</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="26.11">26.11%</td>
                     <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
                         
-                        data-value="6.8"><span class="text-emerald-400">+6.80%</span>
+                        data-value="-10.8"><span class="text-red-400">-10.80%</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr class="border-t border-zinc-700/30 hover:bg-zinc-700/20 holding-row" data-search="KASPI KZ JSC 48581R205 KSPI">
+                    <td class="py-1.5 pr-4 text-zinc-500 tabular-nums">4</td>
+                    <td class="py-1.5 pr-4 font-medium" data-value="KASPI KZ JSC">
+                        <span class="text-zinc-200">KASPI KZ JSC</span>
+                        <div class="text-[10px] text-zinc-500 font-normal">SPONSORED ADS · 48581R205</div>
+                        
+                        <a href="https://xueqiu.com/S/KSPI" target="_blank" class="ml-1.5 inline-block px-1.5 py-0.5 text-[10px] font-semibold rounded bg-blue-500/15 text-blue-400 border border-blue-500/25 hover:bg-blue-500/25 hover:text-blue-300 transition">KSPI</a>
+                        
+                    </td>
+                    <td class="py-1.5 pr-4 text-zinc-500">SPONSORED ADS</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="147461">$147.5K</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="1702">1,702</td>
+                    <td class="py-1.5 pr-4 text-right tabular-nums" data-value="0.05">0.05%</td>
+                    <td class="py-1.5 text-right tabular-nums whitespace-nowrap"
+                        
+                        data-value="999999"><span class="px-1.5 py-0.5 text-[10px] font-semibold rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">NEW</span>
                         
                     </td>
                 </tr>
@@ -437,7 +459,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Doughnut chart — Top 10 Holdings
     const chartCanvas = document.getElementById('holdingsChart');
     if (chartCanvas) {
-        const top10 = [{"issuer": "WARRIOR MET COAL INC", "title": "COM", "cusip": "93627C101", "value": 168678908, "shares": 1810831, "share_type": "SH", "put_call": "", "discretion": "SOLE", "sole_voting": 1810831, "shared_voting": 0, "no_voting": 0, "weight": 39.89, "ticker_raw": null, "ticker": null, "qty_change": 0.6}, {"issuer": "TRANSOCEAN LTD", "title": "REGISTERED SHS", "cusip": "H8817H100", "value": 135203415, "shares": 20392672, "share_type": "SH", "put_call": "", "discretion": "SOLE", "sole_voting": 20392672, "shared_voting": 0, "no_voting": 0, "weight": 31.97, "ticker_raw": null, "ticker": null, "qty_change": -24.6}, {"issuer": "ALPHA METALLURGICAL RESOUR I", "title": "COM", "cusip": "020764106", "value": 119002819, "shares": 579738, "share_type": "SH", "put_call": "", "discretion": "SOLE", "sole_voting": 579738, "shared_voting": 0, "no_voting": 0, "weight": 28.14, "ticker_raw": "AMR", "ticker": "AMR", "qty_change": 6.8}];
+        const top10 = [{"issuer": "WARRIOR MET COAL INC", "title": "COM", "cusip": "93627C101", "value": 141547098, "shares": 1744050, "share_type": "SH", "put_call": "", "discretion": "SOLE", "sole_voting": 1744050, "shared_voting": 0, "no_voting": 0, "weight": 43.32, "ticker_raw": null, "ticker": null, "qty_change": -3.7}, {"issuer": "TRANSOCEAN LTD", "title": "REGISTERED SHS", "cusip": "H8817H100", "value": 99749443, "shares": 20398659, "share_type": "SH", "put_call": "", "discretion": "SOLE", "sole_voting": 20398659, "shared_voting": 0, "no_voting": 0, "weight": 30.53, "ticker_raw": null, "ticker": null, "qty_change": 0.0}, {"issuer": "ALPHA METALLURGICAL RESOUR I", "title": "COM", "cusip": "020764106", "value": 85305978, "shares": 517194, "share_type": "SH", "put_call": "", "discretion": "SOLE", "sole_voting": 517194, "shared_voting": 0, "no_voting": 0, "weight": 26.11, "ticker_raw": "AMR", "ticker": "AMR", "qty_change": -10.8}, {"issuer": "KASPI KZ JSC", "title": "SPONSORED ADS", "cusip": "48581R205", "value": 147461, "shares": 1702, "share_type": "SH", "put_call": "", "discretion": "SOLE", "sole_voting": 1702, "shared_voting": 0, "no_voting": 0, "weight": 0.05, "ticker_raw": "KSPI", "ticker": "KSPI", "qty_change": "NEW"}];
         const labels = top10.map(h => h.issuer.length > 18 ? h.issuer.substring(0, 16) + '…' : h.issuer);
         const values = top10.map(h => h.value);
         const colors = [
