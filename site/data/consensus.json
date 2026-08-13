@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T07:09:25Z",
+  "generated_at": "2026-08-13T12:42:03Z",
   "total_stocks": 7621,
   "stocks": [
     {
@@ -22885,94 +22885,6 @@
       "avg_weight": 0.03
     },
     {
-      "cusip": "H8817H100",
-      "issuer": "TRANSOCEAN LTD",
-      "ticker": null,
-      "title": "REGISTERED SHS",
-      "guru_count": 11,
-      "gurus": [
-        {
-          "id": "pabrai",
-          "display_name": "Mohnish Pabrai / Pabrai Funds",
-          "value": 135203415,
-          "shares": 20392672,
-          "weight": 31.97
-        },
-        {
-          "id": "elliott",
-          "display_name": "Paul Singer / Elliott",
-          "value": 103605909,
-          "shares": 15626834,
-          "weight": 0.52
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 35844598,
-          "shares": 5406425,
-          "weight": 0.05
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 31104744,
-          "shares": 4691515,
-          "weight": 0.01
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 23302534,
-          "shares": 3514711,
-          "weight": 0.0
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 21101301,
-          "shares": 3182700,
-          "weight": 0.0
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 15707796,
-          "shares": 2369200,
-          "weight": 0.0
-        },
-        {
-          "id": "bridgewater",
-          "display_name": "达利欧 / Bridgewater",
-          "value": 2774198,
-          "shares": 418431,
-          "weight": 0.01
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 1326663,
-          "shares": 200100,
-          "weight": 0.0
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 933504,
-          "shares": 140800,
-          "weight": 0.0
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 72267,
-          "shares": 10900,
-          "weight": 0.0
-        }
-      ],
-      "total_value": 370976929,
-      "avg_weight": 2.96
-    },
-    {
       "cusip": "303250104",
       "issuer": "FAIR ISAAC CORP",
       "ticker": "FICO",
@@ -23587,6 +23499,94 @@
       ],
       "total_value": 337659584,
       "avg_weight": 0.01
+    },
+    {
+      "cusip": "H8817H100",
+      "issuer": "TRANSOCEAN LTD",
+      "ticker": null,
+      "title": "REGISTERED SHS",
+      "guru_count": 11,
+      "gurus": [
+        {
+          "id": "elliott",
+          "display_name": "Paul Singer / Elliott",
+          "value": 103605909,
+          "shares": 15626834,
+          "weight": 0.52
+        },
+        {
+          "id": "pabrai",
+          "display_name": "Mohnish Pabrai / Pabrai Funds",
+          "value": 99749443,
+          "shares": 20398659,
+          "weight": 30.53
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 35844598,
+          "shares": 5406425,
+          "weight": 0.05
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 31104744,
+          "shares": 4691515,
+          "weight": 0.01
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 23302534,
+          "shares": 3514711,
+          "weight": 0.0
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 21101301,
+          "shares": 3182700,
+          "weight": 0.0
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 15707796,
+          "shares": 2369200,
+          "weight": 0.0
+        },
+        {
+          "id": "bridgewater",
+          "display_name": "达利欧 / Bridgewater",
+          "value": 2774198,
+          "shares": 418431,
+          "weight": 0.01
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 1326663,
+          "shares": 200100,
+          "weight": 0.0
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 933504,
+          "shares": 140800,
+          "weight": 0.0
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 72267,
+          "shares": 10900,
+          "weight": 0.0
+        }
+      ],
+      "total_value": 335522957,
+      "avg_weight": 2.83
     },
     {
       "cusip": "29084Q100",
@@ -54422,73 +54422,6 @@
       "avg_weight": 0.01
     },
     {
-      "cusip": "93627C101",
-      "issuer": "WARRIOR MET COAL INC",
-      "ticker": null,
-      "title": "COM",
-      "guru_count": 8,
-      "gurus": [
-        {
-          "id": "pabrai",
-          "display_name": "Mohnish Pabrai / Pabrai Funds",
-          "value": 168678908,
-          "shares": 1810831,
-          "weight": 39.89
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 49176028,
-          "shares": 527923,
-          "weight": 0.01
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 24945570,
-          "shares": 267800,
-          "weight": 0.0
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 8059338,
-          "shares": 86520,
-          "weight": 0.01
-        },
-        {
-          "id": "bridgewater",
-          "display_name": "达利欧 / Bridgewater",
-          "value": 4799461,
-          "shares": 51524,
-          "weight": 0.02
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 2709640,
-          "shares": 29089,
-          "weight": 0.0
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 1863000,
-          "shares": 20000,
-          "weight": 0.0
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 493695,
-          "shares": 5300,
-          "weight": 0.0
-        }
-      ],
-      "total_value": 260725640,
-      "avg_weight": 4.99
-    },
-    {
       "cusip": "888787108",
       "issuer": "TOAST INC",
       "ticker": null,
@@ -55157,6 +55090,73 @@
       ],
       "total_value": 235679560,
       "avg_weight": 0.19
+    },
+    {
+      "cusip": "93627C101",
+      "issuer": "WARRIOR MET COAL INC",
+      "ticker": null,
+      "title": "COM",
+      "guru_count": 8,
+      "gurus": [
+        {
+          "id": "pabrai",
+          "display_name": "Mohnish Pabrai / Pabrai Funds",
+          "value": 141547098,
+          "shares": 1744050,
+          "weight": 43.32
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 49176028,
+          "shares": 527923,
+          "weight": 0.01
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 24945570,
+          "shares": 267800,
+          "weight": 0.0
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 8059338,
+          "shares": 86520,
+          "weight": 0.01
+        },
+        {
+          "id": "bridgewater",
+          "display_name": "达利欧 / Bridgewater",
+          "value": 4799461,
+          "shares": 51524,
+          "weight": 0.02
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 2709640,
+          "shares": 29089,
+          "weight": 0.0
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 1863000,
+          "shares": 20000,
+          "weight": 0.0
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 493695,
+          "shares": 5300,
+          "weight": 0.0
+        }
+      ],
+      "total_value": 233593830,
+      "avg_weight": 5.42
     },
     {
       "cusip": "34631F102",
@@ -57236,73 +57236,6 @@
       "avg_weight": 0.02
     },
     {
-      "cusip": "020764106",
-      "issuer": "ALPHA METALLURGICAL RESOUR I",
-      "ticker": "AMR",
-      "title": "COM",
-      "guru_count": 8,
-      "gurus": [
-        {
-          "id": "pabrai",
-          "display_name": "Mohnish Pabrai / Pabrai Funds",
-          "value": 119002819,
-          "shares": 579738,
-          "weight": 28.14
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 16647397,
-          "shares": 81100,
-          "weight": 0.0
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 7861841,
-          "shares": 38300,
-          "weight": 0.0
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 5415433,
-          "shares": 26382,
-          "weight": 0.0
-        },
-        {
-          "id": "millennium",
-          "display_name": "Israel Englander / Millennium",
-          "value": 4499313,
-          "shares": 21919,
-          "weight": 0.0
-        },
-        {
-          "id": "bridgewater",
-          "display_name": "达利欧 / Bridgewater",
-          "value": 3321679,
-          "shares": 16182,
-          "weight": 0.01
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 1005823,
-          "shares": 4900,
-          "weight": 0.0
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 677391,
-          "shares": 3300,
-          "weight": 0.0
-        }
-      ],
-      "total_value": 158431696,
-      "avg_weight": 3.52
-    },
-    {
       "cusip": "M7S64H106",
       "issuer": "MONDAY COM LTD",
       "ticker": null,
@@ -58708,6 +58641,73 @@
       ],
       "total_value": 126271489,
       "avg_weight": 0.01
+    },
+    {
+      "cusip": "020764106",
+      "issuer": "ALPHA METALLURGICAL RESOUR I",
+      "ticker": "AMR",
+      "title": "COM",
+      "guru_count": 8,
+      "gurus": [
+        {
+          "id": "pabrai",
+          "display_name": "Mohnish Pabrai / Pabrai Funds",
+          "value": 85305978,
+          "shares": 517194,
+          "weight": 26.11
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 16647397,
+          "shares": 81100,
+          "weight": 0.0
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 7861841,
+          "shares": 38300,
+          "weight": 0.0
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 5415433,
+          "shares": 26382,
+          "weight": 0.0
+        },
+        {
+          "id": "millennium",
+          "display_name": "Israel Englander / Millennium",
+          "value": 4499313,
+          "shares": 21919,
+          "weight": 0.0
+        },
+        {
+          "id": "bridgewater",
+          "display_name": "达利欧 / Bridgewater",
+          "value": 3321679,
+          "shares": 16182,
+          "weight": 0.01
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 1005823,
+          "shares": 4900,
+          "weight": 0.0
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 677391,
+          "shares": 3300,
+          "weight": 0.0
+        }
+      ],
+      "total_value": 124734855,
+      "avg_weight": 3.27
     },
     {
       "cusip": "29446M102",
@@ -63783,6 +63783,66 @@
       ],
       "total_value": 513783541,
       "avg_weight": 0.02
+    },
+    {
+      "cusip": "48581R205",
+      "issuer": "KASPI KZ JSC",
+      "ticker": "KSPI",
+      "title": "SPONSORED ADS",
+      "guru_count": 7,
+      "gurus": [
+        {
+          "id": "baillie_gifford",
+          "display_name": "柏基投资 / Baillie Gifford",
+          "value": 500707116,
+          "shares": 5779168,
+          "weight": 0.45
+        },
+        {
+          "id": "ark_invest",
+          "display_name": "Cathie Wood / ARK Invest",
+          "value": 4639152,
+          "shares": 62632,
+          "weight": 0.04
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 3503511,
+          "shares": 47300,
+          "weight": 0.0
+        },
+        {
+          "id": "citadel",
+          "display_name": "Ken Griffin / Citadel",
+          "value": 1185120,
+          "shares": 16000,
+          "weight": 0.0
+        },
+        {
+          "id": "point72",
+          "display_name": "Steve Cohen / Point72",
+          "value": 575968,
+          "shares": 7776,
+          "weight": 0.0
+        },
+        {
+          "id": "sequoia_fund",
+          "display_name": "Sequoia Fund",
+          "value": 302428,
+          "shares": 4083,
+          "weight": 0.01
+        },
+        {
+          "id": "pabrai",
+          "display_name": "Mohnish Pabrai / Pabrai Funds",
+          "value": 147461,
+          "shares": 1702,
+          "weight": 0.05
+        }
+      ],
+      "total_value": 511060756,
+      "avg_weight": 0.08
     },
     {
       "cusip": "942622200",
@@ -78999,59 +79059,6 @@
       ],
       "total_value": 525893381,
       "avg_weight": 0.04
-    },
-    {
-      "cusip": "48581R205",
-      "issuer": "KASPI KZ JSC",
-      "ticker": "KSPI",
-      "title": "SPONSORED ADS",
-      "guru_count": 6,
-      "gurus": [
-        {
-          "id": "baillie_gifford",
-          "display_name": "柏基投资 / Baillie Gifford",
-          "value": 500707116,
-          "shares": 5779168,
-          "weight": 0.45
-        },
-        {
-          "id": "ark_invest",
-          "display_name": "Cathie Wood / ARK Invest",
-          "value": 4639152,
-          "shares": 62632,
-          "weight": 0.04
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 3503511,
-          "shares": 47300,
-          "weight": 0.0
-        },
-        {
-          "id": "citadel",
-          "display_name": "Ken Griffin / Citadel",
-          "value": 1185120,
-          "shares": 16000,
-          "weight": 0.0
-        },
-        {
-          "id": "point72",
-          "display_name": "Steve Cohen / Point72",
-          "value": 575968,
-          "shares": 7776,
-          "weight": 0.0
-        },
-        {
-          "id": "sequoia_fund",
-          "display_name": "Sequoia Fund",
-          "value": 302428,
-          "shares": 4083,
-          "weight": 0.01
-        }
-      ],
-      "total_value": 510913295,
-      "avg_weight": 0.08
     },
     {
       "cusip": "879369106",
