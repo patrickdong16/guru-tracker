@@ -1,8 +1,37 @@
 {
-  "generated_at": "2026-08-14T12:38:21Z",
+  "generated_at": "2026-08-14T18:39:02Z",
   "guru_count": 31,
   "gurus_with_data": 31,
   "gurus": [
+    {
+      "id": "tiger_global",
+      "display_name": "Chase Coleman / Tiger Global",
+      "name": "Tiger Global Management",
+      "style": "growth",
+      "style_label": "科技成长",
+      "aum": "$30B",
+      "representative": "Chase Coleman",
+      "bio": "Tiger Management的小虎之一，曾是全球最大科技对冲基金。重要的科技投资风向标。",
+      "famous_trade": "早期投资Facebook、LinkedIn等科技股。",
+      "cik": "0001167483",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2026-06-30",
+      "latest_filing_date": "2026-08-14",
+      "total_value": 23981506027,
+      "holdings_count": 46,
+      "summary": {
+        "total_new": 9,
+        "total_increased": 6,
+        "total_decreased": 20,
+        "total_unchanged": 11,
+        "total_sold": 17,
+        "total_value_current": 23981506027,
+        "total_value_previous": 22845413829,
+        "total_value_change_pct": 5.0
+      }
+    },
     {
       "id": "sequoia_fund",
       "display_name": "Sequoia Fund",
@@ -59,6 +88,35 @@
         "total_value_current": 2834424427,
         "total_value_previous": 3001999146,
         "total_value_change_pct": -5.6
+      }
+    },
+    {
+      "id": "coatue",
+      "display_name": "Philippe Laffont / Coatue",
+      "name": "Coatue Management",
+      "style": "growth",
+      "style_label": "科技成长",
+      "aum": "$20B",
+      "representative": "Philippe Laffont",
+      "bio": "另一只小虎，专注科技和TMT投资。横跨公开市场和私募，以研究深度著称。",
+      "famous_trade": "横跨公开市场和私募的科技投资。",
+      "cik": "0001535392",
+      "filing_type": "13F-HR",
+      "active": true,
+      "has_data": true,
+      "latest_period": "2026-06-30",
+      "latest_filing_date": "2026-08-14",
+      "total_value": 1522156620,
+      "holdings_count": 426,
+      "summary": {
+        "total_new": 199,
+        "total_increased": 41,
+        "total_decreased": 61,
+        "total_unchanged": 125,
+        "total_sold": 200,
+        "total_value_current": 1522156620,
+        "total_value_previous": 1235631504,
+        "total_value_change_pct": 23.2
       }
     },
     {
@@ -497,35 +555,6 @@
       }
     },
     {
-      "id": "tiger_global",
-      "display_name": "Chase Coleman / Tiger Global",
-      "name": "Tiger Global Management",
-      "style": "growth",
-      "style_label": "科技成长",
-      "aum": "$30B",
-      "representative": "Chase Coleman",
-      "bio": "Tiger Management的小虎之一，曾是全球最大科技对冲基金。重要的科技投资风向标。",
-      "famous_trade": "早期投资Facebook、LinkedIn等科技股。",
-      "cik": "0001167483",
-      "filing_type": "13F-HR",
-      "active": true,
-      "has_data": true,
-      "latest_period": "2026-03-31",
-      "latest_filing_date": "2026-05-15",
-      "total_value": 22845413829,
-      "holdings_count": 54,
-      "summary": {
-        "total_new": 7,
-        "total_increased": 8,
-        "total_decreased": 11,
-        "total_unchanged": 28,
-        "total_sold": 7,
-        "total_value_current": 22845413829,
-        "total_value_previous": 29714313270,
-        "total_value_change_pct": -23.1
-      }
-    },
-    {
       "id": "bridgewater",
       "display_name": "达利欧 / Bridgewater",
       "name": "Bridgewater Associates",
@@ -842,35 +871,6 @@
         "total_value_current": 1514192261,
         "total_value_previous": 1433641324,
         "total_value_change_pct": 5.6
-      }
-    },
-    {
-      "id": "coatue",
-      "display_name": "Philippe Laffont / Coatue",
-      "name": "Coatue Management",
-      "style": "growth",
-      "style_label": "科技成长",
-      "aum": "$20B",
-      "representative": "Philippe Laffont",
-      "bio": "另一只小虎，专注科技和TMT投资。横跨公开市场和私募，以研究深度著称。",
-      "famous_trade": "横跨公开市场和私募的科技投资。",
-      "cik": "0001535392",
-      "filing_type": "13F-HR",
-      "active": true,
-      "has_data": true,
-      "latest_period": "2026-03-31",
-      "latest_filing_date": "2026-05-15",
-      "total_value": 1235631504,
-      "holdings_count": 427,
-      "summary": {
-        "total_new": 261,
-        "total_increased": 49,
-        "total_decreased": 39,
-        "total_unchanged": 78,
-        "total_sold": 205,
-        "total_value_current": 1235631504,
-        "total_value_previous": 1227166306,
-        "total_value_change_pct": 0.7
       }
     },
     {
