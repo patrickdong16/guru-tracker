@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T14:05:02Z",
+  "generated_at": "2026-11-03T00:09:13Z",
   "total_stocks": 8050,
   "stocks": [
     {
@@ -2106,18 +2106,18 @@
           "weight": 0.02
         },
         {
+          "id": "daily_journal",
+          "display_name": "芒格 / Daily Journal",
+          "value": 20970300,
+          "shares": 195000,
+          "weight": 8.39
+        },
+        {
           "id": "point72",
           "display_name": "Steve Cohen / Point72",
           "value": 19378362,
           "shares": 201900,
           "weight": 0.02
-        },
-        {
-          "id": "daily_journal",
-          "display_name": "芒格 / Daily Journal",
-          "value": 18716100,
-          "shares": 195000,
-          "weight": 7.29
         },
         {
           "id": "hillhouse",
@@ -2155,8 +2155,8 @@
           "weight": 0.0
         }
       ],
-      "total_value": 2621242792,
-      "avg_weight": 0.84
+      "total_value": 2623496992,
+      "avg_weight": 0.9
     },
     {
       "cusip": "78462F103",
@@ -2709,9 +2709,9 @@
         {
           "id": "daily_journal",
           "display_name": "芒格 / Daily Journal",
-          "value": 113960000,
+          "value": 108860000,
           "shares": 2000000,
-          "weight": 44.4
+          "weight": 43.57
         },
         {
           "id": "point72",
@@ -2763,8 +2763,8 @@
           "weight": 0.0
         }
       ],
-      "total_value": 29488248370,
-      "avg_weight": 3.75
+      "total_value": 29483148370,
+      "avg_weight": 3.69
     },
     {
       "cusip": "84615Q103",
@@ -7368,9 +7368,9 @@
         {
           "id": "daily_journal",
           "display_name": "芒格 / Daily Journal",
-          "value": 116770320,
+          "value": 113110650,
           "shares": 1413000,
-          "weight": 45.5
+          "weight": 45.27
         },
         {
           "id": "bridgewater",
@@ -7415,8 +7415,8 @@
           "weight": 1.18
         }
       ],
-      "total_value": 2353004979,
-      "avg_weight": 3.84
+      "total_value": 2349345309,
+      "avg_weight": 3.83
     },
     {
       "cusip": "097023105",
@@ -8905,9 +8905,9 @@
         {
           "id": "daily_journal",
           "display_name": "芒格 / Daily Journal",
-          "value": 7217800,
+          "value": 6902320,
           "shares": 119500,
-          "weight": 2.81
+          "weight": 2.76
         },
         {
           "id": "point72",
@@ -8945,7 +8945,7 @@
           "weight": 0.0
         }
       ],
-      "total_value": 639320283,
+      "total_value": 639004803,
       "avg_weight": 0.25
     },
     {
