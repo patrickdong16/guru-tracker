@@ -1,0 +1,275 @@
+<?xml version="1.0" ?>
+<informationTable xsi:schemaLocation="http://www.sec.gov/edgar/document/thirteenf/informationtable eis_13FDocument.xsd" xmlns="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:n1="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <infoTable>
+    <nameOfIssuer>Bausch Plus Lomb Corp.</nameOfIssuer>
+    <titleOfClass>COMMON SHARES</titleOfClass>
+    <cusip>071705107</cusip>
+    <value>40427700</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>2378100</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>1</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>2378100</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>Caesars Entertainment, Inc.</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>12769G100</cusip>
+    <value>72349232</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>2440109</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>1</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>2440109</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>Centuri Holdings, Inc.</nameOfIssuer>
+    <titleOfClass>COM SHS</titleOfClass>
+    <cusip>155923105</cusip>
+    <value>287294322</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>14336044</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>1</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>14336044</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>CVR Energy Inc</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>12662P108</cusip>
+    <value>3445424537</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>67570593</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>7</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>67570593</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>CVR Energy Inc</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>12662P108</cusip>
+    <value>185159069</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>3631282</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>9</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>3631282</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>CVR Partners, LP</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>126633205</cusip>
+    <value>481751760</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>3892000</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>8</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>3892000</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>CVR Partners, LP</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>126633205</cusip>
+    <value>33702076</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>272274</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>9</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>272274</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>EchoStar Corporation</nameOfIssuer>
+    <titleOfClass>CL A</titleOfClass>
+    <cusip>278768106</cusip>
+    <value>44705000</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>500000</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>1</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>500000</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>Icahn Enterprises LP</nameOfIssuer>
+    <titleOfClass>DEPOSITARY UNIT</titleOfClass>
+    <cusip>451100101</cusip>
+    <value>2228736263</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>330183150</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>2</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>330183150</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>Icahn Enterprises LP</nameOfIssuer>
+    <titleOfClass>DEPOSITARY UNIT</titleOfClass>
+    <cusip>451100101</cusip>
+    <value>491299061</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>72785046</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>3</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>72785046</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>Icahn Enterprises LP</nameOfIssuer>
+    <titleOfClass>DEPOSITARY UNIT</titleOfClass>
+    <cusip>451100101</cusip>
+    <value>950290238</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>140783739</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>6</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>140783739</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>Icahn Enterprises LP</nameOfIssuer>
+    <titleOfClass>DEPOSITARY UNIT</titleOfClass>
+    <cusip>451100101</cusip>
+    <value>611385827</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>90575678</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>4</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>90575678</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>Icahn Enterprises LP</nameOfIssuer>
+    <titleOfClass>DEPOSITARY UNIT</titleOfClass>
+    <cusip>451100101</cusip>
+    <value>166029237</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>24596924</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>5</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>24596924</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>International Flavors and Fragrances Inc.</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>459506101</cusip>
+    <value>249916413</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>2993728</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>1</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>2993728</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>Monro, Inc.</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>610236101</cusip>
+    <value>71049236</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>5078573</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>1</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>5078573</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>SandRidge Energy, Inc.</nameOfIssuer>
+    <titleOfClass>COM NEW</titleOfClass>
+    <cusip>80007P869</cusip>
+    <value>68561946</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>5082427</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>DFND</investmentDiscretion>
+    <otherManager>1</otherManager>
+    <votingAuthority>
+      <Sole>0</Sole>
+      <Shared>5082427</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+</informationTable>

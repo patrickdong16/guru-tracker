@@ -1,0 +1,67 @@
+{
+  "guru_id": "pabrai",
+  "cik": "0001549575",
+  "period_ending": "2026-09-30",
+  "filing_date": "2026-11-13",
+  "accession_number": "0001549575-26-000023",
+  "total_value": 362064212,
+  "holdings_count": 4,
+  "holdings": [
+    {
+      "issuer": "WARRIOR MET COAL INC",
+      "title": "COM",
+      "cusip": "93627C101",
+      "value": 164452671,
+      "shares": 1867295,
+      "share_type": "SH",
+      "put_call": "",
+      "discretion": "SOLE",
+      "sole_voting": 1867295,
+      "shared_voting": 0,
+      "no_voting": 0,
+      "weight": 45.42
+    },
+    {
+      "issuer": "TRANSOCEAN LTD",
+      "title": "REGISTERED SHS",
+      "cusip": "H8817H100",
+      "value": 149210598,
+      "shares": 28475305,
+      "share_type": "SH",
+      "put_call": "",
+      "discretion": "SOLE",
+      "sole_voting": 28475305,
+      "shared_voting": 0,
+      "no_voting": 0,
+      "weight": 41.21
+    },
+    {
+      "issuer": "ALPHA METALLURGICAL RESOUR I",
+      "title": "COM",
+      "cusip": "020764106",
+      "value": 28722556,
+      "shares": 170744,
+      "share_type": "SH",
+      "put_call": "",
+      "discretion": "SOLE",
+      "sole_voting": 170744,
+      "shared_voting": 0,
+      "no_voting": 0,
+      "weight": 7.93
+    },
+    {
+      "issuer": "KASPI KZ JSC",
+      "title": "SPONSORED ADS",
+      "cusip": "48581R205",
+      "value": 19678387,
+      "shares": 209211,
+      "share_type": "SH",
+      "put_call": "",
+      "discretion": "SOLE",
+      "sole_voting": 209211,
+      "shared_voting": 0,
+      "no_voting": 0,
+      "weight": 5.44
+    }
+  ]
+}
